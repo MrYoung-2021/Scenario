@@ -1,0 +1,22 @@
+# LangGraph and LLM dependencies
+langgraph
+langchain
+langchain_openai
+langchain_community
+langchain_chroma
+
+# LightRAG dependencies
+chromadb
+numpy
+pandas
+lightrag-hku
+nest_asyncio
+
+# Qwen Model
+dashscope
+
+# Other utilities
+python-dotenv
+rich
+click
+streamlit

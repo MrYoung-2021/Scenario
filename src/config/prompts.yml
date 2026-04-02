@@ -1,0 +1,4 @@
+rag_summarize_prompt_path: prompts/rag_summarize.txt
+system_prompt_path: prompts/system_prompt.txt
+scenario_prompt_path: prompts/scenario_prompt.txt
+text_prompt_path: prompts/text_prompt.txt

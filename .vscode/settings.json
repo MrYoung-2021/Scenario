@@ -1,0 +1,9 @@
+{
+    "editor.codeActionsOnSave": {
+
+
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "D:\\Workspace\\Scenario\\src"
+    }
+}

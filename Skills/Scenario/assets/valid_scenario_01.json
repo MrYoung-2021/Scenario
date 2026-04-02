@@ -1,0 +1,63 @@
+{
+  "name": "山地防御作战想定",
+  "type": "陆战",
+  "background": "某国边境地区冲突升级，红方试图突破蓝方山地防御阵地",
+  "timeframe": {
+    "start": "2024-06-01",
+    "end": "2024-06-07"
+  },
+  "red_force": {
+    "organization": "机械化步兵师（约12000人），装备主战坦克200辆，步兵战车300辆",
+    "mission": "突破蓝方山地防御阵地，占领战略要地",
+    "area": "北部山区",
+    "capabilities": {
+      "strengths": ["装备先进", "训练有素", "火力强大"],
+      "weaknesses": ["山地作战经验不足", "后勤补给困难"]
+    }
+  },
+  "blue_force": {
+    "organization": "山地步兵旅（约5000人），装备轻型坦克100辆，反坦克导弹系统50套",
+    "mission": "坚守山地防御阵地，阻止红方突破",
+    "area": "北部山区",
+    "capabilities": {
+      "strengths": ["地形熟悉", "防御工事完善", "山地作战经验丰富"],
+      "weaknesses": ["装备老化", "火力相对不足"]
+    }
+  },
+  "battlefield_environment": {
+    "terrain": "山地地形，起伏较大，平均海拔1500米",
+    "weather": "夏季，高温多雨，可能出现山洪",
+    "electromagnetic": "存在中度电磁干扰",
+    "time_factors": "昼夜温差大，白天高温，夜间凉爽"
+  },
+  "phases": [
+    {
+      "name": "侦察阶段",
+      "actions": "红方进行空中侦察和地面渗透，蓝方加强警戒和反侦察"
+    },
+    {
+      "name": "进攻阶段",
+      "actions": "红方发起正面进攻，同时实施侧翼迂回；蓝方依托防御工事进行抵抗"
+    },
+    {
+      "name": "相持阶段",
+      "actions": "双方在山地展开拉锯战，红方试图突破，蓝方顽强抵抗"
+    },
+    {
+      "name": "收尾阶段",
+      "actions": "红方因后勤补给困难停止进攻，双方转入对峙状态"
+    }
+  ],
+  "assessment": {
+    "casualties": {
+      "red": "中度（约2000人）",
+      "blue": "轻度（约800人）"
+    },
+    "mission_completion": 45,
+    "combat_effectiveness": 70
+  },
+  "special_cases": {
+    "emergencies": ["可能出现山洪爆发", "可能遭遇泥石流"],
+    "restrictions": ["禁止使用化学武器", "限制空中打击范围"]
+  }
+}
