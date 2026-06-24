@@ -30,17 +30,18 @@ def load_json_examples(folder_path=get_skills_path(), encoding='utf-8', separato
 
     return separator.join(contents)
 
-def load_text_examples(folder_path=get_skills_path(), encoding='utf-8', separator='\n'):
+def load_text_examples(folder_path=get_skills_path("Scenario/assets"), encoding='utf-8', separator='\n\n'):
     if not os.path.isdir(folder_path):
         logger.error(f"文本示例文件夹{folder_path}不存在")
         raise FileNotFoundError(f"文本示例文件夹不存在: {folder_path}")
 
     # 构建匹配模式
     pattern = os.path.join(folder_path, "*.md")
-    json_files = glob.glob(pattern)
+    md_files = glob.glob(pattern)
 
     contents = []
-    for file_path in json_files:
+    
+    for file_path in md_files:
         try:
             with open(file_path, 'r', encoding=encoding) as f:
                 content = f.read()
@@ -52,3 +53,6 @@ def load_text_examples(folder_path=get_skills_path(), encoding='utf-8', separato
             # 静默跳过
 
     return separator.join(contents)
+
+if __name__ == "__main__":
+    print(load_text_examples())

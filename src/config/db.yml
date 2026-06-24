@@ -1,10 +1,8 @@
 data_collection_name: agent
 feedback_collection_name: feedback
 
-persist_directory: chroma_db
-langchain_indexing: chroma_db/record_manager.sqlite
+directory: lw_db
 # checkpointer_sql: chroma_db/checkpointer.sqlite
-snapshot_path: chroma_db/snapshot.json
 k: 3
 data_path: data
 md5_hex_store: md5.text

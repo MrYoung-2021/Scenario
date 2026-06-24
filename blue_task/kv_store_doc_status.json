@@ -1,0 +1,75 @@
+{
+  "doc-d430c3dccebd3911b725bceaf63e6228": {
+    "status": "processed",
+    "chunks_count": 6,
+    "chunks_list": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44",
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82",
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b",
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96",
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "content_summary": "Chapter 1\nTactical Fundamentals\nCommanders consider their actions strategic, operational, or tactical based on whether\nthey achieve a strategic, operational, or tactical objective. This chapter addresses the\ntactical level of warfare, the art and sci...",
+    "content_length": 29705,
+    "created_at": "2026-05-14T08:42:12.635619+00:00",
+    "updated_at": "2026-05-14T08:49:19.241896+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_164212_593701be",
+    "metadata": {
+      "processing_start_time": 1778748132,
+      "processing_end_time": 1778748559
+    }
+  },
+  "doc-cd030bf96749a2e7348278d196005e6d": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-466f239ae26f543930ce42fb131832cc",
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae",
+      "chunk-b3a8a845280b83251233809b74dd7287",
+      "chunk-f85140b13c2f4467aec323c7ad488b32",
+      "chunk-9003ffcb1e412e2a2979f93305f0e476",
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89",
+      "chunk-255d2259beb766bee7c72c77afa91c9c",
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "content_summary": "Chapter II\nGENERAL PLANNING CONSIDERATIONS\n1. Introduction\na. A clear understanding of the commander’s intent and ROE is imperative for\nmission planning and operations. Normally, the ground force commander is the\nsupported commander for urban operati...",
+    "content_length": 36756,
+    "created_at": "2026-05-14T09:51:26.515204+00:00",
+    "updated_at": "2026-05-14T10:02:32.322539+00:00",
+    "file_path": "D:\\Academic resources\\ARN34839-ATP_3-06.1-000-WEB-1.pdf",
+    "track_id": "insert_20260514_175126_1778ec11",
+    "metadata": {
+      "processing_start_time": 1778752286,
+      "processing_end_time": 1778752952
+    }
+  },
+  "doc-85977a239ea6ab9aceba23834e94c4ef": {
+    "status": "processed",
+    "chunks_count": 11,
+    "chunks_list": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc",
+      "chunk-416988242ce00406b1b8539639cba1d3",
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-3f9296b5d072caec55997f55d6e957ea",
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b",
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2",
+      "chunk-0cd5b0031ce939f299628087297273c1",
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e",
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4",
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc",
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "content_summary": "Chapter 2\nArmy Special Operations Activities\nGreat power conflict does require changes—strategically, operationally, tactically,\ntechnologically—particularly direct conflict. But great power direct conflict shouldn’t\ndominate the force…the main compe...",
+    "content_length": 59513,
+    "created_at": "2026-05-14T11:35:52.459429+00:00",
+    "updated_at": "2026-05-14T11:48:32.345470+00:00",
+    "file_path": "D:\\Academic resources\\ARN44116-FM_3-05-000-WEB-1.pdf",
+    "track_id": "insert_20260514_193552_7e9c4066",
+    "metadata": {
+      "processing_start_time": 1778758552,
+      "processing_end_time": 1778759312
+    }
+  }
+}

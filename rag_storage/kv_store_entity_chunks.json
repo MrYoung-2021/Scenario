@@ -1,0 +1,20 @@
+{
+  "LightRAG": {
+    "chunk_ids": [
+      "chunk-8d3cecbd4df4f162a5b1170e4baf54d8"
+    ],
+    "count": 1,
+    "create_time": 1778430745,
+    "update_time": 1778430745,
+    "_id": "LightRAG"
+  },
+  "Retrieval-Augmented Generation": {
+    "chunk_ids": [
+      "chunk-8d3cecbd4df4f162a5b1170e4baf54d8"
+    ],
+    "count": 1,
+    "create_time": 1778430745,
+    "update_time": 1778430745,
+    "_id": "Retrieval-Augmented Generation"
+  }
+}

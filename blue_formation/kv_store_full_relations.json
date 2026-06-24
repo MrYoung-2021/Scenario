@@ -1,0 +1,3622 @@
+{
+  "doc-c01313aea30ec9826032eee45f83a133": {
+    "relation_pairs": [
+      [
+        "Commander",
+        "Uncommitted Forces"
+      ],
+      [
+        "Enemy",
+        "Movement and Maneuver Warfighting Function"
+      ],
+      [
+        "Corps",
+        "Divisions"
+      ],
+      [
+        "Division Headquarters",
+        "Joint Force Land Component"
+      ],
+      [
+        "Brigade",
+        "Division"
+      ],
+      [
+        "FM 3-90-1",
+        "Tactical Mission Tasks"
+      ],
+      [
+        "Army Planners",
+        "Operational Variables"
+      ],
+      [
+        "ADP 5-0",
+        "Concept of Operations"
+      ],
+      [
+        "Meeting Engagement",
+        "Reconnaissance"
+      ],
+      [
+        "Civil-Military Operations",
+        "Host Nation"
+      ],
+      [
+        "Forms of Defense",
+        "Leader"
+      ],
+      [
+        "Operational Framework",
+        "Sustaining Operations"
+      ],
+      [
+        "Reconstitution",
+        "Reorganization"
+      ],
+      [
+        "Division Headquarters",
+        "Joint Task Force Headquarters"
+      ],
+      [
+        "Fire Support Coordination Measure",
+        "Friendly Forces"
+      ],
+      [
+        "Combat Power",
+        "Defeat in Detail"
+      ],
+      [
+        "Enemy Force",
+        "Engagement Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Groups"
+      ],
+      [
+        "Reserve",
+        "Uncommitted Forces"
+      ],
+      [
+        "Enemy",
+        "Reconnaissance Operations"
+      ],
+      [
+        "Armor Company",
+        "Combined Arms Battalion"
+      ],
+      [
+        "Operational Framework",
+        "Support Areas"
+      ],
+      [
+        "Army Doctrinal Hierarchy",
+        "Warfighting Functions"
+      ],
+      [
+        "Air and Missile Defense Brigades",
+        "Functional Support Brigades"
+      ],
+      [
+        "Civil-Military Operations",
+        "United Nations"
+      ],
+      [
+        "Higher Echelons",
+        "Regeneration"
+      ],
+      [
+        "Movement and Maneuver Warfighting Function",
+        "Warfighting Function"
+      ],
+      [
+        "Decisive Action",
+        "Stability"
+      ],
+      [
+        "Combat Power",
+        "Economy Of Force"
+      ],
+      [
+        "BCT Commander",
+        "Task Force"
+      ],
+      [
+        "Civil Control",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "Corps",
+        "Multinational Units"
+      ],
+      [
+        "Division",
+        "Joint Force Land Component Commander"
+      ],
+      [
+        "Armored",
+        "Brigade Combat Team"
+      ],
+      [
+        "Defeat Mechanism",
+        "Isolate"
+      ],
+      [
+        "Main Effort",
+        "Weighting the Decisive Operation"
+      ],
+      [
+        "Forms of Defense",
+        "Perimeter Defense"
+      ],
+      [
+        "Platoon",
+        "Troop"
+      ],
+      [
+        "Combat Aviation Brigade",
+        "Division"
+      ],
+      [
+        "Enemy",
+        "Supporting Distance"
+      ],
+      [
+        "Civil-Military Operations",
+        "JP 3-57"
+      ],
+      [
+        "Area of Operations",
+        "Maneuver Enhancement Brigade"
+      ],
+      [
+        "Enabling Operations",
+        "Operation"
+      ],
+      [
+        "Company Team",
+        "Platoon"
+      ],
+      [
+        "Essential Services",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "Division Headquarters",
+        "Functional Units"
+      ],
+      [
+        "Battalion",
+        "Headquarters"
+      ],
+      [
+        "Brigade Combat Team",
+        "Stryker"
+      ],
+      [
+        "Division Headquarters",
+        "Division Headquarters and Headquarters Battalion"
+      ],
+      [
+        "Corps",
+        "Functional Brigade"
+      ],
+      [
+        "Battalion",
+        "Task Force"
+      ],
+      [
+        "ADP 5-0",
+        "Command and Support Relationships"
+      ],
+      [
+        "Airspace Plan",
+        "Division Airspace Element"
+      ],
+      [
+        "Cavalry",
+        "Squadron"
+      ],
+      [
+        "Company Team",
+        "Engineers"
+      ],
+      [
+        "Intelligence Warfighting Function",
+        "Weather"
+      ],
+      [
+        "Sustainment Warfighting Function",
+        "Warfighting Function"
+      ],
+      [
+        "Competent Military Authority",
+        "Rules of Engagement"
+      ],
+      [
+        "Cross-Country Mobility",
+        "Weather"
+      ],
+      [
+        "Brigade Combat Team",
+        "Division Headquarters"
+      ],
+      [
+        "FM 1-04",
+        "Rules of Engagement"
+      ],
+      [
+        "Encirclement Operations",
+        "Enemy Force"
+      ],
+      [
+        "Corps",
+        "Joint Combat Support Agencies"
+      ],
+      [
+        "Brigade Combat Team",
+        "Brigade Support Battalion"
+      ],
+      [
+        "Enemy",
+        "Tactical Mobility"
+      ],
+      [
+        "Forms of Defense",
+        "Reverse Slope Defense"
+      ],
+      [
+        "Mutual Support",
+        "Offense"
+      ],
+      [
+        "Division-Assigned Airspace",
+        "JAGIC"
+      ],
+      [
+        "Commander",
+        "Economy Of Force"
+      ],
+      [
+        "ARFOR",
+        "Field Army"
+      ],
+      [
+        "Area of Operations",
+        "Army Service Component Command Commander"
+      ],
+      [
+        "Area of Responsibility",
+        "Field Army"
+      ],
+      [
+        "JP 3-84",
+        "Rules of Engagement"
+      ],
+      [
+        "Encirclement Operations",
+        "Ground Lines of Communications"
+      ],
+      [
+        "Army Forces",
+        "Joint Interdependence"
+      ],
+      [
+        "Operational Framework",
+        "Supporting Effort"
+      ],
+      [
+        "Army Personnel Recovery",
+        "Joint Task Force Components"
+      ],
+      [
+        "Maneuver",
+        "Weighting the Decisive Operation"
+      ],
+      [
+        "Commanders",
+        "Enabling Operations"
+      ],
+      [
+        "Clearance Of Fires",
+        "Commander"
+      ],
+      [
+        "Movement",
+        "Movement Formations"
+      ],
+      [
+        "Enemy Force",
+        "Local Security"
+      ],
+      [
+        "CBRN",
+        "Forms Of Contact"
+      ],
+      [
+        "Battalion",
+        "Company"
+      ],
+      [
+        "Civil-Military Operations",
+        "Stability"
+      ],
+      [
+        "Assailable Flank",
+        "Flank"
+      ],
+      [
+        "Military Decision-Making Process",
+        "Mission Variables"
+      ],
+      [
+        "Individual Self-Defense",
+        "Military Members"
+      ],
+      [
+        "Brigade",
+        "Brigade Task Force"
+      ],
+      [
+        "Cross-Country Mobility",
+        "Tactical Mobility"
+      ],
+      [
+        "Fires Warfighting Function",
+        "Warfighting Function"
+      ],
+      [
+        "Crew",
+        "Machinegun"
+      ],
+      [
+        "Reconnaissance Operations",
+        "Security Operations"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Army"
+      ],
+      [
+        "Firepower",
+        "Tactical Mobility"
+      ],
+      [
+        "Fire Team",
+        "Sergeant"
+      ],
+      [
+        "Clearance Of Fires",
+        "Scatterable Mines"
+      ],
+      [
+        "Enemy Force",
+        "Meeting Engagement"
+      ],
+      [
+        "ARFOR",
+        "Combatant Command"
+      ],
+      [
+        "Groups",
+        "Psychological Operations Units"
+      ],
+      [
+        "Friendly Forces",
+        "Security Operations"
+      ],
+      [
+        "Corps",
+        "Theater Army"
+      ],
+      [
+        "Army",
+        "Joint Functions"
+      ],
+      [
+        "Figure 2-1",
+        "Tactical Mission Tasks"
+      ],
+      [
+        "Rules of Engagement",
+        "Standing Rules of Engagement"
+      ],
+      [
+        "Brigade Combat Team",
+        "Brigade Engineer Battalion"
+      ],
+      [
+        "Division",
+        "Multi-functional Brigades"
+      ],
+      [
+        "Direct Fire",
+        "Movement and Maneuver Warfighting Function"
+      ],
+      [
+        "Brigade Combat Team",
+        "Infantry"
+      ],
+      [
+        "Fire Team",
+        "Squad"
+      ],
+      [
+        "Joint Chiefs of Staff",
+        "Rules of Engagement"
+      ],
+      [
+        "Crew",
+        "Tank"
+      ],
+      [
+        "Encirclement Operations",
+        "Ground Lines Of Communication"
+      ],
+      [
+        "FM 4-95",
+        "Reconstitution"
+      ],
+      [
+        "Decisive Operation",
+        "Economy of Force"
+      ],
+      [
+        "FM 3-90-1",
+        "Forms of Maneuver"
+      ],
+      [
+        "Protection",
+        "Stryker Equipped Forces"
+      ],
+      [
+        "Armored BCT",
+        "Division Commander"
+      ],
+      [
+        "Division",
+        "Medical Units"
+      ],
+      [
+        "Area of Operations",
+        "Commander"
+      ],
+      [
+        "Decisive Action",
+        "Offense"
+      ],
+      [
+        "Movement",
+        "Movement Techniques"
+      ],
+      [
+        "Division",
+        "Functional Brigades"
+      ],
+      [
+        "Division Airspace Element",
+        "Multifunctional Support Brigades"
+      ],
+      [
+        "FM 3-09",
+        "Fire Support Coordination Measure"
+      ],
+      [
+        "Battery",
+        "Field Artillery"
+      ],
+      [
+        "Air Support Operations Center",
+        "Close Air Support"
+      ],
+      [
+        "Air Defense Artillery",
+        "Battery"
+      ],
+      [
+        "Close Areas",
+        "Operational Framework"
+      ],
+      [
+        "Regimental Headquarters",
+        "Soldiers"
+      ],
+      [
+        "Decisive Action",
+        "Enabling Operations"
+      ],
+      [
+        "Airspace Element",
+        "Theater Airspace Control Plan"
+      ],
+      [
+        "Cyberspace",
+        "Electronic Contact"
+      ],
+      [
+        "Enemy",
+        "Security Operations"
+      ],
+      [
+        "Fire Team",
+        "Soldier"
+      ],
+      [
+        "Army",
+        "Warfighting Function"
+      ],
+      [
+        "Division Commander",
+        "Infantry BCT"
+      ],
+      [
+        "Platoon",
+        "Section"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Army"
+      ],
+      [
+        "Envelopment",
+        "Forms of Maneuver"
+      ],
+      [
+        "Area Of Operations",
+        "Movement Control"
+      ],
+      [
+        "ADP 3-90",
+        "Defeat Mechanism"
+      ],
+      [
+        "Civil-Military Operations",
+        "Indigenous Populations"
+      ],
+      [
+        "Clearance Of Fires",
+        "Friendly Forces"
+      ],
+      [
+        "Corps",
+        "Field Army"
+      ],
+      [
+        "Deliberate Recovery",
+        "Immediate Recovery"
+      ],
+      [
+        "Brigade Combat Team",
+        "Division"
+      ],
+      [
+        "Airspace Element",
+        "Army Battlefield Coordination Detachment"
+      ],
+      [
+        "Division",
+        "Mission Variables"
+      ],
+      [
+        "Coordination Level",
+        "Fixed-Wing Aircraft"
+      ],
+      [
+        "Headquarters Detachment",
+        "Non-maneuver Battalion"
+      ],
+      [
+        "Large-scale Combat Operations",
+        "Stability Tasks"
+      ],
+      [
+        "Defeat Mechanism",
+        "Disintegrate"
+      ],
+      [
+        "Lines of Communications",
+        "Movement Control"
+      ],
+      [
+        "Brigade",
+        "Headquarters"
+      ],
+      [
+        "Corps",
+        "Marine Corps Units"
+      ],
+      [
+        "JP 3-0",
+        "Maneuver"
+      ],
+      [
+        "Detachment",
+        "Special Forces Company"
+      ],
+      [
+        "Encirclement Operations",
+        "FM 3-90-2"
+      ],
+      [
+        "Division Joint Air-Ground Integration Center",
+        "Tactical Air Control Party"
+      ],
+      [
+        "Economy of Force",
+        "Principle of War"
+      ],
+      [
+        "Division",
+        "Sustainment Brigade"
+      ],
+      [
+        "Commander",
+        "Task Organization"
+      ],
+      [
+        "Economy of Force",
+        "Shaping Operations"
+      ],
+      [
+        "ADP 3-0",
+        "Decisive Operation"
+      ],
+      [
+        "Commanders",
+        "Environmental Considerations"
+      ],
+      [
+        "Platoon",
+        "Soldiers"
+      ],
+      [
+        "Defeat Mechanism",
+        "Friendly Forces"
+      ],
+      [
+        "Common Tactical Concepts",
+        "Tacticians"
+      ],
+      [
+        "Headquarters Company",
+        "Maneuver Battalion"
+      ],
+      [
+        "Gray Eagle",
+        "JAGIC"
+      ],
+      [
+        "Army",
+        "Section"
+      ],
+      [
+        "Defense of a Linear Obstacle",
+        "Forms of Defense"
+      ],
+      [
+        "Area of Operations",
+        "Joint Force Land Component Commander"
+      ],
+      [
+        "ADP 3-0",
+        "Operational Variables"
+      ],
+      [
+        "Area of Operations",
+        "Common Operational Picture"
+      ],
+      [
+        "Mutual Support",
+        "Supporting Distance"
+      ],
+      [
+        "Air Missile Defense Cell",
+        "Division Joint Air-Ground Integration Center"
+      ],
+      [
+        "Functional Support Brigades",
+        "Military Police Brigades"
+      ],
+      [
+        "Airspace Control Working Group",
+        "Airspace Element"
+      ],
+      [
+        "Brigade Combat Team",
+        "Maneuver Battalion"
+      ],
+      [
+        "Economy of Force",
+        "JP 3-0"
+      ],
+      [
+        "Brigade",
+        "Brigade Combat Team"
+      ],
+      [
+        "BCT",
+        "Division Aviation Elements"
+      ],
+      [
+        "JP 3-0",
+        "Principles of Joint Operations"
+      ],
+      [
+        "BCT",
+        "Maneuver Enhancement Brigade"
+      ],
+      [
+        "Combat Power",
+        "Information"
+      ],
+      [
+        "Committed Force",
+        "Decisive Engagement"
+      ],
+      [
+        "Isolated Personnel",
+        "Personnel Recovery"
+      ],
+      [
+        "Company",
+        "Company Team"
+      ],
+      [
+        "Corps",
+        "Theater Military Intelligence Brigade"
+      ],
+      [
+        "Air Support Operations Center",
+        "United States Air Force"
+      ],
+      [
+        "JAGIC",
+        "Shadow"
+      ],
+      [
+        "Combat Information",
+        "Commander's Critical Information Requirements"
+      ],
+      [
+        "Encirclement Operations",
+        "Opposing Force"
+      ],
+      [
+        "Operational Variables",
+        "PMESII-PT"
+      ],
+      [
+        "Enemy",
+        "Intelligence Warfighting Function"
+      ],
+      [
+        "Maneuver",
+        "Movement"
+      ],
+      [
+        "Commanders",
+        "Main Effort"
+      ],
+      [
+        "Company",
+        "Headquarters"
+      ],
+      [
+        "Avenue of Approach",
+        "Objective"
+      ],
+      [
+        "Defense",
+        "Mutual Support"
+      ],
+      [
+        "Crew",
+        "Mortar"
+      ],
+      [
+        "Section",
+        "Squad"
+      ],
+      [
+        "Combat Power",
+        "Leadership"
+      ],
+      [
+        "Forms of Maneuver",
+        "Frontal Assault"
+      ],
+      [
+        "Coordinated Fire Line",
+        "Fire Support Coordination Measure"
+      ],
+      [
+        "Company",
+        "Task Force"
+      ],
+      [
+        "Supporting Range",
+        "Weapon Systems"
+      ],
+      [
+        "Combat Power",
+        "Decisive Operation"
+      ],
+      [
+        "Battalion",
+        "Brigade"
+      ],
+      [
+        "Squad",
+        "Staff Sergeant"
+      ],
+      [
+        "Airspace Control Authority",
+        "Division-Assigned Airspace"
+      ],
+      [
+        "Defeat in Detail",
+        "Piecemeal Commitment"
+      ],
+      [
+        "Division",
+        "Multifunctional Support Brigades"
+      ],
+      [
+        "Intelligence Process",
+        "Intelligence Warfighting Function"
+      ],
+      [
+        "Area of Influence",
+        "Area of Interest"
+      ],
+      [
+        "Intelligence Warfighting Function",
+        "Terrain"
+      ],
+      [
+        "Firepower",
+        "Stryker Equipped Forces"
+      ],
+      [
+        "Army Aviation Maneuver Units",
+        "Tactical Mobility"
+      ],
+      [
+        "Economy Of Force",
+        "Shaping Operations"
+      ],
+      [
+        "Deep Areas",
+        "Operational Framework"
+      ],
+      [
+        "Company",
+        "Platoon"
+      ],
+      [
+        "Forms of Maneuver",
+        "Infiltration"
+      ],
+      [
+        "Area of Operations",
+        "Information Collection"
+      ],
+      [
+        "Combat Information",
+        "Surveillance"
+      ],
+      [
+        "Combined Arms",
+        "Warfighting Function"
+      ],
+      [
+        "Division Commander",
+        "Multifunctional Support Brigade"
+      ],
+      [
+        "Decisive Operations",
+        "Operational Framework"
+      ],
+      [
+        "Brigade Combat Team",
+        "Brigade Task Force"
+      ],
+      [
+        "Functional Support Brigades",
+        "Military Intelligence Brigades"
+      ],
+      [
+        "Army Doctrinal Hierarchy",
+        "Defeat Mechanisms"
+      ],
+      [
+        "Civil Populations",
+        "Division Headquarters"
+      ],
+      [
+        "Direct Fires",
+        "Mutual Support"
+      ],
+      [
+        "Land Forces",
+        "Movement Control"
+      ],
+      [
+        "Army Corps",
+        "Division"
+      ],
+      [
+        "Coordinating Altitude",
+        "Division-Assigned Airspace"
+      ],
+      [
+        "Echelon Reserves",
+        "Uncommitted Forces"
+      ],
+      [
+        "Airspace Control Order",
+        "Airspace Element"
+      ],
+      [
+        "Coordinating Altitude",
+        "JP 3-52"
+      ],
+      [
+        "Corps",
+        "Large-scale Combat Operations"
+      ],
+      [
+        "Division Headquarters",
+        "Subordinate Units"
+      ],
+      [
+        "Flank",
+        "Flanking Position"
+      ],
+      [
+        "Army",
+        "Forms of Maneuver"
+      ],
+      [
+        "Civil-Military Operations",
+        "Nongovernmental Organizations"
+      ],
+      [
+        "Mass",
+        "Piecemeal Commitment"
+      ],
+      [
+        "ADP 3-0",
+        "Position Of Advantage"
+      ],
+      [
+        "Protection Warfighting Function",
+        "Warfighting Function"
+      ],
+      [
+        "Decisive Operation",
+        "Weighting the Decisive Operation"
+      ],
+      [
+        "Intelligence, Surveillance, and Reconnaissance",
+        "Surveillance"
+      ],
+      [
+        "Area of Operations",
+        "Brigade Combat Team"
+      ],
+      [
+        "ARFOR",
+        "Division"
+      ],
+      [
+        "Enemy",
+        "Fires Warfighting Function"
+      ],
+      [
+        "Airspace Control",
+        "Division Joint Air-Ground Integration Center"
+      ],
+      [
+        "Operational Framework",
+        "Shaping Operations"
+      ],
+      [
+        "Division Joint Air-Ground Integration Center",
+        "Fires Cell"
+      ],
+      [
+        "ARFOR",
+        "Multinational Command"
+      ],
+      [
+        "Air Support Operations Center",
+        "Airspace Control Working Group"
+      ],
+      [
+        "Intelligence Warfighting Function",
+        "Warfighting Function"
+      ],
+      [
+        "Direct Fire",
+        "Flank"
+      ],
+      [
+        "Attacking Force",
+        "Avenue of Approach"
+      ],
+      [
+        "Civil Security",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "Air Support Operations Center",
+        "Division Joint Air-Ground Integration Center"
+      ],
+      [
+        "Minimum-Essential Stability Tasks",
+        "Security Cooperation"
+      ],
+      [
+        "Forms of Maneuver",
+        "Penetration"
+      ],
+      [
+        "Area of Operations",
+        "Higher Echelon Headquarters"
+      ],
+      [
+        "Platoon",
+        "Squad"
+      ],
+      [
+        "Coordination Level",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "Civil Authorities",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "Army Forces",
+        "Unified Action"
+      ],
+      [
+        "Reconstitution",
+        "Regeneration"
+      ],
+      [
+        "Electronic Contact",
+        "Forms Of Contact"
+      ],
+      [
+        "Lieutenant",
+        "Platoon"
+      ],
+      [
+        "Brigade Combat Team",
+        "Field Artillery Battalion"
+      ],
+      [
+        "Concept of Operations",
+        "Subordinate Units"
+      ],
+      [
+        "Field Army",
+        "Joint Force Land Component Command"
+      ],
+      [
+        "Combat Power",
+        "Command and Control Warfighting Function"
+      ],
+      [
+        "Large-scale Combat Operations",
+        "Personnel Recovery"
+      ],
+      [
+        "Infiltration",
+        "Mutual Support"
+      ],
+      [
+        "Commander",
+        "Security Operations"
+      ],
+      [
+        "JP 3-0",
+        "Warfighting Function"
+      ],
+      [
+        "Decisive Action",
+        "Defense Support of Civil Authorities"
+      ],
+      [
+        "Defeat Mechanism",
+        "Dislocate"
+      ],
+      [
+        "Infantry Ground Maneuver Units",
+        "Tactical Mobility"
+      ],
+      [
+        "Division Headquarters",
+        "Shaping Operations"
+      ],
+      [
+        "Engineer Brigades",
+        "Functional Support Brigades"
+      ],
+      [
+        "Field Army",
+        "Peer and Near-peer Adversaries"
+      ],
+      [
+        "Intelligence Disciplines",
+        "Intelligence Operations"
+      ],
+      [
+        "Corps",
+        "Corps Commander"
+      ],
+      [
+        "Division Commander",
+        "Stryker BCT"
+      ],
+      [
+        "Division",
+        "Maneuver Enhancement Brigade"
+      ],
+      [
+        "Maneuver",
+        "Position Of Advantage"
+      ],
+      [
+        "ARFOR",
+        "Subordinate Joint Force Command"
+      ],
+      [
+        "Division Headquarters and Headquarters Battalion",
+        "Reserve Component Main Command Post Operational Detachment"
+      ],
+      [
+        "Avenue of Approach",
+        "Key Terrain"
+      ],
+      [
+        "Forms of Maneuver",
+        "Leader"
+      ],
+      [
+        "Decisive Action",
+        "Figure 2-1"
+      ],
+      [
+        "Civil Considerations",
+        "Intelligence Warfighting Function"
+      ],
+      [
+        "Airspace Control Appendix",
+        "Division Aircraft"
+      ],
+      [
+        "Dislocated Civilian Camp",
+        "No-fire Area"
+      ],
+      [
+        "Information Collection",
+        "Intelligence, Surveillance, and Reconnaissance"
+      ],
+      [
+        "Momentum",
+        "Piecemeal Commitment"
+      ],
+      [
+        "Rules of Engagement",
+        "United States Forces"
+      ],
+      [
+        "Mass",
+        "Weighting the Decisive Operation"
+      ],
+      [
+        "Consolidation Areas",
+        "Operational Framework"
+      ],
+      [
+        "Brigade Combat Team",
+        "Cavalry Squadron"
+      ],
+      [
+        "Field Service Regulations United States Army",
+        "Principles of Joint Operations"
+      ],
+      [
+        "Intelligence Warfighting Function",
+        "Operational Environment"
+      ],
+      [
+        "ADP 3-90",
+        "Warfighting Function"
+      ],
+      [
+        "Close Combat",
+        "Movement and Maneuver Warfighting Function"
+      ],
+      [
+        "Corps",
+        "Field Artillery Brigade"
+      ],
+      [
+        "Air Support Operations Center",
+        "Suppression of Enemy Air Defense"
+      ],
+      [
+        "Division Commander",
+        "Functional Brigade"
+      ],
+      [
+        "Engineer Battalion",
+        "Engineer Company"
+      ],
+      [
+        "Crew",
+        "Target Acquisition Radar"
+      ],
+      [
+        "Consolidation of Gains Activities",
+        "Field Artillery Brigade"
+      ],
+      [
+        "Brigade Combat Team",
+        "Company"
+      ],
+      [
+        "Combat Aviation Brigade",
+        "Corps"
+      ],
+      [
+        "Envelopment",
+        "Striking Force"
+      ],
+      [
+        "Division",
+        "Sustainment Units"
+      ],
+      [
+        "Commander",
+        "Isolated Personnel"
+      ],
+      [
+        "BCT",
+        "Functional Brigade"
+      ],
+      [
+        "Governance",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "Corps",
+        "Division"
+      ],
+      [
+        "Airspace Element",
+        "Division Joint Air-Ground Integration Center"
+      ],
+      [
+        "Mutual Support",
+        "Supporting Range"
+      ],
+      [
+        "Armored Ground Maneuver Units",
+        "Tactical Mobility"
+      ],
+      [
+        "Cross-Country Mobility",
+        "Terrain"
+      ],
+      [
+        "Brigade Combat Team",
+        "FM 3-96"
+      ],
+      [
+        "Command and Control Warfighting Function",
+        "Warfighting Function"
+      ],
+      [
+        "Fire Support Coordination Measure",
+        "Targets"
+      ],
+      [
+        "Area of Influence",
+        "Commander"
+      ],
+      [
+        "Combat Information",
+        "Reconnaissance"
+      ],
+      [
+        "Division-Assigned Airspace",
+        "FSCL"
+      ],
+      [
+        "Conventional Enemy",
+        "Division Headquarters"
+      ],
+      [
+        "ARFOR",
+        "Joint Functional Command"
+      ],
+      [
+        "Large-Scale Combat Operations",
+        "Stability"
+      ],
+      [
+        "Defeat Mechanism",
+        "Destroy"
+      ],
+      [
+        "Course of Action",
+        "Forms of Maneuver"
+      ],
+      [
+        "Combined Arms Battalion",
+        "Mechanized Infantry Company"
+      ],
+      [
+        "JAGIC",
+        "Joint Force Air Component Command"
+      ],
+      [
+        "Area of Operations",
+        "Army Forces Commander"
+      ],
+      [
+        "Commanders",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "Forms of Maneuver",
+        "Turning Movement"
+      ],
+      [
+        "Commanders",
+        "Reconstitution"
+      ],
+      [
+        "Defeat Mechanism",
+        "Tactical Forces"
+      ],
+      [
+        "Domain",
+        "Fires Warfighting Function"
+      ],
+      [
+        "Area of Operations",
+        "Terrain Management"
+      ],
+      [
+        "Engineer Battalion",
+        "Engineer Task Force"
+      ],
+      [
+        "Combined Arms",
+        "Commanders"
+      ],
+      [
+        "ADP 3-0",
+        "Warfighting Functions"
+      ],
+      [
+        "Battalion",
+        "Squadron"
+      ],
+      [
+        "AO (Area of Operations)",
+        "Operational Framework"
+      ],
+      [
+        "Indirect Fires",
+        "Mutual Support"
+      ],
+      [
+        "Defense of a Linear Obstacle",
+        "Static Force"
+      ],
+      [
+        "Economic and Infrastructure Development",
+        "Minimum-Essential Stability Tasks"
+      ],
+      [
+        "JP-1",
+        "Joint Interdependence"
+      ],
+      [
+        "Cavalry",
+        "Troop"
+      ],
+      [
+        "Marine Corps",
+        "Section"
+      ],
+      [
+        "ADP 4-0",
+        "Movement Control"
+      ],
+      [
+        "Field Army",
+        "The Army"
+      ],
+      [
+        "Fire Support Coordination Measure",
+        "No-fire Area"
+      ],
+      [
+        "Stryker Equipped Forces",
+        "Tactical Mobility"
+      ],
+      [
+        "Combat Power",
+        "Warfighting Function"
+      ],
+      [
+        "Decisive Operation",
+        "Main Effort"
+      ],
+      [
+        "Intelligence, Surveillance, and Reconnaissance",
+        "Reconnaissance"
+      ],
+      [
+        "Army Airspace Planners",
+        "Joint Airspace Control Plan"
+      ],
+      [
+        "Decisive Action",
+        "Defense"
+      ],
+      [
+        "Main Effort",
+        "Operational Framework"
+      ],
+      [
+        "Protection",
+        "Tactical Mobility"
+      ],
+      [
+        "Battery",
+        "Field Artillery Battalion"
+      ],
+      [
+        "Operation",
+        "Stability Operations"
+      ],
+      [
+        "Commanders",
+        "Supporting Effort"
+      ],
+      [
+        "Battle Drills",
+        "Initiative"
+      ],
+      [
+        "Mission Variables",
+        "Operational Variables"
+      ]
+    ],
+    "count": 375,
+    "create_time": 1778744614,
+    "update_time": 1778744614,
+    "_id": "doc-c01313aea30ec9826032eee45f83a133"
+  },
+  "doc-23768ed72a18de2f8132a6308530ab3e": {
+    "relation_pairs": [
+      [
+        "160th Special Operations Aviation Regiment",
+        "United States Army Special Operations Aviation Command"
+      ],
+      [
+        "North Carolina",
+        "Special Operations Detachment"
+      ],
+      [
+        "J-5",
+        "Joint Task Force"
+      ],
+      [
+        "2d Ranger Battalion",
+        "Rio Hato"
+      ],
+      [
+        "Partner Nation SOF Leadership",
+        "Special Operations Liaison Officer"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Multidomain Convergence Headquarters"
+      ],
+      [
+        "Civil Affairs",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Joint Force Special Operations Component Command",
+        "Special Operations Forces"
+      ],
+      [
+        "Corps",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Russian Armed Forces",
+        "Russian Invasion of Crimea"
+      ],
+      [
+        "Civil Affairs Battalion Headquarters",
+        "Civil Affairs Companies"
+      ],
+      [
+        "United States Army Special Operations Aviation Command",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "Joint Force Maneuver",
+        "Special Operations Command And Control Element"
+      ],
+      [
+        "Civil Affairs Team",
+        "Foreign Humanitarian Assistance"
+      ],
+      [
+        "DODI S-3604.01",
+        "Department of Defense Deception Activities"
+      ],
+      [
+        "Advanced Operations Base",
+        "Airfield"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Torrijos-Tocumen Airport"
+      ],
+      [
+        "Special Forces Battalion",
+        "Special Forces Groups"
+      ],
+      [
+        "Plans Directorate",
+        "Theater Special Operations Command"
+      ],
+      [
+        "82nd Airborne Division",
+        "Operation Just Cause"
+      ],
+      [
+        "Aircraft",
+        "Psychological Operations Units"
+      ],
+      [
+        "Information Environment",
+        "Psychological Operations Groups"
+      ],
+      [
+        "1st Special Forces Command",
+        "Army National Guard"
+      ],
+      [
+        "95th Civil Affairs Brigade",
+        "Active Component Civil Affairs Brigade"
+      ],
+      [
+        "Group Support Battalion",
+        "Special Forces Groups"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Executing Units"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "Civil Affairs Company"
+      ],
+      [
+        "Joint Special Operations Air Component",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Air Force",
+        "Special Operations Liaison Element"
+      ],
+      [
+        "Civil Affairs Brigade",
+        "Civil-Military Integration"
+      ],
+      [
+        "Figure 1-7",
+        "United States Army Special Operations Aviation Command"
+      ],
+      [
+        "Special Operations Command–Forward",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "SOF Service Components"
+      ],
+      [
+        "Psychological Operations Detachment",
+        "Soldier And Leader Engagement"
+      ],
+      [
+        "10 USC",
+        "Special Operations Detachment"
+      ],
+      [
+        "Civil Affairs Brigade",
+        "Joint Force Commander"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Direct Action"
+      ],
+      [
+        "Operation JUST CAUSE",
+        "Panama Defense Forces"
+      ],
+      [
+        "Army Special Operations Aviation",
+        "Joint Special Operations Air Component Commander"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Strategic Messaging"
+      ],
+      [
+        "Psychological Operations Detachment",
+        "U.S. Embassy"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Maneuver Unit Commanders"
+      ],
+      [
+        "Special Operations Forces Liaison Element",
+        "U.S. Embassy"
+      ],
+      [
+        "1st Psychological Operations Battalion",
+        "Rangers"
+      ],
+      [
+        "Civil Affairs Company",
+        "Senior Medical Sergeant"
+      ],
+      [
+        "Manuel Noriega",
+        "Operation JUST CAUSE"
+      ],
+      [
+        "Liaison Officer",
+        "Private Sector"
+      ],
+      [
+        "Influence Activities",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Joint Force Special Operations Component Command",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Advanced Operations Base",
+        "Forward Operations Base"
+      ],
+      [
+        "C5ISRT Capabilities",
+        "Joint Task Force"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Conventional Forces"
+      ],
+      [
+        "Civil Affairs Forces",
+        "FM 3-57"
+      ],
+      [
+        "Campaign Plan",
+        "Psychological Operations Battalion"
+      ],
+      [
+        "Special Forces Battalion",
+        "Special Operations Task Force"
+      ],
+      [
+        "Adaptability",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Crimea",
+        "Russian Invasion of Crimea"
+      ],
+      [
+        "Armed Forces of Ukraine",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Special Operations Command Africa",
+        "Special Operations Detachment"
+      ],
+      [
+        "Chapter 3",
+        "FM 3-05"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Operation Just Cause"
+      ],
+      [
+        "Joint Special Operations Air Component",
+        "Special Operations Forces"
+      ],
+      [
+        "Maryland",
+        "Special Operations Detachment"
+      ],
+      [
+        "Conventional Forces",
+        "Special Operations Forces Liaison Element"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Target Deconfliction"
+      ],
+      [
+        "Remote Advise and Assist Cell",
+        "Security Assistance Group-Ukraine"
+      ],
+      [
+        "Coalition Partners",
+        "Special Operations Command–Forward"
+      ],
+      [
+        "Battle",
+        "Leaders"
+      ],
+      [
+        "Influence Activities",
+        "Psychological Operations Battalion"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "S/G/J9"
+      ],
+      [
+        "Psychological Operations Groups",
+        "United States Army Civil Affairs and Psychological Operations Command"
+      ],
+      [
+        "Command And Control",
+        "United States Special Operations Command"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "O-6 Level Headquarters"
+      ],
+      [
+        "75th Ranger Regiment",
+        "ATP 3-75"
+      ],
+      [
+        "Regimental Headquarters",
+        "Regimental Military Intelligence Battalion"
+      ],
+      [
+        "Joint Force Commander",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Special Forces Warrant Officer Institute",
+        "Special Warfare School"
+      ],
+      [
+        "Air Force Special Operations Forces",
+        "Joint Special Operations Air Component Commander"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "Combatant Command"
+      ],
+      [
+        "Joint Force Air Component Commander",
+        "Joint Special Operations Air Component Commander"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Secretary of Defense"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Theater Army Service Component Commands"
+      ],
+      [
+        "Special Operations Aviation Units",
+        "Terrain-Following Flight"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "SOF Units"
+      ],
+      [
+        "Land Domain",
+        "Special Operations Task Force"
+      ],
+      [
+        "Ranger Battalion",
+        "Regimental Headquarters"
+      ],
+      [
+        "Headquarters and Headquarters Detachment",
+        "Special Forces Battalion"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "75th Ranger Regiment"
+      ],
+      [
+        "Rhode Island",
+        "Special Operations Detachment"
+      ],
+      [
+        "10th Special Forces Group",
+        "Armed Forces of Ukraine"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "USSOCOM"
+      ],
+      [
+        "Liaison Officer",
+        "Planning Process"
+      ],
+      [
+        "Electromagnetic Spectrum",
+        "Psychological Operations Units"
+      ],
+      [
+        "6 June 1962",
+        "Remarks To The U.S. Military Academy Graduating Class"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Detachment"
+      ],
+      [
+        "Russian Armed Forces",
+        "Security Assistance Group-Ukraine"
+      ],
+      [
+        "Special Operations Command North",
+        "Special Operations Detachment"
+      ],
+      [
+        "Joint Force Commander",
+        "Special Operations Task Force"
+      ],
+      [
+        "Joint Special Operations Air Component",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Air Tasking Order",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Special Forces Company",
+        "Special Forces Operational Detachment-Bravo"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Special Forces Group"
+      ],
+      [
+        "Special Operations Detachment",
+        "West Virginia"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Task Forces"
+      ],
+      [
+        "Flag Officer",
+        "O-8"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Multinational SOF"
+      ],
+      [
+        "Advanced Operations Base",
+        "Staff Personnel"
+      ],
+      [
+        "FM 3-05",
+        "JP 3-05"
+      ],
+      [
+        "1st Special Forces Command",
+        "Special Forces Groups"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Regional Expertise"
+      ],
+      [
+        "Detachment 101",
+        "Northern Combat Area Command"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Terrain-Following Flight"
+      ],
+      [
+        "ATP 3-76",
+        "Special Operations Aviation Units"
+      ],
+      [
+        "Headquarters and Headquarters Company",
+        "Special Forces Groups"
+      ],
+      [
+        "JP 3-05",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Psychological Operations Units",
+        "USASOC"
+      ],
+      [
+        "Command and Control Structure",
+        "Liaison Elements"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Joint Force Commander"
+      ],
+      [
+        "1st Special Forces Command",
+        "Joint Staff"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Intermediate Staging Base"
+      ],
+      [
+        "J-35",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "26 June 2025",
+        "FM 3-05"
+      ],
+      [
+        "Joint Forces Special Operations Component Command",
+        "Joint Special Operations Air Component"
+      ],
+      [
+        "Civil Affairs Brigade",
+        "Joint Civil-Military Operations Task Force"
+      ],
+      [
+        "Advanced Operations Base",
+        "Anchorage"
+      ],
+      [
+        "Country-Level Security Cooperation Programs",
+        "Theater Special Operations Command"
+      ],
+      [
+        "32 USC",
+        "Special Operations Detachment"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Role II Medical Support"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Special Operations Aviation Advisory Directorate"
+      ],
+      [
+        "1st Special Forces Command",
+        "Theater Combatant Command"
+      ],
+      [
+        "7th Special Forces Group",
+        "U.S. Air Force"
+      ],
+      [
+        "SOF Commanders",
+        "Special Operations Forces Liaison Officer"
+      ],
+      [
+        "California",
+        "Special Operations Detachment"
+      ],
+      [
+        "Liaison Officer",
+        "Special Operations Task Force"
+      ],
+      [
+        "Corps Staffs",
+        "Psychological Operations Battalion"
+      ],
+      [
+        "Battle",
+        "Soldiers"
+      ],
+      [
+        "Joint Force Commander",
+        "Psychological Operations Groups"
+      ],
+      [
+        "95th Civil Affairs Brigade",
+        "Army"
+      ],
+      [
+        "Joint Special Operations Air Component",
+        "Major Operation"
+      ],
+      [
+        "J-33",
+        "Joint Task Force"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Naval Vessel"
+      ],
+      [
+        "Civil Affairs Brigade",
+        "FM 3-05"
+      ],
+      [
+        "Joint Special Operations Air Component Commander",
+        "Special Operations Aviation Battalion"
+      ],
+      [
+        "Advanced Operations Base",
+        "Special Forces Company"
+      ],
+      [
+        "112th Signal Battalion",
+        "Department of Defense Information Network"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Task Force"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "Civil-Military Operations Center"
+      ],
+      [
+        "Special Operations Command Central",
+        "Special Operations Detachment"
+      ],
+      [
+        "1st Special Forces Command",
+        "95th Civil Affairs Brigade"
+      ],
+      [
+        "1st Special Forces Command",
+        "Training Events"
+      ],
+      [
+        "Detachment 101",
+        "Office of Strategic Services"
+      ],
+      [
+        "Figure 3-3",
+        "Special Operations Task Force"
+      ],
+      [
+        "75th Ranger Regiment",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "Large-Scale Combat Operation",
+        "Security Assistance Group-Ukraine"
+      ],
+      [
+        "Army National Guard",
+        "Special Operations Detachment"
+      ],
+      [
+        "Joint Force Headquarters-State",
+        "Special Operations Detachment"
+      ],
+      [
+        "Soldier",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Regimental Military Intelligence Battalion"
+      ],
+      [
+        "Advanced Operations Base",
+        "Resistance Forces"
+      ],
+      [
+        "Noncombatant Evacuation Operations",
+        "Psychological Operations Detachment"
+      ],
+      [
+        "Advanced Operations Base",
+        "Unimproved Airstrip"
+      ],
+      [
+        "112th Signal Battalion",
+        "Special Operations Command–South"
+      ],
+      [
+        "Special Operations Task Force",
+        "Sustainment Units"
+      ],
+      [
+        "Airspace Control Order",
+        "Special Operations Liaison Element"
+      ],
+      [
+        "JP 3-05",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Joint Force Commander",
+        "Joint Special Operations Area"
+      ],
+      [
+        "75th Ranger Regiment",
+        "President"
+      ],
+      [
+        "Civil Affairs Company",
+        "Civil Affairs Team"
+      ],
+      [
+        "FM 3-05",
+        "Special Forces Operational Detachment–Alpha"
+      ],
+      [
+        "1st Special Forces Command",
+        "Psychological Operations"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Engagement"
+      ],
+      [
+        "Conventional Forces",
+        "Special Operations Forces"
+      ],
+      [
+        "Civil Affairs Brigade",
+        "Military Government Operations"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Forceable Entry"
+      ],
+      [
+        "Security Assistance Group-Ukraine",
+        "Ukrainian Special Operations Forces"
+      ],
+      [
+        "Advanced Operations Base",
+        "Joint Operational Area"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Reconnaissance"
+      ],
+      [
+        "FM 3-05",
+        "FM 4-0"
+      ],
+      [
+        "Information Activities",
+        "Psychological Operations Units"
+      ],
+      [
+        "Joint Force Land Component",
+        "Joint Special Operations Area"
+      ],
+      [
+        "Military Departments",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "7th Special Forces Group",
+        "H-hour"
+      ],
+      [
+        "Conventional Forces",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "1st Special Forces Command",
+        "528th Sustainment Brigade"
+      ],
+      [
+        "75th Ranger Regiment",
+        "96th Civil Affairs Battalion"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Joint Force Special Operations Component Commander"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Component"
+      ],
+      [
+        "Country Team",
+        "Special Operations Liaison Officer"
+      ],
+      [
+        "1st Special Forces Command",
+        "Sustainment Brigade"
+      ],
+      [
+        "1st Special Forces Command",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Psychological Operations Battalion",
+        "Theater Army Staffs"
+      ],
+      [
+        "Special Operations Joint Task Force",
+        "Unified Action"
+      ],
+      [
+        "Group Headquarters",
+        "Special Forces Group"
+      ],
+      [
+        "Army Maneuver Commander",
+        "Psychological Operations Units"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Army"
+      ],
+      [
+        "Special Forces Operational Detachment-Alpha",
+        "Special Forces Operational Detachment-Bravo"
+      ],
+      [
+        "Psychological Operations Groups",
+        "United States Army"
+      ],
+      [
+        "Cyberspace",
+        "Psychological Operations Units"
+      ],
+      [
+        "Headquarters",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Command And Control Element"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Joint Task Force"
+      ],
+      [
+        "1st Special Forces Command",
+        "Psychological Operations Groups"
+      ],
+      [
+        "JP 3-05",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Special Operations Command Pacific",
+        "Special Operations Detachment"
+      ],
+      [
+        "Special Warfare School",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Army",
+        "Rules of Allocation"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Support Forces"
+      ],
+      [
+        "Combatant Commander",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Combatant Command",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "7th Special Forces Group",
+        "Pacora River Bridge"
+      ],
+      [
+        "Special Forces Groups",
+        "United States Army"
+      ],
+      [
+        "Flag Officer",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "95th Civil Affairs Brigade",
+        "Special Operations Commanders"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Special Operations"
+      ],
+      [
+        "Partner Nation",
+        "Special Operations Forces Liaison Element"
+      ],
+      [
+        "8th Psychological Operations Group",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Fort Cimmaron",
+        "Pacora River Bridge"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Direct Action Raids"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "Joint Civil-Military Operations Task Force"
+      ],
+      [
+        "Special Operations Command Europe",
+        "Special Operations Detachment"
+      ],
+      [
+        "Operation JUST CAUSE",
+        "Panama Canal"
+      ],
+      [
+        "Psychological Operations Battalion Headquarters",
+        "Psychological Operations Companies"
+      ],
+      [
+        "Joint Special Operations Air Component",
+        "Joint Special Operations Air Crisis"
+      ],
+      [
+        "Host Nation",
+        "Special Operations Forces Liaison Element"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Forces Operational Detachment–Bravo"
+      ],
+      [
+        "Joint Special Operations Air Component Commander",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Joint Special Operations Air Component",
+        "Service Components"
+      ],
+      [
+        "Partner Governmental Organizations",
+        "Psychological Operations Detachment"
+      ],
+      [
+        "FM 6-0",
+        "Liaison Officer"
+      ],
+      [
+        "75th Ranger Regiment",
+        "FM 3-05"
+      ],
+      [
+        "Command And Control",
+        "FM 3-05"
+      ],
+      [
+        "Conventional Military Operations",
+        "Special Operations Command And Control Element"
+      ],
+      [
+        "Joint Task Force Headquarters",
+        "Psychological Operations Group"
+      ],
+      [
+        "112th Signal Battalion",
+        "SOF Information Enterprise Network"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Unified Action Partners"
+      ],
+      [
+        "FM 3-18",
+        "Special Forces Units"
+      ],
+      [
+        "Information Operations",
+        "Special Operations Forces Liaison Officer"
+      ],
+      [
+        "Operation Just Cause",
+        "Operation Promote Liberty"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Airfield"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "USSOCOM"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Rotary-Wing Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Force Commanders"
+      ],
+      [
+        "Campaign Plan",
+        "Combatant Commander"
+      ],
+      [
+        "Fratricide",
+        "Joint Special Operations Area"
+      ],
+      [
+        "1st Psychological Operations Battalion",
+        "75th Ranger Regiment"
+      ],
+      [
+        "FM 3-05",
+        "Figure 1-5"
+      ],
+      [
+        "Figure 1-1",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Special Operations Aviation Battalion"
+      ],
+      [
+        "1st Special Forces Command",
+        "389th Military Intelligence Battalion"
+      ],
+      [
+        "Munitions",
+        "Psychological Operations Units"
+      ],
+      [
+        "Active Component",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Establishing Commander",
+        "Mission Requirements"
+      ],
+      [
+        "Multidomain Convergence Headquarters",
+        "Regimental Special Troops Battalion"
+      ],
+      [
+        "Combatant Command",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Hostage Rescue"
+      ],
+      [
+        "Profession of Arms",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Liaison Officers",
+        "Planning Process"
+      ],
+      [
+        "Special Operations Aviation Units",
+        "Specialized Aircraft"
+      ],
+      [
+        "Governmental Agency",
+        "Liaison Officer"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Security Assistance Group-Ukraine"
+      ],
+      [
+        "Joint Special Operations Command",
+        "Special Operations Detachment"
+      ],
+      [
+        "Armed Forces of Ukraine",
+        "NATO-Compliant Model"
+      ],
+      [
+        "Airfields",
+        "Psychological Operations Units"
+      ],
+      [
+        "North Atlantic Treaty Organization",
+        "Special Operations Detachment"
+      ],
+      [
+        "Russian Armed Forces",
+        "Russian Invasion of Ukraine"
+      ],
+      [
+        "United States Army John F. Kennedy Special Warfare Center And School",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Logistics Support"
+      ],
+      [
+        "Command and Control Structure",
+        "FM 3-05"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Special Forces"
+      ],
+      [
+        "Combined Military Information Support Operations Component Command",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Joint Force Commander",
+        "Psychological Operations Units"
+      ],
+      [
+        "Army",
+        "Special Forces Battalion"
+      ],
+      [
+        "Special Forces Groups",
+        "Unconventional Warfare"
+      ],
+      [
+        "Special Operations Detachment",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "American People",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Advanced Operations Base",
+        "Special Operations Task Force"
+      ],
+      [
+        "Joint Force Component Commander",
+        "Psychological Operations Groups"
+      ],
+      [
+        "President John F. Kennedy",
+        "Remarks To The U.S. Military Academy Graduating Class"
+      ],
+      [
+        "FM 3-05",
+        "Liaison Officer"
+      ],
+      [
+        "Joint Task Force",
+        "Secretary Of Defense"
+      ],
+      [
+        "Operation Just Cause",
+        "Panama"
+      ],
+      [
+        "Special Operations Task Force",
+        "USSOCOM"
+      ],
+      [
+        "Isolation Facilities",
+        "Special Forces Operational Detachment-Bravo"
+      ],
+      [
+        "Special Operations Detachment",
+        "Washington"
+      ],
+      [
+        "3d Ranger Battalion",
+        "Rio Hato"
+      ],
+      [
+        "Liaison Officers",
+        "Supported Commander"
+      ],
+      [
+        "Combatant Commander",
+        "Special Forces Units"
+      ],
+      [
+        "Irregular Warfare",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Army Special Operations Forces",
+        "National Resistance Laws"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Operation JUST CAUSE",
+        "Panama"
+      ],
+      [
+        "Liaison Teams",
+        "Special Operations Task Forces"
+      ],
+      [
+        "Advanced Operations Base",
+        "Special Operations Forces"
+      ],
+      [
+        "FM 3-05",
+        "Special Operations Detachment"
+      ],
+      [
+        "112th Signal Battalion",
+        "528th Sustainment Brigade"
+      ],
+      [
+        "Detachment 101",
+        "North Burma"
+      ],
+      [
+        "J-35",
+        "Joint Task Force"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Unmanned Aerial Vehicles"
+      ],
+      [
+        "Liaison Officer",
+        "Mission Analysis"
+      ],
+      [
+        "Burma",
+        "Detachment 101"
+      ],
+      [
+        "Combined Arms Center Special Operations Directorate",
+        "Special Warfare Center"
+      ],
+      [
+        "General Officer",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Affairs Operations"
+      ],
+      [
+        "389th Military Intelligence Battalion",
+        "528th Sustainment Brigade"
+      ],
+      [
+        "1st Special Forces Command",
+        "Special Forces"
+      ],
+      [
+        "1st Special Forces Command",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "Information Environment",
+        "Psychological Operations Units"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Army Special Operations Soldiers"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Liaison Element"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Service-Provided Capabilities"
+      ],
+      [
+        "1st Special Forces Command",
+        "USASOC"
+      ],
+      [
+        "Joint Special Operations Air Component Commander",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Army",
+        "Special Operations Task Force"
+      ],
+      [
+        "Conventional Forces",
+        "Special Operations Task Force"
+      ],
+      [
+        "Operation Just Cause",
+        "PDF"
+      ],
+      [
+        "Joint Forces Special Operations Component Command",
+        "Joint Special Operations Air Component Commander"
+      ],
+      [
+        "Armed Forces of Ukraine",
+        "Forward Line of Troops"
+      ],
+      [
+        "75th Ranger Regiment Headquarters",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Foreign Internal Defense"
+      ],
+      [
+        "Brigade Headquarters",
+        "Civil Affairs Battalion Headquarters"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Combatant Commanders"
+      ],
+      [
+        "Advanced Technical And Tactical Expertise",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Army Special Operations Forces' Liaison Elements",
+        "Theater Special Operations Commands"
+      ],
+      [
+        "Regimental Headquarters",
+        "Regimental Tactical Assault Command Post Package"
+      ],
+      [
+        "Special Operations Forces Liaison Element",
+        "United States"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Figure 1-6"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Home Station"
+      ],
+      [
+        "Campaign",
+        "Joint Special Operations Air Component"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Special Reconnaissance"
+      ],
+      [
+        "Colin S. Gray",
+        "Command And Control"
+      ],
+      [
+        "Coalition Partners",
+        "Special Operations Task Force"
+      ],
+      [
+        "Support Operations Section",
+        "USASOC Staff"
+      ],
+      [
+        "Command And Control",
+        "Psychological Operations Units"
+      ],
+      [
+        "Psychological Operations Battalion",
+        "Psychological Operations Company"
+      ],
+      [
+        "1st Special Warfare Training Group",
+        "Special Warfare School"
+      ],
+      [
+        "112th Signal Battalion",
+        "1st Special Forces Command"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Civil Reconnaissance"
+      ],
+      [
+        "389th Military Intelligence Battalion",
+        "Adversaries"
+      ],
+      [
+        "Chief of Mission",
+        "Special Operations Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Theater Special Operations Commands"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Key Terrain"
+      ],
+      [
+        "Division Staffs",
+        "Psychological Operations Battalion"
+      ],
+      [
+        "ADP 3-05",
+        "Advanced Operations Base"
+      ],
+      [
+        "Advanced Operations Base",
+        "Host-Nation Forces"
+      ],
+      [
+        "Special Forces Operational Detachment–Alpha",
+        "Specialized Skills"
+      ],
+      [
+        "ATP 3-57.80",
+        "Civil Affairs Forces"
+      ],
+      [
+        "Division",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Airborne Assaults"
+      ],
+      [
+        "Army Special Operations Forces' Liaison Elements",
+        "Theater Army Service Component Commands"
+      ],
+      [
+        "Forward Support Company",
+        "Special Forces Battalion"
+      ],
+      [
+        "Chapter 2",
+        "FM 3-05"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Regimental Headquarters"
+      ],
+      [
+        "Advanced Operations Base",
+        "Special Forces Operational Detachment–Bravo"
+      ],
+      [
+        "Command And Control",
+        "Regimental Headquarters"
+      ],
+      [
+        "Austere Resuscitative Surgical Teams",
+        "Trauma Care"
+      ],
+      [
+        "Armed Forces of Ukraine",
+        "Combined Joint Special Operations Task Force-10"
+      ],
+      [
+        "Florida",
+        "Special Operations Detachment"
+      ],
+      [
+        "Army",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Mission Command Principles"
+      ],
+      [
+        "75th Ranger Regiment",
+        "96 Hours"
+      ],
+      [
+        "United States Army Special Operations Command",
+        "United States Special Operations Command"
+      ],
+      [
+        "Joint Force Commanders",
+        "Psychological Operations Units"
+      ],
+      [
+        "Advanced Operations Base",
+        "Pier"
+      ],
+      [
+        "1st Special Forces Command",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Department of Defense Deception Activities",
+        "Psychological Operations Units"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Regimental Special Troops Battalion"
+      ],
+      [
+        "FM 3-05",
+        "Special Operations Forces"
+      ],
+      [
+        "2nd Special Warfare Training Group",
+        "Special Warfare School"
+      ],
+      [
+        "NATO-Compliant Model",
+        "North Atlantic Treaty Organization"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Combat Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Operation JUST CAUSE"
+      ],
+      [
+        "Special Operations Command–South",
+        "United States Special Operations Command"
+      ],
+      [
+        "Joint Special Operations Air Component Commander",
+        "Theater Of Operations"
+      ],
+      [
+        "Communication Element",
+        "Special Operations Task Force"
+      ],
+      [
+        "FM 3-05",
+        "Special Operations Aviation Units"
+      ],
+      [
+        "Joint Special Operations Medical Training Center",
+        "Special Warfare School"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Secretary of Defense"
+      ],
+      [
+        "Rear Tactical Operations Center Package",
+        "Regimental Headquarters"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Large-Scale Combat Operation"
+      ],
+      [
+        "Civil Affairs Company",
+        "Special Operations Task Force"
+      ],
+      [
+        "Joint Force",
+        "United States Special Operations Command"
+      ],
+      [
+        "Partner Nation SOF Headquarters",
+        "Special Operations Liaison Officer"
+      ],
+      [
+        "75th Ranger Regiment",
+        "U.S. Interests"
+      ],
+      [
+        "Combined Joint Special Operations Task Force",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Joint Special Operations Air Component Commander"
+      ],
+      [
+        "Foreign Security Forces",
+        "Psychological Operations Detachment"
+      ],
+      [
+        "Advanced Operations Base",
+        "Special Forces Operational Detachment-Bravo"
+      ],
+      [
+        "Psychological Operations Battalion Headquarters",
+        "Psychological Operations Group"
+      ],
+      [
+        "Liaison Officer",
+        "Nongovernmental Organization"
+      ],
+      [
+        "Department of Defense Deception Activities",
+        "FM 3-53"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Army"
+      ],
+      [
+        "Theater Special Operations Command",
+        "United States Special Operations Command"
+      ],
+      [
+        "FM 6-05",
+        "Liaison Officer"
+      ],
+      [
+        "Fleet Information Warfare Command Pacific",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Multidomain Convergence Headquarters",
+        "Ranger Battalion"
+      ],
+      [
+        "SOF-peculiar Sustainment Requirements",
+        "USASOC"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Austere Resuscitative Surgical Teams"
+      ],
+      [
+        "Multidomain Convergence Headquarters",
+        "Regimental Military Intelligence Battalion"
+      ],
+      [
+        "Ranger Battalion",
+        "Special Operations Task Force"
+      ],
+      [
+        "Civil Affairs Company",
+        "Unified Action Partners"
+      ],
+      [
+        "Advanced Operations Base",
+        "Individual Augmentees"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "U.S. Partners"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Operations Forces Liaison Officer"
+      ],
+      [
+        "Military Information Support Operations",
+        "Psychological Operations Units"
+      ],
+      [
+        "Armed Forces of Ukraine",
+        "Security Assistance Group-Ukraine"
+      ],
+      [
+        "Armed Forces of Ukraine",
+        "Soviet Model"
+      ],
+      [
+        "Host-Nation Forces",
+        "Special Operations Command–Forward"
+      ],
+      [
+        "National Guard",
+        "Special Forces Groups"
+      ],
+      [
+        "Multinational Forces",
+        "Special Operations Command–Forward"
+      ],
+      [
+        "JP 3-0",
+        "Joint Special Operations Area"
+      ],
+      [
+        "Partner Forces",
+        "Special Forces Operational Detachment–Alpha"
+      ],
+      [
+        "Special Operations Detachment",
+        "Texas"
+      ],
+      [
+        "Joint Task Force",
+        "Special Forces Groups"
+      ],
+      [
+        "Special Forces Units",
+        "Theater Army"
+      ],
+      [
+        "Mississippi",
+        "Special Operations Detachment"
+      ],
+      [
+        "Civil Affairs Battalion",
+        "Civil Affairs Brigade"
+      ],
+      [
+        "Detachment 101",
+        "Kachin"
+      ],
+      [
+        "Operation JUST CAUSE",
+        "United States"
+      ],
+      [
+        "FM 3-05",
+        "Psychological Operations Battalion"
+      ],
+      [
+        "Advanced Operations Base",
+        "Command Post"
+      ],
+      [
+        "Chief Of Mission",
+        "Special Operations Liaison Officer"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Combat Operations"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Pacora River Bridge",
+        "Torrijos-Tocumen Airfield"
+      ],
+      [
+        "JP 3-05",
+        "Liaison Officer"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Fixed-Wing Aviation Insertion"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "USASOC"
+      ],
+      [
+        "Corps",
+        "Psychological Operations Group"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Rio Hato"
+      ],
+      [
+        "Host-Nation",
+        "Special Forces Battalion"
+      ],
+      [
+        "Joint Task Force",
+        "Subunified Commander"
+      ],
+      [
+        "Special Forces",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Existing Joint Task Force Commander",
+        "Joint Task Force"
+      ],
+      [
+        "Chapter 1",
+        "FM 3-05"
+      ],
+      [
+        "Psychological Operations",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Special Forces Battalion",
+        "Special Forces Company"
+      ],
+      [
+        "Psychological Operations Detachment",
+        "TC 53-03.1"
+      ],
+      [
+        "18 Hours",
+        "75th Ranger Regiment"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Ukrainian Special Operations Forces"
+      ],
+      [
+        "Combatant Command",
+        "Joint Task Force"
+      ],
+      [
+        "Special Operations Command South",
+        "Special Operations Detachment"
+      ],
+      [
+        "Battalion Support Company",
+        "Special Forces Battalion"
+      ],
+      [
+        "Psychological Operations Battalion",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Liaison Officer",
+        "Liaison Team"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Radio and TV Stations"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Liaison Officer"
+      ],
+      [
+        "Country Team",
+        "Special Operations Command–Forward"
+      ],
+      [
+        "112th Signal Battalion",
+        "Airborne-Capable Communications Systems"
+      ],
+      [
+        "Georgia",
+        "Hunter Army Airfield"
+      ],
+      [
+        "Civil Affairs Team",
+        "Team Medic"
+      ],
+      [
+        "Air Tasking Order",
+        "Special Operations Liaison Element"
+      ],
+      [
+        "75th Ranger Regiment",
+        "United States"
+      ],
+      [
+        "Regimental Headquarters",
+        "Regimental Special Troops Battalion"
+      ],
+      [
+        "Army Special Operations Forces",
+        "FM 3-05"
+      ],
+      [
+        "Combatant Command",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Coalition",
+        "Special Forces Battalion"
+      ],
+      [
+        "Joint Special Operations Area",
+        "Partner Organizations"
+      ],
+      [
+        "Brigade Combat Team",
+        "Civil Affairs Company"
+      ],
+      [
+        "Joint Special Operations Task Force Package",
+        "Regimental Headquarters"
+      ],
+      [
+        "Detachment 101",
+        "World War II"
+      ],
+      [
+        "Conventional Forces",
+        "Special Forces Units"
+      ],
+      [
+        "Special Operations Forces",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Brigade Staffs",
+        "Psychological Operations Company"
+      ],
+      [
+        "Joint Force",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "Colorado",
+        "Special Operations Detachment"
+      ],
+      [
+        "Civil Affairs Forces",
+        "External Force Protection"
+      ],
+      [
+        "Psychological Operations Groups",
+        "Reserve Component"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Common Operating Picture"
+      ],
+      [
+        "1st Special Forces Command",
+        "Civil Affairs"
+      ],
+      [
+        "Brigade Combat Team",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Special Forces Company",
+        "Special Forces Operational Detachment-Alpha"
+      ],
+      [
+        "Special Forces Battalion",
+        "Special Forces Group"
+      ],
+      [
+        "Course Of Action Development",
+        "Liaison Officer"
+      ],
+      [
+        "J-33",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Department of Defense"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "Special Forces Group Headquarters"
+      ],
+      [
+        "Special Forces Group",
+        "Special Forces Operational Detachment–Alpha"
+      ],
+      [
+        "Command And Control",
+        "JP 1, Volume 2"
+      ],
+      [
+        "Senior U.S. Defense Official",
+        "Special Operations Liaison Officer"
+      ],
+      [
+        "528th Special Operations Support Battalion",
+        "Howard Air Force Base"
+      ],
+      [
+        "Advanced Operations Base",
+        "Main Operation Base"
+      ],
+      [
+        "Group Support Battalion",
+        "Special Forces Group"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Figure 1-8"
+      ],
+      [
+        "SOF-peculiar Sustainment Requirements",
+        "USSOCOM"
+      ],
+      [
+        "Conventional Force",
+        "Service-Provided Capabilities"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Army Special Operations Forces"
+      ],
+      [
+        "President John F. Kennedy",
+        "U.S. Military Academy"
+      ],
+      [
+        "Liaison Elements",
+        "Support Operations Section"
+      ],
+      [
+        "Flag Officer",
+        "O-7"
+      ],
+      [
+        "Ability To Operate With Lower Signatures",
+        "Army Special Operations Forces"
+      ],
+      [
+        "160th Special Operations Aviation Regiment",
+        "Theater Of Operations"
+      ],
+      [
+        "Special Warfare Center",
+        "United States Army John F. Kennedy Special Warfare Center And School"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Command And Control"
+      ],
+      [
+        "Detachment 101",
+        "Japanese Imperial Army"
+      ],
+      [
+        "Army",
+        "Psychological Operations Units"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Joint Special Operations Task Force"
+      ],
+      [
+        "Special Forces",
+        "Unconventional Warfare"
+      ],
+      [
+        "Austere Resuscitative Surgical Teams",
+        "Damage Control Surgery"
+      ],
+      [
+        "Rangers",
+        "Rio Hato"
+      ],
+      [
+        "Figure 1-4",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Directorate of Training, Doctrine, and Proponency",
+        "Special Warfare Center"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "United States Government"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Support Operations Section"
+      ],
+      [
+        "4th Psychological Operations Group",
+        "Psychological Operations Groups"
+      ],
+      [
+        "Operation Just Cause",
+        "Rangers"
+      ],
+      [
+        "J-5",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Special Operations Command Korea",
+        "Special Operations Detachment"
+      ],
+      [
+        "Garrison Base",
+        "Psychological Operations Units"
+      ],
+      [
+        "Detachment 101",
+        "Guerrilla Forces"
+      ],
+      [
+        "Special Operations Liaison Officer",
+        "USSOCOM"
+      ],
+      [
+        "United States Army Civil Affairs and Psychological Operations Command",
+        "United States Army Reserve Command"
+      ],
+      [
+        "Foreign Audiences",
+        "Psychological Operations Units"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "FM 3-05"
+      ],
+      [
+        "Joint Air Operations Center",
+        "Special Operations Liaison Element"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Operation Promote Liberty"
+      ],
+      [
+        "Government Ministries",
+        "Special Operations Liaison Officer"
+      ],
+      [
+        "Joint Special Operations Area",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Direct Action",
+        "Special Forces"
+      ],
+      [
+        "FM 3-05",
+        "United States Army Special Operations Command"
+      ],
+      [
+        "PDF",
+        "Skills and Negotiating Training"
+      ],
+      [
+        "ATP 3-05.40",
+        "FM 3-05"
+      ],
+      [
+        "75th Ranger Regiment",
+        "Ranger Battalion"
+      ],
+      [
+        "Special Forces Operational Detachment-Bravo",
+        "Special Operations Command And Control Element"
+      ],
+      [
+        "Special Operations",
+        "Special Operations Command And Control Element"
+      ]
+    ],
+    "count": 526,
+    "create_time": 1778755424,
+    "update_time": 1778755424,
+    "_id": "doc-23768ed72a18de2f8132a6308530ab3e"
+  }
+}

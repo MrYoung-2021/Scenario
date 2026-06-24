@@ -19,4 +19,4 @@ dashscope
 python-dotenv
 rich
 click
-streamlit
+fastapi

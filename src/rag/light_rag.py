@@ -1,12 +1,30 @@
+import functools
 import os
 import asyncio
 from typing import List, Optional, Union
 from pathlib import Path
 
 from lightrag import LightRAG as BaseLightRAG, QueryParam
-from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed
+from lightrag.llm.openai import gpt_4o_mini_complete, openai_embed, openai_complete
 from lightrag.kg.shared_storage import initialize_pipeline_status
-from lightrag.utils import setup_logger
+from lightrag.utils import setup_logger, wrap_embedding_func_with_attrs
+import numpy as np
+from openai import AsyncOpenAI
+
+from utils.config_handler import rag_conf
+from models.factory import embed_model as qwen_embed
+
+
+llm_kwargs = {
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
+    "api_key": os.environ.get("OPENAI_API_KEY")
+}
+
+embedding_kwargs = {
+    # "model": rag_conf["embedding_model_name"],
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
+    "api_key": os.environ.get("OPENAI_API_KEY")
+}
 
 
 class LightRAGWrapper:
@@ -40,20 +58,38 @@ class LightRAGWrapper:
         setup_logger("lightrag", level=log_level)
         
         # 设置默认函数
-        self.llm_model_func = llm_model_func or gpt_4o_mini_complete
-        self.embedding_func = embedding_func or openai_embed
+        self.llm_model_func = llm_model_func or openai_complete
+        self.embedding_func = embedding_func or self.qwen_embedding
         
         # 初始化底层 RAG 实例
         self._rag = BaseLightRAG(
             working_dir=str(self.working_dir),
             llm_model_func=self.llm_model_func,
-            embedding_func=self.embedding_func
+            llm_model_name=rag_conf["chat_model_name"],
+            llm_model_kwargs=llm_kwargs,
+            embedding_func=self.embedding_func,
         )
         
         self._initialized = False
         
         if auto_init:
             self._init_storages()
+
+    # ------- 自定义 Embedding 函数（维度和 token 数）-------
+    @wrap_embedding_func_with_attrs(
+        embedding_dim=1024,          # 千问 text-embedding-v2 向量维度
+        max_token_size=2048          # 千问 embedding 最大 token 数
+    )
+    async def qwen_embedding(texts: list[str]) -> np.ndarray:
+        client = AsyncOpenAI(
+            api_key=os.environ["DASHSCOPE_API_KEY"],
+            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+        )
+        resp = await client.embeddings.create(
+            model=rag_conf["embedding_model_name"],
+            input=texts,
+        )
+        return np.array([d.embedding for d in resp.data])
     
     def _init_storages(self):
         """初始化存储后端（同步包装）"""
@@ -316,14 +352,14 @@ def example_basic_usage():
     rag.insert("北京是中国的首都，是一座历史悠久的城市。它成功举办了2008年夏季奥运会。")
     
     # 执行查询
-    result = rag.query("北京有哪些城市名片？", mode="hybrid", top_k=10)
+    result = rag.query("北京有哪些城市名片？", mode="hybrid", top_k=10, only_need_context=True)
     print(f"Query result: {result}")
     
     # 使用上下文管理器自动清理
-    with LightRAGWrapper(working_dir="./another_rag") as rag2:
-        rag2.insert("人工智能正在改变世界。深度学习是AI的重要分支。")
-        result2 = rag2.search("什么是深度学习？", top_k=5)
-        print(f"Search result: {result2}")
+    # with LightRAGWrapper(working_dir="./another_rag") as rag2:
+    #     rag2.insert("人工智能正在改变世界。深度学习是AI的重要分支。")
+    #     result2 = rag2.search("什么是深度学习？", top_k=5)
+    #     print(f"Search result: {result2}")
 
 
 async def example_async_usage():
@@ -381,11 +417,11 @@ if __name__ == "__main__":
     print("=== Basic Usage Example ===")
     example_basic_usage()
     
-    print("\n=== Batch Insert Example ===")
-    example_batch_insert()
+    # print("\n=== Batch Insert Example ===")
+    # example_batch_insert()
     
-    print("\n=== Context Only Example ===")
-    example_context_only()
+    # print("\n=== Context Only Example ===")
+    # example_context_only()
     
     # 异步示例需要单独运行
     # asyncio.run(example_async_usage())

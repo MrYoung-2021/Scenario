@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能助手对话系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .chat-container {
+            width: 90%;
+            max-width: 1000px;
+            height: 85vh;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: #4a6fa5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .history-toggle-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            padding: 5px 15px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .history-toggle-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .chat-main {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .history-panel {
+            width: 250px;
+            background: #f0f4f8;
+            border-right: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+
+        .history-panel.hidden {
+            width: 0;
+            overflow: hidden;
+            border-right: none;
+        }
+
+        .history-header {
+            padding: 15px;
+            background: #e6ebf1;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .history-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .history-item {
+            padding: 10px;
+            margin-bottom: 8px;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 1px solid #eee;
+            word-break: break-word;
+            font-size: 0.9rem;
+        }
+
+        .history-item:hover {
+            background: #e6f0ff;
+            border-color: #4a6fa5;
+        }
+
+        .history-item.active {
+            background: #d1e1ff;
+            border-color: #4a6fa5;
+        }
+
+        .chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            line-height: 1.5;
+            position: relative;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .user-message {
+            align-self: flex-end;
+            background-color: #4a6fa5;
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+
+        .assistant-message {
+            align-self: flex-start;
+            background-color: #f0f4f8;
+            color: #333;
+            border-bottom-left-radius: 5px;
+        }
+
+        .typing-indicator {
+            align-self: flex-start;
+            background-color: #f0f4f8;
+            color: #333;
+            padding: 12px 16px;
+            border-radius: 18px;
+            border-bottom-left-radius: 5px;
+            display: none;
+        }
+
+        .typing-indicator.show {
+            display: inline-block;
+        }
+
+        .typing-dots {
+            display: flex;
+            align-items: center;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #777;
+            border-radius: 50%;
+            margin: 0 2px;
+            animation: bounce 1.5s infinite ease-in-out;
+        }
+
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .input-area {
+            display: flex;
+            padding: 15px;
+            background: #f9fafb;
+            border-top: 1px solid #eaeaea;
+        }
+
+        #user-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            outline: none;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        #user-input:focus {
+            border-color: #4a6fa5;
+            box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.2);
+        }
+
+        #send-button {
+            margin-left: 10px;
+            padding: 12px 20px;
+            background-color: #4a6fa5;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        #send-button:hover {
+            background-color: #3a5a80;
+        }
+
+        #send-button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .info-text {
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            padding: 10px;
+        }
+
+        .timestamp {
+            font-size: 0.7rem;
+            color: #888;
+            margin-top: 5px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>智能助手</span>
+            <button class="history-toggle-btn" id="history-toggle">切换历史</button>
+        </div>
+        
+        <div class="chat-main">
+            <div class="history-panel" id="history-panel">
+                <div class="history-header">对话历史</div>
+                <div class="history-list" id="history-list">
+                    <!-- 历史记录项将通过JavaScript动态添加 -->
+                </div>
+            </div>
+            
+            <div class="chat-area">
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message assistant-message">
+                        你好！我是智能助手，有什么可以帮助你的吗？
+                        <div class="timestamp">刚刚</div>
+                    </div>
+                    <div class="typing-indicator" id="typing-indicator">
+                        <div class="typing-dots">
+                            <div class="typing-dot"></div>
+                            <div class="typing-dot"></div>
+                            <div class="typing-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-area">
+                    <input type="text" id="user-input" placeholder="输入消息..." autocomplete="off">
+                    <button id="send-button">发送</button>
+                </div>
+                <div class="info-text">提示：助手的回复将以流式方式逐字显示 | 历史记录保存在本地</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatMessages = document.getElementById('chat-messages');
+            const userInput = document.getElementById('user-input');
+            const sendButton = document.getElementById('send-button');
+            const typingIndicator = document.getElementById('typing-indicator');
+            const historyPanel = document.getElementById('history-panel');
+            const historyList = document.getElementById('history-list');
+            const historyToggleBtn = document.getElementById('history-toggle');
+            const baseUrl = 'http://localhost:8000'
+            
+            // 从localStorage加载历史记录
+            let chatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
+            
+            // 格式化时间戳
+            function formatTime(date) {
+                const now = new Date();
+                const diffMs = now - date;
+                const diffMins = Math.floor(diffMs / 60000);
+                
+                if (diffMins < 1) return '刚刚';
+                if (diffMins < 60) return `${diffMins}分钟前`;
+                if (diffMins < 1440) return `${Math.floor(diffMins / 60)}小时前`; // 24小时内
+                return date.toLocaleString('zh-CN');
+            }
+            
+            // 保存当前对话到历史记录
+            function saveToHistory(userMsg, assistantMsg, timestamp) {
+                const newEntry = {
+                    id: Date.now(),
+                    userMessage: userMsg,
+                    assistantReply: assistantMsg,
+                    timestamp: timestamp
+                };
+                
+                chatHistory.unshift(newEntry); // 添加到开头
+                
+                // 只保留最近50条记录
+                if (chatHistory.length > 50) {
+                    chatHistory = chatHistory.slice(0, 50);
+                }
+                
+                localStorage.setItem('chatHistory', JSON.stringify(chatHistory));
+                renderHistoryList();
+            }
+            
+            // 渲染历史记录列表
+            function renderHistoryList() {
+                historyList.innerHTML = '';
+                
+                if (chatHistory.length === 0) {
+                    historyList.innerHTML = '<div style="color: #888; text-align: center; padding: 20px;">暂无历史记录</div>';
+                    return;
+                }
+                
+                chatHistory.forEach(entry => {
+                    const historyItem = document.createElement('div');
+                    historyItem.className = 'history-item';
+                    historyItem.dataset.id = entry.id;
+                    
+                    // 显示用户消息的前30个字符
+                    const preview = entry.userMessage.length > 30 
+                        ? entry.userMessage.substring(0, 30) + '...' 
+                        : entry.userMessage;
+                    
+                    historyItem.innerHTML = `
+                        <div><strong>${preview}</strong></div>
+                        <div style="font-size: 0.8rem; color: #666; margin-top: 5px;">
+                            ${formatTime(new Date(entry.timestamp))}
+                        </div>
+                    `;
+                    
+                    historyItem.addEventListener('click', () => {
+                        loadHistoryConversation(entry);
+                    });
+                    
+                    historyList.appendChild(historyItem);
+                });
+            }
+            
+            // 加载历史对话
+            function loadHistoryConversation(entry) {
+                // 清空当前聊天区域
+                chatMessages.innerHTML = '';
+                
+                // 添加历史用户消息
+                const userMsgElement = document.createElement('div');
+                userMsgElement.className = 'message user-message';
+                userMsgElement.innerHTML = `
+                    ${entry.userMessage}
+                    <div class="timestamp">${formatTime(new Date(entry.timestamp))}</div>
+                `;
+                chatMessages.appendChild(userMsgElement);
+                
+                // 添加历史助手回复
+                const assistantMsgElement = document.createElement('div');
+                assistantMsgElement.className = 'message assistant-message';
+                assistantMsgElement.innerHTML = `
+                    ${entry.assistantReply}
+                    <div class="timestamp">${formatTime(new Date(entry.timestamp))}</div>
+                `;
+                chatMessages.appendChild(assistantMsgElement);
+                
+                // 添加回退提示
+                const backPrompt = document.createElement('div');
+                backPrompt.className = 'message assistant-message';
+                backPrompt.textContent = '这是历史对话记录。您可以继续输入新消息开始新的对话。';
+                chatMessages.appendChild(backPrompt);
+                
+                // 滚动到底部
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+                
+                // 隐藏历史面板
+                historyPanel.classList.add('hidden');
+            }
+            
+            // 发送消息函数
+            async function sendMessage() {
+                const message = userInput.value.trim();
+                if (!message) return;
+
+                // 添加用户消息到界面
+                const timestamp = new Date().toLocaleString('zh-CN');
+                addMessageToChat(message, 'user', timestamp);
+                
+                // 清空输入框并禁用发送按钮
+                userInput.value = '';
+                sendButton.disabled = true;
+                typingIndicator.classList.add('show');
+
+                try {
+                    // 发送请求到后端
+                    const response = await fetch(baseUrl+'/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ message: message })
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP错误! 状态: ${response.status}`);
+                    }
+
+                    if (!response.body) {
+                        throw new Error('无法读取响应体');
+                    }
+
+                    // 创建阅读器
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder('utf-8');
+                    
+                    // 创建助手消息元素
+                    const assistantMessageElement = document.createElement('div');
+                    assistantMessageElement.className = 'message assistant-message';
+                    assistantMessageElement.innerHTML = '<div class="content">'; // 使用div包装内容
+                    const contentDiv = assistantMessageElement.querySelector('.content');
+                    chatMessages.appendChild(assistantMessageElement);
+                    
+                    // 滚动到底部
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                    let buffer = '';
+                    let done = false;
+                    let fullAssistantResponse = ''; // 保存完整回复用于历史记录
+
+                    while (!done) {
+                        const { value, done: readerDone } = await reader.read();
+                        done = readerDone;
+
+                        if (value) {
+                            // 解码接收到的数据
+                            const chunk = decoder.decode(value, { stream: true });
+                            buffer += chunk;
+
+                            // 处理缓冲区中的数据
+                            while (buffer.includes('\n')) {
+                                const parts = buffer.split('\n');
+                                buffer = parts.pop(); // 最后一部分可能是不完整的
+
+                                for (let i = 0; i < parts.length; i++) {
+                                    const part = parts[i].trim();
+                                    if (part) {
+                                        try {
+                                            // 尝试解析JSON
+                                            const data = JSON.parse(part);
+                                            
+                                            // 检查是否有内容
+                                            if (data.content !== undefined) {
+                                                // 逐字添加内容
+                                                const content = data.content;
+                                                for (let j = 0; j < content.length; j++) {
+                                                    contentDiv.textContent += content[j];
+                                                    fullAssistantResponse += content[j];
+                                                    // 强制浏览器更新显示
+                                                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                                                    // 稍微延迟以模拟打字效果
+                                                    await new Promise(resolve => setTimeout(resolve, 30));
+                                                }
+                                            }
+                                        } catch (e) {
+                                            console.error('解析JSON失败:', e);
+                                            console.log('原始数据:', part);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // 处理剩余缓冲区
+                    if (buffer.trim()) {
+                        try {
+                            const data = JSON.parse(buffer.trim());
+                            if (data.content !== undefined) {
+                                contentDiv.textContent += data.content;
+                                fullAssistantResponse += data.content;
+                            }
+                        } catch (e) {
+                            console.error('处理剩余缓冲区失败:', e);
+                        }
+                    }
+                    
+                    // 添加时间戳
+                    const timeElement = document.createElement('div');
+                    timeElement.className = 'timestamp';
+                    timeElement.textContent = formatTime(new Date());
+                    assistantMessageElement.appendChild(timeElement);
+                    
+                    // 保存到历史记录
+                    saveToHistory(message, fullAssistantResponse, new Date().toISOString());
+
+                } catch (error) {
+                    console.error('请求失败:', error);
+                    addMessageToChat('抱歉，发生了一个错误: ' + error.message, 'assistant', formatTime(new Date()));
+                } finally {
+                    typingIndicator.classList.remove('show');
+                    sendButton.disabled = false;
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
+            }
+
+            // 添加消息到聊天界面
+            function addMessageToChat(text, sender, timestamp) {
+                const messageElement = document.createElement('div');
+                messageElement.className = `message ${sender}-message`;
+                messageElement.innerHTML = `
+                    ${text}
+                    <div class="timestamp">${timestamp}</div>
+                `;
+                chatMessages.insertBefore(messageElement, typingIndicator);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // 切换历史面板显示
+            historyToggleBtn.addEventListener('click', () => {
+                historyPanel.classList.toggle('hidden');
+            });
+
+            // 绑定发送按钮事件
+            sendButton.addEventListener('click', sendMessage);
+
+            // 绑定回车键事件
+            userInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+            
+            // 初始化历史记录列表
+            renderHistoryList();
+        });
+    </script>
+</body>
+</html>

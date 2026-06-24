@@ -1,0 +1,16 @@
+{
+  "chunk-8d3cecbd4df4f162a5b1170e4baf54d8": {
+    "tokens": 14,
+    "content": "LightRAG 是一个简单快速的检索增强生成系统。",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8d3cecbd4df4f162a5b1170e4baf54d8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b6bc7809555a0d898c7f764bf5c9bdfa",
+      "default:extract:127cf7f45b491c7d045a73b131b7e63b"
+    ],
+    "create_time": 1778430741,
+    "update_time": 1778430745,
+    "_id": "chunk-8d3cecbd4df4f162a5b1170e4baf54d8"
+  }
+}

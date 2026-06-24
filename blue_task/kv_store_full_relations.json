@@ -1,0 +1,2662 @@
+{
+  "doc-d430c3dccebd3911b725bceaf63e6228": {
+    "relation_pairs": [
+      [
+        "Commanders",
+        "Terrain"
+      ],
+      [
+        "Commanders",
+        "Purpose"
+      ],
+      [
+        "Combat Power",
+        "Commanders"
+      ],
+      [
+        "Commanders",
+        "Higher Commander"
+      ],
+      [
+        "Commanders",
+        "Main Body"
+      ],
+      [
+        "Combat Power",
+        "Command and Control"
+      ],
+      [
+        "National Assets",
+        "Space-Based Capabilities"
+      ],
+      [
+        "ADP 3-90",
+        "Army"
+      ],
+      [
+        "Commanders",
+        "Security Forces"
+      ],
+      [
+        "Leaders",
+        "Military Decision-Making Process"
+      ],
+      [
+        "Consolidate Gains",
+        "Legitimate Authorities"
+      ],
+      [
+        "Commander",
+        "Decision"
+      ],
+      [
+        "31 July 2019",
+        "ADP 3-90"
+      ],
+      [
+        "Opportunities",
+        "Risk"
+      ],
+      [
+        "Tactical Level Of Warfare",
+        "Task Forces"
+      ],
+      [
+        "Enemy Forces",
+        "Engagement"
+      ],
+      [
+        "Combat Power",
+        "Momentum"
+      ],
+      [
+        "Combat Power",
+        "Fires"
+      ],
+      [
+        "Commander",
+        "Enemy"
+      ],
+      [
+        "Battle",
+        "JP 3-0"
+      ],
+      [
+        "Combat Power",
+        "Intelligence"
+      ],
+      [
+        "Breaching Operation",
+        "Operation Desert Storm"
+      ],
+      [
+        "Mission",
+        "Operations Process"
+      ],
+      [
+        "Combined Arms",
+        "Combined Arms Team"
+      ],
+      [
+        "Initiative",
+        "Momentum"
+      ],
+      [
+        "Combat Information",
+        "Commanders"
+      ],
+      [
+        "Battle",
+        "Campaign"
+      ],
+      [
+        "Combat Power",
+        "Protection"
+      ],
+      [
+        "Commander",
+        "Risk"
+      ],
+      [
+        "Combat Power",
+        "Sustainment"
+      ],
+      [
+        "Battle",
+        "Friendly Forces"
+      ],
+      [
+        "Commanders",
+        "Uncertainty"
+      ],
+      [
+        "Combat Power",
+        "Leadership"
+      ],
+      [
+        "Cyberspace Operations",
+        "Friendly Forces"
+      ],
+      [
+        "Agility",
+        "Mission Command Approach"
+      ],
+      [
+        "Commanders",
+        "Risk"
+      ],
+      [
+        "Commanders",
+        "Subordinate Leaders"
+      ],
+      [
+        "Limit of Advance",
+        "Offensive Action"
+      ],
+      [
+        "Friendly Forces",
+        "Rules of Engagement"
+      ],
+      [
+        "Combined Arms",
+        "Hasty Operation"
+      ],
+      [
+        "Army",
+        "Warfighting Functions"
+      ],
+      [
+        "ADP 3-0",
+        "Combat Power"
+      ],
+      [
+        "ADP 3-90",
+        "Tactics"
+      ],
+      [
+        "Commanders",
+        "Tempo"
+      ],
+      [
+        "Liaison Officers",
+        "Military Decision-Making Process"
+      ],
+      [
+        "Combat Power",
+        "Information"
+      ],
+      [
+        "Cyberspace Capabilities",
+        "National Assets"
+      ],
+      [
+        "ADP 3-90",
+        "Chapter 1"
+      ],
+      [
+        "Commanders",
+        "Friendly Forces"
+      ],
+      [
+        "Combat Power",
+        "Movement and Maneuver"
+      ],
+      [
+        "Art of Tactics",
+        "Soldiers"
+      ],
+      [
+        "Electronic Warfare",
+        "Friendly Forces"
+      ],
+      [
+        "Commanders",
+        "Enemy Forces"
+      ],
+      [
+        "Battle",
+        "Tactical Level Of Warfare"
+      ],
+      [
+        "Combat",
+        "Unit Cohesion"
+      ],
+      [
+        "Commanders",
+        "Information"
+      ],
+      [
+        "ADP 3-0",
+        "Combat"
+      ],
+      [
+        "Operations Process",
+        "Task Organization"
+      ],
+      [
+        "ADP 3-90",
+        "Tactical Fundamentals"
+      ],
+      [
+        "Army Leaders",
+        "Science Of Tactics"
+      ],
+      [
+        "Area of Operations",
+        "Army"
+      ],
+      [
+        "ADP 3-0",
+        "Strategic Level Of Warfare"
+      ],
+      [
+        "Figure 1-1",
+        "Risk Reduction"
+      ],
+      [
+        "ADP 3-0",
+        "Consolidate Gains"
+      ],
+      [
+        "9th Armored Division",
+        "Seizure Of The Bridge At Remagen"
+      ],
+      [
+        "Combat Information",
+        "JP 2-01"
+      ],
+      [
+        "Breaching Operation",
+        "Deliberate Operation"
+      ],
+      [
+        "Formation",
+        "Main Body"
+      ],
+      [
+        "Commanders",
+        "Mission"
+      ],
+      [
+        "Operations Process",
+        "Priorities"
+      ],
+      [
+        "Advance Guards",
+        "Main Body"
+      ],
+      [
+        "Security Area",
+        "Security Elements"
+      ],
+      [
+        "ADP 3-0",
+        "Operational Level Of Warfare"
+      ],
+      [
+        "Art of Tactics",
+        "Leaders"
+      ],
+      [
+        "Common Operational Picture",
+        "Operations Process"
+      ],
+      [
+        "Momentum",
+        "Unit"
+      ],
+      [
+        "Collaborative Systems",
+        "Leaders"
+      ],
+      [
+        "Art of Tactics",
+        "Friendly Forces"
+      ],
+      [
+        "Engagement",
+        "JP 3-0"
+      ],
+      [
+        "Planning",
+        "Risk"
+      ],
+      [
+        "Commanders",
+        "Mission Variables"
+      ],
+      [
+        "Agility",
+        "Friendly Forces"
+      ],
+      [
+        "Commanders",
+        "Staffs"
+      ],
+      [
+        "Battle",
+        "Major Operation"
+      ],
+      [
+        "Commander",
+        "Subordinates"
+      ],
+      [
+        "Commanders",
+        "Consolidate Gains"
+      ],
+      [
+        "Commanders",
+        "Leaders"
+      ],
+      [
+        "Army",
+        "Land Domain"
+      ],
+      [
+        "Leaders",
+        "Warning Orders"
+      ],
+      [
+        "ADP 6-0",
+        "Operations Process"
+      ],
+      [
+        "Commanders",
+        "Cyberspace Operations"
+      ],
+      [
+        "Battle",
+        "Corps"
+      ],
+      [
+        "Commanders",
+        "Planning Process"
+      ],
+      [
+        "Course Of Action",
+        "Risk"
+      ],
+      [
+        "1st Infantry Division",
+        "Breaching Operation"
+      ],
+      [
+        "Battle",
+        "Engagement"
+      ],
+      [
+        "Fragmentary Orders",
+        "Hasty Operation"
+      ],
+      [
+        "Commanders",
+        "Intelligence Staff"
+      ],
+      [
+        "Commanders",
+        "Resources"
+      ],
+      [
+        "Flank Guards",
+        "Main Body"
+      ],
+      [
+        "Combat",
+        "Soldiers"
+      ],
+      [
+        "Commanders",
+        "Decision-making Process"
+      ],
+      [
+        "ADP 6-0",
+        "METT-TC"
+      ],
+      [
+        "Commanders",
+        "Information Operations"
+      ],
+      [
+        "Commanders",
+        "Situation"
+      ],
+      [
+        "Commander",
+        "Higher Commander"
+      ],
+      [
+        "Commanders",
+        "Initiative"
+      ],
+      [
+        "Commanders",
+        "Course of Action"
+      ],
+      [
+        "Friendly Forces",
+        "Information Operations"
+      ],
+      [
+        "Friendly Forces",
+        "Initiative"
+      ],
+      [
+        "Information Technologies",
+        "Risk"
+      ],
+      [
+        "Commanders",
+        "Tactical Level Of Warfare"
+      ],
+      [
+        "Commanders",
+        "TTP"
+      ],
+      [
+        "Engagement",
+        "Tactical Level Of Warfare"
+      ],
+      [
+        "ADP 3-90",
+        "Science of Tactics"
+      ],
+      [
+        "Bridge At Remagen",
+        "Seizure Of The Bridge At Remagen"
+      ],
+      [
+        "Combat Power",
+        "Warfighting Functions"
+      ],
+      [
+        "Commanders",
+        "Reserves"
+      ],
+      [
+        "Adversaries",
+        "Army"
+      ],
+      [
+        "Art of Tactics",
+        "Tactics"
+      ],
+      [
+        "Army Leaders",
+        "Art Of Tactics"
+      ],
+      [
+        "Risk",
+        "Uncertainty"
+      ],
+      [
+        "ADP 3-90",
+        "Joint Capabilities"
+      ],
+      [
+        "Leaders",
+        "Science of Tactics"
+      ],
+      [
+        "ADP 3-0",
+        "Combined Arms"
+      ],
+      [
+        "Covering Forces",
+        "Main Body"
+      ],
+      [
+        "Commanders",
+        "Control Measures"
+      ],
+      [
+        "Actions On Contact",
+        "Battalion Task Force"
+      ],
+      [
+        "METT-TC",
+        "Tactical Problem"
+      ],
+      [
+        "Decisive Results",
+        "Offensive Action"
+      ],
+      [
+        "Detached Elements",
+        "Main Body"
+      ],
+      [
+        "Combat Power",
+        "Commander"
+      ],
+      [
+        "Operation",
+        "Risk"
+      ],
+      [
+        "Science of Tactics",
+        "Tactics"
+      ],
+      [
+        "ADP 6-0",
+        "Mission Variables"
+      ],
+      [
+        "ADP 3-90",
+        "Risk"
+      ],
+      [
+        "Battle",
+        "Division"
+      ],
+      [
+        "Army",
+        "Local Population"
+      ],
+      [
+        "Commanders",
+        "Electronic Warfare"
+      ],
+      [
+        "Decision",
+        "Information"
+      ],
+      [
+        "Commanders",
+        "Momentum"
+      ],
+      [
+        "Brigades",
+        "Engagement"
+      ],
+      [
+        "National Assets",
+        "Tactical Level Of Warfare"
+      ],
+      [
+        "Commanders",
+        "Operations Process"
+      ],
+      [
+        "Hasty Operation",
+        "Seizure Of The Bridge At Remagen"
+      ],
+      [
+        "Main Body",
+        "Tactical Command"
+      ]
+    ],
+    "count": 146,
+    "create_time": 1778748559,
+    "update_time": 1778748559,
+    "_id": "doc-d430c3dccebd3911b725bceaf63e6228"
+  },
+  "doc-cd030bf96749a2e7348278d196005e6d": {
+    "relation_pairs": [
+      [
+        "Drop Zone",
+        "Stadiums"
+      ],
+      [
+        "CAS 9-Line",
+        "Close Air Support"
+      ],
+      [
+        "Urban Operations",
+        "Urban Terrain"
+      ],
+      [
+        "Aircrews",
+        "Urban Navigation"
+      ],
+      [
+        "22 FEB 2022",
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29"
+      ],
+      [
+        "Air Force",
+        "RPA"
+      ],
+      [
+        "H-47",
+        "Landing Zone"
+      ],
+      [
+        "Ground Force Commander",
+        "Subordinate Commands"
+      ],
+      [
+        "Issuing Organization",
+        "Version Numbers"
+      ],
+      [
+        "Buildings",
+        "Radios"
+      ],
+      [
+        "Commercial Aviation",
+        "Radio Frequency"
+      ],
+      [
+        "Air Defense Plan",
+        "Unmanned Aircraft System"
+      ],
+      [
+        "Air Tasking Order",
+        "Aviation Assets"
+      ],
+      [
+        "Enemy",
+        "Landing Zone (LZ)"
+      ],
+      [
+        "Enemy",
+        "GPS Jammers"
+      ],
+      [
+        "C2 Networks",
+        "Natural Disasters"
+      ],
+      [
+        "Drop Zone",
+        "Parks"
+      ],
+      [
+        "IR Strobe Lights",
+        "Urban Lights"
+      ],
+      [
+        "C2 Planning",
+        "Radio Relay Support Systems"
+      ],
+      [
+        "Friendly Forces",
+        "Full-Motion Video"
+      ],
+      [
+        "Bridges",
+        "Named Areas of Interest"
+      ],
+      [
+        "Airspace Control Elements",
+        "CRC"
+      ],
+      [
+        "Golf Courses",
+        "Landing Zone"
+      ],
+      [
+        "Brown-out Conditions",
+        "Landing Zone"
+      ],
+      [
+        "A/OH-6, H-6",
+        "Landing Zone"
+      ],
+      [
+        "Dismounted Troops",
+        "Fields Of Fire"
+      ],
+      [
+        "Air Officer",
+        "Aircraft"
+      ],
+      [
+        "Landing Zone",
+        "Rotor Wash"
+      ],
+      [
+        "Common Operations Graphics",
+        "Ground Force Commander"
+      ],
+      [
+        "Close Air Support",
+        "Target Reference Point"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Landing Zone (LZ)"
+      ],
+      [
+        "Thermal Sights",
+        "Urban Areas"
+      ],
+      [
+        "Linear Features",
+        "Urban Navigation"
+      ],
+      [
+        "Navigation Waypoints",
+        "SUAS"
+      ],
+      [
+        "Joint Intelligence Preparation Of The Operational Environment",
+        "Urban Terrain"
+      ],
+      [
+        "22 FEB 2022",
+        "AFTTP 3-2.29"
+      ],
+      [
+        "Enemy",
+        "High-Energy Laser Pointers"
+      ],
+      [
+        "IR Sensors",
+        "Thermal Sights"
+      ],
+      [
+        "Ground Force Commander",
+        "Urban Operations"
+      ],
+      [
+        "Landing Zone",
+        "MV-22"
+      ],
+      [
+        "Lost-link Contingency Procedures",
+        "Operator"
+      ],
+      [
+        "AFTTP 3-2.29",
+        "ATP 3-06.1"
+      ],
+      [
+        "Aircraft",
+        "Rooftop"
+      ],
+      [
+        "Reference Areas",
+        "Roads"
+      ],
+      [
+        "Human Intelligence",
+        "Joint Intelligence Preparation Of The Operational Environment"
+      ],
+      [
+        "Air Traffic Hazards",
+        "Tiltrotor"
+      ],
+      [
+        "Marshalling Plans",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "Enemy",
+        "Machine Guns"
+      ],
+      [
+        "GPS-Aided Guidance Systems",
+        "Weather Conditions"
+      ],
+      [
+        "JP 3-09.3",
+        "Weather Conditions"
+      ],
+      [
+        "Grid Reference Graphic",
+        "MGRS Coordinate System"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Flight Profiles"
+      ],
+      [
+        "Group 5",
+        "RQ-4 Global Hawk"
+      ],
+      [
+        "Geospatial Intelligence",
+        "Joint Intelligence Preparation Of The Operational Environment"
+      ],
+      [
+        "Air Force",
+        "Remotely-piloted Aircraft (RPA)"
+      ],
+      [
+        "Aircraft",
+        "Flight Hazards"
+      ],
+      [
+        "Smog",
+        "Weather Conditions"
+      ],
+      [
+        "Landing Zone",
+        "Parking Lots"
+      ],
+      [
+        "Aircrew",
+        "NVD"
+      ],
+      [
+        "Drop Zone",
+        "Urban Terrain"
+      ],
+      [
+        "Ground Force Commander",
+        "Supporting Units"
+      ],
+      [
+        "Ceilings",
+        "Power Lines"
+      ],
+      [
+        "MANPADS",
+        "Urban Terrain"
+      ],
+      [
+        "Satellite Imagery",
+        "Space Support Personnel"
+      ],
+      [
+        "Air Traffic Hazards",
+        "Fixed-Wing Aircraft"
+      ],
+      [
+        "FARP",
+        "Landing Zone (LZ)"
+      ],
+      [
+        "Rooftop",
+        "Wires"
+      ],
+      [
+        "Landing Zone",
+        "Load-bearing Structures"
+      ],
+      [
+        "Ceilings",
+        "High-Rise Rooftops"
+      ],
+      [
+        "Aircrew",
+        "Night Formation Tactics"
+      ],
+      [
+        "CV-22",
+        "Landing Zone"
+      ],
+      [
+        "Aircrews",
+        "Ground Maneuver Elements"
+      ],
+      [
+        "Joint Intelligence Preparation Of The Operational Environment",
+        "Urban Operations"
+      ],
+      [
+        "Rain",
+        "Weather Conditions"
+      ],
+      [
+        "ATP 3-06.1",
+        "NTTP 3-01.04"
+      ],
+      [
+        "Small Arms",
+        "Urban Terrain"
+      ],
+      [
+        "Friendly Forces",
+        "SUAS"
+      ],
+      [
+        "Choke Points",
+        "Named Areas of Interest"
+      ],
+      [
+        "Gridded Reference Graphic (GRG)",
+        "Military Grid Reference System (MGRS)"
+      ],
+      [
+        "Air-Delivered Ground Refueling Sites",
+        "Assembly Areas"
+      ],
+      [
+        "RPA",
+        "Unmanned Aircraft System"
+      ],
+      [
+        "H-53",
+        "Landing Zone"
+      ],
+      [
+        "Airspace Control",
+        "Aviation Assets"
+      ],
+      [
+        "Grid Reference Graphic",
+        "Operators"
+      ],
+      [
+        "Air Traffic Hazards",
+        "Rotary-Wing"
+      ],
+      [
+        "Aircraft Sensors",
+        "Weather Conditions"
+      ],
+      [
+        "Friendly Forces",
+        "Infrared Pointer"
+      ],
+      [
+        "Objective Area",
+        "Simple Grid System Technique"
+      ],
+      [
+        "Commander",
+        "Urban Operations"
+      ],
+      [
+        "Aircraft",
+        "Load-Bearing Structures"
+      ],
+      [
+        "H-60",
+        "Landing Zone"
+      ],
+      [
+        "Geospatial Products",
+        "Notices To Airmen"
+      ],
+      [
+        "Aircrew",
+        "Building Marking Techniques"
+      ],
+      [
+        "Enemy",
+        "Small Arms"
+      ],
+      [
+        "Aircraft",
+        "Light Pollution"
+      ],
+      [
+        "Flight Hazards",
+        "Urban Terrain"
+      ],
+      [
+        "Enemy",
+        "Improvised Explosive Devices"
+      ],
+      [
+        "Grid Reference Graphic",
+        "Version Numbers"
+      ],
+      [
+        "Flight Profiles",
+        "Risk Assessment"
+      ],
+      [
+        "IR Strobe Lights",
+        "Marking Tools"
+      ],
+      [
+        "22 FEB 2022",
+        "NTTP 3-01.04"
+      ],
+      [
+        "ATP 3-06.1",
+        "Urban Operations"
+      ],
+      [
+        "Electromagnetic Hazards",
+        "Global Positioning System"
+      ],
+      [
+        "Suppression Of Enemy Air Defenses",
+        "Urban Operations"
+      ],
+      [
+        "Airspace",
+        "MEDEVAC"
+      ],
+      [
+        "Imagery",
+        "Landing Zone"
+      ],
+      [
+        "Drop Zone",
+        "Railroad Yards"
+      ],
+      [
+        "Adversaries",
+        "Light-To-Medium Air Defense Artillery"
+      ],
+      [
+        "Grid Reference Graphic",
+        "Ground Force Commander"
+      ],
+      [
+        "Group 4",
+        "MQ-1 Predator"
+      ],
+      [
+        "FARP",
+        "Fixed-Wing Aircraft"
+      ],
+      [
+        "Civilian Population",
+        "Planners"
+      ],
+      [
+        "Flight Profiles",
+        "Urban Terrain"
+      ],
+      [
+        "Planners",
+        "Urban Operations"
+      ],
+      [
+        "Aircraft",
+        "JTACs"
+      ],
+      [
+        "Landing Zone",
+        "Planners"
+      ],
+      [
+        "Low Flight Profiles",
+        "Tactical Surprise"
+      ],
+      [
+        "Joint Fires Observers",
+        "Urban Operations"
+      ],
+      [
+        "Airspace Control Elements",
+        "Lost-link Contingency Procedures"
+      ],
+      [
+        "Air Defense Plan",
+        "Unmanned Aircraft System (UAS)"
+      ],
+      [
+        "Aircrews",
+        "Rooftop Insertion and Extraction Techniques"
+      ],
+      [
+        "Enemy",
+        "Urban Terrain"
+      ],
+      [
+        "C2 Planning",
+        "Rooftop Retransmission Systems"
+      ],
+      [
+        "FARP",
+        "Tiltrotor Aircraft"
+      ],
+      [
+        "Antitank Guided Missiles",
+        "Enemy"
+      ],
+      [
+        "Geospatial Products",
+        "World Geodetic System 1984"
+      ],
+      [
+        "Coalition Partners",
+        "Satellite Imagery"
+      ],
+      [
+        "SUAS",
+        "Unmanned Aircraft System"
+      ],
+      [
+        "Combatants",
+        "FARP"
+      ],
+      [
+        "FARP",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "22 FEB 2022",
+        "MCRP 3-20.4"
+      ],
+      [
+        "Commanders",
+        "Electromagnetic Environment"
+      ],
+      [
+        "Environmental Concerns",
+        "Smoke or Fog"
+      ],
+      [
+        "Rural Areas",
+        "Urban Areas"
+      ],
+      [
+        "High Flight Profiles",
+        "Small Arms"
+      ],
+      [
+        "Aircrew",
+        "Geospatial Products"
+      ],
+      [
+        "Pilot",
+        "Remotely-piloted Aircraft (RPA)"
+      ],
+      [
+        "Engagement",
+        "Unaided Vision"
+      ],
+      [
+        "Environmental Concerns",
+        "Thermal Reflection"
+      ],
+      [
+        "Alleys",
+        "Winds"
+      ],
+      [
+        "CAS",
+        "JP 3-09.3"
+      ],
+      [
+        "Group 5",
+        "MQ-9 Reaper"
+      ],
+      [
+        "Established Airfields",
+        "FARP"
+      ],
+      [
+        "LOS Communications",
+        "Urban Environment"
+      ],
+      [
+        "Airfields",
+        "Drop Zone"
+      ],
+      [
+        "Joint Intelligence Preparation Of The Operational Environment",
+        "Signals Intelligence"
+      ],
+      [
+        "Noncombatants",
+        "Urban Environment"
+      ],
+      [
+        "FARP",
+        "Sports Stadiums"
+      ],
+      [
+        "Group 1",
+        "Wasp III"
+      ],
+      [
+        "Noncombatants",
+        "Urban Operations"
+      ],
+      [
+        "IR Signatures",
+        "Urban Areas"
+      ],
+      [
+        "Helipads",
+        "Load-Bearing Structures"
+      ],
+      [
+        "Enemy",
+        "Rocket-Propelled Grenades"
+      ],
+      [
+        "Weapon Systems",
+        "Winds"
+      ],
+      [
+        "Aircraft",
+        "Ground Observers"
+      ],
+      [
+        "Air Asset Deconfliction And Integration",
+        "Fire Support Coordination Measures"
+      ],
+      [
+        "Aircrews",
+        "Friendly Forces"
+      ],
+      [
+        "Airspace Control Order",
+        "Aviation Assets"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Urban Operations"
+      ],
+      [
+        "Urban Areas",
+        "Winds"
+      ],
+      [
+        "Deconfliction",
+        "Urban Lights"
+      ],
+      [
+        "Geospatial Products",
+        "National Geospatial-Intelligence Agency"
+      ],
+      [
+        "Regional Frequency Manager",
+        "Subordinate Commands"
+      ],
+      [
+        "Landing Zone",
+        "UH-1"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Unmanned Aircraft System (UAS)"
+      ],
+      [
+        "Flight Profiles",
+        "Integrated Air Defense System"
+      ],
+      [
+        "ATP 3-06.1",
+        "MCRP 3-20.4"
+      ],
+      [
+        "Frequency Management",
+        "Urban Environment"
+      ],
+      [
+        "Environmental Concerns",
+        "Lighting Conditions"
+      ],
+      [
+        "Planner",
+        "Route Planning"
+      ],
+      [
+        "Operational Planning Products",
+        "Urban Areas"
+      ],
+      [
+        "Public Safety",
+        "Radio Frequency"
+      ],
+      [
+        "Unguided Weapons",
+        "Winds"
+      ],
+      [
+        "Assembly Areas",
+        "Forward Arming and Refueling Points"
+      ],
+      [
+        "Controlled Flight Into Terrain",
+        "Low Flight Profiles"
+      ],
+      [
+        "Target Acquisition",
+        "Unaided Vision"
+      ],
+      [
+        "GPS",
+        "Urban Navigation"
+      ],
+      [
+        "Satellite Imagery",
+        "Urban Operations"
+      ],
+      [
+        "GPS and Spectrum Jamming",
+        "Urban Terrain"
+      ],
+      [
+        "LOS Interference",
+        "Urban Terrain"
+      ],
+      [
+        "Landing Zone",
+        "Urban Terrain"
+      ],
+      [
+        "Air Asset Deconfliction And Integration",
+        "Airborne Warning And Control System"
+      ],
+      [
+        "Group 1",
+        "RQ-11B"
+      ],
+      [
+        "GPS Jammers",
+        "Space Operators"
+      ],
+      [
+        "Air Defense Artillery",
+        "Enemy"
+      ],
+      [
+        "Commanders",
+        "Cyberspace Domain"
+      ],
+      [
+        "Ground Control Stations",
+        "SUAS"
+      ],
+      [
+        "Air Asset Deconfliction And Integration",
+        "Air Defense Measures"
+      ],
+      [
+        "Ground Force Commander",
+        "Joint Agencies"
+      ],
+      [
+        "Radio Frequency",
+        "Urban Environment"
+      ],
+      [
+        "Antennas",
+        "Rooftop"
+      ],
+      [
+        "Landing Zone",
+        "Table 3"
+      ],
+      [
+        "Adversaries",
+        "Man-Portable Air Defense Systems"
+      ],
+      [
+        "Ceilings",
+        "Ordnance Delivery"
+      ],
+      [
+        "Intelligence Assessments",
+        "Pre-Mission Briefing"
+      ],
+      [
+        "City Structures",
+        "Winds"
+      ],
+      [
+        "Joint Planners",
+        "MGRS Coordinate System"
+      ],
+      [
+        "Civilians",
+        "Hoist Operations"
+      ],
+      [
+        "FARP",
+        "Marshalling Plans"
+      ],
+      [
+        "Aircraft",
+        "FAC(A)"
+      ],
+      [
+        "Aircrews",
+        "Controlling Agencies"
+      ],
+      [
+        "NVD",
+        "Urban Lights"
+      ],
+      [
+        "Area Frequency Manager",
+        "Subordinate Commands"
+      ],
+      [
+        "Booby Traps",
+        "Enemy"
+      ],
+      [
+        "Ceilings",
+        "Smokestacks"
+      ],
+      [
+        "Integrated Air Defense System",
+        "Urban Flight Techniques"
+      ],
+      [
+        "Landing Zone (LZ)",
+        "Planners"
+      ],
+      [
+        "AH-1/64",
+        "Landing Zone"
+      ],
+      [
+        "Air Traffic Hazards",
+        "SUAS"
+      ],
+      [
+        "Assembly Areas",
+        "Landing Zones"
+      ],
+      [
+        "22 FEB 2022",
+        "ATP 3-06.1"
+      ],
+      [
+        "Aircrew",
+        "Grid Reference Graphic"
+      ],
+      [
+        "Geospatial Products",
+        "Operational Planning Products"
+      ],
+      [
+        "GPS-Aided Guidance Systems",
+        "Solar and Geomagnetic Storm Activity"
+      ],
+      [
+        "Enemy",
+        "Friendly Forces"
+      ],
+      [
+        "Streets",
+        "Winds"
+      ],
+      [
+        "Enemy",
+        "Landing Zone"
+      ],
+      [
+        "Inertial Navigation Systems",
+        "Weather Conditions"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Urban Flight Techniques"
+      ],
+      [
+        "Aircraft",
+        "Pilots"
+      ],
+      [
+        "Close Air Support",
+        "JP 3-09.3"
+      ],
+      [
+        "Airspace Control Elements",
+        "TAOC"
+      ],
+      [
+        "Positive Control Methods",
+        "Tactical Air Operations Centers"
+      ],
+      [
+        "LZ Planning Guide",
+        "Landing Zone"
+      ],
+      [
+        "National Geospatial-Intelligence Agency",
+        "Notices To Airmen"
+      ],
+      [
+        "Rules Of Engagement",
+        "Urban Operations"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Weather Conditions"
+      ],
+      [
+        "Commercial Off-The-Shelf SUAS",
+        "Friendly Forces"
+      ],
+      [
+        "Airspace",
+        "CAS"
+      ],
+      [
+        "Enemy Forces",
+        "Tank Guns"
+      ],
+      [
+        "Dust",
+        "Weather Conditions"
+      ],
+      [
+        "Target Reference Point",
+        "Water Tower"
+      ],
+      [
+        "Aircrews",
+        "Satellite Imagery"
+      ],
+      [
+        "Ceilings",
+        "Towers"
+      ],
+      [
+        "AWACS",
+        "Airspace Control Elements"
+      ],
+      [
+        "Operational Planning Products",
+        "Planner"
+      ],
+      [
+        "Civilians",
+        "Drop Zone"
+      ],
+      [
+        "Airspace Control Plan",
+        "Aviation Assets"
+      ],
+      [
+        "Aircraft",
+        "Mechanical Turbulence"
+      ],
+      [
+        "Basement",
+        "Enemy Forces"
+      ]
+    ],
+    "count": 240,
+    "create_time": 1778752952,
+    "update_time": 1778752952,
+    "_id": "doc-cd030bf96749a2e7348278d196005e6d"
+  },
+  "doc-85977a239ea6ab9aceba23834e94c4ef": {
+    "relation_pairs": [
+      [
+        "Physicians",
+        "Role 1 Medical Treatment"
+      ],
+      [
+        "Countering Weapons Of Mass Destruction",
+        "USSOCOM"
+      ],
+      [
+        "Special Forces Battalion",
+        "Special Forces Group"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "International Organizations"
+      ],
+      [
+        "Direct Action",
+        "Sabotage"
+      ],
+      [
+        "Department of Defense",
+        "Weapons of Mass Destruction"
+      ],
+      [
+        "Mountain Operations",
+        "USSOCOM"
+      ],
+      [
+        "Army Quarterly",
+        "The Evolution Of A Revolt"
+      ],
+      [
+        "Action At Hill 205",
+        "FM 3-05"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Ralph Puckett, Jr."
+      ],
+      [
+        "Armed Forces of the Philippines",
+        "Civil Affairs"
+      ],
+      [
+        "SOF",
+        "Unconventional Warfare"
+      ],
+      [
+        "Figure 2-1",
+        "Special Operations Activities"
+      ],
+      [
+        "FM 1-02.1",
+        "Military Government Operations"
+      ],
+      [
+        "Department Of Defense",
+        "Security Cooperation"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Key Populations"
+      ],
+      [
+        "Precision-Guided Munitions",
+        "Special Forces"
+      ],
+      [
+        "Directed Activities",
+        "Secretary of Defense"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Hostage Rescue And Recovery"
+      ],
+      [
+        "Role 1 Medical Treatment",
+        "U.S. Army"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Local Populations"
+      ],
+      [
+        "Combatant Commanders",
+        "Secretary Of Defense"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil-Military Engagement Program of Record"
+      ],
+      [
+        "Hostage Rescue",
+        "JP 3-50"
+      ],
+      [
+        "T.E. Lawrence",
+        "The Evolution Of A Revolt"
+      ],
+      [
+        "Special Operations Activities",
+        "USASOC"
+      ],
+      [
+        "Eighth Army",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Internal Defense And Development Program"
+      ],
+      [
+        "Countering Weapons of Mass Destruction",
+        "Direct Action Operations"
+      ],
+      [
+        "JP 3-05",
+        "Unconventional Warfare"
+      ],
+      [
+        "Foreign Security Forces",
+        "Security Force Assistance"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Department of Defense"
+      ],
+      [
+        "FM 3-05",
+        "Unconventional Warfare"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Terrorism"
+      ],
+      [
+        "Islamic State-Philippines",
+        "United States"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Military Information Support Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Irregular Warfare"
+      ],
+      [
+        "Countering Weapons of Mass Destruction",
+        "Directed Activities"
+      ],
+      [
+        "Assigned Activities",
+        "Unconventional Warfare"
+      ],
+      [
+        "Role 1 Medical Treatment",
+        "Special Forces Medical Sergeants"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partnership"
+      ],
+      [
+        "Host Nation",
+        "Security Force Assistance"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Foreign Humanitarian Assistance"
+      ],
+      [
+        "Commanders",
+        "Staffs"
+      ],
+      [
+        "Foreign Resistance Actors",
+        "Support To Resistance"
+      ],
+      [
+        "Department of Defense Strategy for Countering Weapons of Mass Destruction",
+        "Weapons of Mass Destruction Defeat"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Search And Rescue"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Security Cooperation"
+      ],
+      [
+        "Assigned Activities",
+        "Counterterrorism"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Affairs Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Forces"
+      ],
+      [
+        "Department of Defense Strategy for Countering Weapons of Mass Destruction",
+        "Weapons of Mass Destruction Pathway Defeat"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Host-Nation Security Forces"
+      ],
+      [
+        "Chinese Forces",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Assigned Activities",
+        "Direct Action"
+      ],
+      [
+        "10 USC 167",
+        "United States Code"
+      ],
+      [
+        "Foreign Internal Defense",
+        "JP 3-22"
+      ],
+      [
+        "Civil Affairs Operations",
+        "Military Government Operations"
+      ],
+      [
+        "Combatant Commands",
+        "Weapons of Mass Destruction"
+      ],
+      [
+        "Chapter 2",
+        "FM 3-05"
+      ],
+      [
+        "Army Special Operations Forces",
+        "International Organizations"
+      ],
+      [
+        "Chapter 4",
+        "FM 3-05"
+      ],
+      [
+        "Operation Orders",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "FM 3-22",
+        "Security Cooperation"
+      ],
+      [
+        "ADP 3-0",
+        "Army Tenets Of Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Conventional Forces"
+      ],
+      [
+        "Civil-Military Engagement Program of Record",
+        "USSOCOM"
+      ],
+      [
+        "Hostage Rescue",
+        "JP 3-05"
+      ],
+      [
+        "Direct Action",
+        "JP 3-05"
+      ],
+      [
+        "Department Of State",
+        "JP 3-26"
+      ],
+      [
+        "Anti-Ship Operations",
+        "Direct Action"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Insurgency"
+      ],
+      [
+        "Unconventional Warfare",
+        "World War II"
+      ],
+      [
+        "Army Imperatives",
+        "Commanders"
+      ],
+      [
+        "USASOC",
+        "USSOCOM"
+      ],
+      [
+        "Collection Point",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Action At Hill 205",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Air Support",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Role 2 Level Care",
+        "U.S. Army"
+      ],
+      [
+        "Foreign Humanitarian Assistance",
+        "Host Nation Civil Authorities"
+      ],
+      [
+        "Irregular Force",
+        "Seven Phases Of Unconventional Warfare"
+      ],
+      [
+        "Mines",
+        "Special Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "National And Combatant Command Objectives"
+      ],
+      [
+        "26 June 2025",
+        "FM 3-05"
+      ],
+      [
+        "Assigned Activities",
+        "Special Operations Activities"
+      ],
+      [
+        "10 USC 167",
+        "Special Operations Activities"
+      ],
+      [
+        "National Security",
+        "Partnership"
+      ],
+      [
+        "Support To Resistance",
+        "Unconventional Warfare"
+      ],
+      [
+        "Sniper Operations",
+        "USSOCOM"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Commander"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Small Arms"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Survival, Escape, And Evasion"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Far East Command"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Foreign Internal Defense"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Foxholes"
+      ],
+      [
+        "Allied Forces",
+        "Pusan Perimeter"
+      ],
+      [
+        "Directed Activities",
+        "President of the United States"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Theater Of Operations Hospitalization System"
+      ],
+      [
+        "Armed Forces of the Philippines",
+        "Special Forces"
+      ],
+      [
+        "Joint Special Operations Task Force-Philippines",
+        "Philippines"
+      ],
+      [
+        "Hostage Rescue",
+        "Sensitive Materiel"
+      ],
+      [
+        "U.S. Military Forces",
+        "Unconventional Warfare"
+      ],
+      [
+        "Conventional Warfare",
+        "Irregular Warfare"
+      ],
+      [
+        "Army",
+        "Joint Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Department of Justice"
+      ],
+      [
+        "Chinese Forces",
+        "Whistles"
+      ],
+      [
+        "Mission Execution",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Foreign Humanitarian Assistance",
+        "U.S. Forces"
+      ],
+      [
+        "Seven Phases Of Unconventional Warfare",
+        "Unconventional Warfare"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Hill 205"
+      ],
+      [
+        "Counterproliferation",
+        "Department Of Defense"
+      ],
+      [
+        "Special Operations Imperatives",
+        "Statecraft"
+      ],
+      [
+        "21 May 2021",
+        "Medal Of Honor"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Hostage Rescue"
+      ],
+      [
+        "Comprehensive Agreement on Bangsamoro",
+        "Mindanao"
+      ],
+      [
+        "Counter Threat Finance",
+        "Transnational Organized Crime"
+      ],
+      [
+        "Chinese Forces",
+        "Drums"
+      ],
+      [
+        "Medal Of Honor",
+        "Ralph Puckett, Jr."
+      ],
+      [
+        "Operational Preparation of the Environment",
+        "Theater War Plans"
+      ],
+      [
+        "DODD 5100.01",
+        "Special Operations Activities"
+      ],
+      [
+        "Military Information Support Operations",
+        "Secretary of Defense"
+      ],
+      [
+        "Physician Assistants",
+        "Role 1 Medical Treatment"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Hostage Rescue and Recovery"
+      ],
+      [
+        "Personnel Recovery",
+        "Special Operations"
+      ],
+      [
+        "25th Infantry Division",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Countering Weapons of Mass Destruction",
+        "Counterterrorism Operations"
+      ],
+      [
+        "Assigned Activities",
+        "Civil Affairs Operations"
+      ],
+      [
+        "Special Operations Imperatives",
+        "Target Audience Analyses"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Persistence"
+      ],
+      [
+        "Army Special Operations Forces",
+        "U.S. Special Operations Forces Schools"
+      ],
+      [
+        "Airborne Operations",
+        "USSOCOM"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Counterterrorism"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Direct Action"
+      ],
+      [
+        "Army Special Operations Principles",
+        "Special Operations"
+      ],
+      [
+        "Bugles",
+        "Chinese Forces"
+      ],
+      [
+        "Abu Sayyaf",
+        "Joint Special Operations Task Force-Philippines"
+      ],
+      [
+        "Direct Action",
+        "Ranger Units"
+      ],
+      [
+        "Role 3 Capability",
+        "U.S. Army"
+      ],
+      [
+        "Comprehensive Agreement on Bangsamoro",
+        "Government of the Philippines"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Unconventional Assisted Recovery"
+      ],
+      [
+        "Department Of Defense",
+        "Weapons Of Mass Destruction"
+      ],
+      [
+        "Civil Knowledge Integration",
+        "S/G/J-9 Staff Officers"
+      ],
+      [
+        "Foreign Humanitarian Assistance",
+        "Host Nation"
+      ],
+      [
+        "Civil Affairs Units",
+        "Civil-Military Operations Center"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Medical Evacuation Capability"
+      ],
+      [
+        "Department Of Defense",
+        "Security Force Assistance"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Multinational Partners"
+      ],
+      [
+        "North Korean Troops",
+        "South Korea"
+      ],
+      [
+        "Resistance Movement",
+        "Unconventional Warfare"
+      ],
+      [
+        "Direct Action",
+        "Special Forces"
+      ],
+      [
+        "Counterterrorism",
+        "JP 3-26"
+      ],
+      [
+        "Collection Point",
+        "Hill 205"
+      ],
+      [
+        "Army Imperatives",
+        "Electromagnetic Spectrum"
+      ],
+      [
+        "Support To Resistance",
+        "U.S. Government"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Army's Professional Ethics"
+      ],
+      [
+        "Irregular Warfare",
+        "Special Operations Activities"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Foreign Humanitarian Assistance"
+      ],
+      [
+        "11 September 2001 Terrorist Attacks",
+        "Northern Alliance"
+      ],
+      [
+        "Army Special Operations Activities",
+        "FM 3-05"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Governmental And Non-Governmental Organizations"
+      ],
+      [
+        "Joint Force",
+        "USASOC"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Tank Company"
+      ],
+      [
+        "Role 4",
+        "U.S. Army"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Special Forces Group"
+      ],
+      [
+        "Joint Special Operations Task Force-Philippines",
+        "U.S. Global War on Terror"
+      ],
+      [
+        "Hostage Rescue",
+        "U.S. Persons"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Subversion"
+      ],
+      [
+        "Security Cooperation",
+        "United States"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Operational Environment"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Nations"
+      ],
+      [
+        "Irregular Warfare",
+        "Joint Force"
+      ],
+      [
+        "Special Operations Activities",
+        "USSOCOM Directive 10-1"
+      ],
+      [
+        "Weapons Of Mass Destruction",
+        "Weapons Of Mass Destruction Defeat"
+      ],
+      [
+        "Dr. Michael Vickers",
+        "Undersecretary of Defense for Intelligence"
+      ],
+      [
+        "Countering Weapons Of Mass Destruction",
+        "JP 3-40"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Security Force Assistance"
+      ],
+      [
+        "528th Sustainment Brigade",
+        "Role 2 Level Care"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Department of State"
+      ],
+      [
+        "Civil Affairs Battalions",
+        "Special Forces Group"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Security"
+      ],
+      [
+        "Civil Affairs Operations",
+        "FM 3-57"
+      ],
+      [
+        "Psychological Operations Battalions",
+        "Special Forces Group"
+      ],
+      [
+        "2015",
+        "Joint Special Operations Task Force-Philippines"
+      ],
+      [
+        "Congress",
+        "Military Information Support Operations"
+      ],
+      [
+        "Artillery",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Security Force Assistance"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Force"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Society"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Intelligence Operations"
+      ],
+      [
+        "Civil-Military Integration",
+        "Indigenous Populations"
+      ],
+      [
+        "Chinese Forces",
+        "Grenade"
+      ],
+      [
+        "Partner Nations",
+        "Special Operations Forces"
+      ],
+      [
+        "Jemaah Islamiyah",
+        "Joint Special Operations Task Force-Philippines"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Philippines"
+      ],
+      [
+        "1st Special Forces Command",
+        "Special Forces Group"
+      ],
+      [
+        "Chinese Communist Party Forces",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Countering Weapons Of Mass Destruction",
+        "Department Of Defense"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Intelligence Systems"
+      ],
+      [
+        "Joint Force",
+        "Security Force Assistance"
+      ],
+      [
+        "Foreign Security Establishments",
+        "Security Cooperation"
+      ],
+      [
+        "Philippines",
+        "United States"
+      ],
+      [
+        "Action At Hill 205",
+        "Chinese Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Integration"
+      ],
+      [
+        "Directed Activities",
+        "Hostage Rescue and Recovery"
+      ],
+      [
+        "Partner Nations",
+        "Security Cooperation"
+      ],
+      [
+        "Armed Forces of the Philippines",
+        "Joint Special Operations Task Force-Philippines"
+      ],
+      [
+        "Counterterrorism",
+        "Terrorists"
+      ],
+      [
+        "31 March 1951",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Figure 2-1",
+        "Irregular Warfare"
+      ],
+      [
+        "Northern Alliance",
+        "Taliban"
+      ],
+      [
+        "Robotics and Unmanned Systems",
+        "USSOCOM"
+      ],
+      [
+        "Partnership",
+        "Planners"
+      ],
+      [
+        "Foreign Humanitarian Assistance",
+        "JP 3-29"
+      ],
+      [
+        "JP 3-05",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Army Special Operations Forces",
+        "FM 3-05"
+      ],
+      [
+        "Campaign Plans",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Army Imperatives",
+        "FM 3-05"
+      ],
+      [
+        "Role 2 Level Care",
+        "Special Forces Groups"
+      ],
+      [
+        "Army Imperatives",
+        "Multidomain Operations"
+      ],
+      [
+        "Countering Weapons of Mass Destruction",
+        "Special Reconnaissance"
+      ],
+      [
+        "Counterproliferation",
+        "Weapons Of Mass Destruction"
+      ],
+      [
+        "Enemy",
+        "Military Government Operations"
+      ],
+      [
+        "Pusan Perimeter",
+        "United Nations Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Reconnaissance"
+      ],
+      [
+        "Indo-Pacific Command",
+        "United States"
+      ],
+      [
+        "Army",
+        "Department Of Defense"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Indirect Fire Support"
+      ],
+      [
+        "Countering Weapons of Mass Destruction",
+        "Department of Defense"
+      ],
+      [
+        "Countering Weapons of Mass Destruction",
+        "Military Information Support Operations"
+      ],
+      [
+        "Civil Affairs Operations",
+        "Civil Network Development and Engagement"
+      ],
+      [
+        "Action At Hill 205",
+        "Hill 205"
+      ],
+      [
+        "Mission Partners",
+        "U.S. Military Forces"
+      ],
+      [
+        "Balikatan",
+        "United States"
+      ],
+      [
+        "Army",
+        "Army Imperatives"
+      ],
+      [
+        "President",
+        "Special Operations Directed Activities"
+      ],
+      [
+        "Army Forces",
+        "Host Nation"
+      ],
+      [
+        "Counter Threat Finance",
+        "U.S. Army"
+      ],
+      [
+        "Civil Affairs Medical Sergeants",
+        "Role 1 Medical Treatment"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Humanitarian Assistance"
+      ],
+      [
+        "Army Integrating Processes",
+        "Command And Control Elements"
+      ],
+      [
+        "Department of Defense",
+        "Department of Defense Strategy for Countering Weapons of Mass Destruction"
+      ],
+      [
+        "Delivery Systems",
+        "Weapons Of Mass Destruction"
+      ],
+      [
+        "Military Information Support Operations",
+        "Psychological Operations Units"
+      ],
+      [
+        "Counter Threat Finance",
+        "Terrorism"
+      ],
+      [
+        "Foreign Internal Defense",
+        "Host Nation"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Sensitive Site Exploitation"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Nation Security Forces"
+      ],
+      [
+        "Eighth Army Ranger Company",
+        "Korean War"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Private Organizations"
+      ],
+      [
+        "Civil Affairs Forces",
+        "U.S. Embassy Country Teams"
+      ],
+      [
+        "Secretary Of Defense",
+        "Special Operations Directed Activities"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Internal Stability"
+      ],
+      [
+        "Directed Activities",
+        "Special Operations Activities"
+      ],
+      [
+        "Combatant Commanders",
+        "President"
+      ],
+      [
+        "2002",
+        "Joint Special Operations Task Force-Philippines"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Operations Imperatives"
+      ],
+      [
+        "Direct Action",
+        "Sniping"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Personnel Recovery"
+      ],
+      [
+        "Army Imperatives",
+        "Special Operations Imperatives"
+      ],
+      [
+        "National Interests",
+        "Soldiers"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Combatant Command"
+      ],
+      [
+        "Role 1 Medical Treatment",
+        "Special Operations Combat Medics"
+      ],
+      [
+        "Department Of Justice",
+        "JP 3-26"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Unified Action Partners"
+      ],
+      [
+        "Bayonets",
+        "Eighth Army Ranger Company"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Sensitive Material Recovery"
+      ],
+      [
+        "Adversary Forces",
+        "Army Imperatives"
+      ],
+      [
+        "Army's Professional Ethics",
+        "Special Operations Soldiers"
+      ],
+      [
+        "Civil Affairs Operations",
+        "Civil Knowledge Integration"
+      ],
+      [
+        "Army Special Operations Forces",
+        "State And Non-State Actors"
+      ],
+      [
+        "Civil Affairs Operations",
+        "Civil-Military Integration"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Principles of War"
+      ],
+      [
+        "25 November 1950",
+        "Action At Hill 205"
+      ]
+    ],
+    "count": 273,
+    "create_time": 1778759312,
+    "update_time": 1778759312,
+    "_id": "doc-85977a239ea6ab9aceba23834e94c4ef"
+  }
+}

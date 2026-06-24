@@ -1,0 +1,5961 @@
+{
+  "ADP 3-90<SEP>Science of Tactics": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "ADP 3-90<SEP>Science of Tactics"
+  },
+  "ADP 3-0<SEP>Combat Power": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "ADP 3-0<SEP>Combat Power"
+  },
+  "Army<SEP>Warfighting Functions": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Army<SEP>Warfighting Functions"
+  },
+  "Leaders<SEP>Science of Tactics": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Leaders<SEP>Science of Tactics"
+  },
+  "31 July 2019<SEP>ADP 3-90": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82",
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 2,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "31 July 2019<SEP>ADP 3-90"
+  },
+  "Commanders<SEP>Initiative": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Commanders<SEP>Initiative"
+  },
+  "ADP 3-0<SEP>Combined Arms": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "ADP 3-0<SEP>Combined Arms"
+  },
+  "Decisive Results<SEP>Offensive Action": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Decisive Results<SEP>Offensive Action"
+  },
+  "Initiative<SEP>Momentum": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Initiative<SEP>Momentum"
+  },
+  "Combat Power<SEP>Commanders": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Combat Power<SEP>Commanders"
+  },
+  "Combined Arms<SEP>Combined Arms Team": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Combined Arms<SEP>Combined Arms Team"
+  },
+  "Friendly Forces<SEP>Rules of Engagement": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748540,
+    "update_time": 1778748540,
+    "_id": "Friendly Forces<SEP>Rules of Engagement"
+  },
+  "Limit of Advance<SEP>Offensive Action": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748541,
+    "update_time": 1778748541,
+    "_id": "Limit of Advance<SEP>Offensive Action"
+  },
+  "Commanders<SEP>Enemy Forces": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82",
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 3,
+    "create_time": 1778748541,
+    "update_time": 1778748541,
+    "_id": "Commanders<SEP>Enemy Forces"
+  },
+  "Combat Power<SEP>Warfighting Functions": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748541,
+    "update_time": 1778748541,
+    "_id": "Combat Power<SEP>Warfighting Functions"
+  },
+  "Combat Power<SEP>Leadership": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748541,
+    "update_time": 1778748541,
+    "_id": "Combat Power<SEP>Leadership"
+  },
+  "Commanders<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82",
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 3,
+    "create_time": 1778748541,
+    "update_time": 1778748541,
+    "_id": "Commanders<SEP>Friendly Forces"
+  },
+  "Combat Power<SEP>Fires": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748541,
+    "update_time": 1778748541,
+    "_id": "Combat Power<SEP>Fires"
+  },
+  "Combat Power<SEP>Intelligence": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Combat Power<SEP>Intelligence"
+  },
+  "Commanders<SEP>Course of Action": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82",
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 2,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Commanders<SEP>Course of Action"
+  },
+  "Combat Power<SEP>Sustainment": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Combat Power<SEP>Sustainment"
+  },
+  "Commanders<SEP>Terrain": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Commanders<SEP>Terrain"
+  },
+  "Combat Power<SEP>Protection": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Combat Power<SEP>Protection"
+  },
+  "Commanders<SEP>Information Operations": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Commanders<SEP>Information Operations"
+  },
+  "Leaders<SEP>Military Decision-Making Process": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748542,
+    "update_time": 1778748542,
+    "_id": "Leaders<SEP>Military Decision-Making Process"
+  },
+  "Combat Power<SEP>Command and Control": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Combat Power<SEP>Command and Control"
+  },
+  "Combat<SEP>Soldiers": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Combat<SEP>Soldiers"
+  },
+  "Art of Tactics<SEP>Leaders": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Art of Tactics<SEP>Leaders"
+  },
+  "Commanders<SEP>Cyberspace Operations": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Commanders<SEP>Cyberspace Operations"
+  },
+  "Art of Tactics<SEP>Soldiers": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Art of Tactics<SEP>Soldiers"
+  },
+  "Army<SEP>Land Domain": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Army<SEP>Land Domain"
+  },
+  "Combat Power<SEP>Movement and Maneuver": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Combat Power<SEP>Movement and Maneuver"
+  },
+  "Friendly Forces<SEP>Information Operations": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Friendly Forces<SEP>Information Operations"
+  },
+  "Commanders<SEP>Electronic Warfare": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Commanders<SEP>Electronic Warfare"
+  },
+  "Cyberspace Operations<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Cyberspace Operations<SEP>Friendly Forces"
+  },
+  "Combat Power<SEP>Information": {
+    "chunk_ids": [
+      "chunk-52b99141c5846e6f7e60bd1665d2ca82"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Combat Power<SEP>Information"
+  },
+  "ADP 3-0<SEP>Combat": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "ADP 3-0<SEP>Combat"
+  },
+  "ADP 6-0<SEP>Mission Variables": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "ADP 6-0<SEP>Mission Variables"
+  },
+  "Art of Tactics<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Art of Tactics<SEP>Friendly Forces"
+  },
+  "Science of Tactics<SEP>Tactics": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748543,
+    "update_time": 1778748543,
+    "_id": "Science of Tactics<SEP>Tactics"
+  },
+  "Commanders<SEP>Staffs": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 3,
+    "update_time": 1778759304,
+    "_id": "Commanders<SEP>Staffs"
+  },
+  "Liaison Officers<SEP>Military Decision-Making Process": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Liaison Officers<SEP>Military Decision-Making Process"
+  },
+  "Commanders<SEP>Resources": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 2,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Commanders<SEP>Resources"
+  },
+  "Electronic Warfare<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Electronic Warfare<SEP>Friendly Forces"
+  },
+  "Art of Tactics<SEP>Tactics": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Art of Tactics<SEP>Tactics"
+  },
+  "Area of Operations<SEP>Army": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Area of Operations<SEP>Army"
+  },
+  "Commanders<SEP>Control Measures": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Commanders<SEP>Control Measures"
+  },
+  "Friendly Forces<SEP>Initiative": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Friendly Forces<SEP>Initiative"
+  },
+  "Leaders<SEP>Warning Orders": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Leaders<SEP>Warning Orders"
+  },
+  "Army<SEP>Local Population": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748544,
+    "update_time": 1778748544,
+    "_id": "Army<SEP>Local Population"
+  },
+  "Commanders<SEP>Tempo": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Commanders<SEP>Tempo"
+  },
+  "Combat<SEP>Unit Cohesion": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Combat<SEP>Unit Cohesion"
+  },
+  "ADP 3-90<SEP>Tactical Fundamentals": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 2,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "ADP 3-90<SEP>Tactical Fundamentals"
+  },
+  "Collaborative Systems<SEP>Leaders": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Collaborative Systems<SEP>Leaders"
+  },
+  "Commanders<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd",
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 3,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Commanders<SEP>Risk"
+  },
+  "Main Body<SEP>Tactical Command": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 2,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Main Body<SEP>Tactical Command"
+  },
+  "Adversaries<SEP>Army": {
+    "chunk_ids": [
+      "chunk-7e26474dd179be588057ca7d29d2fdfd"
+    ],
+    "count": 1,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Adversaries<SEP>Army"
+  },
+  "Formation<SEP>Main Body": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Formation<SEP>Main Body"
+  },
+  "Operations Process<SEP>Task Organization": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Operations Process<SEP>Task Organization"
+  },
+  "Advance Guards<SEP>Main Body": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 2,
+    "create_time": 1778748545,
+    "update_time": 1778748545,
+    "_id": "Advance Guards<SEP>Main Body"
+  },
+  "Flank Guards<SEP>Main Body": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 2,
+    "create_time": 1778748546,
+    "update_time": 1778748546,
+    "_id": "Flank Guards<SEP>Main Body"
+  },
+  "Opportunities<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748546,
+    "update_time": 1778748546,
+    "_id": "Opportunities<SEP>Risk"
+  },
+  "Mission<SEP>Operations Process": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748546,
+    "update_time": 1778748546,
+    "_id": "Mission<SEP>Operations Process"
+  },
+  "Covering Forces<SEP>Main Body": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 2,
+    "create_time": 1778748546,
+    "update_time": 1778748546,
+    "_id": "Covering Forces<SEP>Main Body"
+  },
+  "Operations Process<SEP>Priorities": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748546,
+    "update_time": 1778748546,
+    "_id": "Operations Process<SEP>Priorities"
+  },
+  "Commanders<SEP>Main Body": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748546,
+    "update_time": 1778748546,
+    "_id": "Commanders<SEP>Main Body"
+  },
+  "Detached Elements<SEP>Main Body": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748547,
+    "update_time": 1778748547,
+    "_id": "Detached Elements<SEP>Main Body"
+  },
+  "Commanders<SEP>Mission": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748547,
+    "update_time": 1778748547,
+    "_id": "Commanders<SEP>Mission"
+  },
+  "ADP 3-90<SEP>Chapter 1": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748547,
+    "update_time": 1778748547,
+    "_id": "ADP 3-90<SEP>Chapter 1"
+  },
+  "Commanders<SEP>Information": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748547,
+    "update_time": 1778748547,
+    "_id": "Commanders<SEP>Information"
+  },
+  "Combat Power<SEP>Momentum": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748547,
+    "update_time": 1778748547,
+    "_id": "Combat Power<SEP>Momentum"
+  },
+  "Commanders<SEP>Uncertainty": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319",
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 2,
+    "create_time": 1778748548,
+    "update_time": 1778748548,
+    "_id": "Commanders<SEP>Uncertainty"
+  },
+  "ADP 6-0<SEP>Operations Process": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748548,
+    "update_time": 1778748548,
+    "_id": "ADP 6-0<SEP>Operations Process"
+  },
+  "Commanders<SEP>Reserves": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748548,
+    "update_time": 1778748548,
+    "_id": "Commanders<SEP>Reserves"
+  },
+  "ADP 3-0<SEP>Consolidate Gains": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748548,
+    "update_time": 1778748548,
+    "_id": "ADP 3-0<SEP>Consolidate Gains"
+  },
+  "Commanders<SEP>Security Forces": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748548,
+    "update_time": 1778748548,
+    "_id": "Commanders<SEP>Security Forces"
+  },
+  "9th Armored Division<SEP>Seizure Of The Bridge At Remagen": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "9th Armored Division<SEP>Seizure Of The Bridge At Remagen"
+  },
+  "Commanders<SEP>Purpose": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "Commanders<SEP>Purpose"
+  },
+  "Hasty Operation<SEP>Seizure Of The Bridge At Remagen": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "Hasty Operation<SEP>Seizure Of The Bridge At Remagen"
+  },
+  "Commanders<SEP>Situation": {
+    "chunk_ids": [
+      "chunk-64802ecdf1ea6ab74a5fb1338e603319"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "Commanders<SEP>Situation"
+  },
+  "1st Infantry Division<SEP>Breaching Operation": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "1st Infantry Division<SEP>Breaching Operation"
+  },
+  "Bridge At Remagen<SEP>Seizure Of The Bridge At Remagen": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "Bridge At Remagen<SEP>Seizure Of The Bridge At Remagen"
+  },
+  "Breaching Operation<SEP>Deliberate Operation": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748549,
+    "update_time": 1778748549,
+    "_id": "Breaching Operation<SEP>Deliberate Operation"
+  },
+  "Commanders<SEP>Momentum": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Commanders<SEP>Momentum"
+  },
+  "Breaching Operation<SEP>Operation Desert Storm": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Breaching Operation<SEP>Operation Desert Storm"
+  },
+  "ADP 3-90<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "ADP 3-90<SEP>Risk"
+  },
+  "Commanders<SEP>Operations Process": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Commanders<SEP>Operations Process"
+  },
+  "Fragmentary Orders<SEP>Hasty Operation": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Fragmentary Orders<SEP>Hasty Operation"
+  },
+  "Commanders<SEP>Consolidate Gains": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Commanders<SEP>Consolidate Gains"
+  },
+  "Common Operational Picture<SEP>Operations Process": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Common Operational Picture<SEP>Operations Process"
+  },
+  "Combined Arms<SEP>Hasty Operation": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Combined Arms<SEP>Hasty Operation"
+  },
+  "Commanders<SEP>Subordinate Leaders": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Commanders<SEP>Subordinate Leaders"
+  },
+  "Consolidate Gains<SEP>Legitimate Authorities": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748550,
+    "update_time": 1778748550,
+    "_id": "Consolidate Gains<SEP>Legitimate Authorities"
+  },
+  "Combat Information<SEP>Commanders": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748551,
+    "update_time": 1778748551,
+    "_id": "Combat Information<SEP>Commanders"
+  },
+  "Commanders<SEP>Intelligence Staff": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748551,
+    "update_time": 1778748551,
+    "_id": "Commanders<SEP>Intelligence Staff"
+  },
+  "Combat Information<SEP>JP 2-01": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748551,
+    "update_time": 1778748551,
+    "_id": "Combat Information<SEP>JP 2-01"
+  },
+  "Momentum<SEP>Unit": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748551,
+    "update_time": 1778748551,
+    "_id": "Momentum<SEP>Unit"
+  },
+  "Commanders<SEP>Planning Process": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748552,
+    "update_time": 1778748552,
+    "_id": "Commanders<SEP>Planning Process"
+  },
+  "Commander<SEP>Decision": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748552,
+    "update_time": 1778748552,
+    "_id": "Commander<SEP>Decision"
+  },
+  "Decision<SEP>Information": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748552,
+    "update_time": 1778748552,
+    "_id": "Decision<SEP>Information"
+  },
+  "Commander<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748552,
+    "update_time": 1778748552,
+    "_id": "Commander<SEP>Risk"
+  },
+  "Commanders<SEP>Decision-making Process": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748552,
+    "update_time": 1778748552,
+    "_id": "Commanders<SEP>Decision-making Process"
+  },
+  "Operation<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Operation<SEP>Risk"
+  },
+  "Actions On Contact<SEP>Battalion Task Force": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Actions On Contact<SEP>Battalion Task Force"
+  },
+  "Commanders<SEP>Mission Variables": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Commanders<SEP>Mission Variables"
+  },
+  "Commander<SEP>Subordinates": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Commander<SEP>Subordinates"
+  },
+  "Planning<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Planning<SEP>Risk"
+  },
+  "Information Technologies<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Information Technologies<SEP>Risk"
+  },
+  "Security Area<SEP>Security Elements": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Security Area<SEP>Security Elements"
+  },
+  "Agility<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Agility<SEP>Friendly Forces"
+  },
+  "Commanders<SEP>Higher Commander": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Commanders<SEP>Higher Commander"
+  },
+  "Commander<SEP>Enemy": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Commander<SEP>Enemy"
+  },
+  "Commanders<SEP>Leaders": {
+    "chunk_ids": [
+      "chunk-7eca3fafdc38ef10f3b3cf3553129b6b"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Commanders<SEP>Leaders"
+  },
+  "Course Of Action<SEP>Risk": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Course Of Action<SEP>Risk"
+  },
+  "Agility<SEP>Mission Command Approach": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Agility<SEP>Mission Command Approach"
+  },
+  "Figure 1-1<SEP>Risk Reduction": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Figure 1-1<SEP>Risk Reduction"
+  },
+  "Commander<SEP>Higher Commander": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "Commander<SEP>Higher Commander"
+  },
+  "ADP 3-90<SEP>Tactics": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748553,
+    "update_time": 1778748553,
+    "_id": "ADP 3-90<SEP>Tactics"
+  },
+  "Commanders<SEP>Tactical Level Of Warfare": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Commanders<SEP>Tactical Level Of Warfare"
+  },
+  "Risk<SEP>Uncertainty": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Risk<SEP>Uncertainty"
+  },
+  "Combat Power<SEP>Commander": {
+    "chunk_ids": [
+      "chunk-d3d34db12b1eccda9d78d171ad5c4a96"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Combat Power<SEP>Commander"
+  },
+  "ADP 3-90<SEP>Army": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "ADP 3-90<SEP>Army"
+  },
+  "Engagement<SEP>Tactical Level Of Warfare": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Engagement<SEP>Tactical Level Of Warfare"
+  },
+  "Commanders<SEP>TTP": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Commanders<SEP>TTP"
+  },
+  "METT-TC<SEP>Tactical Problem": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "METT-TC<SEP>Tactical Problem"
+  },
+  "Army Leaders<SEP>Art Of Tactics": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Army Leaders<SEP>Art Of Tactics"
+  },
+  "Army Leaders<SEP>Science Of Tactics": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748554,
+    "update_time": 1778748554,
+    "_id": "Army Leaders<SEP>Science Of Tactics"
+  },
+  "Battle<SEP>Tactical Level Of Warfare": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "Battle<SEP>Tactical Level Of Warfare"
+  },
+  "Engagement<SEP>JP 3-0": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "Engagement<SEP>JP 3-0"
+  },
+  "ADP 3-0<SEP>Strategic Level Of Warfare": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "ADP 3-0<SEP>Strategic Level Of Warfare"
+  },
+  "National Assets<SEP>Tactical Level Of Warfare": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "National Assets<SEP>Tactical Level Of Warfare"
+  },
+  "Enemy Forces<SEP>Engagement": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "Enemy Forces<SEP>Engagement"
+  },
+  "ADP 6-0<SEP>METT-TC": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "ADP 6-0<SEP>METT-TC"
+  },
+  "ADP 3-0<SEP>Operational Level Of Warfare": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "ADP 3-0<SEP>Operational Level Of Warfare"
+  },
+  "Battle<SEP>Engagement": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "Battle<SEP>Engagement"
+  },
+  "Tactical Level Of Warfare<SEP>Task Forces": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748555,
+    "update_time": 1778748555,
+    "_id": "Tactical Level Of Warfare<SEP>Task Forces"
+  },
+  "Brigades<SEP>Engagement": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748556,
+    "update_time": 1778748556,
+    "_id": "Brigades<SEP>Engagement"
+  },
+  "Battle<SEP>JP 3-0": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748556,
+    "update_time": 1778748556,
+    "_id": "Battle<SEP>JP 3-0"
+  },
+  "ADP 3-90<SEP>Joint Capabilities": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748556,
+    "update_time": 1778748556,
+    "_id": "ADP 3-90<SEP>Joint Capabilities"
+  },
+  "National Assets<SEP>Space-Based Capabilities": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748556,
+    "update_time": 1778748556,
+    "_id": "National Assets<SEP>Space-Based Capabilities"
+  },
+  "Battle<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748556,
+    "update_time": 1778748556,
+    "_id": "Battle<SEP>Friendly Forces"
+  },
+  "Cyberspace Capabilities<SEP>National Assets": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748556,
+    "update_time": 1778748556,
+    "_id": "Cyberspace Capabilities<SEP>National Assets"
+  },
+  "Battle<SEP>Division": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748557,
+    "update_time": 1778748557,
+    "_id": "Battle<SEP>Division"
+  },
+  "Battle<SEP>Corps": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748557,
+    "update_time": 1778748557,
+    "_id": "Battle<SEP>Corps"
+  },
+  "Battle<SEP>Campaign": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748558,
+    "update_time": 1778748558,
+    "_id": "Battle<SEP>Campaign"
+  },
+  "Battle<SEP>Major Operation": {
+    "chunk_ids": [
+      "chunk-6888ee0fc5990f7bfbc04bd6cfb28c44"
+    ],
+    "count": 1,
+    "create_time": 1778748558,
+    "update_time": 1778748558,
+    "_id": "Battle<SEP>Major Operation"
+  },
+  "Adversaries<SEP>Light-To-Medium Air Defense Artillery": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752929,
+    "update_time": 1778752929,
+    "_id": "Adversaries<SEP>Light-To-Medium Air Defense Artillery"
+  },
+  "Basement<SEP>Enemy Forces": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752929,
+    "update_time": 1778752929,
+    "_id": "Basement<SEP>Enemy Forces"
+  },
+  "Commercial Off-The-Shelf SUAS<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752929,
+    "update_time": 1778752929,
+    "_id": "Commercial Off-The-Shelf SUAS<SEP>Friendly Forces"
+  },
+  "Aircraft<SEP>Pilots": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752929,
+    "update_time": 1778752929,
+    "_id": "Aircraft<SEP>Pilots"
+  },
+  "Aircraft<SEP>JTACs": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752929,
+    "update_time": 1778752929,
+    "_id": "Aircraft<SEP>JTACs"
+  },
+  "Civilian Population<SEP>Planners": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752929,
+    "update_time": 1778752929,
+    "_id": "Civilian Population<SEP>Planners"
+  },
+  "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Urban Operations"
+  },
+  "Adversaries<SEP>Man-Portable Air Defense Systems": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Adversaries<SEP>Man-Portable Air Defense Systems"
+  },
+  "Positive Control Methods<SEP>Tactical Air Operations Centers": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Positive Control Methods<SEP>Tactical Air Operations Centers"
+  },
+  "Aircrews<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Aircrews<SEP>Friendly Forces"
+  },
+  "Buildings<SEP>Radios": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Buildings<SEP>Radios"
+  },
+  "Aircraft<SEP>FAC(A)": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Aircraft<SEP>FAC(A)"
+  },
+  "C2 Networks<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "C2 Networks<SEP>Natural Disasters"
+  },
+  "Dismounted Troops<SEP>Fields Of Fire": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Dismounted Troops<SEP>Fields Of Fire"
+  },
+  "Intelligence Assessments<SEP>Pre-Mission Briefing": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Intelligence Assessments<SEP>Pre-Mission Briefing"
+  },
+  "Enemy Forces<SEP>Tank Guns": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Enemy Forces<SEP>Tank Guns"
+  },
+  "Joint Fires Observers<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Joint Fires Observers<SEP>Urban Operations"
+  },
+  "Air Asset Deconfliction And Integration<SEP>Airborne Warning And Control System": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Air Asset Deconfliction And Integration<SEP>Airborne Warning And Control System"
+  },
+  "Close Air Support<SEP>JP 3-09.3": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Close Air Support<SEP>JP 3-09.3"
+  },
+  "Air Officer<SEP>Aircraft": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Air Officer<SEP>Aircraft"
+  },
+  "Air Asset Deconfliction And Integration<SEP>Fire Support Coordination Measures": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Air Asset Deconfliction And Integration<SEP>Fire Support Coordination Measures"
+  },
+  "C2 Planning<SEP>Radio Relay Support Systems": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "C2 Planning<SEP>Radio Relay Support Systems"
+  },
+  "Joint Planners<SEP>MGRS Coordinate System": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752930,
+    "update_time": 1778752930,
+    "_id": "Joint Planners<SEP>MGRS Coordinate System"
+  },
+  "Ground Force Commander<SEP>Supporting Units": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Ground Force Commander<SEP>Supporting Units"
+  },
+  "C2 Planning<SEP>Rooftop Retransmission Systems": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "C2 Planning<SEP>Rooftop Retransmission Systems"
+  },
+  "Grid Reference Graphic<SEP>MGRS Coordinate System": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Grid Reference Graphic<SEP>MGRS Coordinate System"
+  },
+  "Close Air Support<SEP>Target Reference Point": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Close Air Support<SEP>Target Reference Point"
+  },
+  "Air Asset Deconfliction And Integration<SEP>Air Defense Measures": {
+    "chunk_ids": [
+      "chunk-c0e9849c17fc43c6ff4116d537e8d8ae"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Air Asset Deconfliction And Integration<SEP>Air Defense Measures"
+  },
+  "Target Reference Point<SEP>Water Tower": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Target Reference Point<SEP>Water Tower"
+  },
+  "Integrated Air Defense System<SEP>Urban Flight Techniques": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Integrated Air Defense System<SEP>Urban Flight Techniques"
+  },
+  "Grid Reference Graphic<SEP>Ground Force Commander": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Grid Reference Graphic<SEP>Ground Force Commander"
+  },
+  "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Urban Flight Techniques": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Urban Flight Techniques"
+  },
+  "Objective Area<SEP>Simple Grid System Technique": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Objective Area<SEP>Simple Grid System Technique"
+  },
+  "Reference Areas<SEP>Roads": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Reference Areas<SEP>Roads"
+  },
+  "CAS 9-Line<SEP>Close Air Support": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "CAS 9-Line<SEP>Close Air Support"
+  },
+  "22 FEB 2022<SEP>ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476",
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 2,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "22 FEB 2022<SEP>ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29"
+  },
+  "Controlled Flight Into Terrain<SEP>Low Flight Profiles": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Controlled Flight Into Terrain<SEP>Low Flight Profiles"
+  },
+  "High Flight Profiles<SEP>Small Arms": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "High Flight Profiles<SEP>Small Arms"
+  },
+  "Ground Force Commander<SEP>Subordinate Commands": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Ground Force Commander<SEP>Subordinate Commands"
+  },
+  "Aircrew<SEP>Grid Reference Graphic": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Aircrew<SEP>Grid Reference Graphic"
+  },
+  "Low Flight Profiles<SEP>Tactical Surprise": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Low Flight Profiles<SEP>Tactical Surprise"
+  },
+  "Issuing Organization<SEP>Version Numbers": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752931,
+    "update_time": 1778752931,
+    "_id": "Issuing Organization<SEP>Version Numbers"
+  },
+  "Ground Force Commander<SEP>Joint Agencies": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Ground Force Commander<SEP>Joint Agencies"
+  },
+  "Bridges<SEP>Named Areas of Interest": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Bridges<SEP>Named Areas of Interest"
+  },
+  "Choke Points<SEP>Named Areas of Interest": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Choke Points<SEP>Named Areas of Interest"
+  },
+  "Aircrew<SEP>Building Marking Techniques": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Aircrew<SEP>Building Marking Techniques"
+  },
+  "Landing Zone (LZ)<SEP>Planners": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Landing Zone (LZ)<SEP>Planners"
+  },
+  "Grid Reference Graphic<SEP>Version Numbers": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Grid Reference Graphic<SEP>Version Numbers"
+  },
+  "Aircraft<SEP>Rooftop": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Aircraft<SEP>Rooftop"
+  },
+  "Aircraft<SEP>Load-Bearing Structures": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Aircraft<SEP>Load-Bearing Structures"
+  },
+  "LOS Communications<SEP>Urban Environment": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "LOS Communications<SEP>Urban Environment"
+  },
+  "Enemy<SEP>Landing Zone (LZ)": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Enemy<SEP>Landing Zone (LZ)"
+  },
+  "Aircrews<SEP>Rooftop Insertion and Extraction Techniques": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Aircrews<SEP>Rooftop Insertion and Extraction Techniques"
+  },
+  "Helipads<SEP>Load-Bearing Structures": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Helipads<SEP>Load-Bearing Structures"
+  },
+  "Grid Reference Graphic<SEP>Operators": {
+    "chunk_ids": [
+      "chunk-9003ffcb1e412e2a2979f93305f0e476"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Grid Reference Graphic<SEP>Operators"
+  },
+  "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Landing Zone (LZ)": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Landing Zone (LZ)"
+  },
+  "Aircraft<SEP>Mechanical Turbulence": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Aircraft<SEP>Mechanical Turbulence"
+  },
+  "Civilians<SEP>Hoist Operations": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752932,
+    "update_time": 1778752932,
+    "_id": "Civilians<SEP>Hoist Operations"
+  },
+  "Antennas<SEP>Rooftop": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752933,
+    "update_time": 1778752933,
+    "_id": "Antennas<SEP>Rooftop"
+  },
+  "FARP<SEP>Landing Zone (LZ)": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752933,
+    "update_time": 1778752933,
+    "_id": "FARP<SEP>Landing Zone (LZ)"
+  },
+  "Aircraft<SEP>Light Pollution": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752933,
+    "update_time": 1778752933,
+    "_id": "Aircraft<SEP>Light Pollution"
+  },
+  "FARP<SEP>Sports Stadiums": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c",
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 2,
+    "create_time": 1778752933,
+    "update_time": 1778752933,
+    "_id": "FARP<SEP>Sports Stadiums"
+  },
+  "Rooftop<SEP>Wires": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752933,
+    "update_time": 1778752933,
+    "_id": "Rooftop<SEP>Wires"
+  },
+  "Commander<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752933,
+    "update_time": 1778752933,
+    "_id": "Commander<SEP>Urban Operations"
+  },
+  "Established Airfields<SEP>FARP": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c",
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 2,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "Established Airfields<SEP>FARP"
+  },
+  "Ground Force Commander<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "Ground Force Commander<SEP>Urban Operations"
+  },
+  "Combatants<SEP>FARP": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "Combatants<SEP>FARP"
+  },
+  "Urban Operations<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "Urban Operations<SEP>Urban Terrain"
+  },
+  "Satellite Imagery<SEP>Space Support Personnel": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "Satellite Imagery<SEP>Space Support Personnel"
+  },
+  "Rules Of Engagement<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "Rules Of Engagement<SEP>Urban Operations"
+  },
+  "FARP<SEP>Rotary-Wing Aircraft": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752934,
+    "update_time": 1778752934,
+    "_id": "FARP<SEP>Rotary-Wing Aircraft"
+  },
+  "FARP<SEP>Fixed-Wing Aircraft": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "FARP<SEP>Fixed-Wing Aircraft"
+  },
+  "Noncombatants<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Noncombatants<SEP>Urban Operations"
+  },
+  "FARP<SEP>Tiltrotor Aircraft": {
+    "chunk_ids": [
+      "chunk-255d2259beb766bee7c72c77afa91c9c"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "FARP<SEP>Tiltrotor Aircraft"
+  },
+  "Satellite Imagery<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Satellite Imagery<SEP>Urban Operations"
+  },
+  "Flight Hazards<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Flight Hazards<SEP>Urban Terrain"
+  },
+  "Suppression Of Enemy Air Defenses<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Suppression Of Enemy Air Defenses<SEP>Urban Operations"
+  },
+  "Aircraft<SEP>Flight Hazards": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Aircraft<SEP>Flight Hazards"
+  },
+  "Enemy<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Enemy<SEP>Urban Terrain"
+  },
+  "Enemy<SEP>Small Arms": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Enemy<SEP>Small Arms"
+  },
+  "Joint Intelligence Preparation Of The Operational Environment<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752935,
+    "update_time": 1778752935,
+    "_id": "Joint Intelligence Preparation Of The Operational Environment<SEP>Urban Operations"
+  },
+  "Enemy<SEP>Machine Guns": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "Enemy<SEP>Machine Guns"
+  },
+  "Joint Intelligence Preparation Of The Operational Environment<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "Joint Intelligence Preparation Of The Operational Environment<SEP>Urban Terrain"
+  },
+  "Enemy<SEP>Rocket-Propelled Grenades": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "Enemy<SEP>Rocket-Propelled Grenades"
+  },
+  "Air Traffic Hazards<SEP>SUAS": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "Air Traffic Hazards<SEP>SUAS"
+  },
+  "Joint Intelligence Preparation Of The Operational Environment<SEP>Signals Intelligence": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "Joint Intelligence Preparation Of The Operational Environment<SEP>Signals Intelligence"
+  },
+  "Electromagnetic Hazards<SEP>Global Positioning System": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "Electromagnetic Hazards<SEP>Global Positioning System"
+  },
+  "ATP 3-06.1<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752936,
+    "update_time": 1778752936,
+    "_id": "ATP 3-06.1<SEP>Urban Operations"
+  },
+  "Antitank Guided Missiles<SEP>Enemy": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Antitank Guided Missiles<SEP>Enemy"
+  },
+  "Human Intelligence<SEP>Joint Intelligence Preparation Of The Operational Environment": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Human Intelligence<SEP>Joint Intelligence Preparation Of The Operational Environment"
+  },
+  "ATP 3-06.1<SEP>MCRP 3-20.4": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "ATP 3-06.1<SEP>MCRP 3-20.4"
+  },
+  "Planners<SEP>Urban Operations": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Planners<SEP>Urban Operations"
+  },
+  "Air Defense Artillery<SEP>Enemy": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Air Defense Artillery<SEP>Enemy"
+  },
+  "Aircrews<SEP>Satellite Imagery": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Aircrews<SEP>Satellite Imagery"
+  },
+  "ATP 3-06.1<SEP>NTTP 3-01.04": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "ATP 3-06.1<SEP>NTTP 3-01.04"
+  },
+  "Geospatial Intelligence<SEP>Joint Intelligence Preparation Of The Operational Environment": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Geospatial Intelligence<SEP>Joint Intelligence Preparation Of The Operational Environment"
+  },
+  "Coalition Partners<SEP>Satellite Imagery": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Coalition Partners<SEP>Satellite Imagery"
+  },
+  "AFTTP 3-2.29<SEP>ATP 3-06.1": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "AFTTP 3-2.29<SEP>ATP 3-06.1"
+  },
+  "Enemy<SEP>Improvised Explosive Devices": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Enemy<SEP>Improvised Explosive Devices"
+  },
+  "Friendly Forces<SEP>SUAS": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752937,
+    "update_time": 1778752937,
+    "_id": "Friendly Forces<SEP>SUAS"
+  },
+  "Air Traffic Hazards<SEP>Rotary-Wing": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Air Traffic Hazards<SEP>Rotary-Wing"
+  },
+  "Air Traffic Hazards<SEP>Tiltrotor": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Air Traffic Hazards<SEP>Tiltrotor"
+  },
+  "GPS Jammers<SEP>Space Operators": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "GPS Jammers<SEP>Space Operators"
+  },
+  "Marshalling Plans<SEP>Rotary-Wing Aircraft": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Marshalling Plans<SEP>Rotary-Wing Aircraft"
+  },
+  "Booby Traps<SEP>Enemy": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Booby Traps<SEP>Enemy"
+  },
+  "FARP<SEP>Marshalling Plans": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "FARP<SEP>Marshalling Plans"
+  },
+  "Inertial Navigation Systems<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Inertial Navigation Systems<SEP>Weather Conditions"
+  },
+  "Air Traffic Hazards<SEP>Fixed-Wing Aircraft": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Air Traffic Hazards<SEP>Fixed-Wing Aircraft"
+  },
+  "GPS-Aided Guidance Systems<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "GPS-Aided Guidance Systems<SEP>Weather Conditions"
+  },
+  "Ceilings<SEP>High-Rise Rooftops": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Ceilings<SEP>High-Rise Rooftops"
+  },
+  "Weapon Systems<SEP>Winds": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Weapon Systems<SEP>Winds"
+  },
+  "GPS-Aided Guidance Systems<SEP>Solar and Geomagnetic Storm Activity": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "GPS-Aided Guidance Systems<SEP>Solar and Geomagnetic Storm Activity"
+  },
+  "Enemy<SEP>High-Energy Laser Pointers": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Enemy<SEP>High-Energy Laser Pointers"
+  },
+  "Urban Areas<SEP>Winds": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "Urban Areas<SEP>Winds"
+  },
+  "NVD<SEP>Urban Lights": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752938,
+    "update_time": 1778752938,
+    "_id": "NVD<SEP>Urban Lights"
+  },
+  "Aircrew<SEP>NVD": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "Aircrew<SEP>NVD"
+  },
+  "IR Strobe Lights<SEP>Urban Lights": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "IR Strobe Lights<SEP>Urban Lights"
+  },
+  "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Weather Conditions"
+  },
+  "Enemy<SEP>GPS Jammers": {
+    "chunk_ids": [
+      "chunk-466f239ae26f543930ce42fb131832cc"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "Enemy<SEP>GPS Jammers"
+  },
+  "IR Signatures<SEP>Urban Areas": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "IR Signatures<SEP>Urban Areas"
+  },
+  "Aircraft<SEP>Ground Observers": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "Aircraft<SEP>Ground Observers"
+  },
+  "City Structures<SEP>Winds": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "City Structures<SEP>Winds"
+  },
+  "JP 3-09.3<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "JP 3-09.3<SEP>Weather Conditions"
+  },
+  "Thermal Sights<SEP>Urban Areas": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "Thermal Sights<SEP>Urban Areas"
+  },
+  "Streets<SEP>Winds": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "Streets<SEP>Winds"
+  },
+  "Rural Areas<SEP>Urban Areas": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "Rural Areas<SEP>Urban Areas"
+  },
+  "IR Sensors<SEP>Thermal Sights": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752939,
+    "update_time": 1778752939,
+    "_id": "IR Sensors<SEP>Thermal Sights"
+  },
+  "Aircraft Sensors<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Aircraft Sensors<SEP>Weather Conditions"
+  },
+  "CAS<SEP>JP 3-09.3": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "CAS<SEP>JP 3-09.3"
+  },
+  "Environmental Concerns<SEP>Lighting Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Environmental Concerns<SEP>Lighting Conditions"
+  },
+  "Smog<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Smog<SEP>Weather Conditions"
+  },
+  "Rain<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Rain<SEP>Weather Conditions"
+  },
+  "Alleys<SEP>Winds": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Alleys<SEP>Winds"
+  },
+  "Environmental Concerns<SEP>Thermal Reflection": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Environmental Concerns<SEP>Thermal Reflection"
+  },
+  "Ceilings<SEP>Power Lines": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Ceilings<SEP>Power Lines"
+  },
+  "Unguided Weapons<SEP>Winds": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Unguided Weapons<SEP>Winds"
+  },
+  "Ceilings<SEP>Towers": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Ceilings<SEP>Towers"
+  },
+  "Environmental Concerns<SEP>Smoke or Fog": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Environmental Concerns<SEP>Smoke or Fog"
+  },
+  "Aircrew<SEP>Night Formation Tactics": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Aircrew<SEP>Night Formation Tactics"
+  },
+  "IR Strobe Lights<SEP>Marking Tools": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "IR Strobe Lights<SEP>Marking Tools"
+  },
+  "Ceilings<SEP>Smokestacks": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Ceilings<SEP>Smokestacks"
+  },
+  "Deconfliction<SEP>Urban Lights": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Deconfliction<SEP>Urban Lights"
+  },
+  "Dust<SEP>Weather Conditions": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Dust<SEP>Weather Conditions"
+  },
+  "Target Acquisition<SEP>Unaided Vision": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Target Acquisition<SEP>Unaided Vision"
+  },
+  "Air Force<SEP>Remotely-piloted Aircraft (RPA)": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752940,
+    "update_time": 1778752940,
+    "_id": "Air Force<SEP>Remotely-piloted Aircraft (RPA)"
+  },
+  "Air Defense Plan<SEP>Unmanned Aircraft System (UAS)": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Air Defense Plan<SEP>Unmanned Aircraft System (UAS)"
+  },
+  "Lost-link Contingency Procedures<SEP>Operator": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Lost-link Contingency Procedures<SEP>Operator"
+  },
+  "Planner<SEP>Route Planning": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Planner<SEP>Route Planning"
+  },
+  "Ceilings<SEP>Ordnance Delivery": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Ceilings<SEP>Ordnance Delivery"
+  },
+  "Pilot<SEP>Remotely-piloted Aircraft (RPA)": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Pilot<SEP>Remotely-piloted Aircraft (RPA)"
+  },
+  "Gridded Reference Graphic (GRG)<SEP>Military Grid Reference System (MGRS)": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Gridded Reference Graphic (GRG)<SEP>Military Grid Reference System (MGRS)"
+  },
+  "Engagement<SEP>Unaided Vision": {
+    "chunk_ids": [
+      "chunk-92727f2c37c01b0f00dced1121d6f6ba"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Engagement<SEP>Unaided Vision"
+  },
+  "Airspace Control Elements<SEP>Lost-link Contingency Procedures": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Airspace Control Elements<SEP>Lost-link Contingency Procedures"
+  },
+  "Operational Planning Products<SEP>Planner": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Operational Planning Products<SEP>Planner"
+  },
+  "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Unmanned Aircraft System (UAS)": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Unmanned Aircraft System (UAS)"
+  },
+  "Common Operations Graphics<SEP>Ground Force Commander": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Common Operations Graphics<SEP>Ground Force Commander"
+  },
+  "Group 1<SEP>Wasp III": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752941,
+    "update_time": 1778752941,
+    "_id": "Group 1<SEP>Wasp III"
+  },
+  "Group 1<SEP>RQ-11B": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Group 1<SEP>RQ-11B"
+  },
+  "Group 4<SEP>MQ-1 Predator": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Group 4<SEP>MQ-1 Predator"
+  },
+  "Geospatial Products<SEP>Operational Planning Products": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Geospatial Products<SEP>Operational Planning Products"
+  },
+  "Group 5<SEP>MQ-9 Reaper": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Group 5<SEP>MQ-9 Reaper"
+  },
+  "AWACS<SEP>Airspace Control Elements": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "AWACS<SEP>Airspace Control Elements"
+  },
+  "Operational Planning Products<SEP>Urban Areas": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Operational Planning Products<SEP>Urban Areas"
+  },
+  "Geospatial Products<SEP>World Geodetic System 1984": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Geospatial Products<SEP>World Geodetic System 1984"
+  },
+  "Group 5<SEP>RQ-4 Global Hawk": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Group 5<SEP>RQ-4 Global Hawk"
+  },
+  "Geospatial Products<SEP>National Geospatial-Intelligence Agency": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Geospatial Products<SEP>National Geospatial-Intelligence Agency"
+  },
+  "Airspace Control Elements<SEP>TAOC": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752942,
+    "update_time": 1778752942,
+    "_id": "Airspace Control Elements<SEP>TAOC"
+  },
+  "22 FEB 2022<SEP>ATP 3-06.1": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "22 FEB 2022<SEP>ATP 3-06.1"
+  },
+  "National Geospatial-Intelligence Agency<SEP>Notices To Airmen": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "National Geospatial-Intelligence Agency<SEP>Notices To Airmen"
+  },
+  "Aircrew<SEP>Geospatial Products": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Aircrew<SEP>Geospatial Products"
+  },
+  "22 FEB 2022<SEP>MCRP 3-20.4": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "22 FEB 2022<SEP>MCRP 3-20.4"
+  },
+  "Commanders<SEP>Cyberspace Domain": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Commanders<SEP>Cyberspace Domain"
+  },
+  "Airspace Control Elements<SEP>CRC": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Airspace Control Elements<SEP>CRC"
+  },
+  "22 FEB 2022<SEP>NTTP 3-01.04": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "22 FEB 2022<SEP>NTTP 3-01.04"
+  },
+  "Aircrews<SEP>Ground Maneuver Elements": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Aircrews<SEP>Ground Maneuver Elements"
+  },
+  "Commanders<SEP>Electromagnetic Environment": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Commanders<SEP>Electromagnetic Environment"
+  },
+  "Radio Frequency<SEP>Urban Environment": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Radio Frequency<SEP>Urban Environment"
+  },
+  "Aircrews<SEP>Controlling Agencies": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Aircrews<SEP>Controlling Agencies"
+  },
+  "Geospatial Products<SEP>Notices To Airmen": {
+    "chunk_ids": [
+      "chunk-f85140b13c2f4467aec323c7ad488b32"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Geospatial Products<SEP>Notices To Airmen"
+  },
+  "Airspace<SEP>MEDEVAC": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Airspace<SEP>MEDEVAC"
+  },
+  "Frequency Management<SEP>Urban Environment": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Frequency Management<SEP>Urban Environment"
+  },
+  "SUAS<SEP>Unmanned Aircraft System": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "SUAS<SEP>Unmanned Aircraft System"
+  },
+  "22 FEB 2022<SEP>AFTTP 3-2.29": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "22 FEB 2022<SEP>AFTTP 3-2.29"
+  },
+  "Enemy<SEP>Friendly Forces": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752943,
+    "update_time": 1778752943,
+    "_id": "Enemy<SEP>Friendly Forces"
+  },
+  "Airspace<SEP>CAS": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Airspace<SEP>CAS"
+  },
+  "Airspace Control<SEP>Aviation Assets": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Airspace Control<SEP>Aviation Assets"
+  },
+  "Noncombatants<SEP>Urban Environment": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Noncombatants<SEP>Urban Environment"
+  },
+  "RPA<SEP>Unmanned Aircraft System": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "RPA<SEP>Unmanned Aircraft System"
+  },
+  "Ground Control Stations<SEP>SUAS": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Ground Control Stations<SEP>SUAS"
+  },
+  "Regional Frequency Manager<SEP>Subordinate Commands": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Regional Frequency Manager<SEP>Subordinate Commands"
+  },
+  "Assembly Areas<SEP>Landing Zones": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Assembly Areas<SEP>Landing Zones"
+  },
+  "Assembly Areas<SEP>Forward Arming and Refueling Points": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Assembly Areas<SEP>Forward Arming and Refueling Points"
+  },
+  "Navigation Waypoints<SEP>SUAS": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Navigation Waypoints<SEP>SUAS"
+  },
+  "Friendly Forces<SEP>Full-Motion Video": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Friendly Forces<SEP>Full-Motion Video"
+  },
+  "Air Force<SEP>RPA": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Air Force<SEP>RPA"
+  },
+  "Area Frequency Manager<SEP>Subordinate Commands": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Area Frequency Manager<SEP>Subordinate Commands"
+  },
+  "Air Defense Plan<SEP>Unmanned Aircraft System": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Air Defense Plan<SEP>Unmanned Aircraft System"
+  },
+  "Commercial Aviation<SEP>Radio Frequency": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Commercial Aviation<SEP>Radio Frequency"
+  },
+  "Air Tasking Order<SEP>Aviation Assets": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Air Tasking Order<SEP>Aviation Assets"
+  },
+  "Air-Delivered Ground Refueling Sites<SEP>Assembly Areas": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Air-Delivered Ground Refueling Sites<SEP>Assembly Areas"
+  },
+  "Friendly Forces<SEP>Infrared Pointer": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "Friendly Forces<SEP>Infrared Pointer"
+  },
+  "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Flight Profiles": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752944,
+    "update_time": 1778752944,
+    "_id": "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29<SEP>Flight Profiles"
+  },
+  "Flight Profiles<SEP>Risk Assessment": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Flight Profiles<SEP>Risk Assessment"
+  },
+  "Public Safety<SEP>Radio Frequency": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Public Safety<SEP>Radio Frequency"
+  },
+  "Airspace Control Order<SEP>Aviation Assets": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Airspace Control Order<SEP>Aviation Assets"
+  },
+  "Small Arms<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Small Arms<SEP>Urban Terrain"
+  },
+  "Airspace Control Plan<SEP>Aviation Assets": {
+    "chunk_ids": [
+      "chunk-b3a8a845280b83251233809b74dd7287"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Airspace Control Plan<SEP>Aviation Assets"
+  },
+  "GPS<SEP>Urban Navigation": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "GPS<SEP>Urban Navigation"
+  },
+  "MANPADS<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "MANPADS<SEP>Urban Terrain"
+  },
+  "Linear Features<SEP>Urban Navigation": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Linear Features<SEP>Urban Navigation"
+  },
+  "Drop Zone<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752945,
+    "update_time": 1778752945,
+    "_id": "Drop Zone<SEP>Urban Terrain"
+  },
+  "Flight Profiles<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752946,
+    "update_time": 1778752946,
+    "_id": "Flight Profiles<SEP>Urban Terrain"
+  },
+  "Drop Zone<SEP>Parks": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752946,
+    "update_time": 1778752946,
+    "_id": "Drop Zone<SEP>Parks"
+  },
+  "Drop Zone<SEP>Stadiums": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752946,
+    "update_time": 1778752946,
+    "_id": "Drop Zone<SEP>Stadiums"
+  },
+  "Landing Zone<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752946,
+    "update_time": 1778752946,
+    "_id": "Landing Zone<SEP>Urban Terrain"
+  },
+  "Flight Profiles<SEP>Integrated Air Defense System": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752946,
+    "update_time": 1778752946,
+    "_id": "Flight Profiles<SEP>Integrated Air Defense System"
+  },
+  "Landing Zone<SEP>Table 3": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "Landing Zone<SEP>Table 3"
+  },
+  "AH-1/64<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "AH-1/64<SEP>Landing Zone"
+  },
+  "H-60<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "H-60<SEP>Landing Zone"
+  },
+  "Drop Zone<SEP>Railroad Yards": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "Drop Zone<SEP>Railroad Yards"
+  },
+  "CV-22<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "CV-22<SEP>Landing Zone"
+  },
+  "Landing Zone<SEP>MV-22": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "Landing Zone<SEP>MV-22"
+  },
+  "Airfields<SEP>Drop Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752947,
+    "update_time": 1778752947,
+    "_id": "Airfields<SEP>Drop Zone"
+  },
+  "A/OH-6, H-6<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "A/OH-6, H-6<SEP>Landing Zone"
+  },
+  "Aircrews<SEP>Urban Navigation": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "Aircrews<SEP>Urban Navigation"
+  },
+  "H-47<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "H-47<SEP>Landing Zone"
+  },
+  "Civilians<SEP>Drop Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "Civilians<SEP>Drop Zone"
+  },
+  "LOS Interference<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "LOS Interference<SEP>Urban Terrain"
+  },
+  "GPS and Spectrum Jamming<SEP>Urban Terrain": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "GPS and Spectrum Jamming<SEP>Urban Terrain"
+  },
+  "H-53<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752948,
+    "update_time": 1778752948,
+    "_id": "H-53<SEP>Landing Zone"
+  },
+  "Landing Zone<SEP>UH-1": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752949,
+    "update_time": 1778752949,
+    "_id": "Landing Zone<SEP>UH-1"
+  },
+  "Golf Courses<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752949,
+    "update_time": 1778752949,
+    "_id": "Golf Courses<SEP>Landing Zone"
+  },
+  "Landing Zone<SEP>Parking Lots": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752949,
+    "update_time": 1778752949,
+    "_id": "Landing Zone<SEP>Parking Lots"
+  },
+  "Landing Zone<SEP>Planners": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752950,
+    "update_time": 1778752950,
+    "_id": "Landing Zone<SEP>Planners"
+  },
+  "Enemy<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752950,
+    "update_time": 1778752950,
+    "_id": "Enemy<SEP>Landing Zone"
+  },
+  "Landing Zone<SEP>Rotor Wash": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752950,
+    "update_time": 1778752950,
+    "_id": "Landing Zone<SEP>Rotor Wash"
+  },
+  "Brown-out Conditions<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752951,
+    "update_time": 1778752951,
+    "_id": "Brown-out Conditions<SEP>Landing Zone"
+  },
+  "LZ Planning Guide<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752951,
+    "update_time": 1778752951,
+    "_id": "LZ Planning Guide<SEP>Landing Zone"
+  },
+  "Imagery<SEP>Landing Zone": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752952,
+    "update_time": 1778752952,
+    "_id": "Imagery<SEP>Landing Zone"
+  },
+  "Landing Zone<SEP>Load-bearing Structures": {
+    "chunk_ids": [
+      "chunk-bf2865a0fcb23cc7955b08ca1d4c5b89"
+    ],
+    "count": 1,
+    "create_time": 1778752952,
+    "update_time": 1778752952,
+    "_id": "Landing Zone<SEP>Load-bearing Structures"
+  },
+  "Army<SEP>Department Of Defense": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759282,
+    "update_time": 1778759282,
+    "_id": "Army<SEP>Department Of Defense"
+  },
+  "Army Special Operations Forces<SEP>Direct Action": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 2,
+    "create_time": 1778759282,
+    "update_time": 1778759282,
+    "_id": "Army Special Operations Forces<SEP>Direct Action"
+  },
+  "Civil Affairs Units<SEP>Civil-Military Operations Center": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759282,
+    "update_time": 1778759282,
+    "_id": "Civil Affairs Units<SEP>Civil-Military Operations Center"
+  },
+  "528th Sustainment Brigade<SEP>Foreign Humanitarian Assistance": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759282,
+    "update_time": 1778759282,
+    "_id": "528th Sustainment Brigade<SEP>Foreign Humanitarian Assistance"
+  },
+  "Direct Action<SEP>Special Forces": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Direct Action<SEP>Special Forces"
+  },
+  "Army Special Operations Forces<SEP>Foreign Internal Defense": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 2,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Army Special Operations Forces<SEP>Foreign Internal Defense"
+  },
+  "Joint Special Operations Task Force-Philippines<SEP>Philippines": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 2,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Joint Special Operations Task Force-Philippines<SEP>Philippines"
+  },
+  "Direct Action<SEP>Ranger Units": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Direct Action<SEP>Ranger Units"
+  },
+  "Department Of Justice<SEP>JP 3-26": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Department Of Justice<SEP>JP 3-26"
+  },
+  "Foreign Humanitarian Assistance<SEP>Host Nation": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Foreign Humanitarian Assistance<SEP>Host Nation"
+  },
+  "Direct Action<SEP>JP 3-05": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Direct Action<SEP>JP 3-05"
+  },
+  "Department Of State<SEP>JP 3-26": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Department Of State<SEP>JP 3-26"
+  },
+  "Foreign Internal Defense<SEP>Host Nation": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Foreign Internal Defense<SEP>Host Nation"
+  },
+  "Army Special Operations Forces<SEP>Foreign Humanitarian Assistance": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759283,
+    "update_time": 1778759283,
+    "_id": "Army Special Operations Forces<SEP>Foreign Humanitarian Assistance"
+  },
+  "Foreign Humanitarian Assistance<SEP>JP 3-29": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759284,
+    "update_time": 1778759284,
+    "_id": "Foreign Humanitarian Assistance<SEP>JP 3-29"
+  },
+  "Army Special Operations Forces<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-3f9296b5d072caec55997f55d6e957ea",
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 3,
+    "create_time": 1778759284,
+    "update_time": 1778759284,
+    "_id": "Army Special Operations Forces<SEP>FM 3-05"
+  },
+  "Foreign Internal Defense<SEP>JP 3-22": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759284,
+    "update_time": 1778759284,
+    "_id": "Foreign Internal Defense<SEP>JP 3-22"
+  },
+  "Army Special Operations Forces<SEP>Internal Stability": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759284,
+    "update_time": 1778759284,
+    "_id": "Army Special Operations Forces<SEP>Internal Stability"
+  },
+  "Foreign Humanitarian Assistance<SEP>U.S. Forces": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759284,
+    "update_time": 1778759284,
+    "_id": "Foreign Humanitarian Assistance<SEP>U.S. Forces"
+  },
+  "Army Special Operations Forces<SEP>Hostage Rescue And Recovery": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759284,
+    "update_time": 1778759284,
+    "_id": "Army Special Operations Forces<SEP>Hostage Rescue And Recovery"
+  },
+  "Foreign Humanitarian Assistance<SEP>Host Nation Civil Authorities": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "Foreign Humanitarian Assistance<SEP>Host Nation Civil Authorities"
+  },
+  "528th Sustainment Brigade<SEP>International Organizations": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "528th Sustainment Brigade<SEP>International Organizations"
+  },
+  "Army Special Operations Forces<SEP>Intelligence Operations": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 2,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "Army Special Operations Forces<SEP>Intelligence Operations"
+  },
+  "Foreign Internal Defense<SEP>Host-Nation Security Forces": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "Foreign Internal Defense<SEP>Host-Nation Security Forces"
+  },
+  "Direct Action<SEP>Sabotage": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "Direct Action<SEP>Sabotage"
+  },
+  "Army Special Operations Forces<SEP>Military Information Support Operations": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 2,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "Army Special Operations Forces<SEP>Military Information Support Operations"
+  },
+  "Foreign Internal Defense<SEP>Insurgency": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759285,
+    "update_time": 1778759285,
+    "_id": "Foreign Internal Defense<SEP>Insurgency"
+  },
+  "Anti-Ship Operations<SEP>Direct Action": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Anti-Ship Operations<SEP>Direct Action"
+  },
+  "Foreign Internal Defense<SEP>Terrorism": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Foreign Internal Defense<SEP>Terrorism"
+  },
+  "Army Special Operations Forces<SEP>Security Force Assistance": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Army Special Operations Forces<SEP>Security Force Assistance"
+  },
+  "Mines<SEP>Special Forces": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Mines<SEP>Special Forces"
+  },
+  "Army Special Operations Forces<SEP>Sensitive Material Recovery": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Army Special Operations Forces<SEP>Sensitive Material Recovery"
+  },
+  "Direct Action<SEP>Sniping": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Direct Action<SEP>Sniping"
+  },
+  "26 June 2025<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-3f9296b5d072caec55997f55d6e957ea",
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 3,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "26 June 2025<SEP>FM 3-05"
+  },
+  "Army Special Operations Forces<SEP>Sensitive Site Exploitation": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Army Special Operations Forces<SEP>Sensitive Site Exploitation"
+  },
+  "2002<SEP>Joint Special Operations Task Force-Philippines": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9",
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 2,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "2002<SEP>Joint Special Operations Task Force-Philippines"
+  },
+  "Foreign Internal Defense<SEP>Subversion": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Foreign Internal Defense<SEP>Subversion"
+  },
+  "Department Of Defense<SEP>Security Cooperation": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Department Of Defense<SEP>Security Cooperation"
+  },
+  "Precision-Guided Munitions<SEP>Special Forces": {
+    "chunk_ids": [
+      "chunk-fb8968defc8aab21974e71c786c3b7a9"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Precision-Guided Munitions<SEP>Special Forces"
+  },
+  "Foreign Security Forces<SEP>Security Force Assistance": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759286,
+    "update_time": 1778759286,
+    "_id": "Foreign Security Forces<SEP>Security Force Assistance"
+  },
+  "Army Special Operations Forces<SEP>Security Cooperation": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Army Special Operations Forces<SEP>Security Cooperation"
+  },
+  "Personnel Recovery<SEP>Special Operations": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Personnel Recovery<SEP>Special Operations"
+  },
+  "Joint Force<SEP>Security Force Assistance": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Joint Force<SEP>Security Force Assistance"
+  },
+  "T.E. Lawrence<SEP>The Evolution Of A Revolt": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "T.E. Lawrence<SEP>The Evolution Of A Revolt"
+  },
+  "Security Cooperation<SEP>United States": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1",
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 2,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Security Cooperation<SEP>United States"
+  },
+  "Army Quarterly<SEP>The Evolution Of A Revolt": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Army Quarterly<SEP>The Evolution Of A Revolt"
+  },
+  "Army Special Operations Activities<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1",
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 2,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Army Special Operations Activities<SEP>FM 3-05"
+  },
+  "Department Of Defense<SEP>Security Force Assistance": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Department Of Defense<SEP>Security Force Assistance"
+  },
+  "ADP 3-0<SEP>Army Tenets Of Operations": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "ADP 3-0<SEP>Army Tenets Of Operations"
+  },
+  "Army Special Operations Forces<SEP>Personnel Recovery": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "Army Special Operations Forces<SEP>Personnel Recovery"
+  },
+  "FM 3-22<SEP>Security Cooperation": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759287,
+    "update_time": 1778759287,
+    "_id": "FM 3-22<SEP>Security Cooperation"
+  },
+  "Foreign Internal Defense<SEP>Security Force Assistance": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Foreign Internal Defense<SEP>Security Force Assistance"
+  },
+  "Partner Nations<SEP>Security Cooperation": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Partner Nations<SEP>Security Cooperation"
+  },
+  "Army Special Operations Forces<SEP>U.S. Special Operations Forces Schools": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Army Special Operations Forces<SEP>U.S. Special Operations Forces Schools"
+  },
+  "Army Special Operations Principles<SEP>Special Operations": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Army Special Operations Principles<SEP>Special Operations"
+  },
+  "Army Special Operations Forces<SEP>Survival, Escape, And Evasion": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Army Special Operations Forces<SEP>Survival, Escape, And Evasion"
+  },
+  "Host Nation<SEP>Security Force Assistance": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Host Nation<SEP>Security Force Assistance"
+  },
+  "Foreign Internal Defense<SEP>Internal Defense And Development Program": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Foreign Internal Defense<SEP>Internal Defense And Development Program"
+  },
+  "Chapter 2<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1",
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 2,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Chapter 2<SEP>FM 3-05"
+  },
+  "Joint Special Operations Task Force-Philippines<SEP>U.S. Global War on Terror": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Joint Special Operations Task Force-Philippines<SEP>U.S. Global War on Terror"
+  },
+  "Army Special Operations Forces<SEP>Search And Rescue": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Army Special Operations Forces<SEP>Search And Rescue"
+  },
+  "Chapter 4<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1",
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 2,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Chapter 4<SEP>FM 3-05"
+  },
+  "Comprehensive Agreement on Bangsamoro<SEP>Government of the Philippines": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759288,
+    "update_time": 1778759288,
+    "_id": "Comprehensive Agreement on Bangsamoro<SEP>Government of the Philippines"
+  },
+  "Army Special Operations Forces<SEP>Unconventional Assisted Recovery": {
+    "chunk_ids": [
+      "chunk-0cd5b0031ce939f299628087297273c1"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Army Special Operations Forces<SEP>Unconventional Assisted Recovery"
+  },
+  "Armed Forces of the Philippines<SEP>Joint Special Operations Task Force-Philippines": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Armed Forces of the Philippines<SEP>Joint Special Operations Task Force-Philippines"
+  },
+  "Philippines<SEP>United States": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Philippines<SEP>United States"
+  },
+  "Abu Sayyaf<SEP>Joint Special Operations Task Force-Philippines": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Abu Sayyaf<SEP>Joint Special Operations Task Force-Philippines"
+  },
+  "Comprehensive Agreement on Bangsamoro<SEP>Mindanao": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Comprehensive Agreement on Bangsamoro<SEP>Mindanao"
+  },
+  "Jemaah Islamiyah<SEP>Joint Special Operations Task Force-Philippines": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Jemaah Islamiyah<SEP>Joint Special Operations Task Force-Philippines"
+  },
+  "Military Information Support Operations<SEP>Psychological Operations Units": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Military Information Support Operations<SEP>Psychological Operations Units"
+  },
+  "Army Special Operations Forces<SEP>Special Reconnaissance": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Army Special Operations Forces<SEP>Special Reconnaissance"
+  },
+  "Balikatan<SEP>United States": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Balikatan<SEP>United States"
+  },
+  "Resistance Movement<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Resistance Movement<SEP>Unconventional Warfare"
+  },
+  "Army Special Operations Forces<SEP>Philippines": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Army Special Operations Forces<SEP>Philippines"
+  },
+  "Unconventional Warfare<SEP>World War II": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea",
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 2,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Unconventional Warfare<SEP>World War II"
+  },
+  "Islamic State-Philippines<SEP>United States": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Islamic State-Philippines<SEP>United States"
+  },
+  "Military Information Support Operations<SEP>Secretary of Defense": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Military Information Support Operations<SEP>Secretary of Defense"
+  },
+  "2015<SEP>Joint Special Operations Task Force-Philippines": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "2015<SEP>Joint Special Operations Task Force-Philippines"
+  },
+  "Armed Forces of the Philippines<SEP>Special Forces": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759289,
+    "update_time": 1778759289,
+    "_id": "Armed Forces of the Philippines<SEP>Special Forces"
+  },
+  "Army Forces<SEP>Host Nation": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Army Forces<SEP>Host Nation"
+  },
+  "Indo-Pacific Command<SEP>United States": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Indo-Pacific Command<SEP>United States"
+  },
+  "Army Special Operations Forces<SEP>National And Combatant Command Objectives": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Army Special Operations Forces<SEP>National And Combatant Command Objectives"
+  },
+  "Armed Forces of the Philippines<SEP>Civil Affairs": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Armed Forces of the Philippines<SEP>Civil Affairs"
+  },
+  "Congress<SEP>Military Information Support Operations": {
+    "chunk_ids": [
+      "chunk-3f9296b5d072caec55997f55d6e957ea"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Congress<SEP>Military Information Support Operations"
+  },
+  "Role 1 Medical Treatment<SEP>U.S. Army": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Role 1 Medical Treatment<SEP>U.S. Army"
+  },
+  "Army Special Operations Forces<SEP>Conventional Forces": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc",
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 2,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Army Special Operations Forces<SEP>Conventional Forces"
+  },
+  "Role 2 Level Care<SEP>U.S. Army": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Role 2 Level Care<SEP>U.S. Army"
+  },
+  "Role 1 Medical Treatment<SEP>Special Forces Medical Sergeants": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759290,
+    "update_time": 1778759290,
+    "_id": "Role 1 Medical Treatment<SEP>Special Forces Medical Sergeants"
+  },
+  "Army Special Operations Forces<SEP>Partner Nations": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Army Special Operations Forces<SEP>Partner Nations"
+  },
+  "Role 3 Capability<SEP>U.S. Army": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Role 3 Capability<SEP>U.S. Army"
+  },
+  "528th Sustainment Brigade<SEP>Role 2 Level Care": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "528th Sustainment Brigade<SEP>Role 2 Level Care"
+  },
+  "Eighth Army Ranger Company<SEP>Far East Command": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Eighth Army Ranger Company<SEP>Far East Command"
+  },
+  "Role 2 Level Care<SEP>Special Forces Groups": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Role 2 Level Care<SEP>Special Forces Groups"
+  },
+  "Civil Affairs Medical Sergeants<SEP>Role 1 Medical Treatment": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Civil Affairs Medical Sergeants<SEP>Role 1 Medical Treatment"
+  },
+  "Role 4<SEP>U.S. Army": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Role 4<SEP>U.S. Army"
+  },
+  "Eighth Army<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Eighth Army<SEP>Eighth Army Ranger Company"
+  },
+  "North Korean Troops<SEP>South Korea": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "North Korean Troops<SEP>South Korea"
+  },
+  "Pusan Perimeter<SEP>United Nations Forces": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Pusan Perimeter<SEP>United Nations Forces"
+  },
+  "Army Special Operations Forces<SEP>Army's Professional Ethics": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Army Special Operations Forces<SEP>Army's Professional Ethics"
+  },
+  "Role 1 Medical Treatment<SEP>Special Operations Combat Medics": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "Role 1 Medical Treatment<SEP>Special Operations Combat Medics"
+  },
+  "25th Infantry Division<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759291,
+    "update_time": 1778759291,
+    "_id": "25th Infantry Division<SEP>Eighth Army Ranger Company"
+  },
+  "Army Special Operations Forces<SEP>Theater Of Operations Hospitalization System": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Army Special Operations Forces<SEP>Theater Of Operations Hospitalization System"
+  },
+  "Eighth Army Ranger Company<SEP>Hill 205": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Eighth Army Ranger Company<SEP>Hill 205"
+  },
+  "Physicians<SEP>Role 1 Medical Treatment": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Physicians<SEP>Role 1 Medical Treatment"
+  },
+  "Allied Forces<SEP>Pusan Perimeter": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Allied Forces<SEP>Pusan Perimeter"
+  },
+  "Army Special Operations Forces<SEP>Medical Evacuation Capability": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Army Special Operations Forces<SEP>Medical Evacuation Capability"
+  },
+  "Chinese Communist Party Forces<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Chinese Communist Party Forces<SEP>Eighth Army Ranger Company"
+  },
+  "Army's Professional Ethics<SEP>Special Operations Soldiers": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Army's Professional Ethics<SEP>Special Operations Soldiers"
+  },
+  "Physician Assistants<SEP>Role 1 Medical Treatment": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759292,
+    "update_time": 1778759292,
+    "_id": "Physician Assistants<SEP>Role 1 Medical Treatment"
+  },
+  "Army Special Operations Forces<SEP>Indirect Fire Support": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Army Special Operations Forces<SEP>Indirect Fire Support"
+  },
+  "Civil Affairs Operations<SEP>Civil Knowledge Integration": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Civil Affairs Operations<SEP>Civil Knowledge Integration"
+  },
+  "Eighth Army Ranger Company<SEP>Korean War": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Eighth Army Ranger Company<SEP>Korean War"
+  },
+  "Civil Affairs Operations<SEP>Civil Network Development and Engagement": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Civil Affairs Operations<SEP>Civil Network Development and Engagement"
+  },
+  "Air Support<SEP>Army Special Operations Forces": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Air Support<SEP>Army Special Operations Forces"
+  },
+  "Civil Knowledge Integration<SEP>S/G/J-9 Staff Officers": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Civil Knowledge Integration<SEP>S/G/J-9 Staff Officers"
+  },
+  "Civil Affairs Operations<SEP>Civil-Military Integration": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Civil Affairs Operations<SEP>Civil-Military Integration"
+  },
+  "Eighth Army Ranger Company<SEP>Tank Company": {
+    "chunk_ids": [
+      "chunk-e5c39d7c4f2e0018da66a43c03ab90bc"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Eighth Army Ranger Company<SEP>Tank Company"
+  },
+  "Civil-Military Engagement Program of Record<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Civil-Military Engagement Program of Record<SEP>USSOCOM"
+  },
+  "Army Special Operations Forces<SEP>Counterterrorism": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759293,
+    "update_time": 1778759293,
+    "_id": "Army Special Operations Forces<SEP>Counterterrorism"
+  },
+  "Civil Affairs Operations<SEP>Military Government Operations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Civil Affairs Operations<SEP>Military Government Operations"
+  },
+  "Civil Affairs Forces<SEP>Civil Affairs Operations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Civil Affairs Forces<SEP>Civil Affairs Operations"
+  },
+  "Army Special Operations Forces<SEP>Hostage Rescue and Recovery": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Army Special Operations Forces<SEP>Hostage Rescue and Recovery"
+  },
+  "FM 1-02.1<SEP>Military Government Operations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "FM 1-02.1<SEP>Military Government Operations"
+  },
+  "Army Special Operations Forces<SEP>Department of Justice": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Army Special Operations Forces<SEP>Department of Justice"
+  },
+  "Counterterrorism<SEP>JP 3-26": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Counterterrorism<SEP>JP 3-26"
+  },
+  "Counterterrorism<SEP>Terrorists": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Counterterrorism<SEP>Terrorists"
+  },
+  "Civil Affairs Operations<SEP>FM 3-57": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Civil Affairs Operations<SEP>FM 3-57"
+  },
+  "Civil Affairs Forces<SEP>Civil-Military Engagement Program of Record": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Civil Affairs Forces<SEP>Civil-Military Engagement Program of Record"
+  },
+  "Civil-Military Integration<SEP>Indigenous Populations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Civil-Military Integration<SEP>Indigenous Populations"
+  },
+  "Army Special Operations Forces<SEP>Department of State": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759294,
+    "update_time": 1778759294,
+    "_id": "Army Special Operations Forces<SEP>Department of State"
+  },
+  "Civil Affairs Forces<SEP>Local Populations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759295,
+    "update_time": 1778759295,
+    "_id": "Civil Affairs Forces<SEP>Local Populations"
+  },
+  "Army Special Operations Forces<SEP>Department of Defense": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759295,
+    "update_time": 1778759295,
+    "_id": "Army Special Operations Forces<SEP>Department of Defense"
+  },
+  "Civil Affairs Forces<SEP>U.S. Embassy Country Teams": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759295,
+    "update_time": 1778759295,
+    "_id": "Civil Affairs Forces<SEP>U.S. Embassy Country Teams"
+  },
+  "Enemy<SEP>Military Government Operations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759295,
+    "update_time": 1778759295,
+    "_id": "Enemy<SEP>Military Government Operations"
+  },
+  "Army Special Operations Forces<SEP>Security": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759295,
+    "update_time": 1778759295,
+    "_id": "Army Special Operations Forces<SEP>Security"
+  },
+  "Partner Nations<SEP>Special Operations Forces": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759295,
+    "update_time": 1778759295,
+    "_id": "Partner Nations<SEP>Special Operations Forces"
+  },
+  "Support To Resistance<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Support To Resistance<SEP>Unconventional Warfare"
+  },
+  "Civil Affairs Forces<SEP>Civil Society": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Civil Affairs Forces<SEP>Civil Society"
+  },
+  "Seven Phases Of Unconventional Warfare<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Seven Phases Of Unconventional Warfare<SEP>Unconventional Warfare"
+  },
+  "Northern Alliance<SEP>Taliban": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Northern Alliance<SEP>Taliban"
+  },
+  "Support To Resistance<SEP>U.S. Government": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Support To Resistance<SEP>U.S. Government"
+  },
+  "11 September 2001 Terrorist Attacks<SEP>Northern Alliance": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "11 September 2001 Terrorist Attacks<SEP>Northern Alliance"
+  },
+  "President<SEP>Special Operations Directed Activities": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "President<SEP>Special Operations Directed Activities"
+  },
+  "Civil Affairs Forces<SEP>Private Organizations": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Civil Affairs Forces<SEP>Private Organizations"
+  },
+  "Countering Weapons Of Mass Destruction<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Countering Weapons Of Mass Destruction<SEP>USSOCOM"
+  },
+  "Secretary Of Defense<SEP>Special Operations Directed Activities": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Secretary Of Defense<SEP>Special Operations Directed Activities"
+  },
+  "Department Of Defense<SEP>Weapons Of Mass Destruction": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759296,
+    "update_time": 1778759296,
+    "_id": "Department Of Defense<SEP>Weapons Of Mass Destruction"
+  },
+  "FM 3-05<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "FM 3-05<SEP>Unconventional Warfare"
+  },
+  "Civil Affairs Forces<SEP>Humanitarian Assistance": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Civil Affairs Forces<SEP>Humanitarian Assistance"
+  },
+  "Countering Weapons Of Mass Destruction<SEP>Department Of Defense": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Countering Weapons Of Mass Destruction<SEP>Department Of Defense"
+  },
+  "U.S. Military Forces<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "U.S. Military Forces<SEP>Unconventional Warfare"
+  },
+  "Civil Affairs Forces<SEP>Commander": {
+    "chunk_ids": [
+      "chunk-416988242ce00406b1b8539639cba1d3"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Civil Affairs Forces<SEP>Commander"
+  },
+  "Weapons Of Mass Destruction<SEP>Weapons Of Mass Destruction Defeat": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Weapons Of Mass Destruction<SEP>Weapons Of Mass Destruction Defeat"
+  },
+  "Counterproliferation<SEP>Department Of Defense": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Counterproliferation<SEP>Department Of Defense"
+  },
+  "Countering Weapons Of Mass Destruction<SEP>JP 3-40": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Countering Weapons Of Mass Destruction<SEP>JP 3-40"
+  },
+  "Combatant Commanders<SEP>President": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "Combatant Commanders<SEP>President"
+  },
+  "JP 3-05<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759297,
+    "update_time": 1778759297,
+    "_id": "JP 3-05<SEP>Unconventional Warfare"
+  },
+  "Mission Partners<SEP>U.S. Military Forces": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Mission Partners<SEP>U.S. Military Forces"
+  },
+  "Counterproliferation<SEP>Weapons Of Mass Destruction": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Counterproliferation<SEP>Weapons Of Mass Destruction"
+  },
+  "Foreign Resistance Actors<SEP>Support To Resistance": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Foreign Resistance Actors<SEP>Support To Resistance"
+  },
+  "Combatant Commanders<SEP>Secretary Of Defense": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Combatant Commanders<SEP>Secretary Of Defense"
+  },
+  "Irregular Force<SEP>Seven Phases Of Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Irregular Force<SEP>Seven Phases Of Unconventional Warfare"
+  },
+  "SOF<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "SOF<SEP>Unconventional Warfare"
+  },
+  "Department of Defense<SEP>Weapons of Mass Destruction": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Department of Defense<SEP>Weapons of Mass Destruction"
+  },
+  "Counter Threat Finance<SEP>U.S. Army": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Counter Threat Finance<SEP>U.S. Army"
+  },
+  "Delivery Systems<SEP>Weapons Of Mass Destruction": {
+    "chunk_ids": [
+      "chunk-fe9b99ab479688bf15c5eb6b71313a3b"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Delivery Systems<SEP>Weapons Of Mass Destruction"
+  },
+  "Army Special Operations Forces<SEP>Hostage Rescue": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Army Special Operations Forces<SEP>Hostage Rescue"
+  },
+  "JP 3-05<SEP>Operational Preparation of the Environment": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "JP 3-05<SEP>Operational Preparation of the Environment"
+  },
+  "Counter Threat Finance<SEP>Terrorism": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Counter Threat Finance<SEP>Terrorism"
+  },
+  "Foreign Security Establishments<SEP>Security Cooperation": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759298,
+    "update_time": 1778759298,
+    "_id": "Foreign Security Establishments<SEP>Security Cooperation"
+  },
+  "Hostage Rescue<SEP>JP 3-50": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Hostage Rescue<SEP>JP 3-50"
+  },
+  "Combatant Commands<SEP>Weapons of Mass Destruction": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Combatant Commands<SEP>Weapons of Mass Destruction"
+  },
+  "Mission Execution<SEP>Operational Preparation of the Environment": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Mission Execution<SEP>Operational Preparation of the Environment"
+  },
+  "Department of Defense<SEP>Department of Defense Strategy for Countering Weapons of Mass Destruction": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Department of Defense<SEP>Department of Defense Strategy for Countering Weapons of Mass Destruction"
+  },
+  "Counter Threat Finance<SEP>Transnational Organized Crime": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Counter Threat Finance<SEP>Transnational Organized Crime"
+  },
+  "Hostage Rescue<SEP>JP 3-05": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Hostage Rescue<SEP>JP 3-05"
+  },
+  "Department of Defense Strategy for Countering Weapons of Mass Destruction<SEP>Weapons of Mass Destruction Defeat": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Department of Defense Strategy for Countering Weapons of Mass Destruction<SEP>Weapons of Mass Destruction Defeat"
+  },
+  "Countering Weapons of Mass Destruction<SEP>Department of Defense": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Countering Weapons of Mass Destruction<SEP>Department of Defense"
+  },
+  "Hostage Rescue<SEP>U.S. Persons": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Hostage Rescue<SEP>U.S. Persons"
+  },
+  "Department of Defense Strategy for Countering Weapons of Mass Destruction<SEP>Weapons of Mass Destruction Pathway Defeat": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759299,
+    "update_time": 1778759299,
+    "_id": "Department of Defense Strategy for Countering Weapons of Mass Destruction<SEP>Weapons of Mass Destruction Pathway Defeat"
+  },
+  "Countering Weapons of Mass Destruction<SEP>Direct Action Operations": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Countering Weapons of Mass Destruction<SEP>Direct Action Operations"
+  },
+  "Campaign Plans<SEP>Operational Preparation of the Environment": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Campaign Plans<SEP>Operational Preparation of the Environment"
+  },
+  "Hostage Rescue<SEP>Sensitive Materiel": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Hostage Rescue<SEP>Sensitive Materiel"
+  },
+  "Countering Weapons of Mass Destruction<SEP>Special Reconnaissance": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Countering Weapons of Mass Destruction<SEP>Special Reconnaissance"
+  },
+  "Eighth Army Ranger Company<SEP>Ralph Puckett, Jr.": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Eighth Army Ranger Company<SEP>Ralph Puckett, Jr."
+  },
+  "Countering Weapons of Mass Destruction<SEP>Counterterrorism Operations": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Countering Weapons of Mass Destruction<SEP>Counterterrorism Operations"
+  },
+  "Operational Preparation of the Environment<SEP>Theater War Plans": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Operational Preparation of the Environment<SEP>Theater War Plans"
+  },
+  "Action At Hill 205<SEP>Hill 205": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Action At Hill 205<SEP>Hill 205"
+  },
+  "Operation Orders<SEP>Operational Preparation of the Environment": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Operation Orders<SEP>Operational Preparation of the Environment"
+  },
+  "Chinese Forces<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Chinese Forces<SEP>Eighth Army Ranger Company"
+  },
+  "Medal Of Honor<SEP>Ralph Puckett, Jr.": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Medal Of Honor<SEP>Ralph Puckett, Jr."
+  },
+  "Countering Weapons of Mass Destruction<SEP>Military Information Support Operations": {
+    "chunk_ids": [
+      "chunk-c8f143cf228a70fcc3b24d3886031aa2"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "Countering Weapons of Mass Destruction<SEP>Military Information Support Operations"
+  },
+  "21 May 2021<SEP>Medal Of Honor": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759300,
+    "update_time": 1778759300,
+    "_id": "21 May 2021<SEP>Medal Of Honor"
+  },
+  "Action At Hill 205<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759301,
+    "update_time": 1778759301,
+    "_id": "Action At Hill 205<SEP>Eighth Army Ranger Company"
+  },
+  "31 March 1951<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759301,
+    "update_time": 1778759301,
+    "_id": "31 March 1951<SEP>Eighth Army Ranger Company"
+  },
+  "Action At Hill 205<SEP>Chinese Forces": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759301,
+    "update_time": 1778759301,
+    "_id": "Action At Hill 205<SEP>Chinese Forces"
+  },
+  "Eighth Army Ranger Company<SEP>Small Arms": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759301,
+    "update_time": 1778759301,
+    "_id": "Eighth Army Ranger Company<SEP>Small Arms"
+  },
+  "Chinese Forces<SEP>Drums": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Chinese Forces<SEP>Drums"
+  },
+  "Action At Hill 205<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Action At Hill 205<SEP>FM 3-05"
+  },
+  "Artillery<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Artillery<SEP>Eighth Army Ranger Company"
+  },
+  "25 November 1950<SEP>Action At Hill 205": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "25 November 1950<SEP>Action At Hill 205"
+  },
+  "Collection Point<SEP>Hill 205": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Collection Point<SEP>Hill 205"
+  },
+  "Chinese Forces<SEP>Whistles": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Chinese Forces<SEP>Whistles"
+  },
+  "Bayonets<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Bayonets<SEP>Eighth Army Ranger Company"
+  },
+  "Bugles<SEP>Chinese Forces": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Bugles<SEP>Chinese Forces"
+  },
+  "Army Special Operations Forces<SEP>Partnership": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Army Special Operations Forces<SEP>Partnership"
+  },
+  "Eighth Army Ranger Company<SEP>Foxholes": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Eighth Army Ranger Company<SEP>Foxholes"
+  },
+  "Chinese Forces<SEP>Grenade": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Chinese Forces<SEP>Grenade"
+  },
+  "Army Imperatives<SEP>Commanders": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e",
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 2,
+    "create_time": 1778759302,
+    "update_time": 1778759302,
+    "_id": "Army Imperatives<SEP>Commanders"
+  },
+  "Army Special Operations Forces<SEP>Integration": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Army Special Operations Forces<SEP>Integration"
+  },
+  "1st Special Forces Command<SEP>Special Forces Group": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "1st Special Forces Command<SEP>Special Forces Group"
+  },
+  "Collection Point<SEP>Eighth Army Ranger Company": {
+    "chunk_ids": [
+      "chunk-db557cf9378c4bf4f84c616fc05e03ba"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Collection Point<SEP>Eighth Army Ranger Company"
+  },
+  "528th Sustainment Brigade<SEP>Special Forces Group": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "528th Sustainment Brigade<SEP>Special Forces Group"
+  },
+  "Army Special Operations Forces<SEP>Persistence": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Army Special Operations Forces<SEP>Persistence"
+  },
+  "Army Imperatives<SEP>Multidomain Operations": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e",
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 2,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Army Imperatives<SEP>Multidomain Operations"
+  },
+  "Army<SEP>Joint Operations": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Army<SEP>Joint Operations"
+  },
+  "Partnership<SEP>Planners": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Partnership<SEP>Planners"
+  },
+  "Civil Affairs Battalions<SEP>Special Forces Group": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Civil Affairs Battalions<SEP>Special Forces Group"
+  },
+  "Army Special Operations Forces<SEP>Principles of War": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759303,
+    "update_time": 1778759303,
+    "_id": "Army Special Operations Forces<SEP>Principles of War"
+  },
+  "Adversary Forces<SEP>Army Imperatives": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Adversary Forces<SEP>Army Imperatives"
+  },
+  "National Security<SEP>Partnership": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "National Security<SEP>Partnership"
+  },
+  "Psychological Operations Battalions<SEP>Special Forces Group": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Psychological Operations Battalions<SEP>Special Forces Group"
+  },
+  "Army Special Operations Forces<SEP>Operational Environment": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Army Special Operations Forces<SEP>Operational Environment"
+  },
+  "Army Integrating Processes<SEP>Command And Control Elements": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Army Integrating Processes<SEP>Command And Control Elements"
+  },
+  "Army Special Operations Forces<SEP>Partner Nation Security Forces": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Army Special Operations Forces<SEP>Partner Nation Security Forces"
+  },
+  "Special Forces Battalion<SEP>Special Forces Group": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Special Forces Battalion<SEP>Special Forces Group"
+  },
+  "Army<SEP>Army Imperatives": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Army<SEP>Army Imperatives"
+  },
+  "Army Special Operations Forces<SEP>Multinational Partners": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759304,
+    "update_time": 1778759304,
+    "_id": "Army Special Operations Forces<SEP>Multinational Partners"
+  },
+  "Army Imperatives<SEP>Special Operations Imperatives": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759305,
+    "update_time": 1778759305,
+    "_id": "Army Imperatives<SEP>Special Operations Imperatives"
+  },
+  "Army Special Operations Forces<SEP>Governmental And Non-Governmental Organizations": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759305,
+    "update_time": 1778759305,
+    "_id": "Army Special Operations Forces<SEP>Governmental And Non-Governmental Organizations"
+  },
+  "Army Imperatives<SEP>FM 3-05": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759305,
+    "update_time": 1778759305,
+    "_id": "Army Imperatives<SEP>FM 3-05"
+  },
+  "National Interests<SEP>Soldiers": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759305,
+    "update_time": 1778759305,
+    "_id": "National Interests<SEP>Soldiers"
+  },
+  "Army Special Operations Forces<SEP>State And Non-State Actors": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759305,
+    "update_time": 1778759305,
+    "_id": "Army Special Operations Forces<SEP>State And Non-State Actors"
+  },
+  "Army Imperatives<SEP>Electromagnetic Spectrum": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759306,
+    "update_time": 1778759306,
+    "_id": "Army Imperatives<SEP>Electromagnetic Spectrum"
+  },
+  "Army Special Operations Forces<SEP>Key Populations": {
+    "chunk_ids": [
+      "chunk-9b8ed0cc5c4a8e919c8f12065962561e"
+    ],
+    "count": 1,
+    "create_time": 1778759306,
+    "update_time": 1778759306,
+    "_id": "Army Special Operations Forces<SEP>Key Populations"
+  },
+  "Special Operations Imperatives<SEP>Statecraft": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759306,
+    "update_time": 1778759306,
+    "_id": "Special Operations Imperatives<SEP>Statecraft"
+  },
+  "Special Operations Imperatives<SEP>Target Audience Analyses": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759306,
+    "update_time": 1778759306,
+    "_id": "Special Operations Imperatives<SEP>Target Audience Analyses"
+  },
+  "Special Operations Activities<SEP>USASOC": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759306,
+    "update_time": 1778759306,
+    "_id": "Special Operations Activities<SEP>USASOC"
+  },
+  "10 USC 167<SEP>Special Operations Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759307,
+    "update_time": 1778759307,
+    "_id": "10 USC 167<SEP>Special Operations Activities"
+  },
+  "Army Special Operations Forces<SEP>Special Operations Imperatives": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759307,
+    "update_time": 1778759307,
+    "_id": "Army Special Operations Forces<SEP>Special Operations Imperatives"
+  },
+  "DODD 5100.01<SEP>Special Operations Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759307,
+    "update_time": 1778759307,
+    "_id": "DODD 5100.01<SEP>Special Operations Activities"
+  },
+  "Army Special Operations Forces<SEP>Partner Forces": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759307,
+    "update_time": 1778759307,
+    "_id": "Army Special Operations Forces<SEP>Partner Forces"
+  },
+  "Army Special Operations Forces<SEP>Intelligence Systems": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759307,
+    "update_time": 1778759307,
+    "_id": "Army Special Operations Forces<SEP>Intelligence Systems"
+  },
+  "Special Operations Activities<SEP>USSOCOM Directive 10-1": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759307,
+    "update_time": 1778759307,
+    "_id": "Special Operations Activities<SEP>USSOCOM Directive 10-1"
+  },
+  "Army Special Operations Forces<SEP>Joint Force": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759308,
+    "update_time": 1778759308,
+    "_id": "Army Special Operations Forces<SEP>Joint Force"
+  },
+  "Assigned Activities<SEP>Special Operations Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759308,
+    "update_time": 1778759308,
+    "_id": "Assigned Activities<SEP>Special Operations Activities"
+  },
+  "Army Special Operations Forces<SEP>International Organizations": {
+    "chunk_ids": [
+      "chunk-3dc5bd4d34c1ec405578b6459e4d25c4"
+    ],
+    "count": 1,
+    "create_time": 1778759308,
+    "update_time": 1778759308,
+    "_id": "Army Special Operations Forces<SEP>International Organizations"
+  },
+  "Directed Activities<SEP>Special Operations Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759308,
+    "update_time": 1778759308,
+    "_id": "Directed Activities<SEP>Special Operations Activities"
+  },
+  "Assigned Activities<SEP>Civil Affairs Operations": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759308,
+    "update_time": 1778759308,
+    "_id": "Assigned Activities<SEP>Civil Affairs Operations"
+  },
+  "Assigned Activities<SEP>Counterterrorism": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "Assigned Activities<SEP>Counterterrorism"
+  },
+  "Directed Activities<SEP>President of the United States": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "Directed Activities<SEP>President of the United States"
+  },
+  "Irregular Warfare<SEP>Special Operations Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "Irregular Warfare<SEP>Special Operations Activities"
+  },
+  "Directed Activities<SEP>Secretary of Defense": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "Directed Activities<SEP>Secretary of Defense"
+  },
+  "Conventional Warfare<SEP>Irregular Warfare": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "Conventional Warfare<SEP>Irregular Warfare"
+  },
+  "Assigned Activities<SEP>Direct Action": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "Assigned Activities<SEP>Direct Action"
+  },
+  "USASOC<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759309,
+    "update_time": 1778759309,
+    "_id": "USASOC<SEP>USSOCOM"
+  },
+  "Countering Weapons of Mass Destruction<SEP>Directed Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Countering Weapons of Mass Destruction<SEP>Directed Activities"
+  },
+  "Assigned Activities<SEP>Unconventional Warfare": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Assigned Activities<SEP>Unconventional Warfare"
+  },
+  "Dr. Michael Vickers<SEP>Undersecretary of Defense for Intelligence": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Dr. Michael Vickers<SEP>Undersecretary of Defense for Intelligence"
+  },
+  "Army Special Operations Forces<SEP>Irregular Warfare": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Army Special Operations Forces<SEP>Irregular Warfare"
+  },
+  "10 USC 167<SEP>United States Code": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "10 USC 167<SEP>United States Code"
+  },
+  "Directed Activities<SEP>Hostage Rescue and Recovery": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Directed Activities<SEP>Hostage Rescue and Recovery"
+  },
+  "Joint Force<SEP>USASOC": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Joint Force<SEP>USASOC"
+  },
+  "Airborne Operations<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Airborne Operations<SEP>USSOCOM"
+  },
+  "Figure 2-1<SEP>Irregular Warfare": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Figure 2-1<SEP>Irregular Warfare"
+  },
+  "Army Special Operations Forces<SEP>Combatant Command": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759310,
+    "update_time": 1778759310,
+    "_id": "Army Special Operations Forces<SEP>Combatant Command"
+  },
+  "Mountain Operations<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759311,
+    "update_time": 1778759311,
+    "_id": "Mountain Operations<SEP>USSOCOM"
+  },
+  "Irregular Warfare<SEP>Joint Force": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759311,
+    "update_time": 1778759311,
+    "_id": "Irregular Warfare<SEP>Joint Force"
+  },
+  "Figure 2-1<SEP>Special Operations Activities": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759311,
+    "update_time": 1778759311,
+    "_id": "Figure 2-1<SEP>Special Operations Activities"
+  },
+  "Army Special Operations Forces<SEP>Unified Action Partners": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759311,
+    "update_time": 1778759311,
+    "_id": "Army Special Operations Forces<SEP>Unified Action Partners"
+  },
+  "Sniper Operations<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759311,
+    "update_time": 1778759311,
+    "_id": "Sniper Operations<SEP>USSOCOM"
+  },
+  "Robotics and Unmanned Systems<SEP>USSOCOM": {
+    "chunk_ids": [
+      "chunk-83b849ddc9c6eed87498b4d0cd5715fc"
+    ],
+    "count": 1,
+    "create_time": 1778759311,
+    "update_time": 1778759311,
+    "_id": "Robotics and Unmanned Systems<SEP>USSOCOM"
+  }
+}

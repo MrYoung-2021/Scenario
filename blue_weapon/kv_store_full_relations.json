@@ -1,0 +1,9178 @@
+{
+  "doc-867a90ccf0fce24f869574108814762b": {
+    "relation_pairs": [
+      [
+        "Infiltration",
+        "Objective Rally Point"
+      ],
+      [
+        "Attack by Fire Position",
+        "Enemy"
+      ],
+      [
+        "Commanders",
+        "Population Centers"
+      ],
+      [
+        "Tank Ditches",
+        "Units"
+      ],
+      [
+        "Major Operation",
+        "Stability Operations"
+      ],
+      [
+        "Fire Support Coordinator",
+        "Interdiction Fires"
+      ],
+      [
+        "Iraqi Republican Guard",
+        "VII Corps"
+      ],
+      [
+        "Mass Casualty Situations",
+        "Triage"
+      ],
+      [
+        "Mass Casualty Situations",
+        "Medical Units"
+      ],
+      [
+        "Civilian Inhabitants",
+        "Commanders"
+      ],
+      [
+        "Air Assaults",
+        "Army Aviation Units"
+      ],
+      [
+        "FSCM",
+        "Friendly Forces"
+      ],
+      [
+        "Basic Load",
+        "Combat Load"
+      ],
+      [
+        "Abatis",
+        "Units"
+      ],
+      [
+        "Enemy Commander",
+        "Surprise"
+      ],
+      [
+        "Battle Handover Line",
+        "Stationary Force"
+      ],
+      [
+        "Infiltration",
+        "Rally Point"
+      ],
+      [
+        "Fire Support Coordination Measures",
+        "Fratricide"
+      ],
+      [
+        "Enemy Forces",
+        "Line Of Contact"
+      ],
+      [
+        "Bases",
+        "Enemy Forces"
+      ],
+      [
+        "Close Combat",
+        "Indirect Fires"
+      ],
+      [
+        "ADP 5-0",
+        "Military Decision-Making Process"
+      ],
+      [
+        "Commanders",
+        "Situation Templates"
+      ],
+      [
+        "Assault Force",
+        "Support By Fire Position"
+      ],
+      [
+        "Direction of Attack",
+        "Target Reference Points"
+      ],
+      [
+        "Security Forces",
+        "Stationary Force"
+      ],
+      [
+        "Surveillance",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Commanders",
+        "Degraded Communications Environment"
+      ],
+      [
+        "Point Of Departure",
+        "Time Of Attack"
+      ],
+      [
+        "Tempo",
+        "The Offense"
+      ],
+      [
+        "Enemy Forces",
+        "Special Operations Forces"
+      ],
+      [
+        "Basic Load",
+        "Logistics"
+      ],
+      [
+        "Close Combat",
+        "Shock Effect"
+      ],
+      [
+        "Higher Echelon",
+        "Lower Echelon Units"
+      ],
+      [
+        "Target",
+        "Target Series"
+      ],
+      [
+        "Commanders",
+        "Support By Fire Position"
+      ],
+      [
+        "Forward Line of Own Troops",
+        "Friendly Forces"
+      ],
+      [
+        "Commanders",
+        "Scheme of Maneuver"
+      ],
+      [
+        "Deep Areas",
+        "Divisions"
+      ],
+      [
+        "Attack Position",
+        "Line of Departure"
+      ],
+      [
+        "LOA",
+        "Offensive Operations"
+      ],
+      [
+        "FSCM",
+        "Restrictive Fire Area"
+      ],
+      [
+        "Intelligence Process",
+        "Key Terrain"
+      ],
+      [
+        "Line Of Departure",
+        "Time Of Attack"
+      ],
+      [
+        "Intelligence Process",
+        "Warfighting Functions"
+      ],
+      [
+        "Defensive Operations",
+        "Sustainment Effort"
+      ],
+      [
+        "Frontal",
+        "Pursuit"
+      ],
+      [
+        "Attack",
+        "Fires"
+      ],
+      [
+        "Protective Gear",
+        "Soldiers"
+      ],
+      [
+        "Commanders",
+        "Limit Of Advance"
+      ],
+      [
+        "Clearing Operations",
+        "Obstacles"
+      ],
+      [
+        "Friendly Forces",
+        "Line Of Contact"
+      ],
+      [
+        "Naval Surface Fire Support",
+        "Targeting Process"
+      ],
+      [
+        "Brigade Combat Team",
+        "Deep Area"
+      ],
+      [
+        "Battle Handover Line",
+        "Moving Force"
+      ],
+      [
+        "Attack",
+        "Command And Control"
+      ],
+      [
+        "Audacity",
+        "The Offense"
+      ],
+      [
+        "Commanders",
+        "End State"
+      ],
+      [
+        "Medical Units",
+        "Weapons Of Mass Destruction"
+      ],
+      [
+        "Initiative",
+        "Tempo"
+      ],
+      [
+        "Army Forces",
+        "The Offense"
+      ],
+      [
+        "Hasty Defense",
+        "Resource Constraints"
+      ],
+      [
+        "Fire Support Coordination Measures",
+        "Fire Support Planning"
+      ],
+      [
+        "Armored BCT",
+        "Hasty Breach"
+      ],
+      [
+        "ATP 3-90.4",
+        "Assured Mobility"
+      ],
+      [
+        "Reconnaissance Objective",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Commanders",
+        "Enemy Force"
+      ],
+      [
+        "Commanders",
+        "Multinational Forces"
+      ],
+      [
+        "Commander's Intent",
+        "Concept Of Operations"
+      ],
+      [
+        "Limited Visibility",
+        "Offensive Operations"
+      ],
+      [
+        "Sustainment",
+        "Tactical Momentum"
+      ],
+      [
+        "Road Craters",
+        "Units"
+      ],
+      [
+        "Diamond",
+        "Movement Formation"
+      ],
+      [
+        "BCTs",
+        "Consolidation Areas"
+      ],
+      [
+        "Line Of Departure",
+        "Main Body"
+      ],
+      [
+        "Combat Power",
+        "Offensive Operations"
+      ],
+      [
+        "Surprise",
+        "The Offense"
+      ],
+      [
+        "Column",
+        "Movement Formation"
+      ],
+      [
+        "Hasty Breach",
+        "Stryker BCT"
+      ],
+      [
+        "Clearing",
+        "Mobility"
+      ],
+      [
+        "Commanders",
+        "Information Systems"
+      ],
+      [
+        "Airspace Coordinating Measures",
+        "Common Offensive Control Measures"
+      ],
+      [
+        "Commanders",
+        "Offensive Operations"
+      ],
+      [
+        "Limit Of Advance",
+        "Phase Line"
+      ],
+      [
+        "Concentration",
+        "Unified Action Partner"
+      ],
+      [
+        "Hasty Crossing",
+        "Maneuver Units"
+      ],
+      [
+        "Precision Munitions",
+        "Preparation Fires"
+      ],
+      [
+        "Assured Mobility",
+        "Staff Planners"
+      ],
+      [
+        "Forward Edge of the Battle Area",
+        "Forward Line of Own Troops"
+      ],
+      [
+        "Commanders",
+        "Terrain"
+      ],
+      [
+        "Couriers",
+        "Overlays"
+      ],
+      [
+        "Manned Aircraft",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Crews",
+        "Tanks"
+      ],
+      [
+        "Objective",
+        "Objective Rally Point"
+      ],
+      [
+        "Electromagnetic Spectrum",
+        "Enemies"
+      ],
+      [
+        "Close Air Support",
+        "Tactical Air Control Party"
+      ],
+      [
+        "Operation Desert Storm",
+        "XVIII Corps"
+      ],
+      [
+        "Deliberate Breach",
+        "Hasty Breach"
+      ],
+      [
+        "Forward Airfields",
+        "Mobility"
+      ],
+      [
+        "Movement to Contact",
+        "Offensive Operations"
+      ],
+      [
+        "Commanders",
+        "Information Operations"
+      ],
+      [
+        "Movement to Contact",
+        "Search and Attack"
+      ],
+      [
+        "Engineers",
+        "Obstacle Clearing Systems"
+      ],
+      [
+        "Offensive Operations",
+        "Stability Operations"
+      ],
+      [
+        "Offensive Cyberspace Operations",
+        "Preparation Fires"
+      ],
+      [
+        "Combat Power",
+        "Commanders"
+      ],
+      [
+        "Commanders",
+        "Mission Orders"
+      ],
+      [
+        "Commanders",
+        "Defensive Operations"
+      ],
+      [
+        "Attack",
+        "Shaping Operation"
+      ],
+      [
+        "Concentration",
+        "The Offense"
+      ],
+      [
+        "Forward Line of Own Troops",
+        "Reconnaissance Assets"
+      ],
+      [
+        "Fire Support Coordinator",
+        "Military Deception"
+      ],
+      [
+        "Joint Fighter Aircraft",
+        "Joint Force Air Component Commander"
+      ],
+      [
+        "Aerial Resupply",
+        "Raids"
+      ],
+      [
+        "Battle Handover Line",
+        "Forward Edge of the Battle Area"
+      ],
+      [
+        "Commanders",
+        "Ridgelines"
+      ],
+      [
+        "Enablers",
+        "Integrated Teams"
+      ],
+      [
+        "Attacking Force",
+        "Counter-reconnaissance"
+      ],
+      [
+        "Attack",
+        "Offensive Operations"
+      ],
+      [
+        "Target",
+        "Target Control Measures"
+      ],
+      [
+        "Assault Time",
+        "Time of Attack"
+      ],
+      [
+        "CBRN Contaminated Environments",
+        "Stryker Units"
+      ],
+      [
+        "Artillery Assets",
+        "Security Force"
+      ],
+      [
+        "Gap Crossing",
+        "Mobility"
+      ],
+      [
+        "Offensive Operations",
+        "Pursuit"
+      ],
+      [
+        "Aeromedical Evacuation",
+        "Raids"
+      ],
+      [
+        "Engineer",
+        "Obstacles"
+      ],
+      [
+        "Occupation Force",
+        "Operational Force"
+      ],
+      [
+        "Air Defense Measures",
+        "FM 3-01"
+      ],
+      [
+        "FM 3-04",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Commanders",
+        "Movement Formation"
+      ],
+      [
+        "Assault Position",
+        "Objective"
+      ],
+      [
+        "Commanders",
+        "Obstacles"
+      ],
+      [
+        "Attack",
+        "Demonstration"
+      ],
+      [
+        "Assault Time",
+        "Objective"
+      ],
+      [
+        "Combat Network Radios",
+        "Command Post"
+      ],
+      [
+        "Defending Enemy Force",
+        "Fire Support"
+      ],
+      [
+        "Commanders",
+        "Decisive Operations"
+      ],
+      [
+        "Attack",
+        "Hasty"
+      ],
+      [
+        "FM 3-90-1",
+        "Movement Formation"
+      ],
+      [
+        "Courses Of Action",
+        "Intelligence Products"
+      ],
+      [
+        "Covering Forces",
+        "Forward Line of Own Troops"
+      ],
+      [
+        "Degraded Communications Environment",
+        "Mission Orders"
+      ],
+      [
+        "Direction Of Attack",
+        "Line Of Departure"
+      ],
+      [
+        "Box",
+        "Movement Formation"
+      ],
+      [
+        "Hasty Breach",
+        "Obstacle"
+      ],
+      [
+        "Division",
+        "Exploitation"
+      ],
+      [
+        "Convoys",
+        "Military Organizations"
+      ],
+      [
+        "ATP 3-37.34",
+        "Survivability"
+      ],
+      [
+        "Attack",
+        "Counterattack"
+      ],
+      [
+        "Detention Facilities",
+        "Enemy Forces"
+      ],
+      [
+        "Enemy Forces",
+        "Surprise"
+      ],
+      [
+        "AO",
+        "Intelligence Preparation Of The Battlefield"
+      ],
+      [
+        "Forward Line of Own Troops",
+        "Stay-Behind Forces"
+      ],
+      [
+        "Assured Mobility",
+        "Engineers"
+      ],
+      [
+        "Camouflage And Concealment",
+        "Survivability"
+      ],
+      [
+        "Enemy",
+        "Final Coordination Line"
+      ],
+      [
+        "Attacking Unit",
+        "Port Exits"
+      ],
+      [
+        "Interrogation Teams",
+        "Military Intelligence Personnel"
+      ],
+      [
+        "Medical Units",
+        "Nonstandard Casualty Evacuation Procedures"
+      ],
+      [
+        "Commanders",
+        "Priority of Fires"
+      ],
+      [
+        "Enemy Force",
+        "Security Forces"
+      ],
+      [
+        "Concentration",
+        "Decisive Point"
+      ],
+      [
+        "Defensive Operations",
+        "Offensive Operations"
+      ],
+      [
+        "CBRN Reconnaissance And Surveillance",
+        "Commanders"
+      ],
+      [
+        "Armored Units",
+        "CBRN Contaminated Environments"
+      ],
+      [
+        "Echelon",
+        "Movement Formation"
+      ],
+      [
+        "Leaders",
+        "Night-Vision Systems"
+      ],
+      [
+        "Combat Network Radios",
+        "Degraded Communications Environment"
+      ],
+      [
+        "Assured Mobility",
+        "Mobility"
+      ],
+      [
+        "Couriers",
+        "Digital Media"
+      ],
+      [
+        "Commanders",
+        "Reconnaissance Units"
+      ],
+      [
+        "Commanders",
+        "Concept of Operations"
+      ],
+      [
+        "Axis of Advance",
+        "Bypass Criteria"
+      ],
+      [
+        "Commanders",
+        "Intelligence Products"
+      ],
+      [
+        "Countermobility",
+        "Enemy Forces"
+      ],
+      [
+        "Couriers",
+        "Written Orders"
+      ],
+      [
+        "Landing Zones",
+        "Mobility"
+      ],
+      [
+        "Limit Of Advance",
+        "Objective"
+      ],
+      [
+        "Line Of Contact",
+        "Line Of Departure"
+      ],
+      [
+        "Degraded Communications Environment",
+        "Printed Maps"
+      ],
+      [
+        "Commander",
+        "Operations Process"
+      ],
+      [
+        "Meeting Engagement",
+        "Movement to Contact"
+      ],
+      [
+        "Fires Cell",
+        "Long-Range Artillery Systems"
+      ],
+      [
+        "Commanders",
+        "Reserve Forces"
+      ],
+      [
+        "Hardening Facilities",
+        "Survivability"
+      ],
+      [
+        "Cyberspace Domain",
+        "Enemies"
+      ],
+      [
+        "FLOT",
+        "Friendly Forces"
+      ],
+      [
+        "Enemy Air Operations",
+        "Enemy Facilities"
+      ],
+      [
+        "Common Offensive Control Measures",
+        "Restrictive FSCMs"
+      ],
+      [
+        "Assault Time",
+        "Field Artillery"
+      ],
+      [
+        "Engineer",
+        "Survivability"
+      ],
+      [
+        "Phase Line",
+        "Probable Line Of Deployment"
+      ],
+      [
+        "Artillery",
+        "Scatterable Mines"
+      ],
+      [
+        "Mission Orders",
+        "Tempo"
+      ],
+      [
+        "Direct Fires",
+        "Support By Fire Position"
+      ],
+      [
+        "Line Of Departure",
+        "Probable Line Of Deployment"
+      ],
+      [
+        "Attack",
+        "Exploitation"
+      ],
+      [
+        "Electronic Warfare",
+        "Preparation Fires"
+      ],
+      [
+        "Battle Handover Line",
+        "Forward Line of Own Troops"
+      ],
+      [
+        "Commanders",
+        "Operational Pause"
+      ],
+      [
+        "Fire Superiority",
+        "Targeting Process"
+      ],
+      [
+        "Detainees",
+        "Detention Facilities"
+      ],
+      [
+        "Assured Mobility",
+        "Countermobility"
+      ],
+      [
+        "Movement Technique",
+        "Traveling"
+      ],
+      [
+        "Armored BCT",
+        "Mobility"
+      ],
+      [
+        "Joint Fires Observers",
+        "Quick Fire Networks"
+      ],
+      [
+        "Mass Casualty Situations",
+        "Weapons of Mass Destruction"
+      ],
+      [
+        "CBRN Reconnaissance And Surveillance",
+        "Information Collection Plans"
+      ],
+      [
+        "Assault Formation",
+        "Probable Line Of Deployment"
+      ],
+      [
+        "Axis of Advance",
+        "Contaminated Areas"
+      ],
+      [
+        "Countermobility",
+        "Engineer"
+      ],
+      [
+        "Movement Formation",
+        "Vee"
+      ],
+      [
+        "Attacking Unit",
+        "Bridges"
+      ],
+      [
+        "Fires",
+        "Stationary Force"
+      ],
+      [
+        "Bounding Overwatch",
+        "Movement Technique"
+      ],
+      [
+        "Direction Of Attack",
+        "Probable Line Of Deployment"
+      ],
+      [
+        "Air Assaults",
+        "Dismounted Infantry Forces"
+      ],
+      [
+        "Attack Helicopters",
+        "Enemy Force"
+      ],
+      [
+        "Attack",
+        "Raid"
+      ],
+      [
+        "Commanders",
+        "Resources"
+      ],
+      [
+        "Combat Roads and Trails",
+        "Mobility"
+      ],
+      [
+        "Operation Desert Storm",
+        "VII Corps"
+      ],
+      [
+        "Key Terrain",
+        "Units"
+      ],
+      [
+        "Defending Enemy Force",
+        "Rocket"
+      ],
+      [
+        "Friendly Jammers",
+        "Intelligence Sensors"
+      ],
+      [
+        "Army Forces",
+        "Countering Weapons Of Mass Destruction"
+      ],
+      [
+        "Intelligence Process",
+        "Obstacles"
+      ],
+      [
+        "ADP 3-0",
+        "Close Combat"
+      ],
+      [
+        "Fire Support Coordinator",
+        "Harassing Fires"
+      ],
+      [
+        "BCTs",
+        "Close Area"
+      ],
+      [
+        "Rotary-Winged Aircraft",
+        "Scatterable Mines"
+      ],
+      [
+        "Integrated Teams",
+        "Maneuver Forces"
+      ],
+      [
+        "Air and Missile Defense",
+        "Short-Range Air Defense Systems"
+      ],
+      [
+        "Civil Institutions",
+        "Nongovernmental Organizations"
+      ],
+      [
+        "Commanders",
+        "Soldiers' Load"
+      ],
+      [
+        "Security Area",
+        "Security Force"
+      ],
+      [
+        "Safe Havens",
+        "Threats"
+      ],
+      [
+        "Pursuit",
+        "Third U.S. Army"
+      ],
+      [
+        "Forward Line of Own Troops",
+        "Screening Forces"
+      ],
+      [
+        "Fire Support Coordinator",
+        "Preparation Fires"
+      ],
+      [
+        "Third U.S. Army",
+        "World War II"
+      ],
+      [
+        "LOCs",
+        "Military Organizations"
+      ],
+      [
+        "Ambush",
+        "Attack"
+      ],
+      [
+        "Attacking Force",
+        "Passive Air Defense Measures"
+      ],
+      [
+        "Leaders",
+        "Navigation Systems"
+      ],
+      [
+        "Engineer",
+        "Mobility"
+      ],
+      [
+        "Limited Visibility",
+        "Obscuration"
+      ],
+      [
+        "Friendly Forces",
+        "Threats"
+      ],
+      [
+        "Commander",
+        "Tempo"
+      ],
+      [
+        "Army Aviation Units",
+        "Combined Arms Team"
+      ],
+      [
+        "Friendly Forces",
+        "Restrictive Fire Area"
+      ],
+      [
+        "Complex Terrain",
+        "Dismounted Infantry Forces"
+      ],
+      [
+        "Army Forward Observers",
+        "Quick Fire Networks"
+      ],
+      [
+        "Obscurant",
+        "Vision Enhancement Devices"
+      ],
+      [
+        "Military Organizations",
+        "Radars"
+      ],
+      [
+        "Area Of Interest",
+        "Intelligence Preparation Of The Battlefield"
+      ],
+      [
+        "Artillery",
+        "Intelligence Sensors"
+      ],
+      [
+        "Clearing Operations",
+        "Mines"
+      ],
+      [
+        "Iraqi Republican Guard",
+        "XVIII Corps"
+      ],
+      [
+        "Close Combat",
+        "Direct Fire"
+      ],
+      [
+        "Commanders",
+        "Obscuration"
+      ],
+      [
+        "Exploitation",
+        "Pursuit"
+      ],
+      [
+        "Gap Crossing",
+        "TTP"
+      ],
+      [
+        "Artillery",
+        "Commanders"
+      ],
+      [
+        "Corps",
+        "Deep Areas"
+      ],
+      [
+        "Soldier",
+        "Soldiers' Load"
+      ],
+      [
+        "Medical Units",
+        "Planners"
+      ],
+      [
+        "Enemy Forces",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Movement Technique",
+        "Traveling Overwatch"
+      ],
+      [
+        "Health Service Support",
+        "Sustainment"
+      ],
+      [
+        "Assured Mobility",
+        "Protection"
+      ],
+      [
+        "Attacking Units",
+        "Reserves"
+      ],
+      [
+        "Commanders",
+        "Swamps"
+      ],
+      [
+        "Decisive Terrain",
+        "Key Terrain"
+      ],
+      [
+        "Attacking Force",
+        "Defending Enemy Force"
+      ],
+      [
+        "Indirect Fires",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Combination",
+        "Pursuit"
+      ],
+      [
+        "Movement Formation",
+        "Movement Technique"
+      ],
+      [
+        "Attacking Force",
+        "Command and Control Nodes"
+      ],
+      [
+        "Commander",
+        "Initiative"
+      ],
+      [
+        "Attacking Force",
+        "Target Acquisition"
+      ],
+      [
+        "Obstacles",
+        "Stationary Force"
+      ],
+      [
+        "FM 6-02",
+        "Signal Support"
+      ],
+      [
+        "Assault Position",
+        "Attack"
+      ],
+      [
+        "FLOT",
+        "Line Of Contact"
+      ],
+      [
+        "Attack",
+        "Feint"
+      ],
+      [
+        "Casualties",
+        "Medical Units"
+      ],
+      [
+        "Breaching",
+        "Mobility"
+      ],
+      [
+        "Commanders",
+        "Countermobility"
+      ],
+      [
+        "Aerial Minefields",
+        "Army Aviation Units"
+      ],
+      [
+        "Couriers",
+        "Degraded Communications Environment"
+      ],
+      [
+        "Cordon and Search",
+        "Movement to Contact"
+      ],
+      [
+        "Checkpoints",
+        "Direction of Attack"
+      ],
+      [
+        "Attack",
+        "Spoiling Attack"
+      ],
+      [
+        "Mobility",
+        "Traffic Management"
+      ],
+      [
+        "Attacking Unit",
+        "Beach Exits"
+      ],
+      [
+        "Area Defense",
+        "Retrograde"
+      ],
+      [
+        "ATP 3-90.8",
+        "Countermobility"
+      ],
+      [
+        "Decisive Operation",
+        "Shaping Operation"
+      ],
+      [
+        "Combat Resources",
+        "Friendly Forces"
+      ],
+      [
+        "Psychological Adjustment",
+        "Soldiers"
+      ],
+      [
+        "Mobility",
+        "Stryker BCT"
+      ],
+      [
+        "Air and Missile Defense",
+        "Commanders"
+      ],
+      [
+        "Clearing Operations",
+        "Explosive Ordnance Disposal"
+      ],
+      [
+        "Degraded Communications Environment",
+        "Liaison Officers"
+      ],
+      [
+        "Clearing Operations",
+        "Route"
+      ],
+      [
+        "Army Air Defense Systems",
+        "Decisive Operation"
+      ],
+      [
+        "Attacking Force",
+        "Military Deception"
+      ],
+      [
+        "Commanders",
+        "Rules of Engagement"
+      ],
+      [
+        "Combat Power",
+        "Concentration"
+      ],
+      [
+        "Enemy Forces",
+        "Obscuration"
+      ],
+      [
+        "Commanders",
+        "The Offense"
+      ],
+      [
+        "Assault Position",
+        "Final Coordination Line"
+      ],
+      [
+        "Target",
+        "Target Group"
+      ],
+      [
+        "Infrastructure",
+        "Units"
+      ],
+      [
+        "Commanders",
+        "Objective"
+      ],
+      [
+        "Occupation Force",
+        "Rules of Engagement"
+      ],
+      [
+        "Commanders",
+        "Initiative"
+      ],
+      [
+        "Cyberspace Operations",
+        "Targeting Process"
+      ],
+      [
+        "Common Offensive Control Measures",
+        "Permissive FSCMs"
+      ],
+      [
+        "Reconnaissance",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "Commanders",
+        "Preparation Fires"
+      ],
+      [
+        "Casualty Collection Points",
+        "Planners"
+      ],
+      [
+        "Detention Facilities",
+        "Interrogation Teams"
+      ],
+      [
+        "FEBA",
+        "FLOT"
+      ],
+      [
+        "Intelligence Preparation Of The Battlefield",
+        "Staffs"
+      ],
+      [
+        "Combat Losses",
+        "Sustainment Effort"
+      ],
+      [
+        "Consolidation Areas",
+        "Divisions"
+      ],
+      [
+        "Commanders",
+        "Forests"
+      ],
+      [
+        "CBRN Environments",
+        "Soldiers"
+      ],
+      [
+        "Movement Formation",
+        "Wedge"
+      ],
+      [
+        "Commanders",
+        "Precision Munitions"
+      ],
+      [
+        "Culminating Point",
+        "Offensive Operations"
+      ],
+      [
+        "Commanders",
+        "Critical Assets"
+      ],
+      [
+        "Exploitation",
+        "Offensive Operations"
+      ],
+      [
+        "France",
+        "Third U.S. Army"
+      ],
+      [
+        "Assault Position",
+        "Probable Line of Deployment"
+      ],
+      [
+        "Line",
+        "Movement Formation"
+      ],
+      [
+        "Air Defense Priorities",
+        "Commanders"
+      ],
+      [
+        "Commanders",
+        "Coordinated Fire Lines"
+      ],
+      [
+        "Fiber-Optic And Telephone Cables",
+        "Headquarters"
+      ],
+      [
+        "Information Operations",
+        "Targeting Process"
+      ],
+      [
+        "Offense",
+        "Operational Surprise"
+      ],
+      [
+        "Brigade Combat Team",
+        "Close Area"
+      ],
+      [
+        "Bypass Criteria",
+        "Higher Echelon Headquarters"
+      ],
+      [
+        "Attack",
+        "Objective"
+      ],
+      [
+        "Line Of Departure",
+        "Point Of Departure"
+      ],
+      [
+        "Enemy Air Threat",
+        "Passive Air Defense Measures"
+      ],
+      [
+        "Protective Positions",
+        "Survivability"
+      ],
+      [
+        "Gap Crossing",
+        "Wet Gap"
+      ],
+      [
+        "Friendly Forces",
+        "Obscuration"
+      ],
+      [
+        "Legitimacy of the Mission",
+        "Stability Operations"
+      ],
+      [
+        "Culminating Point",
+        "Defensive Operations"
+      ],
+      [
+        "Couriers",
+        "Headquarters"
+      ],
+      [
+        "Attack",
+        "Deliberate"
+      ],
+      [
+        "Assault Time",
+        "Higher Echelon Headquarters"
+      ],
+      [
+        "Objective",
+        "Support By Fire Position"
+      ],
+      [
+        "Air Defense Coordinator",
+        "Commanders"
+      ],
+      [
+        "Commanders",
+        "Enemy Forces"
+      ],
+      [
+        "Concept Of Operations",
+        "Mission Variables"
+      ],
+      [
+        "Commanders",
+        "Protection"
+      ],
+      [
+        "Commanders",
+        "PACE Plan"
+      ],
+      [
+        "Countermobility",
+        "JP 3-15"
+      ],
+      [
+        "Commanders",
+        "Staffs"
+      ],
+      [
+        "Attack",
+        "Decisive Operation"
+      ],
+      [
+        "Direction of Attack",
+        "Point of Departure"
+      ],
+      [
+        "Limited Visibility",
+        "Night"
+      ],
+      [
+        "Final Coordination Line",
+        "Fire Support Coordination Measure"
+      ]
+    ],
+    "count": 369,
+    "create_time": 1778746068,
+    "update_time": 1778746068,
+    "_id": "doc-867a90ccf0fce24f869574108814762b"
+  },
+  "doc-e42383e9a8812ef94821d3fb139d7dfe": {
+    "relation_pairs": [
+      [
+        "Airborne and Air Assault Units",
+        "Landing Zones"
+      ],
+      [
+        "AOs",
+        "Reinforcements"
+      ],
+      [
+        "Enemy Force",
+        "Tactical Obstacle"
+      ],
+      [
+        "Engagement Area",
+        "Indirect Fires"
+      ],
+      [
+        "Commander",
+        "Joint Offensive Counterair Support"
+      ],
+      [
+        "Fire Support Coordination Measures",
+        "Permissive FSCMs"
+      ],
+      [
+        "Commander",
+        "Field Of Fire"
+      ],
+      [
+        "Enemy Forces",
+        "Fire Support Assets"
+      ],
+      [
+        "Forward Edge Of The Battle Area",
+        "Security Forces"
+      ],
+      [
+        "Combat Trains",
+        "Commanders"
+      ],
+      [
+        "Airfield",
+        "Enemy Airborne and Air Assault Attack"
+      ],
+      [
+        "Commanders",
+        "Military Deception"
+      ],
+      [
+        "Civilian Population Centers",
+        "Enemy Forces"
+      ],
+      [
+        "Reserve",
+        "Reserve Assembly Areas"
+      ],
+      [
+        "Aviation Forces",
+        "Minefields"
+      ],
+      [
+        "Drop Zone",
+        "Fire Support Plan"
+      ],
+      [
+        "Commander",
+        "Window Of Opportunity"
+      ],
+      [
+        "Encircled Force",
+        "Enemy Rear Area"
+      ],
+      [
+        "FSCMs",
+        "Headquarters"
+      ],
+      [
+        "Aerial Threats",
+        "Army Air Defense Artillery Forces"
+      ],
+      [
+        "Battlefield",
+        "Defending Commander"
+      ],
+      [
+        "Defending Forces",
+        "Engagement Areas"
+      ],
+      [
+        "Disengagement Line",
+        "Enemy Force"
+      ],
+      [
+        "Obscurant",
+        "Visual Navigation Aid"
+      ],
+      [
+        "Attack Using Defending Forces",
+        "Offensive Operations"
+      ],
+      [
+        "Alternate Position",
+        "Engagement Area"
+      ],
+      [
+        "Maneuver Units",
+        "Sustainment Operations"
+      ],
+      [
+        "Commander's Intent",
+        "Fire Support Chain"
+      ],
+      [
+        "Area Defense",
+        "Terrain"
+      ],
+      [
+        "Defensive Mission",
+        "Information Operations"
+      ],
+      [
+        "Defending Commander",
+        "Defensive Mission"
+      ],
+      [
+        "Enemy Force",
+        "Units In Contact"
+      ],
+      [
+        "Mass Casualty Situations",
+        "Medical Support"
+      ],
+      [
+        "Defending Force",
+        "Spoiling Attacks"
+      ],
+      [
+        "Direct Fire Control Measures",
+        "Target Reference Points"
+      ],
+      [
+        "Commander",
+        "Observation"
+      ],
+      [
+        "Main Battle Area",
+        "Operations in Depth"
+      ],
+      [
+        "Drop Zone",
+        "Vertical Envelopment"
+      ],
+      [
+        "Enemy Force",
+        "Offense"
+      ],
+      [
+        "Commanders",
+        "Subordinate Units"
+      ],
+      [
+        "Battle of Kursk",
+        "Soviets"
+      ],
+      [
+        "Army Forces",
+        "Defense"
+      ],
+      [
+        "Resupply Convoys",
+        "Transportation Units"
+      ],
+      [
+        "Camouflage",
+        "Ground Commanders"
+      ],
+      [
+        "Commander",
+        "Obstacle"
+      ],
+      [
+        "Support Area",
+        "Support Area Commander"
+      ],
+      [
+        "Defense",
+        "Preparation"
+      ],
+      [
+        "Defensive Positions",
+        "Mutual Support"
+      ],
+      [
+        "Information Collection Plan",
+        "Intelligence Officer"
+      ],
+      [
+        "Enemy Force",
+        "Initiative"
+      ],
+      [
+        "Defense",
+        "Retrograde Operations"
+      ],
+      [
+        "Negotiated End To Hostilities",
+        "Stability Operations"
+      ],
+      [
+        "Offense",
+        "Sustainment Effort"
+      ],
+      [
+        "Commander",
+        "Main Battle Area"
+      ],
+      [
+        "Battle Position",
+        "Primary Position"
+      ],
+      [
+        "Forward Edge Of The Battle Area",
+        "Main Battle Area"
+      ],
+      [
+        "Enemy Forces",
+        "LOCs"
+      ],
+      [
+        "Echelon Support Area",
+        "Sustainment Unit"
+      ],
+      [
+        "Bases",
+        "Sustainment Unit"
+      ],
+      [
+        "Alternate Position",
+        "Battle Position"
+      ],
+      [
+        "Situational Obstacle",
+        "Tactical Obstacle"
+      ],
+      [
+        "Command And Control",
+        "Mission Orders"
+      ],
+      [
+        "Ambulance Exchange Points",
+        "Medical Support"
+      ],
+      [
+        "Mutual Support",
+        "Unit Leader"
+      ],
+      [
+        "Operations in Depth",
+        "Security Area"
+      ],
+      [
+        "Avenue of Approach",
+        "Battle Position"
+      ],
+      [
+        "Enemy Force",
+        "Response Force"
+      ],
+      [
+        "Commander",
+        "Security Operations"
+      ],
+      [
+        "Survivability Move",
+        "Weapons of Mass Destruction"
+      ],
+      [
+        "Defense",
+        "Disruption"
+      ],
+      [
+        "Brigade",
+        "Strong Point"
+      ],
+      [
+        "Commander",
+        "Staff"
+      ],
+      [
+        "Commander",
+        "Reserved Obstacle"
+      ],
+      [
+        "Defending Force",
+        "Obstacle"
+      ],
+      [
+        "Obstacle",
+        "Strong Point"
+      ],
+      [
+        "Free-Fire Area",
+        "Permissive FSCMs"
+      ],
+      [
+        "Defending Commander",
+        "Engagement Areas"
+      ],
+      [
+        "Area Defense",
+        "Counterattack"
+      ],
+      [
+        "Enemy Force",
+        "Quick Response Force"
+      ],
+      [
+        "Defense",
+        "Flexibility"
+      ],
+      [
+        "Headquarters",
+        "Linkup"
+      ],
+      [
+        "Maneuver Units",
+        "Sustainment Unit Commanders"
+      ],
+      [
+        "Defending Force",
+        "Main Battle Area"
+      ],
+      [
+        "Commanders",
+        "Electromagnetic Spectrum"
+      ],
+      [
+        "Attack Helicopter",
+        "Enemy Force"
+      ],
+      [
+        "Dislocated Civilians",
+        "Host-nation Organizations"
+      ],
+      [
+        "Defending Forces",
+        "Terrain"
+      ],
+      [
+        "Base and Base Cluster Commanders",
+        "Bases"
+      ],
+      [
+        "Battle Positions",
+        "Mutual Support"
+      ],
+      [
+        "Defending Force",
+        "Integrated Fires Complex"
+      ],
+      [
+        "Battle Position",
+        "Fire Support Coordination Measures"
+      ],
+      [
+        "Air Superiority",
+        "Joint Force Commander"
+      ],
+      [
+        "Friendly Forces",
+        "Offensive Operations"
+      ],
+      [
+        "Direct Fire Control Measures",
+        "Trigger Lines"
+      ],
+      [
+        "Multifunctional Forward Logistic Elements",
+        "Weapon Systems"
+      ],
+      [
+        "CBRN Defense",
+        "MOPP Analysis"
+      ],
+      [
+        "Command And Control",
+        "Commander's Intent"
+      ],
+      [
+        "Donbas Operation",
+        "Mobile Defense"
+      ],
+      [
+        "Defending Force",
+        "Obstacles"
+      ],
+      [
+        "CBRN Personnel",
+        "Vulnerability Reduction Measures"
+      ],
+      [
+        "Mass and Concentration",
+        "Weapons of Mass Destruction"
+      ],
+      [
+        "CBRN Passive Defense Training",
+        "Commanders"
+      ],
+      [
+        "Battalion",
+        "Commanders"
+      ],
+      [
+        "Cached Commodities",
+        "Commanders"
+      ],
+      [
+        "Enemy Airborne and Air Assault Attack",
+        "Pickup Zone"
+      ],
+      [
+        "Encircled Force",
+        "Perimeter"
+      ],
+      [
+        "Commander",
+        "Mission Orders"
+      ],
+      [
+        "Retirement",
+        "Retrograde"
+      ],
+      [
+        "AO",
+        "Defending Commander"
+      ],
+      [
+        "Restrictive FSCMs",
+        "Restrictive Fire Area"
+      ],
+      [
+        "ADP 3-37",
+        "Protection"
+      ],
+      [
+        "Cyberspace Activity",
+        "IPB"
+      ],
+      [
+        "Commander",
+        "Commanders Intent"
+      ],
+      [
+        "Commander",
+        "Culminating Point"
+      ],
+      [
+        "Commanders",
+        "Reserve"
+      ],
+      [
+        "Squad",
+        "Strong Point"
+      ],
+      [
+        "CBRN Hazards",
+        "MOPP Analysis"
+      ],
+      [
+        "Level III Threats",
+        "Military Police Elements"
+      ],
+      [
+        "Army Indirect Fire",
+        "Commander"
+      ],
+      [
+        "Commander",
+        "Reserve Forces"
+      ],
+      [
+        "Information Operations",
+        "Military Deception"
+      ],
+      [
+        "Battle Positions",
+        "Class I"
+      ],
+      [
+        "Commander",
+        "Task Organization"
+      ],
+      [
+        "Counterattack",
+        "Reserve"
+      ],
+      [
+        "Base and Base Cluster Commanders",
+        "Support Area Commander"
+      ],
+      [
+        "CBRN Personnel",
+        "CBRN Vulnerability Assessment"
+      ],
+      [
+        "Avenue Of Approach",
+        "Obstacle"
+      ],
+      [
+        "Direct Fire Control Measures",
+        "Headquarters"
+      ],
+      [
+        "Military Police Elements",
+        "Support Area"
+      ],
+      [
+        "Reinforcing Obstacle",
+        "Tactical Obstacle"
+      ],
+      [
+        "Commanders",
+        "Denial Operations"
+      ],
+      [
+        "Attack Using Uncommitted Forces",
+        "Reserve"
+      ],
+      [
+        "Area of Operations",
+        "Battle Position"
+      ],
+      [
+        "Defensive Operations",
+        "Enemy Forces"
+      ],
+      [
+        "Direct Fire Systems",
+        "Fire Support Systems"
+      ],
+      [
+        "BCTs",
+        "Mobile Defense"
+      ],
+      [
+        "Command and Control Systems",
+        "Electronic Warfare"
+      ],
+      [
+        "Fire Support Coordination Measures",
+        "Restrictive FSCMs"
+      ],
+      [
+        "Army Maneuver Enhancement Brigade",
+        "BCT Engineer Battalions"
+      ],
+      [
+        "Delay",
+        "Retrograde"
+      ],
+      [
+        "Commander",
+        "Transition"
+      ],
+      [
+        "Defense",
+        "Operations in Depth"
+      ],
+      [
+        "Forward Line Of Own Troops",
+        "Friendly Forces"
+      ],
+      [
+        "Commander",
+        "Defensive Counterair Support"
+      ],
+      [
+        "Enemy Force",
+        "Limited Visibility"
+      ],
+      [
+        "Dispersion",
+        "Survivability Operations"
+      ],
+      [
+        "Defense",
+        "Transition"
+      ],
+      [
+        "COA",
+        "Disciplined Initiative"
+      ],
+      [
+        "Support Area Commander",
+        "Sustainment Units"
+      ],
+      [
+        "Commanders",
+        "Information Collection Plan"
+      ],
+      [
+        "Platoon",
+        "Strong Point"
+      ],
+      [
+        "Ammunition",
+        "Denial Operations"
+      ],
+      [
+        "Commanders",
+        "Road Network"
+      ],
+      [
+        "Battle Positions",
+        "Commanders"
+      ],
+      [
+        "Critical Assets",
+        "Protection"
+      ],
+      [
+        "No Fire Area",
+        "Restrictive FSCMs"
+      ],
+      [
+        "Commanders",
+        "Striking Force"
+      ],
+      [
+        "Information Operations",
+        "Operations Security"
+      ],
+      [
+        "Enemy Force",
+        "Tactical Combat Force"
+      ],
+      [
+        "Battle Positions",
+        "Class V"
+      ],
+      [
+        "Defense",
+        "Security"
+      ],
+      [
+        "Army Air Defense Artillery Forces",
+        "High-Value Assets"
+      ],
+      [
+        "Retrograde",
+        "Withdraw"
+      ],
+      [
+        "Counterattack",
+        "Enemy Forces"
+      ],
+      [
+        "Engineer Unit",
+        "Mobility"
+      ],
+      [
+        "Ground Commanders",
+        "Military Deception"
+      ],
+      [
+        "Fire",
+        "Obstacle"
+      ],
+      [
+        "Battle Position",
+        "Subsequent Position"
+      ],
+      [
+        "Stability Operations",
+        "Transition"
+      ],
+      [
+        "Defending Force",
+        "Indirect and Joint Fires"
+      ],
+      [
+        "Battle Position",
+        "Strong Point"
+      ],
+      [
+        "Avenue of Approach",
+        "Supplementary Position"
+      ],
+      [
+        "Combat-Configured Loads",
+        "Maneuver Units"
+      ],
+      [
+        "Cover",
+        "Obscuration"
+      ],
+      [
+        "Mobile Defense",
+        "Striking Force"
+      ],
+      [
+        "MOPP Analysis",
+        "Mission-oriented Protective Posture"
+      ],
+      [
+        "Defense",
+        "Maneuver"
+      ],
+      [
+        "Commanders",
+        "Enemy Force"
+      ],
+      [
+        "Natural Object",
+        "Strong Point"
+      ],
+      [
+        "Commander",
+        "Obstacle Zone"
+      ],
+      [
+        "Health Surveillance",
+        "Medical Personnel"
+      ],
+      [
+        "Defending Force",
+        "Engagement Area"
+      ],
+      [
+        "Commander",
+        "Obscurant"
+      ],
+      [
+        "Medical Corps Officers",
+        "Tenant Units"
+      ],
+      [
+        "Defense",
+        "Mass and Concentration"
+      ],
+      [
+        "Communication Procedures",
+        "Headquarters"
+      ],
+      [
+        "ATP 3-91",
+        "Bases"
+      ],
+      [
+        "Dislocated Civilians",
+        "International Organizations"
+      ],
+      [
+        "Command Posts",
+        "Communications Nodes"
+      ],
+      [
+        "Breakout",
+        "Encircled Force"
+      ],
+      [
+        "Engineer Unit",
+        "Strong Point"
+      ],
+      [
+        "Battle Position",
+        "Mutual Support"
+      ],
+      [
+        "Friendly Ground Forces",
+        "Objective"
+      ],
+      [
+        "Commanders Intent",
+        "End State"
+      ],
+      [
+        "Culminating Point",
+        "Enemy Force"
+      ],
+      [
+        "Dismounted Infantry Forces",
+        "Main Battle Area"
+      ],
+      [
+        "Commanders",
+        "Fires"
+      ],
+      [
+        "Drop Zone",
+        "IPB Process"
+      ],
+      [
+        "Intelligence Officer",
+        "Staff"
+      ],
+      [
+        "Ammunition",
+        "Sustainment"
+      ],
+      [
+        "ATP 3-37.10",
+        "Base Camps"
+      ],
+      [
+        "CBRN Defense Supplies",
+        "Combat-Configured Loads"
+      ],
+      [
+        "Commander",
+        "Obstacle Belt"
+      ],
+      [
+        "Defensive Positions",
+        "Terrain"
+      ],
+      [
+        "Obscurant",
+        "Target Acquisition Optic"
+      ],
+      [
+        "Commander",
+        "Counterattack"
+      ],
+      [
+        "Fixing Force",
+        "Striking Force"
+      ],
+      [
+        "Commander",
+        "Reserve"
+      ],
+      [
+        "Disciplined Initiative",
+        "Subordinates"
+      ],
+      [
+        "CBRN Reconnaissance Systems",
+        "Mobility"
+      ],
+      [
+        "Commanders",
+        "Terrain Management"
+      ],
+      [
+        "Defending Force",
+        "Drop Zone"
+      ],
+      [
+        "Enemy Forces",
+        "Spoiling Attack"
+      ],
+      [
+        "Landing Zone",
+        "Vertical Envelopment"
+      ],
+      [
+        "Enemy Force",
+        "Security Operations"
+      ],
+      [
+        "Headquarters",
+        "Recognition Signals"
+      ],
+      [
+        "Coordinated Fire Line",
+        "Permissive FSCMs"
+      ],
+      [
+        "Enemy Force",
+        "Field Artillery"
+      ],
+      [
+        "Fire Superiority",
+        "Targeting Process"
+      ],
+      [
+        "CBRN Reconnaissance And Surveillance",
+        "Conventional Reconnaissance Assets"
+      ],
+      [
+        "Commanders",
+        "Obscurants"
+      ],
+      [
+        "Enemy Airborne and Air Assault Attack",
+        "IPB Process"
+      ],
+      [
+        "Enemy Follow-on Force",
+        "IPB"
+      ],
+      [
+        "Defensive Operations",
+        "Offensive Operations"
+      ],
+      [
+        "Engagement Areas",
+        "Obstacles"
+      ],
+      [
+        "Battle Position",
+        "Decisive Point"
+      ],
+      [
+        "Denial Operations",
+        "Retrograde Operations"
+      ],
+      [
+        "Defense",
+        "Initiative"
+      ],
+      [
+        "Enemy Force",
+        "MBA"
+      ],
+      [
+        "Disengagement Line",
+        "Phase Line"
+      ],
+      [
+        "Command and Control Capabilities",
+        "Defending Force"
+      ],
+      [
+        "Commanders",
+        "Physical Security"
+      ],
+      [
+        "FEBA",
+        "Main Battle Area"
+      ],
+      [
+        "Electronic Warfare",
+        "IPB"
+      ],
+      [
+        "Retrograde",
+        "Withdrawal"
+      ],
+      [
+        "Early Warning",
+        "Ground Commanders"
+      ],
+      [
+        "Battle Position",
+        "Supplementary Position"
+      ],
+      [
+        "Offense",
+        "Transition"
+      ],
+      [
+        "Commander",
+        "Cover And Concealment"
+      ],
+      [
+        "Commanders",
+        "Survivability Plan"
+      ],
+      [
+        "Counterattack",
+        "Reserve Forces"
+      ],
+      [
+        "Defending Forces",
+        "Field Fortifications"
+      ],
+      [
+        "Support Area Commander",
+        "Tenant Units"
+      ],
+      [
+        "Enemy Force",
+        "Final Protective Fire"
+      ],
+      [
+        "Main Body",
+        "Security Force"
+      ],
+      [
+        "Aviation Forces",
+        "Shaping Operations"
+      ],
+      [
+        "Concealment",
+        "Survivability Operations"
+      ],
+      [
+        "Commander",
+        "Intelligence Product"
+      ],
+      [
+        "Counterattacks",
+        "Defensive Positions"
+      ],
+      [
+        "Enemy Forces",
+        "Military Deception"
+      ],
+      [
+        "Defending Force",
+        "Field Fortifications"
+      ],
+      [
+        "Base Clusters",
+        "Sustainment Unit"
+      ],
+      [
+        "Battle Positions",
+        "Class IV"
+      ],
+      [
+        "Donbas Operation",
+        "Ukraine"
+      ],
+      [
+        "Donbas Operation",
+        "German General Manstein"
+      ],
+      [
+        "Fire Support Plan",
+        "Landing Zone"
+      ],
+      [
+        "Protective Obstacle",
+        "Reinforcing Obstacle"
+      ],
+      [
+        "Command Posts",
+        "Terrain"
+      ],
+      [
+        "Commanders",
+        "Protection"
+      ],
+      [
+        "Avenue Of Approach",
+        "IPB Process"
+      ],
+      [
+        "Civil Affairs Units",
+        "Population And Resource Control"
+      ],
+      [
+        "Commander",
+        "Key Terrain"
+      ],
+      [
+        "Attack Using Uncommitted Forces",
+        "Offensive Operations"
+      ],
+      [
+        "Fire Support Chain",
+        "Scheme of Maneuver"
+      ],
+      [
+        "Encircled Force",
+        "Seizure Of Key Terrain"
+      ],
+      [
+        "Engagement Area",
+        "Obstacles"
+      ],
+      [
+        "Commanders",
+        "Company"
+      ],
+      [
+        "Defending Commander",
+        "Reserve"
+      ],
+      [
+        "ATP 3-37.34",
+        "Survivability Positions"
+      ],
+      [
+        "Combined Arms",
+        "Disruption"
+      ],
+      [
+        "FSCLs",
+        "Permissive FSCMs"
+      ],
+      [
+        "FPFs",
+        "Final Protective Line"
+      ],
+      [
+        "Enemy Force",
+        "Survivability Operations"
+      ],
+      [
+        "Armored Combat Vehicles",
+        "Armored and Stryker Forces"
+      ],
+      [
+        "Commanders",
+        "Main Battle Area"
+      ],
+      [
+        "Defending Force",
+        "Security Area"
+      ],
+      [
+        "Cyberspace Operations",
+        "Information Operations"
+      ],
+      [
+        "CBRN Defense",
+        "CBRN Hazards"
+      ],
+      [
+        "Defense",
+        "Sustainment Effort"
+      ],
+      [
+        "Darkness",
+        "Mechanical Aid"
+      ],
+      [
+        "IPB Process",
+        "Landing Zone"
+      ],
+      [
+        "Military Police",
+        "Troop Movements"
+      ],
+      [
+        "Aviation Forces",
+        "Manned and Unmanned Systems"
+      ],
+      [
+        "Forward Edge Of The Battle Area",
+        "Forward Line Of Own Troops"
+      ],
+      [
+        "CBRN Reconnaissance And Surveillance",
+        "Commanders"
+      ],
+      [
+        "Aviation Forces",
+        "Counterattacks"
+      ],
+      [
+        "Directed Obstacle",
+        "Tactical Obstacle"
+      ],
+      [
+        "Friendly Ground Forces",
+        "Linkup"
+      ],
+      [
+        "Friendly Fire Incidents",
+        "Restrictive FSCMs"
+      ],
+      [
+        "AO",
+        "Defending Force"
+      ],
+      [
+        "Engineer Units",
+        "Survivability Positions"
+      ],
+      [
+        "Divisions",
+        "Mobile Defense"
+      ],
+      [
+        "Commander's Intent",
+        "Sustainment Unit Commanders"
+      ],
+      [
+        "AO",
+        "Battalion"
+      ],
+      [
+        "Encircled Force",
+        "Exfiltration"
+      ],
+      [
+        "Commanders",
+        "FSCMs"
+      ],
+      [
+        "Engagement Area",
+        "Primary Position"
+      ],
+      [
+        "Area Defense",
+        "Battle of Kursk"
+      ],
+      [
+        "Defensive Operations",
+        "Stability Operations"
+      ],
+      [
+        "Air Avenue Of Approach",
+        "Obscurant"
+      ],
+      [
+        "Obstacle",
+        "Scatterable Mine"
+      ],
+      [
+        "Counterattack",
+        "Mobility"
+      ],
+      [
+        "Fire Support Assets",
+        "High-Payoff Targets"
+      ],
+      [
+        "Artillery Units",
+        "FPFs"
+      ],
+      [
+        "Alternate Position",
+        "Primary Position"
+      ],
+      [
+        "Defending Force",
+        "Enemy Force"
+      ],
+      [
+        "Electronic Warfare",
+        "Information Operations"
+      ],
+      [
+        "Enemy Force",
+        "Engagement Area"
+      ],
+      [
+        "Airborne and Air Assault Units",
+        "Reserve"
+      ],
+      [
+        "Airspace Coordination Area",
+        "Restrictive FSCMs"
+      ],
+      [
+        "Enemy Reconnaissance Efforts",
+        "Security Operations"
+      ],
+      [
+        "Fire Support Chain",
+        "Obstacle Plan"
+      ],
+      [
+        "Attack Using Defending Forces",
+        "Defensive Operations"
+      ],
+      [
+        "Area Defense",
+        "Engagement Areas"
+      ],
+      [
+        "Battle Positions",
+        "Engineer Unit"
+      ],
+      [
+        "Avenue of Approach",
+        "Primary Position"
+      ],
+      [
+        "Enemy Force",
+        "Main Battle Area"
+      ],
+      [
+        "Defending Force",
+        "Landing Zone"
+      ],
+      [
+        "AOs",
+        "Defending Forces"
+      ],
+      [
+        "Defensive Operations",
+        "Offense"
+      ],
+      [
+        "Battle Position",
+        "Fighting Position"
+      ],
+      [
+        "Initiative",
+        "Retrograde"
+      ],
+      [
+        "ATP 3-90.8",
+        "Obstacle"
+      ],
+      [
+        "Common Operational Picture",
+        "Headquarters"
+      ],
+      [
+        "Military Police Elements",
+        "Tactical Combat Force"
+      ],
+      [
+        "Combat-Configured Loads",
+        "POL"
+      ],
+      [
+        "Aerial Resupply",
+        "Encircled Force"
+      ],
+      [
+        "Limited Visibility",
+        "Sensor"
+      ],
+      [
+        "Defensive Plan",
+        "Information Collection Asset"
+      ],
+      [
+        "Commanders",
+        "Main Supply Routes"
+      ],
+      [
+        "Commanders",
+        "Economy of Force"
+      ],
+      [
+        "Aviation Forces",
+        "Spoiling Attacks"
+      ],
+      [
+        "ATP 3-90.8",
+        "Obstacles"
+      ],
+      [
+        "Attack Using Uncommitted Forces",
+        "Reinforcements"
+      ],
+      [
+        "Level II Threats",
+        "Military Police Elements"
+      ],
+      [
+        "Commanders",
+        "Counterattack"
+      ]
+    ],
+    "count": 336,
+    "create_time": 1778747373,
+    "update_time": 1778747373,
+    "_id": "doc-e42383e9a8812ef94821d3fb139d7dfe"
+  },
+  "doc-a92661c58041afcc6ab103c8a8c2352c": {
+    "relation_pairs": [
+      [
+        "Commanders",
+        "Movement Control"
+      ],
+      [
+        "Enemy",
+        "Reconnaissance"
+      ],
+      [
+        "Guard",
+        "Main Body"
+      ],
+      [
+        "Maneuver Units",
+        "Reconnaissance"
+      ],
+      [
+        "Cover",
+        "Security Operations"
+      ],
+      [
+        "Enemy",
+        "Reconnaissance in Force"
+      ],
+      [
+        "Administrative Movement",
+        "Troop Movement"
+      ],
+      [
+        "Armored BCT",
+        "Security Operations"
+      ],
+      [
+        "Reconnaissance in Force",
+        "Reinforcement"
+      ],
+      [
+        "Commander",
+        "Zone Reconnaissance"
+      ],
+      [
+        "Area Security",
+        "Security Operations"
+      ],
+      [
+        "Area of Operations",
+        "Incoming Unit"
+      ],
+      [
+        "IPB Process",
+        "Reconnaissance"
+      ],
+      [
+        "Reconnaissance",
+        "Reconnaissance in Force"
+      ],
+      [
+        "FM 3-90-2",
+        "Passage of Lines"
+      ],
+      [
+        "Forced March",
+        "Troop Movements"
+      ],
+      [
+        "Ground Cavalry",
+        "Reconnaissance"
+      ],
+      [
+        "Chemical Corps",
+        "Reconnaissance"
+      ],
+      [
+        "FM 3-13",
+        "Information Operations"
+      ],
+      [
+        "Dismounted Marches",
+        "Forced March"
+      ],
+      [
+        "Guard",
+        "Security Operations"
+      ],
+      [
+        "Priority Information Requirements",
+        "Reconnaissance Objective"
+      ],
+      [
+        "Passage of Lines",
+        "Retrograde"
+      ],
+      [
+        "Obstacle",
+        "Zone Reconnaissance"
+      ],
+      [
+        "Commanders",
+        "Enabling Operations"
+      ],
+      [
+        "Security Operations",
+        "Shaping Operation"
+      ],
+      [
+        "Approach March",
+        "Troop Movement"
+      ],
+      [
+        "Direct Fire",
+        "Guard"
+      ],
+      [
+        "Security Operations",
+        "Stryker BCT"
+      ],
+      [
+        "FM 3-90-2",
+        "Relief in Place"
+      ],
+      [
+        "Combat Power",
+        "Troop Movement"
+      ],
+      [
+        "Relief in Place",
+        "Relieved Unit"
+      ],
+      [
+        "FM 3-90-2",
+        "Security Operations"
+      ],
+      [
+        "Aviation Attack Reconnaissance Units",
+        "Reconnaissance"
+      ],
+      [
+        "Corps of Engineers",
+        "Reconnaissance"
+      ],
+      [
+        "Passing Force",
+        "Stationary Unit"
+      ],
+      [
+        "ATP 3-90.4",
+        "Mobility Operations"
+      ],
+      [
+        "Enabling Operations",
+        "Troop Movement"
+      ],
+      [
+        "AdministrativeMovement",
+        "Echelon Logistic Staff Officer"
+      ],
+      [
+        "Area Reconnaissance",
+        "Reconnaissance"
+      ],
+      [
+        "Area of Operations",
+        "The Army"
+      ],
+      [
+        "Defensive Operations",
+        "Enabling Operations"
+      ],
+      [
+        "Infantry BCT",
+        "Security Operations"
+      ],
+      [
+        "Decisive Action",
+        "Enabling Operations"
+      ],
+      [
+        "Land Forces",
+        "Movement Control"
+      ],
+      [
+        "Reconnaissance",
+        "Special Forces"
+      ],
+      [
+        "JP 2-0",
+        "Reconnaissance"
+      ],
+      [
+        "Army BCT",
+        "Infantry BCT"
+      ],
+      [
+        "Enabling Operations",
+        "Supporting Efforts"
+      ],
+      [
+        "Battlefield Agility",
+        "Troop Movement"
+      ],
+      [
+        "Commanders",
+        "Reconnaissance Assets"
+      ],
+      [
+        "Enemy",
+        "Forward Passage of Lines"
+      ],
+      [
+        "Attack",
+        "Passage of Lines"
+      ],
+      [
+        "Army BCT",
+        "Security Operations"
+      ],
+      [
+        "Reconnaissance",
+        "Route Reconnaissance"
+      ],
+      [
+        "Area of Operations",
+        "Zone of Operations"
+      ],
+      [
+        "Courses of Action",
+        "IPB Process"
+      ],
+      [
+        "Reconnaissance in Force",
+        "Retrograde"
+      ],
+      [
+        "ATP 3-90.8",
+        "Countermobility Operations"
+      ],
+      [
+        "Reconnaissance",
+        "Small Units"
+      ],
+      [
+        "AdministrativeMovement",
+        "FM 4-01"
+      ],
+      [
+        "Enemy Forces",
+        "Zone Reconnaissance"
+      ],
+      [
+        "Area Security",
+        "Lines Of Communications"
+      ],
+      [
+        "Incoming Unit",
+        "Relief in Place"
+      ],
+      [
+        "Early Warning",
+        "Screen"
+      ],
+      [
+        "Movement Control",
+        "Supplies"
+      ],
+      [
+        "Enabling Operations",
+        "Relief in Place"
+      ],
+      [
+        "Enabling Operations",
+        "Shaping Operations"
+      ],
+      [
+        "Tactical Road March",
+        "Troop Movement"
+      ],
+      [
+        "Enemy",
+        "Rearward Passage of Lines"
+      ],
+      [
+        "Enabling Operations",
+        "Stability Operations"
+      ],
+      [
+        "Commanders",
+        "Reconnaissance Objective"
+      ],
+      [
+        "Armored BCT",
+        "Army BCT"
+      ],
+      [
+        "Cover",
+        "Direct Fire"
+      ],
+      [
+        "CBRN Contamination",
+        "Zone Reconnaissance"
+      ],
+      [
+        "Multinational Forces",
+        "Reconnaissance"
+      ],
+      [
+        "Enabling Operations",
+        "Security"
+      ],
+      [
+        "Main Body",
+        "Screen"
+      ],
+      [
+        "Area Reconnaissance",
+        "Line of Departure"
+      ],
+      [
+        "Reconnaissance",
+        "Zone Reconnaissance"
+      ],
+      [
+        "JP 3-18",
+        "Passage of Lines"
+      ],
+      [
+        "Enabling Operations",
+        "Passage of Lines"
+      ],
+      [
+        "JP 3-05",
+        "Special Reconnaissance"
+      ],
+      [
+        "Enabling Operations",
+        "Offensive Operations"
+      ],
+      [
+        "Reconnaissance",
+        "Special Reconnaissance"
+      ],
+      [
+        "Corps",
+        "Reconnaissance"
+      ],
+      [
+        "Defense Support of Civil Authorities",
+        "Enabling Operations"
+      ],
+      [
+        "Screen",
+        "Security Operations"
+      ],
+      [
+        "Enemy",
+        "Simultaneous Relief in Place"
+      ],
+      [
+        "Area of Operations",
+        "Reconnaissance Objective"
+      ],
+      [
+        "Enabling Operations",
+        "Reconnaissance"
+      ],
+      [
+        "Division",
+        "Reconnaissance"
+      ],
+      [
+        "Governmental Agencies",
+        "Reconnaissance"
+      ],
+      [
+        "Passage of Lines",
+        "Security Operation"
+      ],
+      [
+        "Area Security",
+        "Civilian Population"
+      ],
+      [
+        "Cover",
+        "Main Body"
+      ],
+      [
+        "Army BCT",
+        "Stryker BCT"
+      ],
+      [
+        "Counterattack",
+        "Passage of Lines"
+      ],
+      [
+        "Combat Positions",
+        "Passage of Lines"
+      ],
+      [
+        "Forced March",
+        "Mounted Marches"
+      ],
+      [
+        "BCT",
+        "Reconnaissance"
+      ],
+      [
+        "Passage Point",
+        "Passage of Lines"
+      ],
+      [
+        "IPB Process",
+        "Priority Information Requirements"
+      ]
+    ],
+    "count": 103,
+    "create_time": 1778747983,
+    "update_time": 1778747983,
+    "_id": "doc-a92661c58041afcc6ab103c8a8c2352c"
+  },
+  "doc-d9e4ee9370f90d04a15d5ce55d5d9f40": {
+    "relation_pairs": [
+      [
+        "Collision Danger (CD)",
+        "Urban Environment"
+      ],
+      [
+        "Explosives",
+        "Masonry"
+      ],
+      [
+        "Ballistic Trajectory",
+        "High-Angle Deliveries"
+      ],
+      [
+        "Airspace Management",
+        "SUAS"
+      ],
+      [
+        "Direct Fire Munitions",
+        "Masonry"
+      ],
+      [
+        "Ground Forces",
+        "Marking Devices"
+      ],
+      [
+        "Artillery",
+        "SEAD"
+      ],
+      [
+        "Commanders",
+        "Supporting Infrastructure"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Escort Operations"
+      ],
+      [
+        "Canalizing Terrain",
+        "Ground Forces"
+      ],
+      [
+        "Fixed-Wing Aircraft",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "Low-rise Residential Areas",
+        "Urban Operations"
+      ],
+      [
+        "Communication Plans",
+        "LOS"
+      ],
+      [
+        "Aircraft",
+        "Escort Operations"
+      ],
+      [
+        "Blast Effect",
+        "Lethal Weapons"
+      ],
+      [
+        "Lasing",
+        "Missile"
+      ],
+      [
+        "Hovering Fire",
+        "Rotary-wing Aircraft"
+      ],
+      [
+        "City Central Core",
+        "High-rise Buildings"
+      ],
+      [
+        "Aircrews",
+        "Battle-Space Owner"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Personnel Recovery"
+      ],
+      [
+        "Concrete Beams",
+        "Steel-frame Buildings"
+      ],
+      [
+        "Surface",
+        "Urban Terrain"
+      ],
+      [
+        "Decoys",
+        "Friendly Forces"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "ISR"
+      ],
+      [
+        "Air Movement",
+        "Aircraft"
+      ],
+      [
+        "Foreign Humanitarian Assistance (HA)",
+        "United States"
+      ],
+      [
+        "Electric Saw",
+        "Walls"
+      ],
+      [
+        "Enemy Forces",
+        "United States Forces"
+      ],
+      [
+        "Planned Sections",
+        "Street Widths"
+      ],
+      [
+        "Sensor-aided Acquisition",
+        "Smoke"
+      ],
+      [
+        "Armor Penetration Effect",
+        "Lethal Weapons"
+      ],
+      [
+        "Air Movement",
+        "Combined Arms Team"
+      ],
+      [
+        "JP 4-02",
+        "MEDEVAC"
+      ],
+      [
+        "Subsurface",
+        "Urban Terrain"
+      ],
+      [
+        "Air Interdiction",
+        "ROE"
+      ],
+      [
+        "Figure 15",
+        "Lasing"
+      ],
+      [
+        "Escort Aircraft",
+        "Friendly Forces"
+      ],
+      [
+        "Aviation Assets",
+        "Ground Force Commanders"
+      ],
+      [
+        "Ground Floor",
+        "Residential And Mixed-use Buildings"
+      ],
+      [
+        "Street Widths",
+        "Urban Environment"
+      ],
+      [
+        "Aircrews",
+        "Dams"
+      ],
+      [
+        "Civilian Casualties",
+        "Shantytowns"
+      ],
+      [
+        "Laser Designator",
+        "Podium Effect"
+      ],
+      [
+        "Hoist-Equipped Aircraft",
+        "Isolated Personnel (IP)"
+      ],
+      [
+        "Communication",
+        "Friendly Fire"
+      ],
+      [
+        "Roofs",
+        "Sledge Hammer"
+      ],
+      [
+        "Glass Shards",
+        "Noncombatants"
+      ],
+      [
+        "Desired Effect",
+        "Ground Force Commanders"
+      ],
+      [
+        "Ground Forces",
+        "Subsurface Sites"
+      ],
+      [
+        "Historical Sections",
+        "Street Widths"
+      ],
+      [
+        "Civil Authorities",
+        "Emergency Medical Services"
+      ],
+      [
+        "CD",
+        "Urban Environment"
+      ],
+      [
+        "Civil Organizations",
+        "Military"
+      ],
+      [
+        "Laser-Guided Missile (LGM)",
+        "Reflective Surfaces"
+      ],
+      [
+        "Federal Aviation Administration",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "Road",
+        "Strip Areas"
+      ],
+      [
+        "Political Units",
+        "Urban Areas"
+      ],
+      [
+        "Elevator",
+        "Mid-rises"
+      ],
+      [
+        "Commercial Areas",
+        "Wholesale Businesses"
+      ],
+      [
+        "Fragmentation Effects",
+        "Noncombatants"
+      ],
+      [
+        "Geneva Conventions",
+        "MEDEVAC"
+      ],
+      [
+        "Strip Areas",
+        "Urban Operations"
+      ],
+      [
+        "Ambulance Exchange Points",
+        "CASEVAC"
+      ],
+      [
+        "Industrial Areas",
+        "Toxic Industrial Materials"
+      ],
+      [
+        "Aircrews",
+        "Alternate Extraction"
+      ],
+      [
+        "Commanders",
+        "Rules of Engagement"
+      ],
+      [
+        "Shooter",
+        "Smoke"
+      ],
+      [
+        "Supersurface",
+        "Urban Terrain"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Weapons Employment"
+      ],
+      [
+        "Airspace",
+        "Host Nation"
+      ],
+      [
+        "Airfield",
+        "Fixed-Wing Aircraft"
+      ],
+      [
+        "Building Debris",
+        "Improvised Camouflage"
+      ],
+      [
+        "Figure 15",
+        "Laser Designator"
+      ],
+      [
+        "Lasing",
+        "Rural Environments"
+      ],
+      [
+        "Airspace",
+        "Urban Terrain"
+      ],
+      [
+        "Air Assault",
+        "Tiltrotor Aircraft"
+      ],
+      [
+        "ASCOPE",
+        "ASCOPE Events"
+      ],
+      [
+        "Center Of Gravity",
+        "Commanders"
+      ],
+      [
+        "Gated Laser-Intensifier Tape",
+        "Marking Devices"
+      ],
+      [
+        "Haze",
+        "Sensor-aided Acquisition"
+      ],
+      [
+        "Aviation Operations",
+        "ISR"
+      ],
+      [
+        "ISR",
+        "Sensors"
+      ],
+      [
+        "Observer",
+        "Shooter"
+      ],
+      [
+        "Flight Following Services",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "Friendly Forces",
+        "Marking Devices"
+      ],
+      [
+        "Enemy Forces",
+        "United States (US) Forces"
+      ],
+      [
+        "Friendly Fire",
+        "United States (US) Forces"
+      ],
+      [
+        "Advanced Camouflage Techniques",
+        "Energy Reflective Materials"
+      ],
+      [
+        "Fires",
+        "Night-vision Devices"
+      ],
+      [
+        "Supporting Infrastructure",
+        "Threat"
+      ],
+      [
+        "ATP 3-06.1",
+        "NTTP 3-01.04"
+      ],
+      [
+        "Defense Support of Civil Authorities (DSCA)",
+        "JP 3-28"
+      ],
+      [
+        "Figure 17",
+        "Urban Environment"
+      ],
+      [
+        "United States (US) Forces",
+        "Urban Camouflage"
+      ],
+      [
+        "Pry Bar",
+        "Roofs"
+      ],
+      [
+        "Elevator",
+        "Low-rises"
+      ],
+      [
+        "Aircrews",
+        "Urban Environment"
+      ],
+      [
+        "False Skin",
+        "Military Transport Trucks"
+      ],
+      [
+        "Military Operators",
+        "Noncombatants"
+      ],
+      [
+        "Improvised Camouflage",
+        "Sheets"
+      ],
+      [
+        "Illumination Rounds",
+        "Night Vision Devices (NVDs)"
+      ],
+      [
+        "Enemy Air Defense Systems",
+        "Urban Environment"
+      ],
+      [
+        "Landing Zone (LZ)",
+        "Personnel Recovery Operations"
+      ],
+      [
+        "Cratering Effect",
+        "Runways"
+      ],
+      [
+        "Incendiary Effect",
+        "Lethal Weapons"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Deception and Decoys"
+      ],
+      [
+        "Escort Operations",
+        "Sensor Postures"
+      ],
+      [
+        "Defense Support of Civil Authorities (DSCA)",
+        "Department of Defense"
+      ],
+      [
+        "Collateral Damage",
+        "Flechette Rockets"
+      ],
+      [
+        "AFTTP 3-2.29",
+        "ATP 3-06.1"
+      ],
+      [
+        "Battle-Tracking Capabilities",
+        "Link 16"
+      ],
+      [
+        "ASCOPE",
+        "Urban Areas"
+      ],
+      [
+        "Ambulance Exchange Points",
+        "Aviation Operations"
+      ],
+      [
+        "Forward-Looking Infrared Targeting",
+        "Smoke Grenades"
+      ],
+      [
+        "Masonry",
+        "Residential Buildings"
+      ],
+      [
+        "Moving Vehicles",
+        "Urban Environment"
+      ],
+      [
+        "Shantytowns",
+        "Urban Operations"
+      ],
+      [
+        "Blast Effects",
+        "Collateral Damage"
+      ],
+      [
+        "Aviation Assets",
+        "Planners"
+      ],
+      [
+        "ATP 3-06.1",
+        "Urban Areas"
+      ],
+      [
+        "Buddy Lasing",
+        "Fixed-Wing Aircraft"
+      ],
+      [
+        "Elevator",
+        "High-rises"
+      ],
+      [
+        "14 July 2016",
+        "Joint Operating Environment 2035"
+      ],
+      [
+        "Broom Stick",
+        "Decoys"
+      ],
+      [
+        "Civilian Vehicles",
+        "Urban Environments"
+      ],
+      [
+        "Combat Identification Panels",
+        "Marking Devices"
+      ],
+      [
+        "Blast Effect",
+        "Buildings"
+      ],
+      [
+        "Enemy Forces",
+        "Urban Terrain"
+      ],
+      [
+        "Isolated Personnel (IP)",
+        "Urban Environment"
+      ],
+      [
+        "Continental United States",
+        "Federal Aviation Administration"
+      ],
+      [
+        "Street Patterns",
+        "Urban Environment"
+      ],
+      [
+        "ATP 3-06.1",
+        "Urban Environment"
+      ],
+      [
+        "Ground Forces",
+        "Military Areas"
+      ],
+      [
+        "Humanitarian Assistance (HA)",
+        "Law Enforcement"
+      ],
+      [
+        "Public, Civic, Commercial, And Mixed-use Buildings",
+        "Steel Or Metal"
+      ],
+      [
+        "Civilian Population",
+        "ROE"
+      ],
+      [
+        "Factories",
+        "Overhead Cover"
+      ],
+      [
+        "Blue Force Tracker",
+        "Digital Marking Methods"
+      ],
+      [
+        "Orbit Geometry",
+        "Sensors"
+      ],
+      [
+        "Subsurface",
+        "Weapons"
+      ],
+      [
+        "Tactical Data Links",
+        "Variable Message Format"
+      ],
+      [
+        "Link 16",
+        "Tactical Data Links"
+      ],
+      [
+        "Enemy Forces",
+        "Fires"
+      ],
+      [
+        "Collateral Damage",
+        "Planners"
+      ],
+      [
+        "Aviation Fires",
+        "Commander"
+      ],
+      [
+        "Air Assault",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "Dust",
+        "Sensor-aided Acquisition"
+      ],
+      [
+        "Communication Plans",
+        "Convoy Security Planning"
+      ],
+      [
+        "Low-rise And Mid-rise Reinforced-concrete Buildings",
+        "Reinforced Concrete"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Aviation Fires"
+      ],
+      [
+        "Asphalt",
+        "Road Surfaces"
+      ],
+      [
+        "Armored Vehicle",
+        "Masonry"
+      ],
+      [
+        "Figure 18",
+        "High-Angle Deliveries"
+      ],
+      [
+        "Rotary-wing Aircraft",
+        "Small-arms Fire"
+      ],
+      [
+        "IR Markers",
+        "Urban Environment"
+      ],
+      [
+        "Observers",
+        "SEAD"
+      ],
+      [
+        "Businesses",
+        "City"
+      ],
+      [
+        "Fires",
+        "Thermal Washout Effects"
+      ],
+      [
+        "Aviation Operations",
+        "Street Patterns"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Urban Environment"
+      ],
+      [
+        "ASCOPE",
+        "ASCOPE Capabilities"
+      ],
+      [
+        "Aircrews",
+        "Urban Canyons"
+      ],
+      [
+        "City",
+        "Urban Zones"
+      ],
+      [
+        "Explosives",
+        "Load-bearing Walls"
+      ],
+      [
+        "Low-rise And Mid-rise Reinforced-concrete Buildings",
+        "Residential Areas"
+      ],
+      [
+        "Aircrews",
+        "GMTI Radar"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Personnel Recovery Operations"
+      ],
+      [
+        "Aircraft",
+        "Urban Environment"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Air Assault"
+      ],
+      [
+        "Direct Fire Munitions",
+        "Wood"
+      ],
+      [
+        "Immediate Recovery",
+        "Mission Commander"
+      ],
+      [
+        "Airborne Escort",
+        "Convoy Security Planning"
+      ],
+      [
+        "LOS Communications",
+        "Vertical Construction"
+      ],
+      [
+        "Downtown Areas",
+        "Streets"
+      ],
+      [
+        "Displaced Persons",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "ASCOPE",
+        "ASCOPE Structures"
+      ],
+      [
+        "Figure 16",
+        "Urban Canyon"
+      ],
+      [
+        "Planners",
+        "Tactical Data Links"
+      ],
+      [
+        "Joint Chiefs of Staff",
+        "Joint Operating Environment 2035"
+      ],
+      [
+        "Core Rooms",
+        "Partitions"
+      ],
+      [
+        "Direct Fire Weapons",
+        "Urban Environment"
+      ],
+      [
+        "Ground Force Commander",
+        "Tactical ISR"
+      ],
+      [
+        "Aircrew Survival Radios",
+        "Urban Environment"
+      ],
+      [
+        "Munitions",
+        "Structures"
+      ],
+      [
+        "Friendly Forces",
+        "Urban Environment"
+      ],
+      [
+        "Aircrews",
+        "Airfields"
+      ],
+      [
+        "Municipality",
+        "Urban Areas"
+      ],
+      [
+        "Joint Terminal Attack Controllers",
+        "Supersurface"
+      ],
+      [
+        "Decoys",
+        "Smoke Grenades"
+      ],
+      [
+        "Civilian Populace",
+        "Joint Publication 3-06"
+      ],
+      [
+        "Military Areas",
+        "Urban Operations"
+      ],
+      [
+        "Isolated Personnel (IP)",
+        "Recovery Force"
+      ],
+      [
+        "MEDEVAC",
+        "Patient Collection Points"
+      ],
+      [
+        "Incendiary Effects",
+        "Structures"
+      ],
+      [
+        "Civilian Population",
+        "Road Surfaces"
+      ],
+      [
+        "Aviation Fires",
+        "Ground Forces"
+      ],
+      [
+        "Planners",
+        "Urban Areas"
+      ],
+      [
+        "Open Space",
+        "Suburban Residential Areas"
+      ],
+      [
+        "Civil Authorities",
+        "Defense Support of Civil Authorities (DSCA)"
+      ],
+      [
+        "Table 1",
+        "Urban Areas"
+      ],
+      [
+        "Building Central Core",
+        "Stairwells"
+      ],
+      [
+        "Cultural Lighting",
+        "Night Vision Devices"
+      ],
+      [
+        "Roofs",
+        "Sledgehammer"
+      ],
+      [
+        "Friendly Force Trackers",
+        "Personnel"
+      ],
+      [
+        "ATP 3-06.1",
+        "Weapons Employment"
+      ],
+      [
+        "Look-Down View",
+        "Roadways"
+      ],
+      [
+        "Building Central Core",
+        "High-rise Buildings"
+      ],
+      [
+        "Artillery",
+        "Surface-to-air Threats"
+      ],
+      [
+        "Cement",
+        "Road Surfaces"
+      ],
+      [
+        "ASCOPE",
+        "ASCOPE Areas"
+      ],
+      [
+        "Boulevards",
+        "Street Widths"
+      ],
+      [
+        "Debris",
+        "Personnel"
+      ],
+      [
+        "Toxic Industrial Materials",
+        "Urban Complexes"
+      ],
+      [
+        "Heavy Cladding",
+        "Steel-frame Buildings"
+      ],
+      [
+        "Core Rooms",
+        "Office And Residential Buildings"
+      ],
+      [
+        "Disaster Relief (DR)",
+        "Survivors"
+      ],
+      [
+        "Aerial Sniper Platform",
+        "Sniper Teams"
+      ],
+      [
+        "SEAD Operations",
+        "Urban Environment"
+      ],
+      [
+        "Electromagnetic Interference",
+        "Tactical Data Links"
+      ],
+      [
+        "CD",
+        "Precision-Guided Munitions"
+      ],
+      [
+        "Aircraft",
+        "Urban Canyons"
+      ],
+      [
+        "USMC",
+        "USMC SIGINT Deconfliction Officer"
+      ],
+      [
+        "LOS Communications",
+        "Subsurface Infrastructure"
+      ],
+      [
+        "On-Scene Commander",
+        "Recovery Force"
+      ],
+      [
+        "Combatants",
+        "Military Operators"
+      ],
+      [
+        "Assault Forces",
+        "Obstacles"
+      ],
+      [
+        "Cardboard",
+        "Improvised Camouflage"
+      ],
+      [
+        "Friendly Forces",
+        "Road Surfaces"
+      ],
+      [
+        "Sensor-aided Acquisition",
+        "Television (TV)"
+      ],
+      [
+        "Indirect Fires",
+        "LZ"
+      ],
+      [
+        "Aviation Operations",
+        "Urban Environment"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "CASEVAC"
+      ],
+      [
+        "Ground Force Commanders",
+        "Lethal Weapons"
+      ],
+      [
+        "Friendly Fire Incidents",
+        "Shantytowns"
+      ],
+      [
+        "Overhead Cover",
+        "Steel-frame Buildings"
+      ],
+      [
+        "Ground Moving Target Indicator (GMTI) Radar",
+        "Target Acquisition"
+      ],
+      [
+        "Aircraft",
+        "ISR Tactical Controller"
+      ],
+      [
+        "JP 3-09.3",
+        "Post-Launch Aborts"
+      ],
+      [
+        "Enemy Forces",
+        "Neutral Forces"
+      ],
+      [
+        "Civilian Casualty",
+        "Standoff Weapons"
+      ],
+      [
+        "Isolated Personnel",
+        "Personnel Recovery"
+      ],
+      [
+        "USAF",
+        "USAF Non-Kinetic Duty Officer"
+      ],
+      [
+        "Air Assault",
+        "LZs"
+      ],
+      [
+        "Airspace Management",
+        "Commanders"
+      ],
+      [
+        "Laser Designator",
+        "Laser Energy"
+      ],
+      [
+        "Dust",
+        "Observer"
+      ],
+      [
+        "CAS",
+        "Urban Environment"
+      ],
+      [
+        "Airspace",
+        "Commercial Users"
+      ],
+      [
+        "Aviation Assets",
+        "Aviation Operations"
+      ],
+      [
+        "Elevator",
+        "Skyscrapers"
+      ],
+      [
+        "City",
+        "Schools"
+      ],
+      [
+        "Ground Forces",
+        "Subsurface"
+      ],
+      [
+        "Target Acquisition",
+        "Visual Acquisition"
+      ],
+      [
+        "Road Surfaces",
+        "Stone"
+      ],
+      [
+        "Fires",
+        "Thermal-imagery"
+      ],
+      [
+        "EO Systems",
+        "Sensor-aided Acquisition"
+      ],
+      [
+        "Civilian Vehicles",
+        "Vehicle-Borne Improvised Explosive Devices"
+      ],
+      [
+        "Battle-Tracking Capabilities",
+        "SA"
+      ],
+      [
+        "Enemy",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "Civilian Vehicles",
+        "Technical"
+      ],
+      [
+        "Escort Operations",
+        "Ground Elements"
+      ],
+      [
+        "Interior Hall",
+        "Office And Residential Buildings"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Disaster Relief (DR)"
+      ],
+      [
+        "GRGs",
+        "SA"
+      ],
+      [
+        "Fortifications",
+        "Military Areas"
+      ],
+      [
+        "Enemy Forces",
+        "Friendly Fire Reduction Techniques"
+      ],
+      [
+        "22 FEB 2022",
+        "ATP 3-06.1"
+      ],
+      [
+        "Collateral Damage",
+        "Weapons"
+      ],
+      [
+        "Lasing",
+        "Reflective Surfaces"
+      ],
+      [
+        "Enemy Forces",
+        "Rules Of Engagement"
+      ],
+      [
+        "Rotor Wash",
+        "Structures"
+      ],
+      [
+        "Joint Operating Environment 2035",
+        "Urban Environment"
+      ],
+      [
+        "Liaison Officers",
+        "Planners"
+      ],
+      [
+        "MEDEVAC",
+        "Noncombatant Casualties"
+      ],
+      [
+        "Enemy",
+        "Friendly Forces"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Urban Operations"
+      ],
+      [
+        "Enemy Forces",
+        "Technical"
+      ],
+      [
+        "Aircrews",
+        "Collateral Damage"
+      ],
+      [
+        "Aircrews",
+        "Night Vision Devices"
+      ],
+      [
+        "Air Interdiction",
+        "CD"
+      ],
+      [
+        "Enemy Forces",
+        "ROE"
+      ],
+      [
+        "Local Culture",
+        "Reinforced Concrete"
+      ],
+      [
+        "Local Population",
+        "Urban Operations"
+      ],
+      [
+        "Service Members",
+        "Urban Operations"
+      ],
+      [
+        "Aircrew Survival Radios",
+        "Isolated Personnel (IP)"
+      ],
+      [
+        "Foreign Humanitarian Assistance (HA)",
+        "JP 3-29"
+      ],
+      [
+        "Residential Buildings",
+        "Walls"
+      ],
+      [
+        "Aircrew",
+        "Sensors"
+      ],
+      [
+        "Commercial Areas",
+        "Retail Businesses"
+      ],
+      [
+        "Fragmentation Effect",
+        "Lethal Weapons"
+      ],
+      [
+        "Illumination Rounds",
+        "JIPOE"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Urban Zones"
+      ],
+      [
+        "Disaster Relief (DR)",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "Convoy Security",
+        "Escort Operations"
+      ],
+      [
+        "Loopholes",
+        "Structures"
+      ],
+      [
+        "Penthouse Floor",
+        "Residential And Mixed-use Buildings"
+      ],
+      [
+        "Figure 2",
+        "Urban Zones"
+      ],
+      [
+        "Army Techniques Publication 3-21.51",
+        "Subsurface"
+      ],
+      [
+        "Light Cladding",
+        "Steel-frame Buildings"
+      ],
+      [
+        "Critical Infrastructure",
+        "Subsurface"
+      ],
+      [
+        "GMTI Radar",
+        "IED Explosion"
+      ],
+      [
+        "Supersurface",
+        "Urban Canyons"
+      ],
+      [
+        "Aid Stations",
+        "Aviation Operations"
+      ],
+      [
+        "Laser Energy",
+        "Laser-Guided Missile (LGM)"
+      ],
+      [
+        "Precision-Guided Munitions",
+        "Urban Canyons"
+      ],
+      [
+        "Information Environment",
+        "Targeting Process"
+      ],
+      [
+        "Buildings",
+        "Enemy Troops"
+      ],
+      [
+        "River",
+        "Strip Areas"
+      ],
+      [
+        "Enemy Forces",
+        "Friendly Forces"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "General Planning Considerations"
+      ],
+      [
+        "Factories",
+        "Weapons"
+      ],
+      [
+        "Sensor-aided Acquisition",
+        "Target Acquisition"
+      ],
+      [
+        "FMV",
+        "Ground Force Commander"
+      ],
+      [
+        "Deliberate Recovery",
+        "Mission Commander"
+      ],
+      [
+        "Large Open Interiors",
+        "Public-gathering Buildings"
+      ],
+      [
+        "Clutter",
+        "Urban Environment"
+      ],
+      [
+        "Landing Zones",
+        "Urban Environment"
+      ],
+      [
+        "Orbit Geometry",
+        "Planners"
+      ],
+      [
+        "Buildings",
+        "Commanders"
+      ],
+      [
+        "Rotary-wing Aircraft",
+        "Running And Diving Fire"
+      ],
+      [
+        "Public, Civic, Commercial, And Mixed-use Buildings",
+        "Walls"
+      ],
+      [
+        "FMV",
+        "JTACs"
+      ],
+      [
+        "Line Of Sight (LOS)",
+        "Urban Canyon"
+      ],
+      [
+        "Aircrews",
+        "Ground Personnel"
+      ],
+      [
+        "Buildings",
+        "Planners"
+      ],
+      [
+        "Convoy Security Planning",
+        "Urban Environment"
+      ],
+      [
+        "Urban Environment",
+        "Urban Terrain"
+      ],
+      [
+        "JTACs",
+        "Standoff Weapons"
+      ],
+      [
+        "ASCOPE",
+        "ATP 2-01.3"
+      ],
+      [
+        "Indirect Fires",
+        "Target Marking"
+      ],
+      [
+        "Assault Forces",
+        "Key Terrain"
+      ],
+      [
+        "Ground Force Commander",
+        "Intelligence Analyst"
+      ],
+      [
+        "Armored Vehicles",
+        "Shantytowns"
+      ],
+      [
+        "Airspace Control Element",
+        "On-Scene Commander"
+      ],
+      [
+        "22 FEB 2022",
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29"
+      ],
+      [
+        "Airspace Control",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "USA",
+        "USA Fires and Effects Coordination Center"
+      ],
+      [
+        "Aircraft",
+        "Enemy"
+      ],
+      [
+        "Emergency Medical Services",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "Streets",
+        "Urban Zones"
+      ],
+      [
+        "Air Assault",
+        "Landing Zones"
+      ],
+      [
+        "Ground Force Commander",
+        "MEDEVAC"
+      ],
+      [
+        "ASCOPE",
+        "ASCOPE Organizations"
+      ],
+      [
+        "Aircrews",
+        "Bridges"
+      ],
+      [
+        "Enemy Tactics",
+        "Visual Markings"
+      ],
+      [
+        "Army Attack Aviation",
+        "Urban Environment"
+      ],
+      [
+        "Escort Operations",
+        "Local Populace"
+      ],
+      [
+        "GMTI Radar",
+        "Urban Environment"
+      ],
+      [
+        "Downtown Areas",
+        "Street Patterns"
+      ],
+      [
+        "Gravel",
+        "Road Surfaces"
+      ],
+      [
+        "Aviation Fires",
+        "JP 3-09.3"
+      ],
+      [
+        "Firing Locations",
+        "Structures"
+      ],
+      [
+        "Phase Lines",
+        "SA"
+      ],
+      [
+        "Enemy",
+        "Structures"
+      ],
+      [
+        "Civilian Population",
+        "PID"
+      ],
+      [
+        "Aviation Operations",
+        "Commanders"
+      ],
+      [
+        "Laser Designator",
+        "Lasing"
+      ],
+      [
+        "Aircrews",
+        "Liaison Officers"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "CD",
+        "Civilian Population"
+      ],
+      [
+        "Planners",
+        "Rules of Engagement"
+      ],
+      [
+        "Reflective Surfaces",
+        "Urban Environment"
+      ],
+      [
+        "Ground-Based Laser",
+        "Urban Canyon"
+      ],
+      [
+        "Aviation Operations",
+        "Planners"
+      ],
+      [
+        "Civilian Populace",
+        "Urban Environment"
+      ],
+      [
+        "High-rises",
+        "International Building Codes"
+      ],
+      [
+        "Cultural Lighting",
+        "Night Operations"
+      ],
+      [
+        "Ground Force Commander",
+        "Medical Personnel"
+      ],
+      [
+        "Aircrews",
+        "Standoff Weapons"
+      ],
+      [
+        "Building Functions",
+        "Buildings"
+      ],
+      [
+        "Hand-Held Tablets",
+        "Tactical Data Links"
+      ],
+      [
+        "Marking Devices",
+        "Smoke"
+      ],
+      [
+        "Military Transport Trucks",
+        "Other Nations"
+      ],
+      [
+        "Collision Danger (CD)",
+        "Post-Launch Aborts"
+      ],
+      [
+        "Aircraft",
+        "Ground Forces"
+      ],
+      [
+        "Digital Marking Methods",
+        "Visual Markings"
+      ],
+      [
+        "Ground Forces",
+        "Surface"
+      ],
+      [
+        "Advanced Camouflage Techniques",
+        "Thermal Blankets"
+      ],
+      [
+        "Building Types",
+        "Urban Zones"
+      ],
+      [
+        "International Building Codes",
+        "Mid-rises"
+      ],
+      [
+        "Aircraft",
+        "CASEVAC"
+      ],
+      [
+        "City",
+        "Government"
+      ],
+      [
+        "Air Interdiction",
+        "Commander"
+      ],
+      [
+        "Ground Force Commander",
+        "ISR"
+      ],
+      [
+        "Enemy Forces",
+        "Uniforms"
+      ],
+      [
+        "Building Sizes",
+        "Buildings"
+      ],
+      [
+        "Public, Civic, Commercial, And Mixed-use Buildings",
+        "Reinforced Concrete"
+      ],
+      [
+        "Convoy Security Planning",
+        "Location Reporting Contracts"
+      ],
+      [
+        "Natural Disasters",
+        "Urban Environment"
+      ],
+      [
+        "Highway",
+        "Industrial Areas"
+      ],
+      [
+        "Aviation Urban Operations",
+        "Buildings"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Air Movement"
+      ],
+      [
+        "Improvised Camouflage",
+        "Tarps"
+      ],
+      [
+        "Aircraft",
+        "Aircrew"
+      ],
+      [
+        "Residential Buildings",
+        "Wood"
+      ],
+      [
+        "Friendly Fire Incidents",
+        "Friendly Forces"
+      ],
+      [
+        "CASEVAC",
+        "Ground Force Commander"
+      ],
+      [
+        "Residential And Mixed-use Buildings",
+        "Roof Access Doors"
+      ],
+      [
+        "Nonlethal Effects",
+        "Planners"
+      ],
+      [
+        "JP 4-02",
+        "Joint Health Services"
+      ],
+      [
+        "Battle-Tracking Capabilities",
+        "Blue Force Tracker-Joint Capability Release"
+      ],
+      [
+        "Fire Mission Requests",
+        "Ground Personnel"
+      ],
+      [
+        "Aircrews",
+        "Munition Flight Path"
+      ],
+      [
+        "Fires",
+        "Isolated Personnel (IP)"
+      ],
+      [
+        "International Building Codes",
+        "Skyscrapers"
+      ],
+      [
+        "Battle-Tracking Capabilities",
+        "Tactical Airspace Integration System"
+      ],
+      [
+        "Advanced Camouflage Techniques",
+        "Cooling Devices"
+      ],
+      [
+        "Axe",
+        "Walls"
+      ],
+      [
+        "Urban Environment",
+        "Weapons"
+      ],
+      [
+        "Commercial Product Logo",
+        "Military Transport Trucks"
+      ],
+      [
+        "Aviation Operations",
+        "Landing Zones"
+      ],
+      [
+        "Skyscrapers",
+        "Stairwells"
+      ],
+      [
+        "Air Interdiction",
+        "PID"
+      ],
+      [
+        "ASCOPE",
+        "Planners"
+      ],
+      [
+        "Night Vision Devices (NVD)",
+        "Visual Acquisition"
+      ],
+      [
+        "Supporting Infrastructure",
+        "Urban Environment"
+      ],
+      [
+        "Aircraft",
+        "Aircrews"
+      ],
+      [
+        "Industrial Areas",
+        "Rail"
+      ],
+      [
+        "Air Assets",
+        "Subsurface"
+      ],
+      [
+        "City",
+        "Open Space"
+      ],
+      [
+        "Manned-unmanned Teaming",
+        "Unmanned Systems"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "Convoy Security Planning"
+      ],
+      [
+        "Explosives",
+        "Reinforced Concrete"
+      ],
+      [
+        "Aircrews",
+        "Local Authorities"
+      ],
+      [
+        "Aviation Operations",
+        "Ground Forces"
+      ],
+      [
+        "Civil Authorities",
+        "Law Enforcement"
+      ],
+      [
+        "Cratering Effect",
+        "Lethal Weapons"
+      ],
+      [
+        "Fire Support Coordinators",
+        "SEAD"
+      ],
+      [
+        "FAC(A)s",
+        "FMV"
+      ],
+      [
+        "Buildings",
+        "Weapons"
+      ],
+      [
+        "Crash Site",
+        "Urban Environment"
+      ],
+      [
+        "Landing Zone (LZ)",
+        "Urban Environment"
+      ],
+      [
+        "Collateral Damage",
+        "Personnel"
+      ],
+      [
+        "Residential Buildings",
+        "Roofs"
+      ],
+      [
+        "Air Assets",
+        "Enemy"
+      ],
+      [
+        "Aviation Fires",
+        "JP 3-03"
+      ],
+      [
+        "IR Systems",
+        "Sensor-aided Acquisition"
+      ],
+      [
+        "Enemy Forces",
+        "Urban Environment"
+      ],
+      [
+        "City Core",
+        "Urban Zones"
+      ],
+      [
+        "Buddy Lasing",
+        "Rotary-Wing Aircraft"
+      ],
+      [
+        "SA",
+        "Unmanned Systems"
+      ],
+      [
+        "Aircrews",
+        "Laser-Guided Missile (LGM)"
+      ],
+      [
+        "Airspace",
+        "Small Unmanned Aircraft Systems"
+      ],
+      [
+        "Uniforms",
+        "United States Forces"
+      ],
+      [
+        "ISR",
+        "Urban Environment"
+      ],
+      [
+        "Subsurface Targets",
+        "Weapon Delivery"
+      ],
+      [
+        "Civilian SUAS",
+        "Humanitarian Assistance (HA)"
+      ],
+      [
+        "High-rises",
+        "Stairs"
+      ],
+      [
+        "GPS Receivers",
+        "Standoff Weapons"
+      ],
+      [
+        "ASCOPE",
+        "Terrain"
+      ],
+      [
+        "C2 Elements",
+        "Liaison Officers"
+      ],
+      [
+        "Patterns Of Life",
+        "Urban Environments"
+      ],
+      [
+        "Collateral Objects",
+        "Standoff Weapons"
+      ],
+      [
+        "ATP 3-06.1/MCRP 3-20.4/NTTP 3-01.04/AFTTP 3-2.29",
+        "MEDEVAC"
+      ],
+      [
+        "Noncombatants",
+        "Shantytowns"
+      ],
+      [
+        "ASCOPE",
+        "ASCOPE People"
+      ],
+      [
+        "Commanders",
+        "Spectrum Management"
+      ],
+      [
+        "Aircraft",
+        "MEDEVAC"
+      ],
+      [
+        "Society",
+        "Urban Environment"
+      ],
+      [
+        "High-rise Buildings",
+        "Skeleton Frame"
+      ],
+      [
+        "Aviation Operations",
+        "Logistical Support Systems"
+      ],
+      [
+        "SA",
+        "TRPs"
+      ],
+      [
+        "Target Acquisition",
+        "Weapons Employment"
+      ],
+      [
+        "Figure 19",
+        "High-Angle Deliveries"
+      ],
+      [
+        "Target Development",
+        "Weapons Employment"
+      ],
+      [
+        "Kill Chain",
+        "Tactical ISR"
+      ],
+      [
+        "Legal Advisor",
+        "Targeting Process"
+      ],
+      [
+        "Factories",
+        "Heavy Machinery"
+      ],
+      [
+        "Building Central Core",
+        "Elevators"
+      ],
+      [
+        "Public, Civic, Commercial, And Mixed-use Buildings",
+        "Roofs"
+      ],
+      [
+        "GMTI Radar",
+        "Urban Roads"
+      ],
+      [
+        "Aircrews",
+        "Fire Mission Requests"
+      ],
+      [
+        "Enemy Forces",
+        "Road Surfaces"
+      ],
+      [
+        "Collateral Damage",
+        "Tactical ISR"
+      ],
+      [
+        "JP 3-09.3",
+        "Post-launch Aborts"
+      ],
+      [
+        "ATP 3-06.1",
+        "MCRP 3-20.4"
+      ],
+      [
+        "Combat Search And Rescue (CSAR)",
+        "Personnel Recovery Operations"
+      ],
+      [
+        "Commercial Buildings",
+        "Steel Fire Doors"
+      ],
+      [
+        "Commercial Areas",
+        "Financial Establishments"
+      ],
+      [
+        "Air Assets",
+        "Ground Forces"
+      ],
+      [
+        "Civilian Populace",
+        "Commanders"
+      ],
+      [
+        "CASEVAC",
+        "JP 4-02"
+      ]
+    ],
+    "count": 482,
+    "create_time": 1778751591,
+    "update_time": 1778751591,
+    "_id": "doc-d9e4ee9370f90d04a15d5ce55d5d9f40"
+  },
+  "doc-791fc3c9bd86777f1a3731a8e55acb9a": {
+    "relation_pairs": [
+      [
+        "Mosul",
+        "Task Force Viking"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Unconventional Warfare"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Conventional Force"
+      ],
+      [
+        "92nd Civil Affairs Battalion",
+        "Ukraine"
+      ],
+      [
+        "29th Infantry Division",
+        "U.S. Army Rangers"
+      ],
+      [
+        "Oil Production Facilities",
+        "Task Force Viking"
+      ],
+      [
+        "Large Guns",
+        "Omaha Beach"
+      ],
+      [
+        "Ballistic Missiles",
+        "Rear Area"
+      ],
+      [
+        "ATP 3-18.1",
+        "FM 3-05"
+      ],
+      [
+        "Army Special Operations Forces",
+        "International Organizations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Federal Agencies"
+      ],
+      [
+        "5307th Composite Unit (Provisional)",
+        "U.S. Army"
+      ],
+      [
+        "6 June 1944",
+        "Second Front"
+      ],
+      [
+        "Critical Infrastructure",
+        "Guerilla Forces"
+      ],
+      [
+        "10th Special Forces Group",
+        "Sniper Techniques"
+      ],
+      [
+        "France",
+        "Nazi Germany"
+      ],
+      [
+        "Merrill's Marauders",
+        "Pacific Islands"
+      ],
+      [
+        "Civil Affairs Units",
+        "Consolidation Of Gains"
+      ],
+      [
+        "Great Britain",
+        "Western Europe"
+      ],
+      [
+        "Atlantic Wall",
+        "Norway"
+      ],
+      [
+        "Navy",
+        "Task Force Viking"
+      ],
+      [
+        "Conventional Forces",
+        "Stability Tasks"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Civil Affairs"
+      ],
+      [
+        "Japan",
+        "United States"
+      ],
+      [
+        "Army Protection Units",
+        "Civil Affairs Units"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Information Warfare"
+      ],
+      [
+        "Allied",
+        "Pacific Island Chains"
+      ],
+      [
+        "Crisis",
+        "JP 3-0"
+      ],
+      [
+        "Himalayas",
+        "The Hump"
+      ],
+      [
+        "Combatant Commander",
+        "Strategic Deep Area"
+      ],
+      [
+        "Partners",
+        "Security Assistance Roles"
+      ],
+      [
+        "Extended Deep Area",
+        "Strategic Deep Area"
+      ],
+      [
+        "Security Force Assistance",
+        "Sensitive Site Exploitation"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Large-Scale Combat Operations"
+      ],
+      [
+        "Resistance Partner",
+        "United States Government"
+      ],
+      [
+        "Merrill's Marauders",
+        "Myitkyina"
+      ],
+      [
+        "8 June",
+        "Ranger Force A"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Nongovernmental Organizations"
+      ],
+      [
+        "John F. Kennedy",
+        "U.S. Military Academy"
+      ],
+      [
+        "French Port of Dieppe",
+        "Raid on Dieppe"
+      ],
+      [
+        "Civil Affairs Units",
+        "Civilian Authorities"
+      ],
+      [
+        "Adversary",
+        "Partner Resilience"
+      ],
+      [
+        "10th Special Forces Group",
+        "Ukrainian Special Operations Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Long-Range Fires Capabilities"
+      ],
+      [
+        "Pointe du Hoc",
+        "U.S. Army Rangers"
+      ],
+      [
+        "Civil Affairs Forces",
+        "U.S."
+      ],
+      [
+        "James E. Rudder",
+        "Provisional Ranger Force"
+      ],
+      [
+        "Civil Affairs Units",
+        "Populace and Resources Control"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Hostage Rescue Operations"
+      ],
+      [
+        "Competition",
+        "Non-State Actors"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Transitional Authority"
+      ],
+      [
+        "6th Psychological Operations Battalion",
+        "United States Army John F. Kennedy Special Warfare Center and School"
+      ],
+      [
+        "10th Special Forces Group (Airborne)",
+        "Task Force Viking"
+      ],
+      [
+        "ADP 3-0",
+        "Competition"
+      ],
+      [
+        "Hump",
+        "Myitkyina Airfield"
+      ],
+      [
+        "Large Guns",
+        "Pointe du Hoc"
+      ],
+      [
+        "Force A",
+        "James E. Rudder"
+      ],
+      [
+        "173rd Airborne Brigade",
+        "Task Force Viking"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Rear Area"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Civil Networks"
+      ],
+      [
+        "Special Forces Units",
+        "Sustainment"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Reconnaissance"
+      ],
+      [
+        "Japanese 18th Division",
+        "Siege of Myitkyina"
+      ],
+      [
+        "Counter Threat Finance",
+        "Security Force Assistance"
+      ],
+      [
+        "FM 3-05",
+        "Stability Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "FM 3-05"
+      ],
+      [
+        "Military Information Support Operations",
+        "Security Force Assistance"
+      ],
+      [
+        "Area Of Operations",
+        "Local Partners"
+      ],
+      [
+        "Special Forces Operational Detachments-Alpha",
+        "Task Force Viking"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Force"
+      ],
+      [
+        "Land Component Commander",
+        "Rear Area"
+      ],
+      [
+        "Crisis",
+        "Regional Stability"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Foreign Internal Defense"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Combined Joint Special Operations Task Force-North",
+        "Task Force Viking"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Forces"
+      ],
+      [
+        "NATO",
+        "Task Force Viking"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Stability Operations"
+      ],
+      [
+        "Chapter 2",
+        "Command and Control"
+      ],
+      [
+        "Local Militias",
+        "Partner Forces"
+      ],
+      [
+        "Merrill's Marauders",
+        "Northern Burma"
+      ],
+      [
+        "Chapter 5",
+        "FM 3-05"
+      ],
+      [
+        "Department of Defense",
+        "Joint Special Operations Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Land Component Commander"
+      ],
+      [
+        "Detachment 101",
+        "Merrill's Marauders"
+      ],
+      [
+        "Cyber Effects",
+        "Rear Area"
+      ],
+      [
+        "Rangers",
+        "U.S. Army"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partners"
+      ],
+      [
+        "Peshmerga",
+        "Task Force Viking"
+      ],
+      [
+        "Resistance Operating Concept",
+        "Ukraine"
+      ],
+      [
+        "Large Guns",
+        "Utah Beach"
+      ],
+      [
+        "Joint Special Operations Task Force",
+        "O-6"
+      ],
+      [
+        "Denied Area",
+        "Extended Deep Area"
+      ],
+      [
+        "Civil Affairs Units",
+        "Partner Government"
+      ],
+      [
+        "Joint Multinational Training Group-Ukraine",
+        "Ukraine"
+      ],
+      [
+        "Antiaccess And Area Denial",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Omaha Beach",
+        "Pointe du Hoc"
+      ],
+      [
+        "FM 3-05",
+        "Page 73"
+      ],
+      [
+        "Kirkuk",
+        "Task Force Viking"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Operational Framework"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Ranger Units"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Chapter 5"
+      ],
+      [
+        "Burma",
+        "Detachment 101"
+      ],
+      [
+        "German Forces",
+        "Pointe du Hoc"
+      ],
+      [
+        "Host-Nation",
+        "Stability"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Psychological Operations Forces"
+      ],
+      [
+        "ADP 3-0",
+        "Armed Conflict"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Operations Joint Task Force"
+      ],
+      [
+        "Army Special Operations Forces",
+        "JP 3-28"
+      ],
+      [
+        "Department of Defense",
+        "Joint Operations Area"
+      ],
+      [
+        "Pointe du Hoc",
+        "Utah Beach"
+      ],
+      [
+        "Allies",
+        "Sicily"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Country Team"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Space and Cyber Assets"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Theater Special Operations Command"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Forces Units"
+      ],
+      [
+        "Norman D. Cota",
+        "Seawall"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Crisis"
+      ],
+      [
+        "Department of State",
+        "Stability Operations"
+      ],
+      [
+        "Crimea",
+        "Russia"
+      ],
+      [
+        "China-Burma-India (CBI) Theater",
+        "World War II"
+      ],
+      [
+        "10th Special Forces Group",
+        "Battlefield Medicine"
+      ],
+      [
+        "Burma Road",
+        "Japanese Forces"
+      ],
+      [
+        "Task Force Viking",
+        "U.S. Air Force"
+      ],
+      [
+        "Frank D. Merrill",
+        "Merrill's Marauders"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Task Force"
+      ],
+      [
+        "National Agencies",
+        "Strategic Deep Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Space And Cyber Assets"
+      ],
+      [
+        "ADP 3-0",
+        "FM 3-05"
+      ],
+      [
+        "Competition",
+        "National Power"
+      ],
+      [
+        "ATP 3-05.1",
+        "Sabotage"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Force Commander"
+      ],
+      [
+        "Task Force Viking",
+        "U.S.-led Coalition"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Remote Advise And Assist Operations"
+      ],
+      [
+        "6 June 1962",
+        "John F. Kennedy"
+      ],
+      [
+        "Chinese Nationalists",
+        "U.S. Army"
+      ],
+      [
+        "Corps",
+        "Special Forces Units"
+      ],
+      [
+        "Advanced Infiltration Techniques",
+        "Special Forces Units"
+      ],
+      [
+        "Land Component Commander",
+        "Operational Deep Area"
+      ],
+      [
+        "Civil Affairs Forces",
+        "Stability Operations"
+      ],
+      [
+        "Joseph Stalin",
+        "Western Allies"
+      ],
+      [
+        "Iraqi Divisions",
+        "Task Force Viking"
+      ],
+      [
+        "Conventional Forces",
+        "Legitimate Government Authorities"
+      ],
+      [
+        "10th Special Forces Group",
+        "Night Operations"
+      ],
+      [
+        "U.S. Personnel",
+        "Ukraine"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Civil Authorities"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Combatant Commander"
+      ],
+      [
+        "Army Special Operations Forces",
+        "C5ISRT"
+      ],
+      [
+        "Extended Deep Area",
+        "Operational Deep Area"
+      ],
+      [
+        "Charlie Sector",
+        "Force B"
+      ],
+      [
+        "Populace and Resources Control",
+        "Psychological Operations Units"
+      ],
+      [
+        "Large-Scale Combat Operations",
+        "Special Operations"
+      ],
+      [
+        "Department of Defense",
+        "Department of State"
+      ],
+      [
+        "Conventional Ground Forces",
+        "Extended Deep Area"
+      ],
+      [
+        "Ukraine",
+        "United States"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Enemy Forces"
+      ],
+      [
+        "Operation Iraqi Freedom",
+        "Task Force Viking"
+      ],
+      [
+        "Protective Wire",
+        "Rangers"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Deterrence"
+      ],
+      [
+        "Command and Control",
+        "Special Forces Units"
+      ],
+      [
+        "Japanese",
+        "Merrill's Marauders"
+      ],
+      [
+        "Japanese 18th Division",
+        "Myitkyina"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Coalition Forces"
+      ],
+      [
+        "FM 3-05",
+        "FM 3-13"
+      ],
+      [
+        "Rear Area",
+        "Weapons of Mass Destruction"
+      ],
+      [
+        "Governing Organization",
+        "Pre-Conflict Conditions"
+      ],
+      [
+        "Joint Force",
+        "Special Forces Units"
+      ],
+      [
+        "Ukrainian Army General Staff",
+        "Ukrainian Special Operations Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "C5ISRT Capabilities"
+      ],
+      [
+        "Ukrainian Special Operations Forces",
+        "United States Government"
+      ],
+      [
+        "Eastern Front",
+        "Soviet Union"
+      ],
+      [
+        "Eastern Front",
+        "Nazi Germany"
+      ],
+      [
+        "China",
+        "Japan"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Unified Action Partners"
+      ],
+      [
+        "NATO",
+        "Ukraine"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Force"
+      ],
+      [
+        "Crisis",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Normandy",
+        "Second Front"
+      ],
+      [
+        "Civil Affairs Units",
+        "Joint Civil-Military Operations Task Force"
+      ],
+      [
+        "The Hump",
+        "Transport Aircraft"
+      ],
+      [
+        "Armed Conflict",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Force B",
+        "Point de la Percée"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Critical Infrastructure"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Ukrainian Special Operations Forces"
+      ],
+      [
+        "5th Ranger Battalion",
+        "Norman D. Cota"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Consolidation Of Gains"
+      ],
+      [
+        "Adversary",
+        "Army Special Operations Forces"
+      ],
+      [
+        "Force B",
+        "Omaha Beach"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Ukraine"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Resilience"
+      ],
+      [
+        "Area Security",
+        "Land Component Commander"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Close Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Direct Action"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Irregular Partner Force"
+      ],
+      [
+        "Detachment 101",
+        "Kachin Guerrillas"
+      ],
+      [
+        "Allies",
+        "Normandy"
+      ],
+      [
+        "Dog White Sector",
+        "Force C"
+      ],
+      [
+        "Coalition Forces Land Component Commander",
+        "Task Force Viking"
+      ],
+      [
+        "Force C",
+        "Seawall"
+      ],
+      [
+        "26 June 2025",
+        "FM 3-05"
+      ],
+      [
+        "National Resistance Laws",
+        "Ukrainian Territorial Defense Forces"
+      ],
+      [
+        "Donbas",
+        "Russia"
+      ],
+      [
+        "Ukraine",
+        "Yavoriv Military Base"
+      ],
+      [
+        "Local Civilian Networks",
+        "Ukrainian Special Operations Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Command And Control Networks"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Transregional Actors"
+      ],
+      [
+        "Fighter Aircraft",
+        "Myitkyina"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Forces"
+      ],
+      [
+        "Enemy Forces",
+        "Rear Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Unified Action Partner"
+      ],
+      [
+        "Nazi Germany",
+        "Soviet Union"
+      ],
+      [
+        "Merrill's Marauders",
+        "Myitkyina Airfield"
+      ],
+      [
+        "Civil Affairs Units",
+        "Land Component Commander"
+      ],
+      [
+        "Competition",
+        "Figure 5-1"
+      ],
+      [
+        "Deep Area",
+        "Special Forces Units"
+      ],
+      [
+        "Burmese Jungle",
+        "Merrill's Marauders"
+      ],
+      [
+        "Armed Conflict",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Critical Logistics Hubs"
+      ],
+      [
+        "Divisions",
+        "Special Forces Units"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Local Partners"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Deep Area"
+      ],
+      [
+        "Germans",
+        "Pointe du Hoc"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Extended Deep Area"
+      ],
+      [
+        "British Chindits",
+        "Merrill's Marauders"
+      ],
+      [
+        "Detachment 101",
+        "Office of Strategic Services"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Psychological Operations"
+      ],
+      [
+        "FM 3-05",
+        "Special Operations"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Nation Forces"
+      ],
+      [
+        "Competition",
+        "State Actors"
+      ],
+      [
+        "Sabotage",
+        "Special Forces Units"
+      ],
+      [
+        "Japanese",
+        "Military Information Support Operations"
+      ],
+      [
+        "Allies",
+        "Italy"
+      ],
+      [
+        "Information Environment",
+        "Operational Preparation of the Environment"
+      ],
+      [
+        "Kurdish Autonomous Zone",
+        "Peshmerga"
+      ],
+      [
+        "Local And Regional Leaders",
+        "Partnerships"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Conventional Forces"
+      ],
+      [
+        "Host Nation",
+        "Partner Resilience"
+      ],
+      [
+        "Precision Fires",
+        "Rear Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Operations Task Force"
+      ],
+      [
+        "Force C",
+        "Max F. Schneider"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Combatant Commanders"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Civil Affairs Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Resistance Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Joint Force Commanders"
+      ],
+      [
+        "Crisis",
+        "National Security"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Enemy"
+      ],
+      [
+        "Governance Responsibilities",
+        "Leaders"
+      ],
+      [
+        "Brigadier General Frank D. Merrill",
+        "Merrill's Marauders"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Security Force Assistance"
+      ],
+      [
+        "6th Psychological Operations Battalion",
+        "Ukraine"
+      ],
+      [
+        "Company A, 116th Infantry Regiment",
+        "Dog Green Sector"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Special Operations Activities"
+      ],
+      [
+        "Omaha Beach",
+        "U.S. Army"
+      ],
+      [
+        "Green Line",
+        "Kurdish Autonomous Zone"
+      ],
+      [
+        "China",
+        "U.S. Transport Planes"
+      ],
+      [
+        "Partner Forces",
+        "Resistance Groups"
+      ],
+      [
+        "Green Line",
+        "Iraq"
+      ],
+      [
+        "Civil Affairs Operations",
+        "Security Force Assistance"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Operational Environment"
+      ],
+      [
+        "Chinese Army",
+        "Merrill's Marauders"
+      ],
+      [
+        "ADP 3-0",
+        "Close Area"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Essential Services"
+      ],
+      [
+        "Hump Fliers",
+        "Myitkyina Airfield"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Resistance"
+      ],
+      [
+        "Merrill's Marauders",
+        "Solomon Islands"
+      ],
+      [
+        "Second Front",
+        "Western Allies"
+      ],
+      [
+        "Guadalcanal",
+        "Merrill's Marauders"
+      ],
+      [
+        "Information Warfare",
+        "Peer Competitors"
+      ],
+      [
+        "Enemy Forces",
+        "Psychological Operations Forces"
+      ],
+      [
+        "Force A",
+        "Pointe du Hoc"
+      ],
+      [
+        "26th Marine Expeditionary Unit",
+        "Task Force Viking"
+      ],
+      [
+        "Iraqi Divisions",
+        "Special Forces Operational Detachments-Alpha"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Partner Forces"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Civil Engagement"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Conventional Partners"
+      ],
+      [
+        "Atlantic Wall",
+        "Spain"
+      ],
+      [
+        "Chinese Nationalists",
+        "United States"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Figure 5-3"
+      ],
+      [
+        "Merrill's Marauders",
+        "New Guinea"
+      ],
+      [
+        "U.S. Army",
+        "Utah Beach"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Private Sector Entities"
+      ],
+      [
+        "Civil Affairs Units",
+        "Humanitarian Assistance"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Headquarters"
+      ],
+      [
+        "Army Special Operations Forces",
+        "FM 3-07"
+      ],
+      [
+        "Atlantic Wall",
+        "Nazi Germany"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Competition"
+      ],
+      [
+        "5307th Composite Unit (Provisional)",
+        "Merrill's Marauders"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Combatant Command"
+      ],
+      [
+        "ADP 3-0",
+        "Deep Area"
+      ],
+      [
+        "Figure 5-1",
+        "Special Operations"
+      ],
+      [
+        "U.S.",
+        "War"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Combined Joint Special Operations Task Force"
+      ]
+    ],
+    "count": 292,
+    "create_time": 1778758258,
+    "update_time": 1778758258,
+    "_id": "doc-791fc3c9bd86777f1a3731a8e55acb9a"
+  },
+  "doc-2e26c656078a1673d5e380d0abe0b7fb": {
+    "relation_pairs": [
+      [
+        "Light Medium Tactical Vehicles",
+        "Mq-1C Gray Eagle Unmanned Aircraft System"
+      ],
+      [
+        "Detroit Arsenal",
+        "PEO Combat Support And Combat Service Support"
+      ],
+      [
+        "Extended Range Cannon Artillery",
+        "M109A7 SPH"
+      ],
+      [
+        "TOW Missile",
+        "United States Army"
+      ],
+      [
+        "Bechtel Pueblo",
+        "Pueblo Chemical Agent-Destruction Pilot Plant (PCAPP)"
+      ],
+      [
+        "Extended Range Cannon Artillery (ERCA)",
+        "XM1113"
+      ],
+      [
+        "European Deterrence Initiative",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "Hms",
+        "Rifleman Radio"
+      ],
+      [
+        "Abrams Tank",
+        "M1A2 SEPv3"
+      ],
+      [
+        "Detroit Arsenal",
+        "Peo Ground Combat Systems"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "TOW Missile"
+      ],
+      [
+        "AN/TPQ-53",
+        "U.S. Army Communications-Electronics Command"
+      ],
+      [
+        "Abrams Tank Upgrade",
+        "Next Generation Combat Vehicles"
+      ],
+      [
+        "CH-47F Block II",
+        "United States Army"
+      ],
+      [
+        "Indirect Fire Protection Capability",
+        "PEO Missiles and Space"
+      ],
+      [
+        "Oshkosh",
+        "Wisconsin"
+      ],
+      [
+        "CH-47F Chinook",
+        "Materiel Solution Analysis"
+      ],
+      [
+        "Detroit Arsenal, Mi",
+        "M88A2 Improved Recovery Vehicle"
+      ],
+      [
+        "Abrams Tank",
+        "PEO Ground Combat Systems"
+      ],
+      [
+        "Army System Acquisition Review Council",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "PEO Assembled Chemical Weapons Alternatives",
+        "U.S. Army"
+      ],
+      [
+        "Detroit Arsenal, MI",
+        "PEO Ground Combat Systems"
+      ],
+      [
+        "Combat Recovery Systems Product Management Office",
+        "Detroit Arsenal"
+      ],
+      [
+        "Army Requirement Oversight Council",
+        "Common Infrared Countermeasure"
+      ],
+      [
+        "AN/TPQ-36",
+        "AN/TPQ-53"
+      ],
+      [
+        "AM General",
+        "High Mobility Multipurpose Wheeled Vehicle"
+      ],
+      [
+        "C-130",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "Program Executive Office Aviation",
+        "Redstone Arsenal, Al"
+      ],
+      [
+        "Ah-64E Apache",
+        "Qatar"
+      ],
+      [
+        "Stryker Family Of Vehicles",
+        "United States Army"
+      ],
+      [
+        "HIMARS",
+        "Long-Range Precision Fires"
+      ],
+      [
+        "Bradley Fighting Vehicle Systems",
+        "Global Positioning Systems"
+      ],
+      [
+        "Next Generation Combat Vehicles",
+        "U.S. Army"
+      ],
+      [
+        "TOW 2B Aero",
+        "TOW Missile"
+      ],
+      [
+        "M1A2 SEPv3",
+        "Vehicle Health Management Systems"
+      ],
+      [
+        "HIMARS",
+        "Patriot Weapon Systems Handbook 2018"
+      ],
+      [
+        "Global Combat Support System-Army",
+        "Standard Army Management Information Systems"
+      ],
+      [
+        "Army Network",
+        "Manpack Radio"
+      ],
+      [
+        "TACA Modernization Priority",
+        "United States Army"
+      ],
+      [
+        "PEO Aviation",
+        "Redstone Arsenal, AL"
+      ],
+      [
+        "General Fund Enterprise Business Systems",
+        "United States Army"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Peo Ground Combat Systems"
+      ],
+      [
+        "Infantry Brigade Combat Teams",
+        "M109A6 Paladin"
+      ],
+      [
+        "IC3 Digital Communications Suite",
+        "M2A3 Infantry Fighting Vehicle"
+      ],
+      [
+        "Ah-64E Apache",
+        "Indonesia"
+      ],
+      [
+        "Hercules",
+        "Korea"
+      ],
+      [
+        "CH-47F Block II",
+        "Common Avionics Architecture"
+      ],
+      [
+        "Defense Health Agency",
+        "General Fund Enterprise Business Systems"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Intelligence Surveillance And Reconnaissance"
+      ],
+      [
+        "M95 Mortar Fire Control System",
+        "Mortar Carrier Variant"
+      ],
+      [
+        "Milestone B",
+        "PrSM"
+      ],
+      [
+        "GFEBS",
+        "QFY18 Sustainment Contract Award"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Overseas Contingency Operations"
+      ],
+      [
+        "M88A2 Improved Recovery Vehicle",
+        "PEO Ground Combat Systems"
+      ],
+      [
+        "Embedded Training",
+        "M1A2 SEPv3"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Critical Design Review"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "Marine Corps"
+      ],
+      [
+        "AN/TYQ-224A",
+        "Operational Intelligence Ground Station"
+      ],
+      [
+        "Army Enterprise Systems Integration Program",
+        "Global Combat Support System-Army"
+      ],
+      [
+        "Blue Force Tracker",
+        "M1A1 SA"
+      ],
+      [
+        "Mq-1C Gray Eagle Unmanned Aircraft System",
+        "Universal Ground Control Stations"
+      ],
+      [
+        "Kuwait",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "Hercules",
+        "York, Pennsylvania"
+      ],
+      [
+        "Allison",
+        "Family Of Medium Tactical Vehicles"
+      ],
+      [
+        "Assistant Secretary of Defense For Nuclear, Biological and Chemical Defense Programs",
+        "Under Secretary of Defense For Acquisition, Technology and Logistics"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Operation Iraqi Freedom"
+      ],
+      [
+        "Fort Rucker",
+        "Uh-72a Light Utility Helicopter"
+      ],
+      [
+        "Assistant Secretary Of The Army For Financial Management And Comptroller",
+        "General Fund Enterprise Business Systems"
+      ],
+      [
+        "Ah-64E Apache",
+        "Kuwait"
+      ],
+      [
+        "M-ATV",
+        "Mine Resistant Ambush Protected Vehicles"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Production Prove Out"
+      ],
+      [
+        "Network Operations And Security Center-Lite",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "M270A1",
+        "PEO Missiles And Space"
+      ],
+      [
+        "North Atlantic Treaty Organization",
+        "Uh-72a Light Utility Helicopter"
+      ],
+      [
+        "HMMWV",
+        "Soldier"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "Hiab Crane"
+      ],
+      [
+        "Army Integrated Air and Missile Defense",
+        "Indirect Fire Protection Capability"
+      ],
+      [
+        "16th ABCT",
+        "Bradley Fighting Vehicle"
+      ],
+      [
+        "Next Generation Combat Vehicles",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "U.S. Army National Guard",
+        "UH-72A Light Utility Helicopter"
+      ],
+      [
+        "Active Army",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "M88A2 Improved Recovery Vehicle",
+        "United States"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "Manpack Radio"
+      ],
+      [
+        "Mobile Maintenance Facility",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "CH-47F Block II",
+        "Digital Automatic Flight Control System"
+      ],
+      [
+        "Enhanced Portable Inductive Artillery Fuze Setter",
+        "Excalibur Projectile"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "United States Army"
+      ],
+      [
+        "Bradley Fighting Vehicles",
+        "Tube-Launched, Optically Tracked, Wireless-Guided Missiles"
+      ],
+      [
+        "BAE Systems",
+        "York, PA"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Romania"
+      ],
+      [
+        "Army Network",
+        "U.S. Army"
+      ],
+      [
+        "Soldier Lethality",
+        "U.S. Army"
+      ],
+      [
+        "Common Infrared Countermeasure",
+        "Department Of Defense"
+      ],
+      [
+        "Intelligence Processing Center",
+        "Leidos"
+      ],
+      [
+        "Homeland Defense And Security",
+        "Uh-72a Light Utility Helicopter"
+      ],
+      [
+        "Air Force",
+        "Reaper"
+      ],
+      [
+        "Assembled Chemical Weapons Alternatives (ACWA)",
+        "Mustard Agent"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Next Generation Combat Vehicles"
+      ],
+      [
+        "2nd Cavalry Regiment",
+        "CROWS"
+      ],
+      [
+        "Enhanced Container Handling Unit (E-CHU)",
+        "M1075A1 Truck Variant"
+      ],
+      [
+        "AN/TPQ-53",
+        "United States Army"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Qatar"
+      ],
+      [
+        "Next Generation Combat Vehicles",
+        "United States Army"
+      ],
+      [
+        "M269 Launcher Loader Module",
+        "M270A1"
+      ],
+      [
+        "Hellfire Family of Missiles",
+        "Predator"
+      ],
+      [
+        "General Dynamics Land Systems",
+        "Sterling Heights"
+      ],
+      [
+        "M2 .50 Caliber Machine Gun",
+        "Remote Weapon Station"
+      ],
+      [
+        "Excalibur Projectile",
+        "Weapon Systems Handbook 2018"
+      ],
+      [
+        "Autonomy",
+        "M1A2 SEPv4"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "General Dynamics"
+      ],
+      [
+        "UH-72A Light Utility Helicopter",
+        "United States Army"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "United States Army"
+      ],
+      [
+        "CROWS",
+        "Long-Range Precision Fires"
+      ],
+      [
+        "PEO Combat Support",
+        "Palletized Load System A1 (PLS A1)"
+      ],
+      [
+        "Explosive Ordnance Disposal Units",
+        "M-ATV"
+      ],
+      [
+        "CROWS",
+        "Javelin System"
+      ],
+      [
+        "Allied Nations",
+        "TOW Missile"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "M2 Weapon"
+      ],
+      [
+        "Combat Tactical Vehicle",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "PEO Missiles And Space",
+        "Redstone Arsenal"
+      ],
+      [
+        "CROWS-J",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "United States Army"
+      ],
+      [
+        "Field Artillery Brigades",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "Joint Air-To-Ground Missile",
+        "PEO Missiles And Space"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Global Positioning Systems"
+      ],
+      [
+        "Soldier Lethality",
+        "TACA Modernization Priority"
+      ],
+      [
+        "Excalibur Projectile",
+        "Inertial Navigation System"
+      ],
+      [
+        "Ah-64E Apache",
+        "Egypt"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Poland"
+      ],
+      [
+        "Germany",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "Fort Belvoir",
+        "PEO Soldier"
+      ],
+      [
+        "Afghanistan",
+        "Javelin"
+      ],
+      [
+        "Fort Rucker",
+        "UH-72A Light Utility Helicopter"
+      ],
+      [
+        "Ah-64E Apache",
+        "Korea"
+      ],
+      [
+        "Ammunition Data Link",
+        "M1A2 SEPv2"
+      ],
+      [
+        "15th ABCT",
+        "Bradley Fighting Vehicle"
+      ],
+      [
+        "Fort Belvoir",
+        "PEO Enterprise Information Systems"
+      ],
+      [
+        "30 Mm Chain Gun",
+        "Ah-64E Apache"
+      ],
+      [
+        "Soldier Lethality",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Integrated Combat Command And Control (IC3)"
+      ],
+      [
+        "Oshkosh",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Detroit Arsenal",
+        "United States Army"
+      ],
+      [
+        "M142 HIMARS",
+        "PrSM"
+      ],
+      [
+        "HEMTT Extended Service Program",
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "M997A3 Ambulance"
+      ],
+      [
+        "Hellfire Family of Missiles",
+        "PEO Missiles and Space"
+      ],
+      [
+        "Bradley Fighting Vehicle Systems",
+        "C-5"
+      ],
+      [
+        "Total Force",
+        "United States Army"
+      ],
+      [
+        "GUARDRAIL Ground Baseline",
+        "Operational Intelligence Ground Station"
+      ],
+      [
+        "Dallas",
+        "Lockheed Martin"
+      ],
+      [
+        "TOW Bunker Buster",
+        "TOW Missile"
+      ],
+      [
+        "Armored Brigade Combat Team (ABCT)",
+        "M88A2 Hercules"
+      ],
+      [
+        "M109A2 Vehicle Hull",
+        "M109A6 Paladin"
+      ],
+      [
+        "Fiscal Year 2018",
+        "Initial Operational Test And Evaluation (IOT&E)"
+      ],
+      [
+        "Hellfire Family of Missiles",
+        "Longbow Hellfire"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "Peo Command, Control, Communications-Tactical"
+      ],
+      [
+        "Hms",
+        "Manpack Radio"
+      ],
+      [
+        "Stryker ATGM Vehicle",
+        "TOW Missile"
+      ],
+      [
+        "Satellite Transportable Terminal",
+        "Tactical Network Transport"
+      ],
+      [
+        "Acquisition Life Cycle Phase",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "Dual-Purpose Improved Conventional Munition",
+        "Guided Multiple Launch Rocket System"
+      ],
+      [
+        "Indirect Fire Protection Capability",
+        "Multi-Mission Launcher"
+      ],
+      [
+        "8.8-Ton Load Handling System",
+        "Medium Tactical Vehicle"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Fixed Multifunctional Workstation"
+      ],
+      [
+        "Black Hawk Utility Helicopter",
+        "Future Vertical Lift"
+      ],
+      [
+        "Counter-Improvised Explosive Device Protection",
+        "M1A2 SEPv3"
+      ],
+      [
+        "Abrams Tank",
+        "M1A2 SEPv2"
+      ],
+      [
+        "16th ABCT",
+        "United States Army"
+      ],
+      [
+        "Capability Drops",
+        "Distributed Common Ground System-Army"
+      ],
+      [
+        "Soldier Lethality",
+        "United States Army"
+      ],
+      [
+        "Army Network",
+        "United States Army"
+      ],
+      [
+        "M88A2 Hercules",
+        "Weapon Systems Handbook 2018"
+      ],
+      [
+        "HEMTT",
+        "M983A4 Patriot Tractor"
+      ],
+      [
+        "Global Command And Control System Army",
+        "Tactical Mission Command"
+      ],
+      [
+        "Blue Force Tracker",
+        "M109A7 SPH"
+      ],
+      [
+        "JAGM",
+        "Rotary Wing Aircraft"
+      ],
+      [
+        "30 Mm Cannon",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "Aberdeen Proving Ground",
+        "DCGS-A"
+      ],
+      [
+        "Network Operations And Security Center",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "Army Tactical Missile Systems (ATACMS)",
+        "PrSM"
+      ],
+      [
+        "Enterprise Resource Planning",
+        "Global Combat Support System-Army"
+      ],
+      [
+        "Javelin",
+        "Lightweight CLU"
+      ],
+      [
+        "Javelin",
+        "PEO Missiles and Space"
+      ],
+      [
+        "Japan",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "FMTV A1P2 Configuration",
+        "Family Of Medium Tactical Vehicles"
+      ],
+      [
+        "Bradley Fighting Vehicle Systems",
+        "Tube-Launched, Optically Tracked, Wireless-Guided Missiles II"
+      ],
+      [
+        "Bae",
+        "M88A2 Improved Recovery Vehicle"
+      ],
+      [
+        "Assembled Chemical Weapons Alternatives (ACWA)",
+        "PEO Assembled Chemical Weapons Alternatives"
+      ],
+      [
+        "M-atv",
+        "Project Manager Prophet"
+      ],
+      [
+        "M142 High Mobility Artillery Rocket System",
+        "Multiple Launch Rocket System"
+      ],
+      [
+        "Assembled Chemical Weapons Alternatives (ACWA)",
+        "Pueblo Chemical Depot"
+      ],
+      [
+        "Talent Management",
+        "United States Army"
+      ],
+      [
+        "Detroit Arsenal",
+        "PEO Ground Combat Systems"
+      ],
+      [
+        "Iraq",
+        "M1A1 SA"
+      ],
+      [
+        "Integrated Air And Missile Defense Battle Command System",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "M2A3 Infantry Fighting Vehicle (IFV)",
+        "M3A3 Cavalry Fighting Vehicle (CFV)"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Red River Army Depot"
+      ],
+      [
+        "M1074A1 Truck Variant",
+        "Material Handling Crane (MHC)"
+      ],
+      [
+        "Functional Governance Board",
+        "GFEBS"
+      ],
+      [
+        "AN/TPQ-37",
+        "AN/TPQ-53"
+      ],
+      [
+        "Advanced Threat Infrared Countermeasures",
+        "Common Infrared Countermeasure"
+      ],
+      [
+        "Abrams Tank",
+        "Army Modernization Priority"
+      ],
+      [
+        "C-5 Aircraft",
+        "Family Of Medium Tactical Vehicles (FMTV)"
+      ],
+      [
+        "AGM-114R",
+        "Hellfire Family of Missiles"
+      ],
+      [
+        "Oshkosh",
+        "Oshkosh, WI"
+      ],
+      [
+        "Saber",
+        "United States Marine Corps"
+      ],
+      [
+        "Initial Entry Rotary Wing Training",
+        "UH-72A Light Utility Helicopter"
+      ],
+      [
+        "Abrams Tank",
+        "M1A2 SEPv4"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Squad Leader Display"
+      ],
+      [
+        "Black Hawk Utility Helicopter",
+        "UH-60M"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "MK19 Grenade Launcher",
+        "Remote Weapon Station"
+      ],
+      [
+        "Acquisition Life Cycle Phase",
+        "Joint Air-To-Ground Missile"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Production Readiness Review"
+      ],
+      [
+        "Palantir",
+        "Palo Alto"
+      ],
+      [
+        "Foreign Military Sales",
+        "Iraq"
+      ],
+      [
+        "Armored Brigade Combat Team",
+        "Armored Multi-Purpose Vehicle"
+      ],
+      [
+        "Modernization Priorities",
+        "United States Army"
+      ],
+      [
+        "FMTV A2",
+        "Family Of Medium Tactical Vehicles"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "United States Army"
+      ],
+      [
+        "Common Fire Control System",
+        "M270A1"
+      ],
+      [
+        "M270A1",
+        "Multiple Launch Rocket System"
+      ],
+      [
+        "Hercules",
+        "M88A2 Improved Recovery Vehicle"
+      ],
+      [
+        "M1A2 SEPv3",
+        "M1A2 SEPv4"
+      ],
+      [
+        "Joint Light Tactical Vehicle",
+        "Mine Resistant Ambush Protected All-Terrain Vehicles"
+      ],
+      [
+        "Leader Radio",
+        "Special Operations Command"
+      ],
+      [
+        "M1A2 SEPv3",
+        "Operation Iraqi Freedom"
+      ],
+      [
+        "Foreign Military Sales",
+        "M109A7 SPH"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "United States Army"
+      ],
+      [
+        "HMMWV",
+        "Rock Island Arsenal"
+      ],
+      [
+        "Grove Crane",
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)"
+      ],
+      [
+        "Double-V-Hull",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "C-130",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "C-130/C-17/C-5",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "Maintenance Section Multifunctional",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles",
+        "Medium Tactical Vehicle"
+      ],
+      [
+        "Modernization Priority",
+        "United States Army"
+      ],
+      [
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System",
+        "Universal Ground Control Station (UGCS)"
+      ],
+      [
+        "Tactical Network Transport On-The-Move",
+        "United States Army"
+      ],
+      [
+        "M109A6 Paladin",
+        "Stryker Brigade Combat Teams"
+      ],
+      [
+        "High Mobility Artillery Rocket System",
+        "Precision Strike Missile"
+      ],
+      [
+        "HEMTT",
+        "M983A4 LET"
+      ],
+      [
+        "CROWS",
+        "MK19 Grenade Machine Gun"
+      ],
+      [
+        "Palletized Load System A1 (PLS A1)",
+        "United States Army"
+      ],
+      [
+        "International Organization for Standardization (ISO)",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Tactical Ground Reporting",
+        "Tactical Mission Command"
+      ],
+      [
+        "Modernization Priority",
+        "Next Generation Combat Vehicles"
+      ],
+      [
+        "120 Mm Mortar",
+        "Armored Multi-Purpose Vehicle"
+      ],
+      [
+        "PEO Ground Combat Systems",
+        "Paladin Family Of Vehicles"
+      ],
+      [
+        "Detroit Arsenal, MI",
+        "M88A2 Improved Recovery Vehicle"
+      ],
+      [
+        "FY06-FY11 Multiyear Contract",
+        "TOW Missile"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "M270A1 Multiple Launch Rocket System"
+      ],
+      [
+        "CROWS",
+        "M249 Squad Automatic Weapon"
+      ],
+      [
+        "CROWS",
+        "United States Army"
+      ],
+      [
+        "CH-47 Helicopter",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "Operational Intelligence Ground Station",
+        "Redhat"
+      ],
+      [
+        "HH-60M",
+        "MEDEVAC Mission Equipment Package"
+      ],
+      [
+        "Class V Interactive Electronic Technical Manual",
+        "Family Of Medium Tactical Vehicles"
+      ],
+      [
+        "General Fund Enterprise Business Systems",
+        "Uniformed Services University Of Health Sciences"
+      ],
+      [
+        "Integrated Personnel and Pay System-Army",
+        "Soldier"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Operation Enduring Freedom"
+      ],
+      [
+        "AH-64D/E Apache",
+        "PEO Aviation"
+      ],
+      [
+        "M109A7 SPH",
+        "United States Army"
+      ],
+      [
+        "Department Of Defense",
+        "United States Army"
+      ],
+      [
+        "Tactical Network Transport",
+        "Top Secret Enclave"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Force Xxi Battle Command Brigade And Below"
+      ],
+      [
+        "Mine Resistant Ambush Protected Vehicles",
+        "PEO Combat Support And Combat Service Support"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "Navy"
+      ],
+      [
+        "CH-47F Chinook",
+        "PEO Aviation"
+      ],
+      [
+        "Brigade Combat Team (BCT)",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "C-5",
+        "Integrated Combat Command And Control (IC3)"
+      ],
+      [
+        "International Organization for Standardization (ISO)",
+        "M1077A1 Series Flat Rack"
+      ],
+      [
+        "Future Vertical Lift",
+        "United States Army Modernization Priority"
+      ],
+      [
+        "Infantry Brigade Combat Team",
+        "United States Army"
+      ],
+      [
+        "Army Special Operations Forces",
+        "Mq-1C Gray Eagle Unmanned Aircraft System"
+      ],
+      [
+        "Armored Brigade Combat Team (ABCT)",
+        "European Deterrence Initiative"
+      ],
+      [
+        "Allison HD4500SP Transmission",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Army Requirements Oversight Council",
+        "Precision Strike Missile"
+      ],
+      [
+        "AH-1W Super Cobra",
+        "Hellfire Family of Missiles"
+      ],
+      [
+        "AN/TPQ-53",
+        "Redstone Arsenal"
+      ],
+      [
+        "Assistant Secretary Of The Army For Financial Management And Comptroller",
+        "GFEBS"
+      ],
+      [
+        "A4 ECP (Mobility)",
+        "Bradley Fighting Vehicle"
+      ],
+      [
+        "Ah-64E Apache",
+        "United Arab Emirates"
+      ],
+      [
+        "Next Generation Combat Vehicles",
+        "Stryker"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Intelligence Fusion Server"
+      ],
+      [
+        "Common Missile Warning System",
+        "Suite of Integrated Air and Missile Defense Countermeasures"
+      ],
+      [
+        "IBM",
+        "Operational Intelligence Ground Station"
+      ],
+      [
+        "Acquisition Life Cycle Phase",
+        "Global Combat Support System-Army"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Track And Suspension Engineering Change Proposal (ECP)"
+      ],
+      [
+        "Aberdeen Proving Ground",
+        "PEO Intelligence, Electronic Warfare and Sensors"
+      ],
+      [
+        "Fire Unit",
+        "Radar Set"
+      ],
+      [
+        "AH-64D/E Apache",
+        "United States Army"
+      ],
+      [
+        "Tactical Network Transport",
+        "United States Army"
+      ],
+      [
+        "Bechtel Parsons Blue Grass",
+        "Blue Grass Chemical Agent-Destruction Pilot Plant (BGCAPP)"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "PEO Combat Support and Combat Service Support"
+      ],
+      [
+        "AN/TPQ-53",
+        "Firefinder Radars"
+      ],
+      [
+        "Fort Belvoir, Va",
+        "Program Executive Office Enterprise Information Systems"
+      ],
+      [
+        "CH-47F Chinook",
+        "United States Army"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles (FMTV)",
+        "Weapon Systems Handbook 2018"
+      ],
+      [
+        "M1A2 SEPv2",
+        "Saudi Arabia"
+      ],
+      [
+        "M109A7 SPH",
+        "Paladin Integrated Management Program"
+      ],
+      [
+        "Joint Air-To-Ground Missile",
+        "United States Army"
+      ],
+      [
+        "Bradley Fighting Vehicle Systems",
+        "C-17"
+      ],
+      [
+        "Caterpillar C15 Engine",
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)"
+      ],
+      [
+        "Hellfire Family of Missiles",
+        "OH-58 Kiowa Warrior"
+      ],
+      [
+        "M1A1 SA",
+        "Morocco"
+      ],
+      [
+        "Defense Information Systems Agency",
+        "GFEBS"
+      ],
+      [
+        "Armor Brigade Combat Team",
+        "United States Army"
+      ],
+      [
+        "120 Millimeter Main Gun",
+        "Abrams Tank"
+      ],
+      [
+        "C-130 Aircraft",
+        "Family Of Medium Tactical Vehicles (FMTV)"
+      ],
+      [
+        "HH-60M",
+        "UH-60M"
+      ],
+      [
+        "FY21 Multiyear Production Contract",
+        "United States Army"
+      ],
+      [
+        "Command Launch Unit (CLU)",
+        "Javelin"
+      ],
+      [
+        "Fire Unit",
+        "Launching Stations"
+      ],
+      [
+        "Uh-72a Light Utility Helicopter",
+        "United States Army"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Palantir"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Public-Private Partnership"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "16th ABCT",
+        "M88A2 Hercules"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Limited User Test"
+      ],
+      [
+        "Lockheed",
+        "PrSM"
+      ],
+      [
+        "Active Army, Reserve And The National Guard",
+        "UH-60M"
+      ],
+      [
+        "Javelin",
+        "Main Battle Tanks"
+      ],
+      [
+        "M109A3 Vehicle Hull",
+        "M109A6 Paladin"
+      ],
+      [
+        "PEO Command Control Communications Tactical",
+        "Tactical Mission Command"
+      ],
+      [
+        "M142 Launcher",
+        "M270A1"
+      ],
+      [
+        "CH-53",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "Integrated Personnel and Pay System-Army",
+        "PeopleSoft"
+      ],
+      [
+        "HEMTT",
+        "National Guard"
+      ],
+      [
+        "CROWS-J",
+        "Stryker ICV"
+      ],
+      [
+        "M270A1 MLRS",
+        "PrSM"
+      ],
+      [
+        "ATACMS",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "Leader Radio",
+        "Marine Corps"
+      ],
+      [
+        "National Guard",
+        "RQ-7BV2 Systems"
+      ],
+      [
+        "MaxxPro Family Of Vehicles",
+        "Mine Resistant Ambush Protected Vehicles"
+      ],
+      [
+        "High Mobility Artillery Rocket System",
+        "Medium Tactical Vehicle"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Tactical Intelligence Ground Station"
+      ],
+      [
+        "Command Post Computing Environment",
+        "Converged Tactical Server Infrastructure V2"
+      ],
+      [
+        "Color Camera",
+        "M1A2 SEPv4"
+      ],
+      [
+        "Gray Eagle Extended Range",
+        "Mq-1C Gray Eagle Unmanned Aircraft System"
+      ],
+      [
+        "Global Combat Support System-Army",
+        "Program Executive Office Enterprise Information Systems"
+      ],
+      [
+        "Early Operational Capability",
+        "PrSM"
+      ],
+      [
+        "Abrams Tank",
+        "Honeywell"
+      ],
+      [
+        "Improved Armored Cab",
+        "Multiple Launch Rocket System"
+      ],
+      [
+        "Future Long Range Advanced Aircraft",
+        "Future Vertical Lift"
+      ],
+      [
+        "Abrams Tank",
+        "M1A1 SA"
+      ],
+      [
+        "Acquisition Life Cycle Phase",
+        "United States Army"
+      ],
+      [
+        "Common Fire Control System",
+        "Multiple Launch Rocket System"
+      ],
+      [
+        "Integrated Personnel and Pay System-Army",
+        "PEO Enterprise Information Systems"
+      ],
+      [
+        "End Of Life Tech Refresh",
+        "Tactical Network Transport"
+      ],
+      [
+        "Black Hawk Utility Helicopter",
+        "PEO Aviation"
+      ],
+      [
+        "Future Vertical Lift",
+        "Manpack Radio"
+      ],
+      [
+        "Allison 4500 SP Transmission",
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)"
+      ],
+      [
+        "Fire Unit",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "AH-64D/E Apache",
+        "Unmanned Aerial Systems"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Long-Range Precision Fires"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "United Arab Emirates"
+      ],
+      [
+        "Detroit Arsenal",
+        "Mine Resistant Ambush Protected Vehicles"
+      ],
+      [
+        "Excalibur Projectile",
+        "United States Army"
+      ],
+      [
+        "Combat Support Vehicle",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "Mobile Maintenance Facility",
+        "Shadow Platoon"
+      ],
+      [
+        "North Atlantic Treaty Organization",
+        "UH-72A Light Utility Helicopter"
+      ],
+      [
+        "TACA Modernization",
+        "United States Army"
+      ],
+      [
+        "CH-47F Chinook",
+        "Digital Automatic Flight Control System"
+      ],
+      [
+        "1st Infantry Division",
+        "M109A7 SPH"
+      ],
+      [
+        "Long-Range Precision Fires",
+        "TACA Modernization Priority"
+      ],
+      [
+        "CH-47F Chinook",
+        "Common Avionics Architecture System"
+      ],
+      [
+        "Active Component Infantry",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "M-ATV",
+        "Project Manager Prophet"
+      ],
+      [
+        "Egypt",
+        "M1A1 SA"
+      ],
+      [
+        "National Guard",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "Lockheed Martin",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles (FMTV)",
+        "PEO Combat Support And Combat Service Support"
+      ],
+      [
+        "Army Integrated Air And Missile Defense",
+        "Iamd Battle Command System"
+      ],
+      [
+        "Stryker Brigade Combat Teams",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "M142 High Mobility Artillery Rocket System",
+        "Redstone Arsenal"
+      ],
+      [
+        "C-130 Aircraft",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "Lakota Light Utility Helicopter",
+        "PEO Aviation"
+      ],
+      [
+        "Future Vertical Lift",
+        "Leader Radio"
+      ],
+      [
+        "Load Handling System (LHS)",
+        "Medium Tactical Vehicle (MTV)"
+      ],
+      [
+        "IPPS-A",
+        "United States Army"
+      ],
+      [
+        "PEO Command, Control, Communications–Tactical",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "Program Executive Office Aviation",
+        "Redstone Arsenal"
+      ],
+      [
+        "Fort Belvoir",
+        "Program Executive Office Enterprise Information Systems"
+      ],
+      [
+        "GFEBS",
+        "Risk Management Framework"
+      ],
+      [
+        "PEO Command Control Communications Tactical",
+        "Tactical Network Transport"
+      ],
+      [
+        "Multiple Launch Rocket System",
+        "United States Army"
+      ],
+      [
+        "Caterpillar C-15 ACERT Diesel Engine",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Homeland Defense And Security",
+        "UH-72A Light Utility Helicopter"
+      ],
+      [
+        "HR Professionals",
+        "IPPS-A"
+      ],
+      [
+        "AH-64D/E Apache",
+        "HELLFIRE Missile"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles (FMTV)",
+        "Light Medium Tactical Vehicle (LMTV)"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "General Purpose Variant"
+      ],
+      [
+        "Common Fire Control System",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "Hellfire Family of Missiles",
+        "Reaper"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "Patriot Semitrailers"
+      ],
+      [
+        "Ah-64E Apache",
+        "Taiwan"
+      ],
+      [
+        "Black Hawk Utility Helicopter",
+        "UH-60V"
+      ],
+      [
+        "Ah-64E Apache",
+        "Lockheed Martin"
+      ],
+      [
+        "Expeditionary Signal Battalion",
+        "United States Army"
+      ],
+      [
+        "Excalibur Projectile",
+        "Global Positioning System (GPS)"
+      ],
+      [
+        "AGM-114R",
+        "MQ-1C Gray Eagle"
+      ],
+      [
+        "Foreign Military Sales",
+        "United States Army"
+      ],
+      [
+        "Abrams Tank",
+        "General Dynamics Land Systems"
+      ],
+      [
+        "Abrams Tank",
+        "Anniston Army Depot"
+      ],
+      [
+        "PEO Missiles and Space",
+        "Redstone Arsenal"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Medical Evacuation Variant"
+      ],
+      [
+        "PEO Missiles And Space",
+        "Tube-Launched, Optically Tracked, Wireless-Guided Missiles"
+      ],
+      [
+        "Future Vertical Lift",
+        "Rifleman Radio"
+      ],
+      [
+        "M992A2 FAASV",
+        "M992A3 CAT"
+      ],
+      [
+        "CH-47",
+        "Joint Light Tactical Vehicle"
+      ],
+      [
+        "Palletized Load System A1 (PLSA1)",
+        "United States Army"
+      ],
+      [
+        "Assembled Chemical Weapons Alternatives (ACWA)",
+        "Chemical Weapons Stockpiles"
+      ],
+      [
+        "Operational Intelligence Ground Station",
+        "Potomac Fusion"
+      ],
+      [
+        "Guided MLRS",
+        "M270A1"
+      ],
+      [
+        "Korea",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "HMS",
+        "Leader Radio"
+      ],
+      [
+        "PEO Missiles And Space",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "U.s. Army National Guard",
+        "Uh-72a Light Utility Helicopter"
+      ],
+      [
+        "Future Vertical Lift",
+        "U.S. Army"
+      ],
+      [
+        "Ah-64E Apache",
+        "Boeing"
+      ],
+      [
+        "M142 High Mobility Artillery Rocket System",
+        "United States Army"
+      ],
+      [
+        "Common Remotely Operated Weapon Station",
+        "PEO Soldier"
+      ],
+      [
+        "Intelligence Processing Center",
+        "Microsoft"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Mortar Carrier Variant"
+      ],
+      [
+        "CROWS",
+        "Stryker"
+      ],
+      [
+        "Common Infrared Countermeasure",
+        "Common Missile Warning System"
+      ],
+      [
+        "BAE",
+        "M88A2 Improved Recovery Vehicle"
+      ],
+      [
+        "Milestone A Decision Review",
+        "PrSM"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "Palletized Load System (PLS) A1"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Phased Array Tracking Radar"
+      ],
+      [
+        "Foreign Military Sales",
+        "Kuwait"
+      ],
+      [
+        "Common Missile Warning System",
+        "PEO Intelligence, Electronic Warfare and Sensors"
+      ],
+      [
+        "Mq-1C Gray Eagle Unmanned Aircraft System",
+        "Redstone Arsenal"
+      ],
+      [
+        "CH-53 Helicopter",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "M113 Family Of Vehicles"
+      ],
+      [
+        "Program Executive Office Aviation",
+        "Redstone Arsenal, AL"
+      ],
+      [
+        "Javelin",
+        "United States Army"
+      ],
+      [
+        "General Dynamics Land Systems",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "European Deterrence Initiative",
+        "Family Of Medium Tactical Vehicles"
+      ],
+      [
+        "Tactical Hub Node",
+        "Tactical Network Transport"
+      ],
+      [
+        "Army Network",
+        "Handheld, Manpack And Small Form Fit"
+      ],
+      [
+        "Joint Light Tactical Vehicle",
+        "PEO Combat Support And Combat Service Support"
+      ],
+      [
+        "Future Vertical Lift",
+        "Program Executive Office Aviation"
+      ],
+      [
+        "Future Vertical Lift",
+        "TACA Modernization Priority"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Mk 19 Weapon"
+      ],
+      [
+        "GE-701D Engine",
+        "UH-60M"
+      ],
+      [
+        "DVH SBCT",
+        "United States Army"
+      ],
+      [
+        "Abrams Tank Upgrade",
+        "Army Network"
+      ],
+      [
+        "Aberdeen Proving Ground",
+        "Handheld, Manpack And Small Form Fit"
+      ],
+      [
+        "HMS",
+        "Rifleman Radio"
+      ],
+      [
+        "Ah-64E Apache",
+        "Longbow Llc"
+      ],
+      [
+        "Remote Weapon Station",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "IPPS-A",
+        "Soldier"
+      ],
+      [
+        "15th ABCT",
+        "United States Army"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Redstone Arsenal"
+      ],
+      [
+        "Gray Eagle Unmanned Aircraft System",
+        "Program Executive Office Aviation"
+      ],
+      [
+        "AH-1W Super Cobra",
+        "Marine Corps"
+      ],
+      [
+        "National Military Strategy",
+        "United States Army"
+      ],
+      [
+        "Hydra-70 2.75 Inch Rocket Systems",
+        "Soldier"
+      ],
+      [
+        "C-17",
+        "Integrated Combat Command And Control (IC3)"
+      ],
+      [
+        "Armored Brigade Combat Team",
+        "Hercules"
+      ],
+      [
+        "Assembled Chemical Weapons Alternatives (ACWA)",
+        "Under Secretary of Defense For Acquisition, Technology and Logistics"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Mission Command Variant"
+      ],
+      [
+        "Indirect Fire Protection Capability",
+        "Unmanned Aircraft Systems"
+      ],
+      [
+        "HEMTT",
+        "United States Army"
+      ],
+      [
+        "AH1W Cobra Helicopter",
+        "TOW Missile"
+      ],
+      [
+        "30 mm Cannon",
+        "Stryker ICV"
+      ],
+      [
+        "Operational Intelligence Ground Station",
+        "Tactical Exploitation System Forward"
+      ],
+      [
+        "2nd Calvary Regiment",
+        "Common Remotely Operated Weapon Station"
+      ],
+      [
+        "Ah-64E Apache",
+        "Saudi Arabia"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles (FMTV)",
+        "Medium Tactical Vehicle (MTV)"
+      ],
+      [
+        "Force XXI Battle Command Brigade-And-Below",
+        "M2A3 Infantry Fighting Vehicle"
+      ],
+      [
+        "Andover",
+        "Raytheon"
+      ],
+      [
+        "Armored Brigade Combat Team",
+        "Bradley Fire Support Team (BFist)"
+      ],
+      [
+        "10-Ton Dump Truck",
+        "Medium Tactical Vehicle"
+      ],
+      [
+        "HEMTT",
+        "Next Generation Combat Vehicles"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Portable Multifunctional Workstation"
+      ],
+      [
+        "Brigade Expeditionary Signal Battalion",
+        "Tactical Network Transport"
+      ],
+      [
+        "Australia",
+        "M1A1 SA"
+      ],
+      [
+        "Stryker ICV",
+        "United States Army"
+      ],
+      [
+        "BAE Systems",
+        "M109A7 SPH"
+      ],
+      [
+        "Bradley",
+        "M109A7 SPH"
+      ],
+      [
+        "Intelligence And Security Command",
+        "Mq-1C Gray Eagle Unmanned Aircraft System"
+      ],
+      [
+        "CH-47F Block II",
+        "CH-47F Chinook"
+      ],
+      [
+        "FY12-FY16 Multiyear Contract",
+        "TOW Missile"
+      ],
+      [
+        "Air and Missile Defense",
+        "TACA Modernization Priority"
+      ],
+      [
+        "Common Remotely Operated Weapon Station",
+        "M1A2 SEPv2"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Saber"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Taiwan"
+      ],
+      [
+        "AM General",
+        "Red River Army Depot"
+      ],
+      [
+        "Mq-1C Gray Eagle Unmanned Aircraft System",
+        "United States Army"
+      ],
+      [
+        "Peo Missiles And Space",
+        "Redstone Arsenal"
+      ],
+      [
+        "Fort Belvoir, VA",
+        "Program Executive Office Enterprise Information Systems"
+      ],
+      [
+        "Camden",
+        "Lockheed Martin"
+      ],
+      [
+        "Kuwait",
+        "M1A2 SEPv2"
+      ],
+      [
+        "DCGS-A",
+        "PEO Intelligence, Electronic Warfare And Sensors"
+      ],
+      [
+        "Javelin",
+        "Marine Corps"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Vehicle Intercom Vic-3"
+      ],
+      [
+        "Engineering Change Proposals",
+        "United States Army"
+      ],
+      [
+        "IAMD Battle Command System (IBCS)",
+        "U.S. Army"
+      ],
+      [
+        "Future Vertical Lift",
+        "United States Army"
+      ],
+      [
+        "Army Modernization",
+        "Long Range Precision Fires"
+      ],
+      [
+        "Palletized Load System A1 (PLSA1)",
+        "Reserve"
+      ],
+      [
+        "Eatontown",
+        "MITRE"
+      ],
+      [
+        "GE-701C Engine",
+        "UH-60L"
+      ],
+      [
+        "Bradley Fighting Vehicle Systems",
+        "M2A3 Infantry Fighting Vehicle"
+      ],
+      [
+        "PEO Missiles and Space",
+        "Patriot Advanced Capability-3 (PAC-3)"
+      ],
+      [
+        "Engagement Control Station",
+        "Fire Unit"
+      ],
+      [
+        "Foreign Military Sales",
+        "Lebanon"
+      ],
+      [
+        "Ah-64E Apache",
+        "United Kingdom"
+      ],
+      [
+        "AH-64 Apache",
+        "Hellfire II"
+      ],
+      [
+        "Gray Eagle Unmanned Aircraft System",
+        "United States Army"
+      ],
+      [
+        "PEO Aviation",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "Air Force",
+        "Predator"
+      ],
+      [
+        "Leader Radio",
+        "United States Army"
+      ],
+      [
+        "M1076A1 Companion Trailer",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Active Army",
+        "RQ-7BV2 Systems"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles",
+        "PATRIOT"
+      ],
+      [
+        "United States Army",
+        "Weapon Systems Handbook 2018"
+      ],
+      [
+        "Coalition Local Area Network",
+        "Tactical Network Transport"
+      ],
+      [
+        "AMG-114R",
+        "MQ-1C Gray Eagle"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Driver's Vision Enhancer"
+      ],
+      [
+        "Bradley Fighting Vehicle Systems",
+        "PEO Ground Combat Systems"
+      ],
+      [
+        "Auxiliary Power Unit",
+        "M1A2 SEPv3"
+      ],
+      [
+        "Point Of Presence",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "AN/TPQ-53",
+        "Tobyhanna Army Depot"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Hms Radios"
+      ],
+      [
+        "Command Post Computing Environment",
+        "Common Operating Environment"
+      ],
+      [
+        "Artificial Intelligence",
+        "M1A2 SEPv4"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Improved Target Acquisition System"
+      ],
+      [
+        "European Deterrence Initiative",
+        "M270A1"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Strategic Data Platform"
+      ],
+      [
+        "TOW Missile",
+        "TOW Obsolescence and Safety Engineering Change"
+      ],
+      [
+        "Battalion Command Post Node",
+        "Satellite Transportable Terminal"
+      ],
+      [
+        "Soldier Network Extension",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Processing Exploitation And Dissemination"
+      ],
+      [
+        "Army Network",
+        "Leader Radio"
+      ],
+      [
+        "Air and Missile Defense",
+        "United States Army"
+      ],
+      [
+        "Next Generation Combat Vehicles",
+        "TACA Modernization Priority"
+      ],
+      [
+        "CROWS",
+        "M2 .50 Caliber Machine Gun"
+      ],
+      [
+        "United States Army",
+        "United States Army Modernization Priority"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles (FMTV)",
+        "United States Army"
+      ],
+      [
+        "LAV-ATGM Vehicle",
+        "TOW Missile"
+      ],
+      [
+        "2.75-Inch Rockets",
+        "Ah-64E Apache"
+      ],
+      [
+        "Advanced Precision Kill Weapon System II",
+        "Hydra-70 2.75 Inch Rocket Systems"
+      ],
+      [
+        "M1 Abrams",
+        "M88A2 Hercules"
+      ],
+      [
+        "Combat Recovery Systems Product Management Office",
+        "M88A2 Hercules"
+      ],
+      [
+        "Stryker Brigade Combat Team",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "North Atlantic Treaty Organization (NATO)",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Saudi Arabia"
+      ],
+      [
+        "HEMTT",
+        "Reserve"
+      ],
+      [
+        "JPEO Armaments And Ammunition",
+        "Picatinny Arsenal"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "TOW Missile"
+      ],
+      [
+        "Long-Range Precision Fires",
+        "Modernization Priority"
+      ],
+      [
+        "Leader Radio",
+        "Navy"
+      ],
+      [
+        "Active Army",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "HEMTT",
+        "M984A4 Wrecker"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Raytheon"
+      ],
+      [
+        "Abrams Tank Upgrade",
+        "Long-Range Precision Fires"
+      ],
+      [
+        "AH-64D/E Apache",
+        "RQ-7Bv2 Shadow Tactical Unmanned Aircraft System"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Fort Hood"
+      ],
+      [
+        "IAMD Battle Command System (IBCS)",
+        "Integrated Air And Missile Defense (IAMD)"
+      ],
+      [
+        "Patriot Advanced Capability-3 (PAC-3)",
+        "Redstone Arsenal"
+      ],
+      [
+        "Indirect Fire Protection Capability",
+        "Soldier"
+      ],
+      [
+        "Brigade Combat Teams",
+        "Field Artillery Brigades"
+      ],
+      [
+        "AH-64D/E Apache",
+        "Future Vertical Lift"
+      ],
+      [
+        "Long-Range Precision Fires",
+        "U.S. Army"
+      ],
+      [
+        "Ah-64E Apache",
+        "Department Of Army"
+      ],
+      [
+        "Stryker Anti-Tank Guided Missile Vehicles",
+        "Tube-Launched, Optically Tracked, Wireless-Guided Missiles"
+      ],
+      [
+        "Patriot Advanced Capability-3",
+        "Weapon Systems Handbook 2018"
+      ],
+      [
+        "Hellfire Family of Missiles",
+        "Hellfire II"
+      ],
+      [
+        "CH-47F Chinook",
+        "Future Vertical Lift"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Underbelly Interim Solution"
+      ],
+      [
+        "Ah-64E Apache",
+        "Netherlands"
+      ],
+      [
+        "Army Tactical Missile System",
+        "M270A1"
+      ],
+      [
+        "BAE Systems",
+        "M109 FOV"
+      ],
+      [
+        "Aberdeen Proving Ground",
+        "PEO Command, Control, Communications–Tactical"
+      ],
+      [
+        "CROWS",
+        "M240B Machine Gun"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "Weapon Systems Handbook 2018"
+      ],
+      [
+        "Multiple Launch Rocket System",
+        "Precision Strike Missile"
+      ],
+      [
+        "M1076A1 Trailer",
+        "Palletized Load System A1 (PLS A1)"
+      ],
+      [
+        "AH-64D/E Apache",
+        "Brigade Combat Team"
+      ],
+      [
+        "HEMTT",
+        "Oshkosh"
+      ],
+      [
+        "GMLRS",
+        "M142 High Mobility Artillery Rocket System"
+      ],
+      [
+        "Egypt",
+        "Foreign Military Sales"
+      ],
+      [
+        "Command Post Computing Environment",
+        "Commercial Off-The-Shelf"
+      ],
+      [
+        "Extended Service Program (ESP)",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "M-atv",
+        "Mine Resistant Ambush Protected Vehicles"
+      ],
+      [
+        "BAE Systems",
+        "M88A2 Hercules"
+      ],
+      [
+        "Stryker Brigade Combat Team",
+        "United States Army"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Peo Missiles And Space"
+      ],
+      [
+        "Command Post Computing Environment",
+        "Tactical Mission Command"
+      ],
+      [
+        "M1A2 SEPv2",
+        "Trophy Active Protection System"
+      ],
+      [
+        "Cross Domain Server Set",
+        "Distributed Common Ground System-Army"
+      ],
+      [
+        "Abrams Tank",
+        "Turbine Engine"
+      ],
+      [
+        "Aberdeen Proving Ground",
+        "PEO Command Control Communications Tactical"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "Leader Radio"
+      ],
+      [
+        "PrSM",
+        "Raytheon"
+      ],
+      [
+        "PAC-3 Missile Segment Enhancement",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "M1A2 SEPv2",
+        "M1A2 SEPv3"
+      ],
+      [
+        "Excalibur Projectile",
+        "JPEO Armaments And Ammunition"
+      ],
+      [
+        "Cruise Missiles",
+        "Indirect Fire Protection Capability"
+      ],
+      [
+        "Bradley Fighting Vehicle",
+        "Force Xxi Battle Command Brigade-And-Below"
+      ],
+      [
+        "Abrams Tank",
+        "Allison Transmission"
+      ],
+      [
+        "Excalibur Projectile",
+        "Modular Artillery Charge System (MACS)"
+      ],
+      [
+        "Alabama",
+        "Fort Rucker"
+      ],
+      [
+        "Paladin Family Of Vehicles",
+        "United States Army"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "MITRE"
+      ],
+      [
+        "LAV-ATGM Vehicle",
+        "United States Marine Corps"
+      ],
+      [
+        "Tactical Network Transport On-The-Move",
+        "Vehicle Wireless Package"
+      ],
+      [
+        "81st Washington Army National Guard",
+        "Stryker Family Of Vehicles"
+      ],
+      [
+        "Acquisition Life Cycle Phase",
+        "HIMARS"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Duke V3"
+      ],
+      [
+        "National Guard",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "AH-64D/E Apache",
+        "Modernized Target Acquisition Designation Sight"
+      ],
+      [
+        "Patriot Advanced Capability-3 (PAC-3)",
+        "United States Army"
+      ],
+      [
+        "Hydra-70 2.75 Inch Rocket Systems",
+        "PEO Missiles and Space"
+      ],
+      [
+        "Army Network",
+        "TACA Modernization Priority"
+      ],
+      [
+        "Army Integrated Air And Missile Defense",
+        "Peo Missiles And Space"
+      ],
+      [
+        "Extended Range Cannon Artillery (ERCA)",
+        "M109A7 SPH"
+      ],
+      [
+        "HIMARS",
+        "PEO Missiles and Space"
+      ],
+      [
+        "Air Force",
+        "Handheld, Manpack And Small Form Fit"
+      ],
+      [
+        "M60 Series Tank",
+        "M88A1"
+      ],
+      [
+        "M109A6 Paladin",
+        "M109A7 SPH"
+      ],
+      [
+        "M88A1",
+        "M88A2 Improved Recovery Vehicle"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Lockheed Martin"
+      ],
+      [
+        "JAGM",
+        "PEO Missiles and Space"
+      ],
+      [
+        "Joint Light Tactical Vehicle",
+        "United States Army"
+      ],
+      [
+        "Intelligence Processing Center",
+        "ManTech"
+      ],
+      [
+        "Air And Missile Defense",
+        "United States Army"
+      ],
+      [
+        "CH-47F Chinook",
+        "Engineering And Manufacturing Development"
+      ],
+      [
+        "Commanders",
+        "IPPS-A"
+      ],
+      [
+        "Abrams Tank",
+        "Joint Systems Manufacturing Center"
+      ],
+      [
+        "HMS",
+        "Manpack Radio"
+      ],
+      [
+        "Armored Brigade Combat Teams",
+        "M109A6 Paladin"
+      ],
+      [
+        "Alternative Warhead",
+        "Guided Multiple Launch Rocket System"
+      ],
+      [
+        "Maxxpro Family Of Vehicles",
+        "Mine Resistant Ambush Protected Vehicles"
+      ],
+      [
+        "Netherlands",
+        "Patriot Advanced Capability-3"
+      ],
+      [
+        "Hercules",
+        "M1A2 Abrams Tank"
+      ],
+      [
+        "Heavy Expanded Mobility Tactical Truck (HEMTT)",
+        "Palletized Load System A1 (PLSA1)"
+      ],
+      [
+        "Redstone Arsenal",
+        "United States Army"
+      ],
+      [
+        "Alabama",
+        "PEO Missiles and Space"
+      ],
+      [
+        "AN/TPQ-50",
+        "AN/TPQ-53"
+      ],
+      [
+        "Hellfire Missiles",
+        "Mq-1C Gray Eagle Unmanned Aircraft System"
+      ],
+      [
+        "Advanced Threat Infrared Countermeasures",
+        "Man Portable Air Defense Systems"
+      ],
+      [
+        "Ah-64E Apache",
+        "Singapore"
+      ],
+      [
+        "Joint Forces",
+        "Multiple Launch Rocket System"
+      ],
+      [
+        "Assembled Chemical Weapons Alternatives (ACWA)",
+        "Blue Grass Army Depot"
+      ],
+      [
+        "AN/TPQ-53",
+        "PEO Missiles And Space"
+      ],
+      [
+        "M1A1 SA",
+        "M1A2 SEPv3"
+      ],
+      [
+        "Cross-Platform Laser Pointer",
+        "M1A2 SEPv4"
+      ],
+      [
+        "3GEN FLIR",
+        "M1A2 SEPv4"
+      ],
+      [
+        "GFEBS",
+        "United States Army"
+      ],
+      [
+        "Hercules",
+        "United States Army"
+      ],
+      [
+        "Global Combat Support System-Army",
+        "United States Army"
+      ],
+      [
+        "Regional Hub Node",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "Ah-64E Apache",
+        "Hellfire Missiles"
+      ],
+      [
+        "Caterpillar",
+        "Family Of Medium Tactical Vehicles"
+      ],
+      [
+        "Foreign Military Sales",
+        "Thailand"
+      ],
+      [
+        "Intelligence Processing Center",
+        "Oracle"
+      ],
+      [
+        "Long-Range Precision Fires",
+        "United States Army"
+      ],
+      [
+        "Germany",
+        "Hercules"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "United States Army"
+      ],
+      [
+        "AH-64D/E Apache",
+        "Small Tactical Terminal"
+      ],
+      [
+        "Handheld, Manpack And Small Form Fit",
+        "Special Operations Command"
+      ],
+      [
+        "Extended Range Cannon Artillery (ERCA)",
+        "Project Manager Combat Ammunition"
+      ],
+      [
+        "Mine Resistant Ambush Protected Vehicles",
+        "United States Army"
+      ],
+      [
+        "Field Artillery Brigades",
+        "M270A1"
+      ],
+      [
+        "Expeditionary Forces",
+        "Multiple Launch Rocket System"
+      ],
+      [
+        "General Dynamics Land Systems",
+        "Stryker ICV"
+      ],
+      [
+        "Abrams Tank",
+        "United States Army"
+      ],
+      [
+        "Joint Network Node",
+        "Satellite Transportable Terminal"
+      ],
+      [
+        "Guided Multiple Launch Rocket System",
+        "Unitary Variant"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Rock Island Arsenal"
+      ],
+      [
+        "Hercules",
+        "Kuwait"
+      ],
+      [
+        "General Fund Enterprise Business Systems",
+        "Program Executive Office Enterprise Information Systems"
+      ],
+      [
+        "Hms",
+        "Leader Radio"
+      ],
+      [
+        "Army Modernization Priorities",
+        "United States Army"
+      ],
+      [
+        "C-17 Aircraft",
+        "Family Of Medium Tactical Vehicles (FMTV)"
+      ],
+      [
+        "Combat Aviation Brigade",
+        "Mq-1C Gray Eagle Unmanned Aircraft System"
+      ],
+      [
+        "United States Army",
+        "United States Army Reserve"
+      ],
+      [
+        "M109A7 SPH",
+        "Yuma Proving Ground"
+      ],
+      [
+        "GE-700 Engine",
+        "UH-60A"
+      ],
+      [
+        "Family Of Medium Tactical Vehicles",
+        "United States Army"
+      ],
+      [
+        "Armored Multi-Purpose Vehicle",
+        "Medical Treatment Variant"
+      ],
+      [
+        "HP",
+        "Intelligence Processing Center"
+      ],
+      [
+        "PEO Aviation",
+        "Redstone Arsenal"
+      ],
+      [
+        "Tactical Communications Node-Lite",
+        "Tactical Network Transport On-The-Move"
+      ],
+      [
+        "Eye-Safe Laser Range Finder",
+        "M1A2 SEPv4"
+      ],
+      [
+        "High Mobility Multipurpose Wheeled Vehicle",
+        "Tube-Launched, Optically Tracked, Wireless-Guided Missiles"
+      ],
+      [
+        "C-130",
+        "HIMARS"
+      ],
+      [
+        "M1A2 SEPv3",
+        "United States Army"
+      ],
+      [
+        "Distributed Common Ground System-Army",
+        "Raytheon"
+      ],
+      [
+        "M270A1",
+        "M993A1 Bradley Carrier"
+      ],
+      [
+        "Advanced Threat Infrared Countermeasures",
+        "CH-47F Block II"
+      ],
+      [
+        "Australia",
+        "Foreign Military Sales"
+      ],
+      [
+        "United States Army",
+        "United States Army National Guard"
+      ],
+      [
+        "AH-64D Apache Longbow",
+        "Longbow Hellfire"
+      ]
+    ],
+    "count": 700,
+    "create_time": 1778831851,
+    "update_time": 1778831851,
+    "_id": "doc-2e26c656078a1673d5e380d0abe0b7fb"
+  }
+}

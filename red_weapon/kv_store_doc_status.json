@@ -1,0 +1,61 @@
+{
+  "doc-d6c67bec9322827f20e37e0bd9fcd61c": {
+    "status": "processed",
+    "chunks_count": 26,
+    "chunks_list": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5",
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2",
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-757015f89d4c935f7724a9ed12087838",
+      "chunk-5d66dea93b10874b191162cbdb0ab98a",
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b",
+      "chunk-b3f6dbd085c699f93bdb83866be6350c",
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e",
+      "chunk-7d36f7e851df169e341230a2831ce9f0",
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1",
+      "chunk-4731a83decfc21288646e81408885206",
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-19abd266427cf2f523ed74abe4c7fe08",
+      "chunk-f6d193050226dfeef84543c4d4f03633",
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3",
+      "chunk-36279db265c8672236969419f8ad5bf8",
+      "chunk-20cb5a85f5c7beff50305b21a195412e",
+      "chunk-8b231772b97253777c1632732ee0fbf1",
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2",
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2",
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2",
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "content_summary": "# 武器装备百科信息汇总\n\n## 中国人民解放军海军辽宁舰\n- **词条描述**：中国人民解放军海军首艘航空母舰\n- **摘要**：辽宁号航空母舰（代号：001型航空母舰，舷号：16，简称：辽宁舰），是中国人民解放军海军隶下的一艘可以搭载固定翼飞机的航空母舰，也是中国第一艘服役的航空母舰。辽宁号航空母舰前身是苏联海军的库兹涅佐夫元帅级航空母舰次舰瓦良格号，20世纪80年代中后期，瓦良格号于乌克兰建造时遭逢苏联解体，建造工程中断，完成度68%。1999年，中国购买了瓦良格号，于2002年3月4日抵...",
+    "content_length": 35647,
+    "created_at": "2026-05-14T14:32:02.056398+00:00",
+    "updated_at": "2026-05-14T15:07:23.648457+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260514_223202_b65990f3",
+    "metadata": {
+      "processing_start_time": 1778770934,
+      "processing_end_time": 1778771243
+    }
+  },
+  "dup-aecdb968ace64c4fe989eb119e27d040": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-d6c67bec9322827f20e37e0bd9fcd61c",
+    "content_length": 35647,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T15:02:14.953842+00:00",
+    "updated_at": "2026-05-14T15:02:14.953842+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260514_230214_df064f5e",
+    "error_msg": "Content already exists. Original doc_id: doc-d6c67bec9322827f20e37e0bd9fcd61c, Status: failed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-d6c67bec9322827f20e37e0bd9fcd61c",
+      "original_track_id": "insert_20260514_223202_b65990f3"
+    }
+  }
+}

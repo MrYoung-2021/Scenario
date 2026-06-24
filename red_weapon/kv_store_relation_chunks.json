@@ -1,0 +1,5634 @@
+{
+  "Active Phased Array Fire Control Radar<SEP>Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Active Phased Array Fire Control Radar<SEP>Jian-15D"
+  },
+  "High-Power Electronic Jamming Pod<SEP>Mission System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "High-Power Electronic Jamming Pod<SEP>Mission System"
+  },
+  "Chinese Navy<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Chinese Navy<SEP>Type 093 Nuclear Submarine"
+  },
+  "Shang-Class Submarine<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Shang-Class Submarine<SEP>Type 093 Nuclear Submarine"
+  },
+  "Electronic Support Reconnaissance Pod<SEP>Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Electronic Support Reconnaissance Pod<SEP>Jian-15D"
+  },
+  "Jian-15D<SEP>Wingtip Pod": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Jian-15D<SEP>Wingtip Pod"
+  },
+  "Electronic Support Reconnaissance Pod<SEP>Mission System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Electronic Support Reconnaissance Pod<SEP>Mission System"
+  },
+  "Type 093 Nuclear Submarine<SEP>Type 093A Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771160,
+    "update_time": 1778771160,
+    "_id": "Type 093 Nuclear Submarine<SEP>Type 093A Submarine"
+  },
+  "Chinese Navy<SEP>Type 094 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771161,
+    "update_time": 1778771161,
+    "_id": "Chinese Navy<SEP>Type 094 Strategic Nuclear Submarine"
+  },
+  "Type 093 Nuclear Submarine<SEP>Type 093B Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771161,
+    "update_time": 1778771161,
+    "_id": "Type 093 Nuclear Submarine<SEP>Type 093B Submarine"
+  },
+  "Jin-Class Submarine<SEP>Type 094 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771161,
+    "update_time": 1778771161,
+    "_id": "Jin-Class Submarine<SEP>Type 094 Strategic Nuclear Submarine"
+  },
+  "Chinese Navy<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771161,
+    "update_time": 1778771161,
+    "_id": "Chinese Navy<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Type 093 Nuclear Submarine<SEP>Vertical Launch System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771161,
+    "update_time": 1778771161,
+    "_id": "Type 093 Nuclear Submarine<SEP>Vertical Launch System"
+  },
+  "Julang-3 Submarine-Launched Missile<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771162,
+    "update_time": 1778771162,
+    "_id": "Julang-3 Submarine-Launched Missile<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Active Sonar<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771162,
+    "update_time": 1778771162,
+    "_id": "Active Sonar<SEP>Type 093 Nuclear Submarine"
+  },
+  "Towed Array Sonar<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771162,
+    "update_time": 1778771162,
+    "_id": "Towed Array Sonar<SEP>Type 093 Nuclear Submarine"
+  },
+  "Type 096 Strategic Nuclear Submarine<SEP>Yu-10 Intelligent Torpedo": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771162,
+    "update_time": 1778771162,
+    "_id": "Type 096 Strategic Nuclear Submarine<SEP>Yu-10 Intelligent Torpedo"
+  },
+  "Aircraft Avionics System<SEP>Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771162,
+    "update_time": 1778771162,
+    "_id": "Aircraft Avionics System<SEP>Jian-15D"
+  },
+  "India Ocean Ocean Combat Readiness Deployment<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771162,
+    "update_time": 1778771162,
+    "_id": "India Ocean Ocean Combat Readiness Deployment<SEP>Type 093 Nuclear Submarine"
+  },
+  "Fourth Generation Small Nuclear Reactor<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Fourth Generation Small Nuclear Reactor<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Cockpit Display<SEP>Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Cockpit Display<SEP>Jian-15D"
+  },
+  "Surface Displacement 6000 Tons<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Surface Displacement 6000 Tons<SEP>Type 093 Nuclear Submarine"
+  },
+  "Pump Jet Propulsion<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Pump Jet Propulsion<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Double Hull Structure<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Double Hull Structure<SEP>Type 093 Nuclear Submarine"
+  },
+  "Third Generation Sound Isolation Tiles<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Third Generation Sound Isolation Tiles<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Data Link Communication System<SEP>Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Data Link Communication System<SEP>Jian-15D"
+  },
+  "Improved Pressurized Water Reactor<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Improved Pressurized Water Reactor<SEP>Type 093 Nuclear Submarine"
+  },
+  "533mm Torpedo Tube<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "533mm Torpedo Tube<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Anti-Radiation Missile<SEP>Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771163,
+    "update_time": 1778771163,
+    "_id": "Anti-Radiation Missile<SEP>Jian-15D"
+  },
+  "Surface Speed 18 Knots<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771164,
+    "update_time": 1778771164,
+    "_id": "Surface Speed 18 Knots<SEP>Type 093 Nuclear Submarine"
+  },
+  "Type 093 Nuclear Submarine<SEP>Underwater Speed 25 Knots": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771164,
+    "update_time": 1778771164,
+    "_id": "Type 093 Nuclear Submarine<SEP>Underwater Speed 25 Knots"
+  },
+  "Six Torpedo Tubes<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771164,
+    "update_time": 1778771164,
+    "_id": "Six Torpedo Tubes<SEP>Type 093 Nuclear Submarine"
+  },
+  "Pump Jet Propulsion<SEP>Type 093A Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771164,
+    "update_time": 1778771164,
+    "_id": "Pump Jet Propulsion<SEP>Type 093A Submarine"
+  },
+  "Pump Jet Propulsion<SEP>Type 093B Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771164,
+    "update_time": 1778771164,
+    "_id": "Pump Jet Propulsion<SEP>Type 093B Submarine"
+  },
+  "Low-Light Night Vision CCD Periscope<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771165,
+    "update_time": 1778771165,
+    "_id": "Low-Light Night Vision CCD Periscope<SEP>Type 093 Nuclear Submarine"
+  },
+  "Seven-Blade Large Skew Propeller<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771165,
+    "update_time": 1778771165,
+    "_id": "Seven-Blade Large Skew Propeller<SEP>Type 093 Nuclear Submarine"
+  },
+  "14-Meter Diameter Pressure Hull<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771165,
+    "update_time": 1778771165,
+    "_id": "14-Meter Diameter Pressure Hull<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Liquid Metal Sodium Cooling System<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771165,
+    "update_time": 1778771165,
+    "_id": "Liquid Metal Sodium Cooling System<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Rubber Sound Isolation Tiles<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771165,
+    "update_time": 1778771165,
+    "_id": "Rubber Sound Isolation Tiles<SEP>Type 093 Nuclear Submarine"
+  },
+  "Maximum Diving Depth 600-650 Meters<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Maximum Diving Depth 600-650 Meters<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Elastic Vibration Isolation Device<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Elastic Vibration Isolation Device<SEP>Type 093 Nuclear Submarine"
+  },
+  "Hypersonic Gliding Warhead<SEP>Julang-3 Submarine-Launched Missile": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Hypersonic Gliding Warhead<SEP>Julang-3 Submarine-Launched Missile"
+  },
+  "Maximum Speed 32 Knots<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Maximum Speed 32 Knots<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Small Turtle Back Structure<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Small Turtle Back Structure<SEP>Type 093 Nuclear Submarine"
+  },
+  "Fiber Optic Guidance<SEP>Yu-10 Intelligent Torpedo": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Fiber Optic Guidance<SEP>Yu-10 Intelligent Torpedo"
+  },
+  "Julang-3 Submarine-Launched Missile<SEP>Nuclear Warhead Yield 150 Kilotons": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Julang-3 Submarine-Launched Missile<SEP>Nuclear Warhead Yield 150 Kilotons"
+  },
+  "Full Load Displacement 16000-20000 Tons<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Full Load Displacement 16000-20000 Tons<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Flank Sonar Array<SEP>Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "Flank Sonar Array<SEP>Type 093 Nuclear Submarine"
+  },
+  "China<SEP>Dongfeng-15 Ballistic Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "China<SEP>Dongfeng-15 Ballistic Missile"
+  },
+  "South China Sea<SEP>Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "South China Sea<SEP>Type 096 Strategic Nuclear Submarine"
+  },
+  "Dongfeng-15 Ballistic Missile<SEP>Dongfeng-15B Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "Dongfeng-15 Ballistic Missile<SEP>Dongfeng-15B Missile"
+  },
+  "Changjian-10 Cruise Missile<SEP>China": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "Changjian-10 Cruise Missile<SEP>China"
+  },
+  "Type 093 Nuclear Submarine<SEP>Western Pacific": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "Type 093 Nuclear Submarine<SEP>Western Pacific"
+  },
+  "Type 096 Strategic Nuclear Submarine<SEP>Yellow Sea": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "Type 096 Strategic Nuclear Submarine<SEP>Yellow Sea"
+  },
+  "Changjian-100 Cruise Missile<SEP>China": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771167,
+    "update_time": 1778771167,
+    "_id": "Changjian-100 Cruise Missile<SEP>China"
+  },
+  "Changjian-20A Missile<SEP>China": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Changjian-20A Missile<SEP>China"
+  },
+  "Changjian-100 Cruise Missile<SEP>People's Liberation Army": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Changjian-100 Cruise Missile<SEP>People's Liberation Army"
+  },
+  "Changjian-10 Cruise Missile<SEP>Changjian-100 Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Changjian-10 Cruise Missile<SEP>Changjian-100 Cruise Missile"
+  },
+  "Changjian Series Missiles<SEP>Changjian-100 Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Changjian Series Missiles<SEP>Changjian-100 Cruise Missile"
+  },
+  "Changjian-1000 Missile<SEP>China": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Changjian-1000 Missile<SEP>China"
+  },
+  "Changjian-20A Missile<SEP>People's Liberation Army": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Changjian-20A Missile<SEP>People's Liberation Army"
+  },
+  "Beijing Tiananmen Square<SEP>October 1 2019 Military Parade": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771168,
+    "update_time": 1778771168,
+    "_id": "Beijing Tiananmen Square<SEP>October 1 2019 Military Parade"
+  },
+  "Changjian-20A Missile<SEP>September 3 2025 Military Parade": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771169,
+    "update_time": 1778771169,
+    "_id": "Changjian-20A Missile<SEP>September 3 2025 Military Parade"
+  },
+  "Changjian-1000 Missile<SEP>PLA Rocket Force": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771169,
+    "update_time": 1778771169,
+    "_id": "Changjian-1000 Missile<SEP>PLA Rocket Force"
+  },
+  "China<SEP>GJ-11 Drone": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771169,
+    "update_time": 1778771169,
+    "_id": "China<SEP>GJ-11 Drone"
+  },
+  "Changjian-100 Cruise Missile<SEP>October 1 2019 Military Parade": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771169,
+    "update_time": 1778771169,
+    "_id": "Changjian-100 Cruise Missile<SEP>October 1 2019 Military Parade"
+  },
+  "Changjian-10 Cruise Missile<SEP>Changjian-10A Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771169,
+    "update_time": 1778771169,
+    "_id": "Changjian-10 Cruise Missile<SEP>Changjian-10A Cruise Missile"
+  },
+  "数字阵列雷达技术<SEP>空警-3000": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771169,
+    "update_time": 1778771169,
+    "_id": "数字阵列雷达技术<SEP>空警-3000"
+  },
+  "数字阵列雷达技术<SEP>空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771170,
+    "update_time": 1778771170,
+    "_id": "数字阵列雷达技术<SEP>空警-500"
+  },
+  "中国中航工业陕西飞机工业(集团)<SEP>空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771170,
+    "update_time": 1778771170,
+    "_id": "中国中航工业陕西飞机工业(集团)<SEP>空警-500"
+  },
+  "Changjian Series Missiles<SEP>Changjian-1000 Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "Changjian Series Missiles<SEP>Changjian-1000 Missile"
+  },
+  "中国电子科技集团公司<SEP>空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "中国电子科技集团公司<SEP>空警-500"
+  },
+  "Changjian-1000 Missile<SEP>September 3 2025 Military Parade": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "Changjian-1000 Missile<SEP>September 3 2025 Military Parade"
+  },
+  "Changjian Series Missiles<SEP>Changjian-20A Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "Changjian Series Missiles<SEP>Changjian-20A Missile"
+  },
+  "空警-500<SEP>运-9": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "空警-500<SEP>运-9"
+  },
+  "中国人民解放军海军<SEP>空警-600预警机": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "中国人民解放军海军<SEP>空警-600预警机"
+  },
+  "Changjian-100 Cruise Missile<SEP>Changjian-1000 Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771171,
+    "update_time": 1778771171,
+    "_id": "Changjian-100 Cruise Missile<SEP>Changjian-1000 Missile"
+  },
+  "两面阵有源相控阵雷达技术<SEP>空警-600预警机": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "两面阵有源相控阵雷达技术<SEP>空警-600预警机"
+  },
+  "涡桨-6C<SEP>空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "涡桨-6C<SEP>空警-500"
+  },
+  "Changjian-1000 Missile<SEP>Dongfeng Series Missiles": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "Changjian-1000 Missile<SEP>Dongfeng Series Missiles"
+  },
+  "Changjian-100 Cruise Missile<SEP>Changjian-10A Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "Changjian-100 Cruise Missile<SEP>Changjian-10A Cruise Missile"
+  },
+  "空警-2000<SEP>空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "空警-2000<SEP>空警-500"
+  },
+  "空警-200<SEP>空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "空警-200<SEP>空警-500"
+  },
+  "空警-2000<SEP>红剑演习": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "空警-2000<SEP>红剑演习"
+  },
+  "China<SEP>JY-27A Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "China<SEP>JY-27A Radar"
+  },
+  "China<SEP>YLC-2 Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "China<SEP>YLC-2 Radar"
+  },
+  "Hongqi-9 Missile<SEP>People's Liberation Army": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "Hongqi-9 Missile<SEP>People's Liberation Army"
+  },
+  "空警-500<SEP>陕西汉中": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "空警-500<SEP>陕西汉中"
+  },
+  "JY-27A Radar<SEP>Venezuela": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "JY-27A Radar<SEP>Venezuela"
+  },
+  "Hongqi-9 Missile<SEP>SJ-212 Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "Hongqi-9 Missile<SEP>SJ-212 Radar"
+  },
+  "JY-27A Radar<SEP>Stealth Aircraft": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "JY-27A Radar<SEP>Stealth Aircraft"
+  },
+  "空警-500<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "空警-500<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利70周年阅兵式"
+  },
+  "Hongqi-12 Missile<SEP>JY-27A Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771173,
+    "update_time": 1778771173,
+    "_id": "Hongqi-12 Missile<SEP>JY-27A Radar"
+  },
+  "China<SEP>Hongqi-9 Missile": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "China<SEP>Hongqi-9 Missile"
+  },
+  "Hongqi-12 Missile<SEP>Syria": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "Hongqi-12 Missile<SEP>Syria"
+  },
+  "Fourth Generation Stealth Aircraft<SEP>JY-27A Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "Fourth Generation Stealth Aircraft<SEP>JY-27A Radar"
+  },
+  "空警-500<SEP>红剑演习": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "空警-500<SEP>红剑演习"
+  },
+  "Hongqi-9 Missile<SEP>SAM-10": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "Hongqi-9 Missile<SEP>SAM-10"
+  },
+  "Integrated Radar Network<SEP>YLC-2 Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "Integrated Radar Network<SEP>YLC-2 Radar"
+  },
+  "空警-200<SEP>陕西飞机工业集团公司": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "空警-200<SEP>陕西飞机工业集团公司"
+  },
+  "运-20<SEP>运油-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "运-20<SEP>运油-20"
+  },
+  "伊尔-76<SEP>运-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "伊尔-76<SEP>运-20"
+  },
+  "Hongqi-9 Missile<SEP>Syria": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "Hongqi-9 Missile<SEP>Syria"
+  },
+  "中国人民解放军空军<SEP>运油-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771174,
+    "update_time": 1778771174,
+    "_id": "中国人民解放军空军<SEP>运油-20"
+  },
+  "一航空空导弹研究院<SEP>霹雳-12": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "一航空空导弹研究院<SEP>霹雳-12"
+  },
+  "Electronic Warfare<SEP>Hongqi-9 Missile": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "Electronic Warfare<SEP>Hongqi-9 Missile"
+  },
+  "两面阵有源相控阵雷达<SEP>空警-600": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "两面阵有源相控阵雷达<SEP>空警-600"
+  },
+  "C-17<SEP>运-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "C-17<SEP>运-20"
+  },
+  "中继制导<SEP>空警-600": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "中继制导<SEP>空警-600"
+  },
+  "歼-15DT<SEP>福建舰": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "歼-15DT<SEP>福建舰"
+  },
+  "48N6 Series<SEP>Hongqi-9 Missile": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "48N6 Series<SEP>Hongqi-9 Missile"
+  },
+  "中国人民解放军空军<SEP>运-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "中国人民解放军空军<SEP>运-20"
+  },
+  "A射B导<SEP>空警-600": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771175,
+    "update_time": 1778771175,
+    "_id": "A射B导<SEP>空警-600"
+  },
+  "大型电子战吊舱<SEP>歼-15DT": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "大型电子战吊舱<SEP>歼-15DT"
+  },
+  "空警-600<SEP>隐身飞行器识别": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "空警-600<SEP>隐身飞行器识别"
+  },
+  "苏-30战斗机<SEP>苏霍伊设计局": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "苏-30战斗机<SEP>苏霍伊设计局"
+  },
+  "有源相控阵雷达<SEP>歼-15DT": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "有源相控阵雷达<SEP>歼-15DT"
+  },
+  "苏-35战斗机<SEP>苏霍伊设计局": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "苏-35战斗机<SEP>苏霍伊设计局"
+  },
+  "苏-30战斗机<SEP>阿穆尔河畔共青城加加林飞机制造厂": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "苏-30战斗机<SEP>阿穆尔河畔共青城加加林飞机制造厂"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利70周年大会<SEP>轰-6K": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利70周年大会<SEP>轰-6K"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-15DT": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771176,
+    "update_time": 1778771176,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-15DT"
+  },
+  "苏-27<SEP>苏-30战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "苏-27<SEP>苏-30战斗机"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-15DH": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-15DH"
+  },
+  "伊尔库茨克飞机制造厂<SEP>苏-30战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "伊尔库茨克飞机制造厂<SEP>苏-30战斗机"
+  },
+  "苏-27<SEP>苏-35战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "苏-27<SEP>苏-35战斗机"
+  },
+  "苏-30K<SEP>苏-30战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "苏-30K<SEP>苏-30战斗机"
+  },
+  "电磁弹射系统<SEP>福建舰": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "电磁弹射系统<SEP>福建舰"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-35": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-35"
+  },
+  "前起落架<SEP>歼-15DT": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771177,
+    "update_time": 1778771177,
+    "_id": "前起落架<SEP>歼-15DT"
+  },
+  "共形天线<SEP>歼-15DT": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "共形天线<SEP>歼-15DT"
+  },
+  "China<SEP>Hongqi-9": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "China<SEP>Hongqi-9"
+  },
+  "苏-30MKI<SEP>苏-30战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "苏-30MKI<SEP>苏-30战斗机"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-15T": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利80周年大会<SEP>歼-15T"
+  },
+  "Hongqi-9<SEP>SJ-212 Radar": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "Hongqi-9<SEP>SJ-212 Radar"
+  },
+  "苏-30MKK<SEP>苏-30战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "苏-30MKK<SEP>苏-30战斗机"
+  },
+  "Hongqi-9<SEP>KS-1 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "Hongqi-9<SEP>KS-1 Missiles"
+  },
+  "Hongqi-16<SEP>People's Liberation Army Navy": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771178,
+    "update_time": 1778771178,
+    "_id": "Hongqi-16<SEP>People's Liberation Army Navy"
+  },
+  "Hongqi-9<SEP>SA-10 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Hongqi-9<SEP>SA-10 Missiles"
+  },
+  "Hongqi-16<SEP>Vertical Launch System": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 2,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Hongqi-16<SEP>Vertical Launch System"
+  },
+  "Battalion Unit<SEP>Brigade Combat Unit": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Battalion Unit<SEP>Brigade Combat Unit"
+  },
+  "Hongqi-9<SEP>S-300 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Hongqi-9<SEP>S-300 Missiles"
+  },
+  "Army Air Defense Force<SEP>Hongqi-16": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Army Air Defense Force<SEP>Hongqi-16"
+  },
+  "Battalion Unit<SEP>Fire Control Radar Car": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Battalion Unit<SEP>Fire Control Radar Car"
+  },
+  "Hongqi-16<SEP>Semi-Active Radar Homing": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771179,
+    "update_time": 1778771179,
+    "_id": "Hongqi-16<SEP>Semi-Active Radar Homing"
+  },
+  "Hongqi-9<SEP>Tai'an 8x8 Chassis": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Hongqi-9<SEP>Tai'an 8x8 Chassis"
+  },
+  "Battalion Unit<SEP>Quad-Mount Launcher": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Battalion Unit<SEP>Quad-Mount Launcher"
+  },
+  "Fixed-Wing Aircraft<SEP>Hongqi-16": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Fixed-Wing Aircraft<SEP>Hongqi-16"
+  },
+  "Hongqi-9<SEP>Terminal Active Radar Homing": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Hongqi-9<SEP>Terminal Active Radar Homing"
+  },
+  "Hongqi-16<SEP>Tactical Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Hongqi-16<SEP>Tactical Missiles"
+  },
+  "48N6 Missiles<SEP>SA-10 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "48N6 Missiles<SEP>SA-10 Missiles"
+  },
+  "Cold Launch<SEP>Hongqi-9": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Cold Launch<SEP>Hongqi-9"
+  },
+  "8-Compartment Module<SEP>Vertical Launch System": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "8-Compartment Module<SEP>Vertical Launch System"
+  },
+  "05式自行加榴炮<SEP>52倍口径155毫米线膛炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 2,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "05式自行加榴炮<SEP>52倍口径155毫米线膛炮"
+  },
+  "Battalion Control Car<SEP>Battalion Unit": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "Battalion Control Car<SEP>Battalion Unit"
+  },
+  "6x6 Off-Road Chassis<SEP>Hongqi-9": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "6x6 Off-Road Chassis<SEP>Hongqi-9"
+  },
+  "05式自行加榴炮<SEP>8V150中冷涡轮增压柴油机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "05式自行加榴炮<SEP>8V150中冷涡轮增压柴油机"
+  },
+  "05式自行加榴炮<SEP>自动装填系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "05式自行加榴炮<SEP>自动装填系统"
+  },
+  "GPS<SEP>多模组合卫星定位导航系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "GPS<SEP>多模组合卫星定位导航系统"
+  },
+  "Experimental Troops<SEP>Hongqi-9": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "Experimental Troops<SEP>Hongqi-9"
+  },
+  "05式自行加榴炮<SEP>火控计算机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771181,
+    "update_time": 1778771181,
+    "_id": "05式自行加榴炮<SEP>火控计算机"
+  },
+  "05式自行加榴炮<SEP>多普勒测速雷达": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "05式自行加榴炮<SEP>多普勒测速雷达"
+  },
+  "北斗系统<SEP>多模组合卫星定位导航系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "北斗系统<SEP>多模组合卫星定位导航系统"
+  },
+  "PL-96式122毫米榴弹炮<SEP>PLZ-07式履带式自行榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "PL-96式122毫米榴弹炮<SEP>PLZ-07式履带式自行榴弹炮"
+  },
+  "544马力水冷柴油机<SEP>PLZ-07式履带式自行榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "544马力水冷柴油机<SEP>PLZ-07式履带式自行榴弹炮"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>半自动装弹机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>半自动装弹机"
+  },
+  "05式自行加榴炮<SEP>惯导装置": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "05式自行加榴炮<SEP>惯导装置"
+  },
+  "05式自行加榴炮<SEP>多模组合卫星定位导航系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "05式自行加榴炮<SEP>多模组合卫星定位导航系统"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>火控计算机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771182,
+    "update_time": 1778771182,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>火控计算机"
+  },
+  "05式自行加榴炮<SEP>PLZ-05A": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771183,
+    "update_time": 1778771183,
+    "_id": "05式自行加榴炮<SEP>PLZ-05A"
+  },
+  "12.7毫米高平两用机枪<SEP>PLZ-07式履带式自行榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771183,
+    "update_time": 1778771183,
+    "_id": "12.7毫米高平两用机枪<SEP>PLZ-07式履带式自行榴弹炮"
+  },
+  "05式自行加榴炮<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771183,
+    "update_time": 1778771183,
+    "_id": "05式自行加榴炮<SEP>中国人民解放军"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>新疆军区炮兵团": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771183,
+    "update_time": 1778771183,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>新疆军区炮兵团"
+  },
+  "191远程箱式火箭炮<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771183,
+    "update_time": 1778771183,
+    "_id": "191远程箱式火箭炮<SEP>中国人民解放军"
+  },
+  "05式自行加榴炮<SEP>2018年实弹演练": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771183,
+    "update_time": 1778771183,
+    "_id": "05式自行加榴炮<SEP>2018年实弹演练"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>中国人民解放军"
+  },
+  "191远程箱式火箭炮<SEP>M270型火箭炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "191远程箱式火箭炮<SEP>M270型火箭炮"
+  },
+  "东部战区<SEP>台海演习": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "东部战区<SEP>台海演习"
+  },
+  "东部战区<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "东部战区<SEP>中国人民解放军"
+  },
+  "2009年国庆六十周年阅兵<SEP>PLZ-07式履带式自行榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "2009年国庆六十周年阅兵<SEP>PLZ-07式履带式自行榴弹炮"
+  },
+  "191远程箱式火箭炮<SEP>M142海马斯型火箭炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "191远程箱式火箭炮<SEP>M142海马斯型火箭炮"
+  },
+  "D-30榴弹炮<SEP>PL-96式122毫米榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771184,
+    "update_time": 1778771184,
+    "_id": "D-30榴弹炮<SEP>PL-96式122毫米榴弹炮"
+  },
+  "半自动装弹机<SEP>翻转式托弹槽": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "半自动装弹机<SEP>翻转式托弹槽"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>中国人民解放军建军90周年阅兵": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>中国人民解放军建军90周年阅兵"
+  },
+  "191远程箱式火箭炮<SEP>中华人民共和国成立70周年大会": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "191远程箱式火箭炮<SEP>中华人民共和国成立70周年大会"
+  },
+  "半自动装弹机<SEP>电动机械链式推弹机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "半自动装弹机<SEP>电动机械链式推弹机"
+  },
+  "05式自行加榴炮<SEP>交流伺服炮控系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "05式自行加榴炮<SEP>交流伺服炮控系统"
+  },
+  "191远程箱式火箭炮<SEP>台海演习": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "191远程箱式火箭炮<SEP>台海演习"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>PLZ-89式": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>PLZ-89式"
+  },
+  "中国人民解放军海军辽宁舰<SEP>瓦良格号": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771185,
+    "update_time": 1778771185,
+    "_id": "中国人民解放军海军辽宁舰<SEP>瓦良格号"
+  },
+  "05式自行加榴炮<SEP>药温传感器": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "05式自行加榴炮<SEP>药温传感器"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>核生化三防装置": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>核生化三防装置"
+  },
+  "瓦良格号<SEP>苏联海军": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "瓦良格号<SEP>苏联海军"
+  },
+  "中国人民解放军海军辽宁舰<SEP>青岛": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "中国人民解放军海军辽宁舰<SEP>青岛"
+  },
+  "中国人民解放军海军山东舰<SEP>海南三亚": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "中国人民解放军海军山东舰<SEP>海南三亚"
+  },
+  "PLZ-07式履带式自行榴弹炮<SEP>自动灭火抑爆系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "PLZ-07式履带式自行榴弹炮<SEP>自动灭火抑爆系统"
+  },
+  "乌克兰<SEP>瓦良格号": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "乌克兰<SEP>瓦良格号"
+  },
+  "中国人民解放军海军辽宁舰<SEP>南海": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771186,
+    "update_time": 1778771186,
+    "_id": "中国人民解放军海军辽宁舰<SEP>南海"
+  },
+  "中国人民解放军海军山东舰<SEP>大连造船厂": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771187,
+    "update_time": 1778771187,
+    "_id": "中国人民解放军海军山东舰<SEP>大连造船厂"
+  },
+  "大连港<SEP>瓦良格号": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771187,
+    "update_time": 1778771187,
+    "_id": "大连港<SEP>瓦良格号"
+  },
+  "中国人民解放军海军福建舰<SEP>中国人民解放军海军辽宁舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771187,
+    "update_time": 1778771187,
+    "_id": "中国人民解放军海军福建舰<SEP>中国人民解放军海军辽宁舰"
+  },
+  "055型驱逐舰<SEP>中国人民解放军海军辽宁舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771187,
+    "update_time": 1778771187,
+    "_id": "055型驱逐舰<SEP>中国人民解放军海军辽宁舰"
+  },
+  "中国人民解放军海军辽宁舰<SEP>大连造船厂": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771187,
+    "update_time": 1778771187,
+    "_id": "中国人民解放军海军辽宁舰<SEP>大连造船厂"
+  },
+  "中国人民解放军海军辽宁舰<SEP>冷战": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771188,
+    "update_time": 1778771188,
+    "_id": "中国人民解放军海军辽宁舰<SEP>冷战"
+  },
+  "中国人民解放军海军辽宁舰<SEP>美国海军": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771188,
+    "update_time": 1778771188,
+    "_id": "中国人民解放军海军辽宁舰<SEP>美国海军"
+  },
+  "191远程火箭炮<SEP>中华人民共和国成立70周年大会": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771188,
+    "update_time": 1778771188,
+    "_id": "191远程火箭炮<SEP>中华人民共和国成立70周年大会"
+  },
+  "中国人民解放军海军山东舰<SEP>中国人民解放军海军辽宁舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771189,
+    "update_time": 1778771189,
+    "_id": "中国人民解放军海军山东舰<SEP>中国人民解放军海军辽宁舰"
+  },
+  "191远程火箭炮<SEP>中国人民解放军东部战区台海演习": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771189,
+    "update_time": 1778771189,
+    "_id": "191远程火箭炮<SEP>中国人民解放军东部战区台海演习"
+  },
+  "中国人民解放军海军山东舰<SEP>中央军委": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771189,
+    "update_time": 1778771189,
+    "_id": "中国人民解放军海军山东舰<SEP>中央军委"
+  },
+  "191远程火箭炮<SEP>M270型火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771189,
+    "update_time": 1778771189,
+    "_id": "191远程火箭炮<SEP>M270型火箭炮"
+  },
+  "中国人民解放军海军<SEP>中国人民解放军海军山东舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771189,
+    "update_time": 1778771189,
+    "_id": "中国人民解放军海军<SEP>中国人民解放军海军山东舰"
+  },
+  "中国<SEP>中国人民解放军海军山东舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771190,
+    "update_time": 1778771190,
+    "_id": "中国<SEP>中国人民解放军海军山东舰"
+  },
+  "中国人民解放军海军<SEP>中国人民解放军海军福建舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771190,
+    "update_time": 1778771190,
+    "_id": "中国人民解放军海军<SEP>中国人民解放军海军福建舰"
+  },
+  "191远程火箭炮<SEP>M142海马斯型火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771190,
+    "update_time": 1778771190,
+    "_id": "191远程火箭炮<SEP>M142海马斯型火箭炮"
+  },
+  "055型驱逐舰<SEP>中国人民解放军海军": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 2,
+    "create_time": 1778771190,
+    "update_time": 1778771190,
+    "_id": "055型驱逐舰<SEP>中国人民解放军海军"
+  },
+  "191远程火箭炮<SEP>解放军报": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771190,
+    "update_time": 1778771190,
+    "_id": "191远程火箭炮<SEP>解放军报"
+  },
+  "天安门广场<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771190,
+    "update_time": 1778771190,
+    "_id": "天安门广场<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会"
+  },
+  "PHL-03自行火箭炮<SEP>中国": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771191,
+    "update_time": 1778771191,
+    "_id": "PHL-03自行火箭炮<SEP>中国"
+  },
+  "191远程火箭炮<SEP>中国人民解放军陆军": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771191,
+    "update_time": 1778771191,
+    "_id": "191远程火箭炮<SEP>中国人民解放军陆军"
+  },
+  "中国四川航天工业总公司<SEP>卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771191,
+    "update_time": 1778771191,
+    "_id": "中国四川航天工业总公司<SEP>卫士-2火箭炮"
+  },
+  "191远程火箭炮<SEP>模块化设计": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771191,
+    "update_time": 1778771191,
+    "_id": "191远程火箭炮<SEP>模块化设计"
+  },
+  "卫士-2火箭炮<SEP>第五届中国(珠海)航展": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771191,
+    "update_time": 1778771191,
+    "_id": "卫士-2火箭炮<SEP>第五届中国(珠海)航展"
+  },
+  "191远程火箭炮<SEP>箱式发射单元": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "191远程火箭炮<SEP>箱式发射单元"
+  },
+  "191远程火箭炮<SEP>300毫米火箭弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "191远程火箭炮<SEP>300毫米火箭弹"
+  },
+  "中国航天科工集团<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "中国航天科工集团<SEP>神鹰400制导火箭炮"
+  },
+  "406毫米口径火箭弹<SEP>卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "406毫米口径火箭弹<SEP>卫士-2火箭炮"
+  },
+  "卫士-2火箭炮<SEP>福建沿海": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "卫士-2火箭炮<SEP>福建沿海"
+  },
+  "2008年珠海航展<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "2008年珠海航展<SEP>神鹰400制导火箭炮"
+  },
+  "191远程火箭炮<SEP>陆军战术弹道导弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "191远程火箭炮<SEP>陆军战术弹道导弹"
+  },
+  "2010年珠海航展<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "2010年珠海航展<SEP>神鹰400制导火箭炮"
+  },
+  "卫士-2火箭炮<SEP>台湾": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771192,
+    "update_time": 1778771192,
+    "_id": "卫士-2火箭炮<SEP>台湾"
+  },
+  "191远程火箭炮<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "191远程火箭炮<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会"
+  },
+  "155车载加榴炮<SEP>中华人民共和国成立70周年大会": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "155车载加榴炮<SEP>中华人民共和国成立70周年大会"
+  },
+  "BP-12A导弹<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "BP-12A导弹<SEP>神鹰400制导火箭炮"
+  },
+  "东风-5弹道导弹<SEP>中国": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "东风-5弹道导弹<SEP>中国"
+  },
+  "AR-2<SEP>PHL-03自行火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "AR-2<SEP>PHL-03自行火箭炮"
+  },
+  "WS-2<SEP>卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "WS-2<SEP>卫士-2火箭炮"
+  },
+  "卡塔尔<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771193,
+    "update_time": 1778771193,
+    "_id": "卡塔尔<SEP>神鹰400制导火箭炮"
+  },
+  "8×8高机动轮式越野车<SEP>卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771194,
+    "update_time": 1778771194,
+    "_id": "8×8高机动轮式越野车<SEP>卫士-2火箭炮"
+  },
+  "神鹰400制导火箭炮<SEP>缅甸": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771194,
+    "update_time": 1778771194,
+    "_id": "神鹰400制导火箭炮<SEP>缅甸"
+  },
+  "卫士-2火箭炮<SEP>高爆弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771194,
+    "update_time": 1778771194,
+    "_id": "卫士-2火箭炮<SEP>高爆弹"
+  },
+  "孟加拉国<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771194,
+    "update_time": 1778771194,
+    "_id": "孟加拉国<SEP>神鹰400制导火箭炮"
+  },
+  "卫士-2火箭炮<SEP>燃烧弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771194,
+    "update_time": 1778771194,
+    "_id": "卫士-2火箭炮<SEP>燃烧弹"
+  },
+  "卫士-2火箭炮<SEP>钻地弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771195,
+    "update_time": 1778771195,
+    "_id": "卫士-2火箭炮<SEP>钻地弹"
+  },
+  "卫士-2火箭炮<SEP>子母弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771195,
+    "update_time": 1778771195,
+    "_id": "卫士-2火箭炮<SEP>子母弹"
+  },
+  "卫士-2火箭炮<SEP>简易惯性制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771196,
+    "update_time": 1778771196,
+    "_id": "卫士-2火箭炮<SEP>简易惯性制导"
+  },
+  "反雷达作战<SEP>小型无人机": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771196,
+    "update_time": 1778771196,
+    "_id": "反雷达作战<SEP>小型无人机"
+  },
+  "小型无人机<SEP>电子干扰": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771196,
+    "update_time": 1778771196,
+    "_id": "小型无人机<SEP>电子干扰"
+  },
+  "GPS制导<SEP>卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771196,
+    "update_time": 1778771196,
+    "_id": "GPS制导<SEP>卫士-2火箭炮"
+  },
+  "指挥通信车<SEP>火箭连": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771196,
+    "update_time": 1778771196,
+    "_id": "指挥通信车<SEP>火箭连"
+  },
+  "发射车<SEP>火箭连": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "发射车<SEP>火箭连"
+  },
+  "固体燃料发动机<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "固体燃料发动机<SEP>神鹰400制导火箭炮"
+  },
+  "全球卫星定位制导<SEP>卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "全球卫星定位制导<SEP>卫士-2火箭炮"
+  },
+  "燃气舵技术<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "燃气舵技术<SEP>神鹰400制导火箭炮"
+  },
+  "卫士-2火箭炮<SEP>电视制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "卫士-2火箭炮<SEP>电视制导"
+  },
+  "东风-5<SEP>东风-5弹道导弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "东风-5<SEP>东风-5弹道导弹"
+  },
+  "056型护卫舰<SEP>中国海军": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "056型护卫舰<SEP>中国海军"
+  },
+  "惯性导航<SEP>神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "惯性导航<SEP>神鹰400制导火箭炮"
+  },
+  "卫士-2火箭炮<SEP>红外线制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771197,
+    "update_time": 1778771197,
+    "_id": "卫士-2火箭炮<SEP>红外线制导"
+  },
+  "056型护卫舰<SEP>76毫米舰炮": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771198,
+    "update_time": 1778771198,
+    "_id": "056型护卫舰<SEP>76毫米舰炮"
+  },
+  "075型两栖攻击舰<SEP>海南舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771198,
+    "update_time": 1778771198,
+    "_id": "075型两栖攻击舰<SEP>海南舰"
+  },
+  "卫士-2火箭炮<SEP>激光制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771198,
+    "update_time": 1778771198,
+    "_id": "卫士-2火箭炮<SEP>激光制导"
+  },
+  "卫士-2火箭炮<SEP>小型无人机": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771198,
+    "update_time": 1778771198,
+    "_id": "卫士-2火箭炮<SEP>小型无人机"
+  },
+  "056型护卫舰<SEP>鹰击-83反舰导弹": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771198,
+    "update_time": 1778771198,
+    "_id": "056型护卫舰<SEP>鹰击-83反舰导弹"
+  },
+  "075型两栖攻击舰<SEP>广西舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771198,
+    "update_time": 1778771198,
+    "_id": "075型两栖攻击舰<SEP>广西舰"
+  },
+  "075型两栖攻击舰<SEP>安徽舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "075型两栖攻击舰<SEP>安徽舰"
+  },
+  "076型两栖攻击舰<SEP>四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "076型两栖攻击舰<SEP>四川舰"
+  },
+  "056型护卫舰<SEP>FL-3000N舰空导弹": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "056型护卫舰<SEP>FL-3000N舰空导弹"
+  },
+  "075型两栖攻击舰<SEP>湖北舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "075型两栖攻击舰<SEP>湖北舰"
+  },
+  "上海沪东中华造船厂<SEP>四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "上海沪东中华造船厂<SEP>四川舰"
+  },
+  "076型两栖攻击舰<SEP>上海": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "076型两栖攻击舰<SEP>上海"
+  },
+  "056型护卫舰<SEP>江岛级轻护卫舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 2,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "056型护卫舰<SEP>江岛级轻护卫舰"
+  },
+  "中国人民解放军海军<SEP>四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "中国人民解放军海军<SEP>四川舰"
+  },
+  "076型两栖攻击舰<SEP>吴谦": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "076型两栖攻击舰<SEP>吴谦"
+  },
+  "歼-15<SEP>苏-33战斗机": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "歼-15<SEP>苏-33战斗机"
+  },
+  "075型两栖攻击舰<SEP>上海": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771199,
+    "update_time": 1778771199,
+    "_id": "075型两栖攻击舰<SEP>上海"
+  },
+  "076型两栖攻击舰<SEP>中国国防部": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "076型两栖攻击舰<SEP>中国国防部"
+  },
+  "歼-11<SEP>歼-15": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "歼-11<SEP>歼-15"
+  },
+  "056型护卫舰<SEP>056型护卫舰首舰下水": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "056型护卫舰<SEP>056型护卫舰首舰下水"
+  },
+  "075型两栖攻击舰<SEP>南海舰队": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "075型两栖攻击舰<SEP>南海舰队"
+  },
+  "075型两栖攻击舰<SEP>四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "075型两栖攻击舰<SEP>四川舰"
+  },
+  "056型护卫舰<SEP>056型护卫舰首舰入列": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "056型护卫舰<SEP>056型护卫舰首舰入列"
+  },
+  "075型两栖攻击舰三号舰亮相<SEP>安徽舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "075型两栖攻击舰三号舰亮相<SEP>安徽舰"
+  },
+  "T-10K-3号机<SEP>歼-15": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "T-10K-3号机<SEP>歼-15"
+  },
+  "076型两栖攻击舰<SEP>076型两栖攻击舰首舰下水": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771200,
+    "update_time": 1778771200,
+    "_id": "076型两栖攻击舰<SEP>076型两栖攻击舰首舰下水"
+  },
+  "075型两栖攻击舰<SEP>075型两栖攻击舰首舰下水仪式": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "075型两栖攻击舰<SEP>075型两栖攻击舰首舰下水仪式"
+  },
+  "076型两栖攻击舰首舰出坞<SEP>四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "076型两栖攻击舰首舰出坞<SEP>四川舰"
+  },
+  "076型两栖攻击舰<SEP>电磁弹射和阻拦技术": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "076型两栖攻击舰<SEP>电磁弹射和阻拦技术"
+  },
+  "歼-15<SEP>沈阳飞机工业集团": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "歼-15<SEP>沈阳飞机工业集团"
+  },
+  "075型两栖攻击舰<SEP>075型两栖攻击舰二号舰下水": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "075型两栖攻击舰<SEP>075型两栖攻击舰二号舰下水"
+  },
+  "中航工业沈阳飞机设计研究所<SEP>歼-35": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "中航工业沈阳飞机设计研究所<SEP>歼-35"
+  },
+  "076型两栖攻击舰首舰首次航行试验<SEP>四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "076型两栖攻击舰首舰首次航行试验<SEP>四川舰"
+  },
+  "075型两栖攻击舰<SEP>075型两栖攻击舰首舰航行试验": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "075型两栖攻击舰<SEP>075型两栖攻击舰首舰航行试验"
+  },
+  "歼-15D<SEP>沈阳飞机工业(集团)有限公司": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "歼-15D<SEP>沈阳飞机工业(集团)有限公司"
+  },
+  "中航工业沈阳飞机工业(集团)有限公司<SEP>歼-35": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "中航工业沈阳飞机工业(集团)有限公司<SEP>歼-35"
+  },
+  "歼-15T<SEP>沈阳飞机工业集团": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771201,
+    "update_time": 1778771201,
+    "_id": "歼-15T<SEP>沈阳飞机工业集团"
+  },
+  "歼-35<SEP>航母五件套": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771202,
+    "update_time": 1778771202,
+    "_id": "歼-35<SEP>航母五件套"
+  },
+  "歼-15<SEP>歼-15T": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771202,
+    "update_time": 1778771202,
+    "_id": "歼-15<SEP>歼-15T"
+  },
+  "歼-15D<SEP>歼-15S": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771202,
+    "update_time": 1778771202,
+    "_id": "歼-15D<SEP>歼-15S"
+  },
+  "人民海军<SEP>歼-15T": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771202,
+    "update_time": 1778771202,
+    "_id": "人民海军<SEP>歼-15T"
+  },
+  "歼-35<SEP>歼-35A": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771202,
+    "update_time": 1778771202,
+    "_id": "歼-35<SEP>歼-35A"
+  },
+  "歼-15<SEP>霹雳-9": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771202,
+    "update_time": 1778771202,
+    "_id": "歼-15<SEP>霹雳-9"
+  },
+  "歼-15<SEP>霹雳-12": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "歼-15<SEP>霹雳-12"
+  },
+  "歼-15T<SEP>航母五件套": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "歼-15T<SEP>航母五件套"
+  },
+  "歼-15<SEP>鹰击-83": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "歼-15<SEP>鹰击-83"
+  },
+  "人民海军<SEP>歼-35": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "人民海军<SEP>歼-35"
+  },
+  "歼-15<SEP>鹰击-91": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "歼-15<SEP>鹰击-91"
+  },
+  "歼-15T<SEP>辽宁舰": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "歼-15T<SEP>辽宁舰"
+  },
+  "有源相控阵火控雷达<SEP>歼-15D": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771203,
+    "update_time": 1778771203,
+    "_id": "有源相控阵火控雷达<SEP>歼-15D"
+  },
+  "山东舰<SEP>歼-15T": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "山东舰<SEP>歼-15T"
+  },
+  "KD-88<SEP>歼-15": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "KD-88<SEP>歼-15"
+  },
+  "歼-35<SEP>毫米波雷达": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "歼-35<SEP>毫米波雷达"
+  },
+  "PL-15<SEP>歼-15D": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "PL-15<SEP>歼-15D"
+  },
+  "歼-35<SEP>触控主屏": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "歼-35<SEP>触控主屏"
+  },
+  "东风-5弹道导弹<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "东风-5弹道导弹<SEP>中国人民解放军"
+  },
+  "歼-15T<SEP>福建舰": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "歼-15T<SEP>福建舰"
+  },
+  "歼-15<SEP>飞腾-2": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "歼-15<SEP>飞腾-2"
+  },
+  "30毫米机炮<SEP>歼-15": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "30毫米机炮<SEP>歼-15"
+  },
+  "东风-26核常兼备导弹<SEP>火箭军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771204,
+    "update_time": 1778771204,
+    "_id": "东风-26核常兼备导弹<SEP>火箭军"
+  },
+  "东风-31新型陆基洲际导弹<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-31新型陆基洲际导弹<SEP>中国人民解放军"
+  },
+  "东风-5弹道导弹<SEP>火箭军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-5弹道导弹<SEP>火箭军"
+  },
+  "东风-26核常兼备导弹<SEP>国庆70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-26核常兼备导弹<SEP>国庆70周年阅兵式"
+  },
+  "155车载加榴炮<SEP>新中国成立70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "155车载加榴炮<SEP>新中国成立70周年阅兵式"
+  },
+  "东风-41洲际战略核导弹<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-41洲际战略核导弹<SEP>中国人民解放军"
+  },
+  "东风-41洲际战略核导弹<SEP>国庆70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-41洲际战略核导弹<SEP>国庆70周年阅兵式"
+  },
+  "东风-5弹道导弹<SEP>中国运载火箭技术研究院": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-5弹道导弹<SEP>中国运载火箭技术研究院"
+  },
+  "东风-41洲际战略核导弹<SEP>火箭军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771205,
+    "update_time": 1778771205,
+    "_id": "东风-41洲际战略核导弹<SEP>火箭军"
+  },
+  "东风-5弹道导弹<SEP>东风-5甲洲际弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771206,
+    "update_time": 1778771206,
+    "_id": "东风-5弹道导弹<SEP>东风-5甲洲际弹道导弹"
+  },
+  "东风-41洲际战略核导弹<SEP>美国民兵III导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771206,
+    "update_time": 1778771206,
+    "_id": "东风-41洲际战略核导弹<SEP>美国民兵III导弹"
+  },
+  "东风-5乙洲际弹道导弹<SEP>东风-5弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771206,
+    "update_time": 1778771206,
+    "_id": "东风-5乙洲际弹道导弹<SEP>东风-5弹道导弹"
+  },
+  "东风-41洲际战略核导弹<SEP>俄罗斯白杨SS导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771206,
+    "update_time": 1778771206,
+    "_id": "东风-41洲际战略核导弹<SEP>俄罗斯白杨SS导弹"
+  },
+  "2012-2015年发射测试<SEP>东风-41洲际战略核导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771206,
+    "update_time": 1778771206,
+    "_id": "2012-2015年发射测试<SEP>东风-41洲际战略核导弹"
+  },
+  "155车载加榴炮<SEP>中国人民解放军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771206,
+    "update_time": 1778771206,
+    "_id": "155车载加榴炮<SEP>中国人民解放军"
+  },
+  "东风-5C洲际弹道导弹<SEP>东风-5弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "东风-5C洲际弹道导弹<SEP>东风-5弹道导弹"
+  },
+  "东风-27远程弹道导弹<SEP>美军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633",
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 2,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "东风-27远程弹道导弹<SEP>美军"
+  },
+  "歼-16<SEP>潜龙": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "歼-16<SEP>潜龙"
+  },
+  "2017年边境地区部署<SEP>东风-41洲际战略核导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "2017年边境地区部署<SEP>东风-41洲际战略核导弹"
+  },
+  "夜间对抗训练<SEP>空军某部": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "夜间对抗训练<SEP>空军某部"
+  },
+  "歼-10<SEP>猛龙": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "歼-10<SEP>猛龙"
+  },
+  "东风-5弹道导弹<SEP>中央专委": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "东风-5弹道导弹<SEP>中央专委"
+  },
+  "歼-11<SEP>沈阳飞机工业(集团)有限公司": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "歼-11<SEP>沈阳飞机工业(集团)有限公司"
+  },
+  "歼-10<SEP>第三代战斗机": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "歼-10<SEP>第三代战斗机"
+  },
+  "歼-16<SEP>空军某部": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "歼-16<SEP>空军某部"
+  },
+  "中国航空工业集团<SEP>歼-35A": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "中国航空工业集团<SEP>歼-35A"
+  },
+  "1980年5月18日首次全射程试验<SEP>东风-5弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "1980年5月18日首次全射程试验<SEP>东风-5弹道导弹"
+  },
+  "歼-35A<SEP>沈阳飞机设计研究所": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "歼-35A<SEP>沈阳飞机设计研究所"
+  },
+  "歼-11<SEP>苏-27SK": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "歼-11<SEP>苏-27SK"
+  },
+  "歼-35A<SEP>沈阳飞机工业(集团)有限公司": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "歼-35A<SEP>沈阳飞机工业(集团)有限公司"
+  },
+  "东风-5弹道导弹<SEP>国庆35周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "东风-5弹道导弹<SEP>国庆35周年阅兵式"
+  },
+  "歼-15<SEP>歼-15DT": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771208,
+    "update_time": 1778771208,
+    "_id": "歼-15<SEP>歼-15DT"
+  },
+  "FC-31<SEP>歼-35A": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "FC-31<SEP>歼-35A"
+  },
+  "国务院<SEP>歼-10": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "国务院<SEP>歼-10"
+  },
+  "歼-15DT<SEP>沈阳飞机工业(集团)有限公司": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "歼-15DT<SEP>沈阳飞机工业(集团)有限公司"
+  },
+  "中央军委<SEP>歼-10": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "中央军委<SEP>歼-10"
+  },
+  "歼-35A<SEP>第十五届中国航展": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "歼-35A<SEP>第十五届中国航展"
+  },
+  "FC-31<SEP>鹘鹰": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "FC-31<SEP>鹘鹰"
+  },
+  "中国航空工业集团公司<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "中国航空工业集团公司<SEP>霹雳15"
+  },
+  "中共中央<SEP>歼-10": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "中共中央<SEP>歼-10"
+  },
+  "FC-31<SEP>珠海航展": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771209,
+    "update_time": 1778771209,
+    "_id": "FC-31<SEP>珠海航展"
+  },
+  "主动雷达导引技术<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771210,
+    "update_time": 1778771210,
+    "_id": "主动雷达导引技术<SEP>霹雳15"
+  },
+  "歼-10<SEP>航空航天工业部": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771210,
+    "update_time": 1778771210,
+    "_id": "歼-10<SEP>航空航天工业部"
+  },
+  "双脉冲发动机<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771210,
+    "update_time": 1778771210,
+    "_id": "双脉冲发动机<SEP>霹雳15"
+  },
+  "国防科工委<SEP>歼-10": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771210,
+    "update_time": 1778771210,
+    "_id": "国防科工委<SEP>歼-10"
+  },
+  "PL-15E<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771210,
+    "update_time": 1778771210,
+    "_id": "PL-15E<SEP>霹雳15"
+  },
+  "99A式主战坦克<SEP>99式主战坦克": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771210,
+    "update_time": 1778771210,
+    "_id": "99A式主战坦克<SEP>99式主战坦克"
+  },
+  "折叠尾翼设计<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771211,
+    "update_time": 1778771211,
+    "_id": "折叠尾翼设计<SEP>霹雳15"
+  },
+  "99A式主战坦克<SEP>毛明院士": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771211,
+    "update_time": 1778771211,
+    "_id": "99A式主战坦克<SEP>毛明院士"
+  },
+  "玻璃纤维复合材料<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771211,
+    "update_time": 1778771211,
+    "_id": "玻璃纤维复合材料<SEP>霹雳15"
+  },
+  "1500马力发动机<SEP>99A式主战坦克": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771211,
+    "update_time": 1778771211,
+    "_id": "1500马力发动机<SEP>99A式主战坦克"
+  },
+  "歼-11<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "歼-11<SEP>霹雳15"
+  },
+  "99A式主战坦克<SEP>CH-1000型液力机械综合自动传动装置": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "99A式主战坦克<SEP>CH-1000型液力机械综合自动传动装置"
+  },
+  "JF-17<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "JF-17<SEP>霹雳15"
+  },
+  "15式轻型坦克<SEP>北方车辆": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "15式轻型坦克<SEP>北方车辆"
+  },
+  "15式轻型坦克<SEP>ZTQ-15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "15式轻型坦克<SEP>ZTQ-15"
+  },
+  "125毫米滑膛炮<SEP>99A式主战坦克": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "125毫米滑膛炮<SEP>99A式主战坦克"
+  },
+  "歼-20<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771212,
+    "update_time": 1778771212,
+    "_id": "歼-20<SEP>霹雳15"
+  },
+  "99A式主战坦克<SEP>复合装甲": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771213,
+    "update_time": 1778771213,
+    "_id": "99A式主战坦克<SEP>复合装甲"
+  },
+  "歼-10<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771213,
+    "update_time": 1778771213,
+    "_id": "歼-10<SEP>霹雳15"
+  },
+  "99A式主战坦克<SEP>激光压制干扰系统": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771213,
+    "update_time": 1778771213,
+    "_id": "99A式主战坦克<SEP>激光压制干扰系统"
+  },
+  "055型驱逐舰<SEP>刃海级": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771213,
+    "update_time": 1778771213,
+    "_id": "055型驱逐舰<SEP>刃海级"
+  },
+  "巴基斯坦空军<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771213,
+    "update_time": 1778771213,
+    "_id": "巴基斯坦空军<SEP>霹雳15"
+  },
+  "印度<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771213,
+    "update_time": 1778771213,
+    "_id": "印度<SEP>霹雳15"
+  },
+  "055型驱逐舰<SEP>上海江南造船(集团)有限责任公司": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "055型驱逐舰<SEP>上海江南造船(集团)有限责任公司"
+  },
+  "固体双推力火箭发动机<SEP>霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "固体双推力火箭发动机<SEP>霹雳15"
+  },
+  "印度<SEP>阿斯特拉Mark-2": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "印度<SEP>阿斯特拉Mark-2"
+  },
+  "052D型驱逐舰<SEP>旅洋Ⅲ级驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "052D型驱逐舰<SEP>旅洋Ⅲ级驱逐舰"
+  },
+  "055型驱逐舰<SEP>长兴造船基地": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "055型驱逐舰<SEP>长兴造船基地"
+  },
+  "霹雳15<SEP>高效杆式杀伤战斗部": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "霹雳15<SEP>高效杆式杀伤战斗部"
+  },
+  "052C型驱逐舰<SEP>052D型驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "052C型驱逐舰<SEP>052D型驱逐舰"
+  },
+  "055型驱逐舰<SEP>南昌舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "055型驱逐舰<SEP>南昌舰"
+  },
+  "051C型驱逐舰<SEP>沈阳号驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771214,
+    "update_time": 1778771214,
+    "_id": "051C型驱逐舰<SEP>沈阳号驱逐舰"
+  },
+  "052D型驱逐舰<SEP>上海江南造船厂": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "052D型驱逐舰<SEP>上海江南造船厂"
+  },
+  "054A型护卫舰<SEP>江凯Ⅱ级护卫舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "054A型护卫舰<SEP>江凯Ⅱ级护卫舰"
+  },
+  "051C型驱逐舰<SEP>石家庄号驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "051C型驱逐舰<SEP>石家庄号驱逐舰"
+  },
+  "054A型护卫舰<SEP>054型护卫舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "054A型护卫舰<SEP>054型护卫舰"
+  },
+  "055型驱逐舰<SEP>拉萨舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "055型驱逐舰<SEP>拉萨舰"
+  },
+  "052D型驱逐舰<SEP>大连造船厂": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "052D型驱逐舰<SEP>大连造船厂"
+  },
+  "051C型驱逐舰<SEP>中国人民解放军海军": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "051C型驱逐舰<SEP>中国人民解放军海军"
+  },
+  "054A型护卫舰<SEP>宜兴舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771215,
+    "update_time": 1778771215,
+    "_id": "054A型护卫舰<SEP>宜兴舰"
+  },
+  "052D型驱逐舰<SEP>昆明号": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "052D型驱逐舰<SEP>昆明号"
+  },
+  "055型驱逐舰首舰<SEP>2017年6月28日": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "055型驱逐舰首舰<SEP>2017年6月28日"
+  },
+  "056型护卫舰<SEP>中国人民解放军海军": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "056型护卫舰<SEP>中国人民解放军海军"
+  },
+  "2020年1月12日<SEP>南昌舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "2020年1月12日<SEP>南昌舰"
+  },
+  "054A型护卫舰<SEP>徐州号": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "054A型护卫舰<SEP>徐州号"
+  },
+  "2021年3月2日<SEP>拉萨舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "2021年3月2日<SEP>拉萨舰"
+  },
+  "2012年8月28日<SEP>昆明号": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "2012年8月28日<SEP>昆明号"
+  },
+  "2023年1月15日<SEP>宜兴舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "2023年1月15日<SEP>宜兴舰"
+  },
+  "052D型驱逐舰<SEP>中国人民解放军海军": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "052D型驱逐舰<SEP>中国人民解放军海军"
+  },
+  "052C型驱逐舰<SEP>相控阵雷达": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "052C型驱逐舰<SEP>相控阵雷达"
+  },
+  "052C型驱逐舰<SEP>垂直发射区域防空导弹系统": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "052C型驱逐舰<SEP>垂直发射区域防空导弹系统"
+  },
+  "Type 901 Replenishment Ship<SEP>Type 903 Replenishment Ship": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "Type 901 Replenishment Ship<SEP>Type 903 Replenishment Ship"
+  },
+  "054A型护卫舰<SEP>中国人民解放军海军": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "054A型护卫舰<SEP>中国人民解放军海军"
+  },
+  "052D型驱逐舰<SEP>相控阵雷达": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "052D型驱逐舰<SEP>相控阵雷达"
+  },
+  "东部战区海军<SEP>宜兴舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "东部战区海军<SEP>宜兴舰"
+  },
+  "YJ-12 Anti-Ship Missile<SEP>YJ-18 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "YJ-12 Anti-Ship Missile<SEP>YJ-18 Anti-Ship Missile"
+  },
+  "Type 903 Replenishment Ship<SEP>Type 903A Replenishment Ship": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "Type 903 Replenishment Ship<SEP>Type 903A Replenishment Ship"
+  },
+  "052D型驱逐舰<SEP>垂直发射区域防空导弹系统": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "052D型驱逐舰<SEP>垂直发射区域防空导弹系统"
+  },
+  "H-6K Bomber<SEP>YJ-21 Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "H-6K Bomber<SEP>YJ-21 Missile"
+  },
+  "YJ-18 Anti-Ship Missile<SEP>YJ-18C Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "YJ-18 Anti-Ship Missile<SEP>YJ-18C Missile"
+  },
+  "Type 093 Nuclear Submarine<SEP>Yu-10 Intelligent Torpedo": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771217,
+    "update_time": 1778771217,
+    "_id": "Type 093 Nuclear Submarine<SEP>Yu-10 Intelligent Torpedo"
+  },
+  "Type 093 Nuclear Submarine<SEP>YJ-12 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "Type 093 Nuclear Submarine<SEP>YJ-12 Anti-Ship Missile"
+  },
+  "14th China International Aviation and Aerospace Exhibition<SEP>YJ-21 Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "14th China International Aviation and Aerospace Exhibition<SEP>YJ-21 Missile"
+  },
+  "Type 055 Destroyer<SEP>YJ-18 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "Type 055 Destroyer<SEP>YJ-18 Anti-Ship Missile"
+  },
+  "70th Anniversary National Day Parade<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "70th Anniversary National Day Parade<SEP>Hongqi-22"
+  },
+  "70th Anniversary National Day Parade<SEP>People's Republic of China": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "70th Anniversary National Day Parade<SEP>People's Republic of China"
+  },
+  "\"Power of Unity\" Parade<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "\"Power of Unity\" Parade<SEP>Hongqi-22"
+  },
+  "YJ-18 Anti-Ship Missile<SEP>YJ-21 Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "YJ-18 Anti-Ship Missile<SEP>YJ-21 Missile"
+  },
+  "Fixed-wing Aircraft<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "Fixed-wing Aircraft<SEP>Hongqi-22"
+  },
+  "\"Power of Unity\" Parade<SEP>Serbia": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771218,
+    "update_time": 1778771218,
+    "_id": "\"Power of Unity\" Parade<SEP>Serbia"
+  },
+  "Type 055 Destroyer<SEP>YJ-21 Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "Type 055 Destroyer<SEP>YJ-21 Missile"
+  },
+  "HQ-16 Naval Air Defense Missile<SEP>YJ-18 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "HQ-16 Naval Air Defense Missile<SEP>YJ-18 Anti-Ship Missile"
+  },
+  "Cruise Missiles<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "Cruise Missiles<SEP>Hongqi-22"
+  },
+  "中国<SEP>鹰击-83反舰导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "中国<SEP>鹰击-83反舰导弹"
+  },
+  "Air Defense and Missile Countermeasure Capability<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "Air Defense and Missile Countermeasure Capability<SEP>Hongqi-22"
+  },
+  "中国<SEP>巨浪-2弹道导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "中国<SEP>巨浪-2弹道导弹"
+  },
+  "70th National Day Military Parade<SEP>YJ-18 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771219,
+    "update_time": 1778771219,
+    "_id": "70th National Day Military Parade<SEP>YJ-18 Anti-Ship Missile"
+  },
+  "Ground-to-Air Missile Weapon System<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "Ground-to-Air Missile Weapon System<SEP>Hongqi-22"
+  },
+  "歼-16<SEP>沈阳飞机公司": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "歼-16<SEP>沈阳飞机公司"
+  },
+  "中国<SEP>巨浪-3潜射洲际导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "中国<SEP>巨浪-3潜射洲际导弹"
+  },
+  "096型战略核潜艇<SEP>巨浪-3潜射洲际导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "096型战略核潜艇<SEP>巨浪-3潜射洲际导弹"
+  },
+  "中国<SEP>歼-20": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "中国<SEP>歼-20"
+  },
+  "Hongqi-22<SEP>Medium-High Altitude, Medium-Range Air Defense": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "Hongqi-22<SEP>Medium-High Altitude, Medium-Range Air Defense"
+  },
+  "三位一体战略核力量<SEP>巨浪-3潜射洲际导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "三位一体战略核力量<SEP>巨浪-3潜射洲际导弹"
+  },
+  "中国<SEP>歼-10": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771220,
+    "update_time": 1778771220,
+    "_id": "中国<SEP>歼-10"
+  },
+  "Hongqi-22<SEP>Mobile Warfare Capability": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "Hongqi-22<SEP>Mobile Warfare Capability"
+  },
+  "巨浪-3潜射洲际导弹<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年阅兵式": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "巨浪-3潜射洲际导弹<SEP>纪念中国人民抗日战争暨世界反法西斯战争胜利80周年阅兵式"
+  },
+  "三位一体战略核力量<SEP>东风系列": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "三位一体战略核力量<SEP>东风系列"
+  },
+  "歼-20<SEP>第十一届珠海航展": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "歼-20<SEP>第十一届珠海航展"
+  },
+  "巨浪-2弹道导弹<SEP>巨浪-3潜射洲际导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "巨浪-2弹道导弹<SEP>巨浪-3潜射洲际导弹"
+  },
+  "歼-20<SEP>第十四届中国航展": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "歼-20<SEP>第十四届中国航展"
+  },
+  "三位一体战略核力量<SEP>巨浪系列": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "三位一体战略核力量<SEP>巨浪系列"
+  },
+  "中国<SEP>固体战略弹道导弹项目": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "中国<SEP>固体战略弹道导弹项目"
+  },
+  "巨浪-1<SEP>巨浪-2弹道导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "巨浪-1<SEP>巨浪-2弹道导弹"
+  },
+  "庆祝中国人民解放军建军90周年阅兵<SEP>歼-20": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "庆祝中国人民解放军建军90周年阅兵<SEP>歼-20"
+  },
+  "成都<SEP>歼-20": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "成都<SEP>歼-20"
+  },
+  "庆祝中国人民解放军建军90周年阅兵<SEP>歼-16": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "庆祝中国人民解放军建军90周年阅兵<SEP>歼-16"
+  },
+  "三位一体战略核力量<SEP>惊雷-1": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "三位一体战略核力量<SEP>惊雷-1"
+  },
+  "二次核反击<SEP>巨浪-3潜射洲际导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "二次核反击<SEP>巨浪-3潜射洲际导弹"
+  },
+  "2015年<SEP>巨浪-2弹道导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "2015年<SEP>巨浪-2弹道导弹"
+  },
+  "巨浪-1<SEP>庆祝中华人民共和国成立35周年大会": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "巨浪-1<SEP>庆祝中华人民共和国成立35周年大会"
+  },
+  "15式坦克<SEP>北方车辆": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "15式坦克<SEP>北方车辆"
+  },
+  "歼-16<SEP>涡扇-10发动机": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "歼-16<SEP>涡扇-10发动机"
+  },
+  "15式坦克<SEP>庆祝改革开放40周年大型展览": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771223,
+    "update_time": 1778771223,
+    "_id": "15式坦克<SEP>庆祝改革开放40周年大型展览"
+  },
+  "歼-16<SEP>自动电子扫描相控阵雷达": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771223,
+    "update_time": 1778771223,
+    "_id": "歼-16<SEP>自动电子扫描相控阵雷达"
+  },
+  "15式坦克<SEP>中国国防部": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771223,
+    "update_time": 1778771223,
+    "_id": "15式坦克<SEP>中国国防部"
+  },
+  "04A式履带步战车<SEP>中国兵器工业集团公司": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771223,
+    "update_time": 1778771223,
+    "_id": "04A式履带步战车<SEP>中国兵器工业集团公司"
+  },
+  "04A式履带步战车<SEP>04式步兵战车": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "04A式履带步战车<SEP>04式步兵战车"
+  },
+  "15式坦克<SEP>新时代的中国国防": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "15式坦克<SEP>新时代的中国国防"
+  },
+  "15式坦克<SEP>新中国成立70周年国庆阅兵": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "15式坦克<SEP>新中国成立70周年国庆阅兵"
+  },
+  "15式坦克<SEP>新疆军区": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "15式坦克<SEP>新疆军区"
+  },
+  "04A式履带步战车<SEP>纪念中国人民抗日战争胜利70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "04A式履带步战车<SEP>纪念中国人民抗日战争胜利70周年阅兵式"
+  },
+  "05式自行加榴炮<SEP>中国北方工业公司": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "05式自行加榴炮<SEP>中国北方工业公司"
+  },
+  "04A式履带步战车<SEP>国庆70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "04A式履带步战车<SEP>国庆70周年阅兵式"
+  },
+  "15式坦克<SEP>高原驻训场": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771224,
+    "update_time": 1778771224,
+    "_id": "15式坦克<SEP>高原驻训场"
+  },
+  "04A式履带步战车<SEP>北斗卫星导航系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771225,
+    "update_time": 1778771225,
+    "_id": "04A式履带步战车<SEP>北斗卫星导航系统"
+  },
+  "15式坦克<SEP>62式轻型坦克": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771225,
+    "update_time": 1778771225,
+    "_id": "15式坦克<SEP>62式轻型坦克"
+  },
+  "04A式履带步战车<SEP>440千瓦柴油发动机": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771225,
+    "update_time": 1778771225,
+    "_id": "04A式履带步战车<SEP>440千瓦柴油发动机"
+  },
+  "15式坦克<SEP>数字化作战网络系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771225,
+    "update_time": 1778771225,
+    "_id": "15式坦克<SEP>数字化作战网络系统"
+  },
+  "04A式履带步战车<SEP>100毫米线膛炮": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771226,
+    "update_time": 1778771226,
+    "_id": "04A式履带步战车<SEP>100毫米线膛炮"
+  },
+  "15式坦克<SEP>新一代紧凑型柴油发动机": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771226,
+    "update_time": 1778771226,
+    "_id": "15式坦克<SEP>新一代紧凑型柴油发动机"
+  },
+  "04A式履带步战车<SEP>30毫米自动炮": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771226,
+    "update_time": 1778771226,
+    "_id": "04A式履带步战车<SEP>30毫米自动炮"
+  },
+  "15式坦克<SEP>综合传动系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771226,
+    "update_time": 1778771226,
+    "_id": "15式坦克<SEP>综合传动系统"
+  },
+  "04A式履带步战车<SEP>7.62毫米并列机枪": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "04A式履带步战车<SEP>7.62毫米并列机枪"
+  },
+  "105毫米线膛坦克炮<SEP>15式坦克": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "105毫米线膛坦克炮<SEP>15式坦克"
+  },
+  "15式坦克<SEP>新一代炮射反坦克导弹": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "15式坦克<SEP>新一代炮射反坦克导弹"
+  },
+  "04A式履带步战车<SEP>猎-歼火控系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "04A式履带步战车<SEP>猎-歼火控系统"
+  },
+  "04A式履带步战车<SEP>综合电子信息系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "04A式履带步战车<SEP>综合电子信息系统"
+  },
+  "05式自行加榴炮<SEP>二代自行火炮中型通用底盘": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "05式自行加榴炮<SEP>二代自行火炮中型通用底盘"
+  },
+  "15式坦克<SEP>尾舱式自动装弹机": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "15式坦克<SEP>尾舱式自动装弹机"
+  },
+  "东风-26D导弹<SEP>中国": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771227,
+    "update_time": 1778771227,
+    "_id": "东风-26D导弹<SEP>中国"
+  },
+  "东风-21弹道导弹<SEP>中国人民解放军火箭军": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "东风-21弹道导弹<SEP>中国人民解放军火箭军"
+  },
+  "04A式履带步战车<SEP>北斗/惯性组合导航系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "04A式履带步战车<SEP>北斗/惯性组合导航系统"
+  },
+  "东风-17导弹<SEP>中国": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "东风-17导弹<SEP>中国"
+  },
+  "东风-16弹道导弹<SEP>东风-17导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "东风-16弹道导弹<SEP>东风-17导弹"
+  },
+  "东风-26D导弹<SEP>乘波体弹头": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "东风-26D导弹<SEP>乘波体弹头"
+  },
+  "04A式履带步战车<SEP>战场敌我识别系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "04A式履带步战车<SEP>战场敌我识别系统"
+  },
+  "东风-21弹道导弹<SEP>巨浪一号潜地导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "东风-21弹道导弹<SEP>巨浪一号潜地导弹"
+  },
+  "东风-26D导弹<SEP>高超声速弹头": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-26D导弹<SEP>高超声速弹头"
+  },
+  "东风-11导弹<SEP>东风11甲地对地导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-11导弹<SEP>东风11甲地对地导弹"
+  },
+  "04A式履带步战车<SEP>数字化电台": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "04A式履带步战车<SEP>数字化电台"
+  },
+  "东风-15B型<SEP>东风-15弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-15B型<SEP>东风-15弹道导弹"
+  },
+  "东风-17导弹<SEP>乘波体弹头": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-17导弹<SEP>乘波体弹头"
+  },
+  "东风-26D导弹<SEP>中国人民抗日战争暨世界反法西斯战争胜利80周年大会": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-26D导弹<SEP>中国人民抗日战争暨世界反法西斯战争胜利80周年大会"
+  },
+  "DF-21<SEP>东风-21弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "DF-21<SEP>东风-21弹道导弹"
+  },
+  "04A式履带步战车<SEP>烟幕弹发射器": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "04A式履带步战车<SEP>烟幕弹发射器"
+  },
+  "CSS-6<SEP>东风-15弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "CSS-6<SEP>东风-15弹道导弹"
+  },
+  "三棱锥形弹头<SEP>东风-17导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "三棱锥形弹头<SEP>东风-17导弹"
+  },
+  "东风-21弹道导弹<SEP>五轴自行式底盘": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-21弹道导弹<SEP>五轴自行式底盘"
+  },
+  "东风-17导弹<SEP>垂直发射方式": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "东风-17导弹<SEP>垂直发射方式"
+  },
+  "东风-26D导弹<SEP>东风-26导弹家族": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "东风-26D导弹<SEP>东风-26导弹家族"
+  },
+  "扁平化发动机喷口<SEP>攻击-11": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "扁平化发动机喷口<SEP>攻击-11"
+  },
+  "攻击-11<SEP>无尾飞翼构型": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "攻击-11<SEP>无尾飞翼构型"
+  },
+  "中国航天科技集团<SEP>彩虹-7高空隐身无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "中国航天科技集团<SEP>彩虹-7高空隐身无人机"
+  },
+  "东风-21弹道导弹<SEP>两级固体发动机": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "东风-21弹道导弹<SEP>两级固体发动机"
+  },
+  "东风-17导弹<SEP>高超声速滑翔技术": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "东风-17导弹<SEP>高超声速滑翔技术"
+  },
+  "彩虹-7高空隐身无人机<SEP>飞翼布局": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "彩虹-7高空隐身无人机<SEP>飞翼布局"
+  },
+  "WJ-700无人机<SEP>中国航天科工三院": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "WJ-700无人机<SEP>中国航天科工三院"
+  },
+  "东风-26D导弹<SEP>中程弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "东风-26D导弹<SEP>中程弹道导弹"
+  },
+  "彩虹-7高空隐身无人机<SEP>锯齿状海狸尾设计": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "彩虹-7高空隐身无人机<SEP>锯齿状海狸尾设计"
+  },
+  "应急救灾型<SEP>翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "应急救灾型<SEP>翼龙-2H"
+  },
+  "WJ-700无人机<SEP>海鹰航空通用装备有限公司": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "WJ-700无人机<SEP>海鹰航空通用装备有限公司"
+  },
+  "半隐藏式发动机尾喷管<SEP>彩虹-7高空隐身无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "半隐藏式发动机尾喷管<SEP>彩虹-7高空隐身无人机"
+  },
+  "WJ-700无人机<SEP>珠海航展": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "WJ-700无人机<SEP>珠海航展"
+  },
+  "彩虹-7高空隐身无人机<SEP>第十二届中国国际航空航天博览会": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "彩虹-7高空隐身无人机<SEP>第十二届中国国际航空航天博览会"
+  },
+  "彩虹-6无人机<SEP>航天彩虹无人机股份有限公司": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "彩虹-6无人机<SEP>航天彩虹无人机股份有限公司"
+  },
+  "气象型<SEP>翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "气象型<SEP>翼龙-2H"
+  },
+  "彩虹-6无人机<SEP>第十三届中国国际航空航天博览会": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e",
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 2,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "彩虹-6无人机<SEP>第十三届中国国际航空航天博览会"
+  },
+  "中国航天科技集团有限公司第十一研究院<SEP>彩虹-7高空隐身无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "中国航天科技集团有限公司第十一研究院<SEP>彩虹-7高空隐身无人机"
+  },
+  "中国航天科技集团有限公司第十一研究院<SEP>彩虹-6无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771232,
+    "update_time": 1778771232,
+    "_id": "中国航天科技集团有限公司第十一研究院<SEP>彩虹-6无人机"
+  },
+  "低可探测性能<SEP>彩虹-7高空隐身无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771232,
+    "update_time": 1778771232,
+    "_id": "低可探测性能<SEP>彩虹-7高空隐身无人机"
+  },
+  "河南暴雨灾害<SEP>翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771232,
+    "update_time": 1778771232,
+    "_id": "河南暴雨灾害<SEP>翼龙-2H"
+  },
+  "H-6N<SEP>Western Pacific": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771232,
+    "update_time": 1778771232,
+    "_id": "H-6N<SEP>Western Pacific"
+  },
+  "甘肃积石山地震<SEP>翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771233,
+    "update_time": 1778771233,
+    "_id": "甘肃积石山地震<SEP>翼龙-2H"
+  },
+  "70th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771233,
+    "update_time": 1778771233,
+    "_id": "70th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War<SEP>H-6N"
+  },
+  "East China Sea Air Defense Identification Zone<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771233,
+    "update_time": 1778771233,
+    "_id": "East China Sea Air Defense Identification Zone<SEP>H-6N"
+  },
+  "Bashi Channel<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771233,
+    "update_time": 1778771233,
+    "_id": "Bashi Channel<SEP>H-6N"
+  },
+  "翼龙-2H<SEP>贵州省": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771233,
+    "update_time": 1778771233,
+    "_id": "翼龙-2H<SEP>贵州省"
+  },
+  "H-6N<SEP>Miyako Strait": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771233,
+    "update_time": 1778771233,
+    "_id": "H-6N<SEP>Miyako Strait"
+  },
+  "H-6N<SEP>Tsushima Strait": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771234,
+    "update_time": 1778771234,
+    "_id": "H-6N<SEP>Tsushima Strait"
+  },
+  "翼龙-2<SEP>翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771234,
+    "update_time": 1778771234,
+    "_id": "翼龙-2<SEP>翼龙-2H"
+  },
+  "H-6N<SEP>Russian Tu-95MS Bomber": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771234,
+    "update_time": 1778771234,
+    "_id": "H-6N<SEP>Russian Tu-95MS Bomber"
+  },
+  "H-20<SEP>Ma Xiaotian": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771234,
+    "update_time": 1778771234,
+    "_id": "H-20<SEP>Ma Xiaotian"
+  },
+  "应急使命<SEP>翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771234,
+    "update_time": 1778771234,
+    "_id": "应急使命<SEP>翼龙-2H"
+  },
+  "15th China Air Show<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771234,
+    "update_time": 1778771234,
+    "_id": "15th China Air Show<SEP>H-6N"
+  },
+  "AVIC<SEP>H-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "AVIC<SEP>H-20"
+  },
+  "KJ-3000<SEP>Y-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "KJ-3000<SEP>Y-20"
+  },
+  "Combat Readiness Patrol Around Taiwan Island<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "Combat Readiness Patrol Around Taiwan Island<SEP>H-6N"
+  },
+  "H-20<SEP>Wang Wei": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "H-20<SEP>Wang Wei"
+  },
+  "H-6N<SEP>Strait Thunder-2025A Exercise": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "H-6N<SEP>Strait Thunder-2025A Exercise"
+  },
+  "80th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "80th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War<SEP>H-6N"
+  },
+  "Eternal Military Soul<SEP>H-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "Eternal Military Soul<SEP>H-20"
+  },
+  "H-6N<SEP>Xi'an Aircraft Industry Group": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771235,
+    "update_time": 1778771235,
+    "_id": "H-6N<SEP>Xi'an Aircraft Industry Group"
+  },
+  "H-20<SEP>J-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "H-20<SEP>J-20"
+  },
+  "H-6N<SEP>National Day Parade 70th Anniversary": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "H-6N<SEP>National Day Parade 70th Anniversary"
+  },
+  "KJ-200<SEP>KJ-3000": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "KJ-200<SEP>KJ-3000"
+  },
+  "China-Russia 9th Joint Air Strategic Patrol<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "China-Russia 9th Joint Air Strategic Patrol<SEP>H-6N"
+  },
+  "1997年首次完成地基激光武器击毁卫星试验<SEP>美国": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "1997年首次完成地基激光武器击毁卫星试验<SEP>美国"
+  },
+  "H-20<SEP>Y-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "H-20<SEP>Y-20"
+  },
+  "佩列斯韦特<SEP>俄罗斯": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "佩列斯韦特<SEP>俄罗斯"
+  },
+  "First Island Chain<SEP>H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "First Island Chain<SEP>H-6N"
+  },
+  "中国<SEP>抗战胜利80周年阅兵": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "中国<SEP>抗战胜利80周年阅兵"
+  },
+  "071型两栖登陆舰<SEP>LY-1型激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "071型两栖登陆舰<SEP>LY-1型激光武器"
+  },
+  "太阳神系统<SEP>美国": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "太阳神系统<SEP>美国"
+  },
+  "JYL-1A雷达<SEP>巴黎航展": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771236,
+    "update_time": 1778771236,
+    "_id": "JYL-1A雷达<SEP>巴黎航展"
+  },
+  "JY-27雷达<SEP>巴尔米拉城": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "JY-27雷达<SEP>巴尔米拉城"
+  },
+  "H-20<SEP>Z-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "H-20<SEP>Z-20"
+  },
+  "A-60机载战略激光武器<SEP>俄罗斯": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "A-60机载战略激光武器<SEP>俄罗斯"
+  },
+  "H-6N<SEP>South China Sea": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "H-6N<SEP>South China Sea"
+  },
+  "JYL-1雷达<SEP>叙利亚": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "JYL-1雷达<SEP>叙利亚"
+  },
+  "双坐标120型2D低空目标雷达<SEP>红旗-9防空导弹系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "双坐标120型2D低空目标雷达<SEP>红旗-9防空导弹系统"
+  },
+  "JY-27A雷达<SEP>中国": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "JY-27A雷达<SEP>中国"
+  },
+  "太阳神系统<SEP>舰载激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "太阳神系统<SEP>舰载激光武器"
+  },
+  "1兆瓦级功率<SEP>美国": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "1兆瓦级功率<SEP>美国"
+  },
+  "300千瓦级功率<SEP>中国": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "300千瓦级功率<SEP>中国"
+  },
+  "地基地激光武器<SEP>大气衰减": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "地基地激光武器<SEP>大气衰减"
+  },
+  "JY-27雷达<SEP>美国隐形战机": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "JY-27雷达<SEP>美国隐形战机"
+  },
+  "72个目标<SEP>双坐标120型2D低空目标雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "72个目标<SEP>双坐标120型2D低空目标雷达"
+  },
+  "中美激光武器<SEP>能量存储装置": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "中美激光武器<SEP>能量存储装置"
+  },
+  "气象条件<SEP>舰载激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "气象条件<SEP>舰载激光武器"
+  },
+  "中高轨道卫星打击能力<SEP>天基激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "中高轨道卫星打击能力<SEP>天基激光武器"
+  },
+  "俄罗斯<SEP>荚蒾": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "俄罗斯<SEP>荚蒾"
+  },
+  "中美激光武器<SEP>新型冷却系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "中美激光武器<SEP>新型冷却系统"
+  },
+  "珠海<SEP>第十三届中国国际航空航天博览会": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "珠海<SEP>第十三届中国国际航空航天博览会"
+  },
+  "彩虹-6无人机<SEP>涡扇发动机": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "彩虹-6无人机<SEP>涡扇发动机"
+  },
+  "彩虹-6无人机<SEP>涡桨发动机": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "彩虹-6无人机<SEP>涡桨发动机"
+  },
+  "蜂群2号陆战车<SEP>阿特拉斯无人机蜂群作战系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "蜂群2号陆战车<SEP>阿特拉斯无人机蜂群作战系统"
+  },
+  "定向能武器<SEP>微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "定向能武器<SEP>微波武器"
+  },
+  "反无人机方队<SEP>高功率微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "反无人机方队<SEP>高功率微波武器"
+  },
+  "SR-71黑鸟侦察机<SEP>彩虹-6无人机": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "SR-71黑鸟侦察机<SEP>彩虹-6无人机"
+  },
+  "指控车<SEP>阿特拉斯无人机蜂群作战系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "指控车<SEP>阿特拉斯无人机蜂群作战系统"
+  },
+  "反卫星激光武器<SEP>高能激光束": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "反卫星激光武器<SEP>高能激光束"
+  },
+  "CHAMP高功率微波导弹<SEP>微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "CHAMP高功率微波导弹<SEP>微波武器"
+  },
+  "保障车<SEP>阿特拉斯无人机蜂群作战系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "保障车<SEP>阿特拉斯无人机蜂群作战系统"
+  },
+  "激光武器<SEP>高功率微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "激光武器<SEP>高功率微波武器"
+  },
+  "佩列斯韦特战略激光武器<SEP>反卫星激光武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "佩列斯韦特战略激光武器<SEP>反卫星激光武器"
+  },
+  "Ranets-E防御系统<SEP>微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "Ranets-E防御系统<SEP>微波武器"
+  },
+  "Anti-Satellite Laser Weapon<SEP>Peresvet Strategic Laser Weapon": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "Anti-Satellite Laser Weapon<SEP>Peresvet Strategic Laser Weapon"
+  },
+  "弹炮武器<SEP>高功率微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "弹炮武器<SEP>高功率微波武器"
+  },
+  "CH-6 Drone<SEP>SAR Radar": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "CH-6 Drone<SEP>SAR Radar"
+  },
+  "反卫星激光武器<SEP>荚蒾激光系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "反卫星激光武器<SEP>荚蒾激光系统"
+  },
+  "Krasukha-4<SEP>微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Krasukha-4<SEP>微波武器"
+  },
+  "Atlas Drone Swarm Combat System<SEP>Swarm Control Algorithm": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Atlas Drone Swarm Combat System<SEP>Swarm Control Algorithm"
+  },
+  "Anti-Satellite Laser Weapon<SEP>Kalina Laser System": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Anti-Satellite Laser Weapon<SEP>Kalina Laser System"
+  },
+  "High-Power Microwave Weapon<SEP>Iron Triangle Defense System": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "High-Power Microwave Weapon<SEP>Iron Triangle Defense System"
+  },
+  "Air-to-Ground Missile<SEP>CH-6 Drone": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Air-to-Ground Missile<SEP>CH-6 Drone"
+  },
+  "Hongqi-17防空导弹系统<SEP>Tor-M1": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Hongqi-17防空导弹系统<SEP>Tor-M1"
+  },
+  "CH-6 Drone<SEP>Dirt Runway": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "CH-6 Drone<SEP>Dirt Runway"
+  },
+  "Hongqi-17AE<SEP>Serbia": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Hongqi-17AE<SEP>Serbia"
+  },
+  "Anti-Satellite Laser Weapon<SEP>Low Orbit Satellite": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Anti-Satellite Laser Weapon<SEP>Low Orbit Satellite"
+  },
+  "Hongqi-19<SEP>Zhuhai Airshow": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Hongqi-19<SEP>Zhuhai Airshow"
+  },
+  "FK-3<SEP>Hongqi-22防空导弹": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "FK-3<SEP>Hongqi-22防空导弹"
+  },
+  "Hongqi-17防空导弹系统<SEP>Serbian Unity Parade": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Hongqi-17防空导弹系统<SEP>Serbian Unity Parade"
+  },
+  "Anti-Satellite Laser Weapon<SEP>Surface Platform": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Anti-Satellite Laser Weapon<SEP>Surface Platform"
+  },
+  "Cold Launch<SEP>Hongqi-19": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Cold Launch<SEP>Hongqi-19"
+  },
+  "Hongqi-22防空导弹<SEP>People's Liberation Army Parade": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Hongqi-22防空导弹<SEP>People's Liberation Army Parade"
+  },
+  "FK-3<SEP>Zhuhai Airshow": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "FK-3<SEP>Zhuhai Airshow"
+  },
+  "Hongqi-17防空导弹系统<SEP>Phased Array Radar": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Hongqi-17防空导弹系统<SEP>Phased Array Radar"
+  },
+  "Fixed-Wing Aircraft<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Fixed-Wing Aircraft<SEP>Hongqi-22"
+  },
+  "Hongqi-19<SEP>Tilted Launch Angle": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Hongqi-19<SEP>Tilted Launch Angle"
+  },
+  "8 Compartment Module<SEP>Hongqi-16": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "8 Compartment Module<SEP>Hongqi-16"
+  },
+  "Hongqi-22防空导弹<SEP>National Day Parade": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771241,
+    "update_time": 1778771241,
+    "_id": "Hongqi-22防空导弹<SEP>National Day Parade"
+  },
+  "Electronic Missile Selection System<SEP>Hongqi-16": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771242,
+    "update_time": 1778771242,
+    "_id": "Electronic Missile Selection System<SEP>Hongqi-16"
+  },
+  "Cruise Missile<SEP>Hongqi-22": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771242,
+    "update_time": 1778771242,
+    "_id": "Cruise Missile<SEP>Hongqi-22"
+  },
+  "Ballistic Missile<SEP>Hongqi-19": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771242,
+    "update_time": 1778771242,
+    "_id": "Ballistic Missile<SEP>Hongqi-19"
+  },
+  "Hongqi-19<SEP>Hypersonic Glide Vehicle": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771242,
+    "update_time": 1778771242,
+    "_id": "Hongqi-19<SEP>Hypersonic Glide Vehicle"
+  },
+  "Cylindrical Storage-Transport-Launch Canister<SEP>Hongqi-19": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771243,
+    "update_time": 1778771243,
+    "_id": "Cylindrical Storage-Transport-Launch Canister<SEP>Hongqi-19"
+  }
+}

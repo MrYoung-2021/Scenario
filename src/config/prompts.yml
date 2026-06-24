@@ -2,3 +2,11 @@ rag_summarize_prompt_path: prompts/rag_summarize.txt
 system_prompt_path: prompts/system_prompt.txt
 scenario_prompt_path: prompts/scenario_prompt.txt
 text_prompt_path: prompts/text_prompt.txt
+start_prompt_path: prompts/start_prompt.txt
+background_prompt_path: prompts/background_prompt.txt
+environment_prompt_path: prompts/environment_prompt.txt
+formation_prompt_path: prompts/formation_prompt.txt
+task_prompt_path: prompts/task_prompt.txt
+end_prompt_path: prompts/end_prompt.txt
+revise_prompt_path: prompts/revise_prompt.txt
+summary_prompt_path: prompts/summary_prompt.txt

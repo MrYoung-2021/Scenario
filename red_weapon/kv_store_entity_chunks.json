@@ -1,0 +1,6269 @@
+{
+  "Jian-15D": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Jian-15D"
+  },
+  "Active Phased Array Fire Control Radar": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Active Phased Array Fire Control Radar"
+  },
+  "PL-15 Air-To-Air Missile": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "PL-15 Air-To-Air Missile"
+  },
+  "Electronic Support Reconnaissance Pod": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Electronic Support Reconnaissance Pod"
+  },
+  "Wingtip Pod": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Wingtip Pod"
+  },
+  "Mission System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Mission System"
+  },
+  "High-Power Electronic Jamming Pod": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "High-Power Electronic Jamming Pod"
+  },
+  "Type 093 Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 2,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Type 093 Nuclear Submarine"
+  },
+  "Chinese Navy": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Chinese Navy"
+  },
+  "Shang-Class Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Shang-Class Submarine"
+  },
+  "Type 093A Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Type 093A Submarine"
+  },
+  "Type 093B Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771123,
+    "update_time": 1778771123,
+    "_id": "Type 093B Submarine"
+  },
+  "Yu-5 Modified Torpedo": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Yu-5 Modified Torpedo"
+  },
+  "Yu-6 Torpedo": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Yu-6 Torpedo"
+  },
+  "Yu-8 Torpedo": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Yu-8 Torpedo"
+  },
+  "Active Sonar": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Active Sonar"
+  },
+  "Towed Array Sonar": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Towed Array Sonar"
+  },
+  "Vertical Launch System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 3,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Vertical Launch System"
+  },
+  "Type 094 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Type 094 Strategic Nuclear Submarine"
+  },
+  "Jin-Class Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Jin-Class Submarine"
+  },
+  "Type 096 Strategic Nuclear Submarine": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Type 096 Strategic Nuclear Submarine"
+  },
+  "Julang-3 Submarine-Launched Missile": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Julang-3 Submarine-Launched Missile"
+  },
+  "Yu-10 Intelligent Torpedo": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 2,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Yu-10 Intelligent Torpedo"
+  },
+  "533mm Torpedo Tube": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "533mm Torpedo Tube"
+  },
+  "Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Anti-Ship Missile"
+  },
+  "Fourth Generation Small Nuclear Reactor": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Fourth Generation Small Nuclear Reactor"
+  },
+  "Pump Jet Propulsion": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Pump Jet Propulsion"
+  },
+  "Shaft-Less Pump Push Technology": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Shaft-Less Pump Push Technology"
+  },
+  "Third Generation Sound Isolation Tiles": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Third Generation Sound Isolation Tiles"
+  },
+  "Free Vibration Floating Raft": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "Free Vibration Floating Raft"
+  },
+  "India Ocean Ocean Combat Readiness Deployment": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771124,
+    "update_time": 1778771124,
+    "_id": "India Ocean Ocean Combat Readiness Deployment"
+  },
+  "Aircraft Avionics System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Aircraft Avionics System"
+  },
+  "Cockpit Display": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Cockpit Display"
+  },
+  "Data Link Communication System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Data Link Communication System"
+  },
+  "Anti-Radiation Missile": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 2,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Anti-Radiation Missile"
+  },
+  "Surface Displacement 6000 Tons": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Surface Displacement 6000 Tons"
+  },
+  "Double Hull Structure": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Double Hull Structure"
+  },
+  "Improved Pressurized Water Reactor": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Improved Pressurized Water Reactor"
+  },
+  "Surface Speed 18 Knots": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Surface Speed 18 Knots"
+  },
+  "Underwater Speed 25 Knots": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Underwater Speed 25 Knots"
+  },
+  "Six Torpedo Tubes": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Six Torpedo Tubes"
+  },
+  "650mm Torpedo Tube": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "650mm Torpedo Tube"
+  },
+  "Low-Light Night Vision CCD Periscope": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Low-Light Night Vision CCD Periscope"
+  },
+  "Seven-Blade Large Skew Propeller": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Seven-Blade Large Skew Propeller"
+  },
+  "Rubber Sound Isolation Tiles": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Rubber Sound Isolation Tiles"
+  },
+  "Elastic Vibration Isolation Device": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Elastic Vibration Isolation Device"
+  },
+  "Small Turtle Back Structure": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Small Turtle Back Structure"
+  },
+  "Flank Sonar Array": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771125,
+    "update_time": 1778771125,
+    "_id": "Flank Sonar Array"
+  },
+  "Western Pacific": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 2,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Western Pacific"
+  },
+  "South China Sea": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a",
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 2,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "South China Sea"
+  },
+  "Yellow Sea": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Yellow Sea"
+  },
+  "14-Meter Diameter Pressure Hull": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "14-Meter Diameter Pressure Hull"
+  },
+  "Liquid Metal Sodium Cooling System": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Liquid Metal Sodium Cooling System"
+  },
+  "Heat Exchange Efficiency": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Heat Exchange Efficiency"
+  },
+  "Maximum Diving Depth 600-650 Meters": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Maximum Diving Depth 600-650 Meters"
+  },
+  "Maximum Speed 32 Knots": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Maximum Speed 32 Knots"
+  },
+  "Full Load Displacement 16000-20000 Tons": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Full Load Displacement 16000-20000 Tons"
+  },
+  "Hypersonic Gliding Warhead": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Hypersonic Gliding Warhead"
+  },
+  "Nuclear Warhead Yield 150 Kilotons": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Nuclear Warhead Yield 150 Kilotons"
+  },
+  "Dongfeng-15 Ballistic Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Dongfeng-15 Ballistic Missile"
+  },
+  "Dongfeng-15B Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Dongfeng-15B Missile"
+  },
+  "Changjian-10 Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Changjian-10 Cruise Missile"
+  },
+  "Changjian-100 Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Changjian-100 Cruise Missile"
+  },
+  "Changjian-20A Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Changjian-20A Missile"
+  },
+  "Changjian-1000 Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "Changjian-1000 Missile"
+  },
+  "GJ-11 Drone": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "GJ-11 Drone"
+  },
+  "China": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8",
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2",
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 4,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "China"
+  },
+  "People's Liberation Army": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8",
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 2,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "People's Liberation Army"
+  },
+  "PLA Rocket Force": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771126,
+    "update_time": 1778771126,
+    "_id": "PLA Rocket Force"
+  },
+  "Beijing Tiananmen Square": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "Beijing Tiananmen Square"
+  },
+  "October 1 2019 Military Parade": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "October 1 2019 Military Parade"
+  },
+  "September 3 2025 Military Parade": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "September 3 2025 Military Parade"
+  },
+  "Changjian Series Missiles": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "Changjian Series Missiles"
+  },
+  "Changjian-10A Cruise Missile": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "Changjian-10A Cruise Missile"
+  },
+  "空警-3000": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "空警-3000"
+  },
+  "数字阵列雷达技术": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "数字阵列雷达技术"
+  },
+  "空警-500": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "空警-500"
+  },
+  "运-9": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "运-9"
+  },
+  "涡桨-6C": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "涡桨-6C"
+  },
+  "中国中航工业陕西飞机工业(集团)": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "中国中航工业陕西飞机工业(集团)"
+  },
+  "中国电子科技集团公司": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "中国电子科技集团公司"
+  },
+  "空警-2000": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "空警-2000"
+  },
+  "空警-600预警机": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "空警-600预警机"
+  },
+  "中国人民解放军海军": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e",
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 4,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "中国人民解放军海军"
+  },
+  "两面阵有源相控阵雷达技术": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "两面阵有源相控阵雷达技术"
+  },
+  "空警-200": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e",
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 2,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "空警-200"
+  },
+  "陕西汉中": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771127,
+    "update_time": 1778771127,
+    "_id": "陕西汉中"
+  },
+  "纪念中国人民抗日战争暨世界反法西斯战争胜利70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "纪念中国人民抗日战争暨世界反法西斯战争胜利70周年阅兵式"
+  },
+  "红剑演习": {
+    "chunk_ids": [
+      "chunk-bf70a2651ccb97b6854129e2d20e4f3e"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "红剑演习"
+  },
+  "JY-27A Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "JY-27A Radar"
+  },
+  "YLC-2 Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "YLC-2 Radar"
+  },
+  "Hongqi-9 Missile": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Hongqi-9 Missile"
+  },
+  "Hongqi-12 Missile": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Hongqi-12 Missile"
+  },
+  "SJ-212 Radar": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2",
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 2,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "SJ-212 Radar"
+  },
+  "SAM-10": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "SAM-10"
+  },
+  "Venezuela": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Venezuela"
+  },
+  "Syria": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Syria"
+  },
+  "Russia": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Russia"
+  },
+  "Electronic Warfare": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Electronic Warfare"
+  },
+  "Stealth Aircraft": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Stealth Aircraft"
+  },
+  "Fourth Generation Stealth Aircraft": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Fourth Generation Stealth Aircraft"
+  },
+  "48N6 Series": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "48N6 Series"
+  },
+  "Integrated Radar Network": {
+    "chunk_ids": [
+      "chunk-2b2f79eb4e2635fa95780c1efe9bced2"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "Integrated Radar Network"
+  },
+  "空警-600": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "空警-600"
+  },
+  "运-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "运-20"
+  },
+  "运油-20": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "运油-20"
+  },
+  "霹雳-10": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "霹雳-10"
+  },
+  "霹雳-12": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "create_time": 1778771128,
+    "update_time": 1778771128,
+    "_id": "霹雳-12"
+  },
+  "陕西飞机工业集团公司": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "陕西飞机工业集团公司"
+  },
+  "中国人民解放军空军": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "中国人民解放军空军"
+  },
+  "伊尔-76": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "伊尔-76"
+  },
+  "C-17": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "C-17"
+  },
+  "一航空空导弹研究院": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "一航空空导弹研究院"
+  },
+  "空警-200预警机": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "空警-200预警机"
+  },
+  "两面阵有源相控阵雷达": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "两面阵有源相控阵雷达"
+  },
+  "中继制导": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "中继制导"
+  },
+  "A射B导": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "A射B导"
+  },
+  "隐身飞行器识别": {
+    "chunk_ids": [
+      "chunk-7d36f7e851df169e341230a2831ce9f0"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "隐身飞行器识别"
+  },
+  "歼-15DT": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b",
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 2,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "歼-15DT"
+  },
+  "福建舰": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "福建舰"
+  },
+  "歼-15DH": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "歼-15DH"
+  },
+  "歼-35": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "歼-35"
+  },
+  "歼-15T": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "歼-15T"
+  },
+  "苏-30战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "苏-30战斗机"
+  },
+  "苏-35战斗机": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771129,
+    "update_time": 1778771129,
+    "_id": "苏-35战斗机"
+  },
+  "歼轰-7": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "歼轰-7"
+  },
+  "轰-6K": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "轰-6K"
+  },
+  "苏霍伊设计局": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "苏霍伊设计局"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利80周年大会": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b",
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 2,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利80周年大会"
+  },
+  "中国人民抗日战争暨世界反法西斯战争胜利70周年大会": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "中国人民抗日战争暨世界反法西斯战争胜利70周年大会"
+  },
+  "大型电子战吊舱": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "大型电子战吊舱"
+  },
+  "有源相控阵雷达": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "有源相控阵雷达"
+  },
+  "阿穆尔河畔共青城加加林飞机制造厂": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "阿穆尔河畔共青城加加林飞机制造厂"
+  },
+  "伊尔库茨克飞机制造厂": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "伊尔库茨克飞机制造厂"
+  },
+  "苏-27": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "苏-27"
+  },
+  "苏-27PU": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "苏-27PU"
+  },
+  "苏-30K": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "苏-30K"
+  },
+  "苏-30MKI": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "苏-30MKI"
+  },
+  "苏-30MKK": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "苏-30MKK"
+  },
+  "共形天线": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "共形天线"
+  },
+  "刀Blade天线": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "刀Blade天线"
+  },
+  "前起落架": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "前起落架"
+  },
+  "双开门设计": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771130,
+    "update_time": 1778771130,
+    "_id": "双开门设计"
+  },
+  "电磁弹射系统": {
+    "chunk_ids": [
+      "chunk-df67ff527c92266aa7f4533ea2e55b4b"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "电磁弹射系统"
+  },
+  "Hongqi-9": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Hongqi-9"
+  },
+  "Hongqi-16": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 2,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Hongqi-16"
+  },
+  "SJ-202 Radar": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "SJ-202 Radar"
+  },
+  "KS-1 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "KS-1 Missiles"
+  },
+  "SA-10 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "SA-10 Missiles"
+  },
+  "S-300 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "S-300 Missiles"
+  },
+  "Tai'an 8x8 Chassis": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Tai'an 8x8 Chassis"
+  },
+  "People's Liberation Army Navy": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "People's Liberation Army Navy"
+  },
+  "Army Air Defense Force": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Army Air Defense Force"
+  },
+  "Terminal Active Radar Homing": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Terminal Active Radar Homing"
+  },
+  "Cold Launch": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 2,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Cold Launch"
+  },
+  "Brigade Combat Unit": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Brigade Combat Unit"
+  },
+  "Battalion Unit": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Battalion Unit"
+  },
+  "Fire Control Radar Car": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Fire Control Radar Car"
+  },
+  "Brigade Command Vehicle": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Brigade Command Vehicle"
+  },
+  "6x6 Off-Road Chassis": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "6x6 Off-Road Chassis"
+  },
+  "Battalion Control Car": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Battalion Control Car"
+  },
+  "48N6 Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "48N6 Missiles"
+  },
+  "Semi-Active Radar Homing": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Semi-Active Radar Homing"
+  },
+  "Fixed-Wing Aircraft": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 2,
+    "create_time": 1778771131,
+    "update_time": 1778771131,
+    "_id": "Fixed-Wing Aircraft"
+  },
+  "Tactical Missiles": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "Tactical Missiles"
+  },
+  "Experimental Troops": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "Experimental Troops"
+  },
+  "8-Compartment Module": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "8-Compartment Module"
+  },
+  "05式自行加榴炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 2,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "05式自行加榴炮"
+  },
+  "52倍口径155毫米线膛炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 2,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "52倍口径155毫米线膛炮"
+  },
+  "8V150中冷涡轮增压柴油机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "8V150中冷涡轮增压柴油机"
+  },
+  "自动装填系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "自动装填系统"
+  },
+  "火控计算机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "火控计算机"
+  },
+  "多普勒测速雷达": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "多普勒测速雷达"
+  },
+  "惯导装置": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "惯导装置"
+  },
+  "多模组合卫星定位导航系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "多模组合卫星定位导航系统"
+  },
+  "GPS": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "GPS"
+  },
+  "北斗系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "北斗系统"
+  },
+  "PLZ-05A": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "PLZ-05A"
+  },
+  "PLZ-07式履带式自行榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "PLZ-07式履带式自行榴弹炮"
+  },
+  "PL-96式122毫米榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "PL-96式122毫米榴弹炮"
+  },
+  "544马力水冷柴油机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "544马力水冷柴油机"
+  },
+  "半自动装弹机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "半自动装弹机"
+  },
+  "12.7毫米高平两用机枪": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771132,
+    "update_time": 1778771132,
+    "_id": "12.7毫米高平两用机枪"
+  },
+  "新疆军区炮兵团": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "新疆军区炮兵团"
+  },
+  "中国人民解放军": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 2,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "中国人民解放军"
+  },
+  "191远程箱式火箭炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "191远程箱式火箭炮"
+  },
+  "M270型火箭炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 2,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "M270型火箭炮"
+  },
+  "M142海马斯型火箭炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 2,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "M142海马斯型火箭炮"
+  },
+  "中华人民共和国成立70周年大会": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9",
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 2,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "中华人民共和国成立70周年大会"
+  },
+  "2009年国庆六十周年阅兵": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "2009年国庆六十周年阅兵"
+  },
+  "中国人民解放军建军90周年阅兵": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "中国人民解放军建军90周年阅兵"
+  },
+  "2018年实弹演练": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "2018年实弹演练"
+  },
+  "东部战区": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "东部战区"
+  },
+  "台海演习": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "台海演习"
+  },
+  "PLZ-89式": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "PLZ-89式"
+  },
+  "D-30榴弹炮": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "D-30榴弹炮"
+  },
+  "交流伺服炮控系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "交流伺服炮控系统"
+  },
+  "药温传感器": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "药温传感器"
+  },
+  "翻转式托弹槽": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "翻转式托弹槽"
+  },
+  "电动机械链式推弹机": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "电动机械链式推弹机"
+  },
+  "核生化三防装置": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771133,
+    "update_time": 1778771133,
+    "_id": "核生化三防装置"
+  },
+  "自动灭火抑爆系统": {
+    "chunk_ids": [
+      "chunk-ec560d17602e50e74f4c09ef360670d9"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "自动灭火抑爆系统"
+  },
+  "中国人民解放军海军辽宁舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "中国人民解放军海军辽宁舰"
+  },
+  "中国人民解放军海军山东舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "中国人民解放军海军山东舰"
+  },
+  "中国人民解放军海军福建舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "中国人民解放军海军福建舰"
+  },
+  "055型驱逐舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 2,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "055型驱逐舰"
+  },
+  "瓦良格号": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "瓦良格号"
+  },
+  "苏联海军": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "苏联海军"
+  },
+  "乌克兰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "乌克兰"
+  },
+  "大连港": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "大连港"
+  },
+  "大连造船厂": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 2,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "大连造船厂"
+  },
+  "青岛": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "青岛"
+  },
+  "南海": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "南海"
+  },
+  "海南三亚": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "海南三亚"
+  },
+  "库兹涅佐夫元帅级航空母舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "库兹涅佐夫元帅级航空母舰"
+  },
+  "001型航空母舰": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "001型航空母舰"
+  },
+  "1987年": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "1987年"
+  },
+  "冷战": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "冷战"
+  },
+  "美国海军": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "美国海军"
+  },
+  "中央军委": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 2,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "中央军委"
+  },
+  "中国": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3",
+      "chunk-19abd266427cf2f523ed74abe4c7fe08",
+      "chunk-5d66dea93b10874b191162cbdb0ab98a",
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3",
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 5,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "中国"
+  },
+  "8万余吨": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771134,
+    "update_time": 1778771134,
+    "_id": "8万余吨"
+  },
+  "12000吨": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "12000吨"
+  },
+  "30节": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "30节"
+  },
+  "112单元导弹垂直发射系统": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "112单元导弹垂直发射系统"
+  },
+  "130毫米主炮": {
+    "chunk_ids": [
+      "chunk-b31480a7e7df34735416e7d28a9105d3"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "130毫米主炮"
+  },
+  "191远程火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "191远程火箭炮"
+  },
+  "中国人民解放军东部战区台海演习": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "中国人民解放军东部战区台海演习"
+  },
+  "解放军报": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "解放军报"
+  },
+  "中国人民解放军陆军": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "中国人民解放军陆军"
+  },
+  "模块化设计": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "模块化设计"
+  },
+  "箱式发射单元": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "箱式发射单元"
+  },
+  "300毫米火箭弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "300毫米火箭弹"
+  },
+  "陆军战术弹道导弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "陆军战术弹道导弹"
+  },
+  "纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "纪念中国人民抗日战争暨世界反法西斯战争胜利80周年大会"
+  },
+  "天安门广场": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "天安门广场"
+  },
+  "PHL-03自行火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "PHL-03自行火箭炮"
+  },
+  "卫士-2火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "卫士-2火箭炮"
+  },
+  "中国四川航天工业总公司": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771135,
+    "update_time": 1778771135,
+    "_id": "中国四川航天工业总公司"
+  },
+  "第五届中国(珠海)航展": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "第五届中国(珠海)航展"
+  },
+  "福建沿海": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "福建沿海"
+  },
+  "台湾": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "台湾"
+  },
+  "406毫米口径火箭弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "406毫米口径火箭弹"
+  },
+  "神鹰400制导火箭炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "神鹰400制导火箭炮"
+  },
+  "中国航天科工集团": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "中国航天科工集团"
+  },
+  "2008年珠海航展": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "2008年珠海航展"
+  },
+  "2010年珠海航展": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "2010年珠海航展"
+  },
+  "BP-12A导弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "BP-12A导弹"
+  },
+  "卡塔尔": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "卡塔尔"
+  },
+  "缅甸": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "缅甸"
+  },
+  "孟加拉国": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "孟加拉国"
+  },
+  "155车载加榴炮": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08",
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 2,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "155车载加榴炮"
+  },
+  "东风-5弹道导弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08",
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 2,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "东风-5弹道导弹"
+  },
+  "AR-2": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "AR-2"
+  },
+  "WS-2": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "WS-2"
+  },
+  "8×8高机动轮式越野车": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "8×8高机动轮式越野车"
+  },
+  "高爆弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "高爆弹"
+  },
+  "燃烧弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771136,
+    "update_time": 1778771136,
+    "_id": "燃烧弹"
+  },
+  "钻地弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "钻地弹"
+  },
+  "子母弹": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "子母弹"
+  },
+  "简易惯性制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "简易惯性制导"
+  },
+  "GPS制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "GPS制导"
+  },
+  "全球卫星定位制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "全球卫星定位制导"
+  },
+  "电视制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "电视制导"
+  },
+  "红外线制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "红外线制导"
+  },
+  "激光制导": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "激光制导"
+  },
+  "小型无人机": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "小型无人机"
+  },
+  "反雷达作战": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "反雷达作战"
+  },
+  "电子干扰": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "电子干扰"
+  },
+  "火箭连": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "火箭连"
+  },
+  "指挥通信车": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "指挥通信车"
+  },
+  "发射车": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "发射车"
+  },
+  "固体燃料发动机": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "固体燃料发动机"
+  },
+  "燃气舵技术": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "燃气舵技术"
+  },
+  "惯性导航": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08",
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 2,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "惯性导航"
+  },
+  "东风-5": {
+    "chunk_ids": [
+      "chunk-19abd266427cf2f523ed74abe4c7fe08"
+    ],
+    "count": 1,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "东风-5"
+  },
+  "056型护卫舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 2,
+    "create_time": 1778771137,
+    "update_time": 1778771137,
+    "_id": "056型护卫舰"
+  },
+  "江岛级轻护卫舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 2,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "江岛级轻护卫舰"
+  },
+  "中国海军": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "中国海军"
+  },
+  "76毫米舰炮": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "76毫米舰炮"
+  },
+  "遥控自动机关炮": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "遥控自动机关炮"
+  },
+  "鹰击-83反舰导弹": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 2,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "鹰击-83反舰导弹"
+  },
+  "FL-3000N舰空导弹": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "FL-3000N舰空导弹"
+  },
+  "075型两栖攻击舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "075型两栖攻击舰"
+  },
+  "海南舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "海南舰"
+  },
+  "广西舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "广西舰"
+  },
+  "安徽舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "安徽舰"
+  },
+  "湖北舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "湖北舰"
+  },
+  "上海": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "上海"
+  },
+  "南海舰队": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "南海舰队"
+  },
+  "076型两栖攻击舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "076型两栖攻击舰"
+  },
+  "四川舰": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "四川舰"
+  },
+  "上海沪东中华造船厂": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "上海沪东中华造船厂"
+  },
+  "吴谦": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "吴谦"
+  },
+  "中国国防部": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 2,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "中国国防部"
+  },
+  "歼-15": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2",
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 3,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "歼-15"
+  },
+  "歼-11": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2",
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 4,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "歼-11"
+  },
+  "苏-33战斗机": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771138,
+    "update_time": 1778771138,
+    "_id": "苏-33战斗机"
+  },
+  "T-10K-3号机": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "T-10K-3号机"
+  },
+  "056型护卫舰首舰下水": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "056型护卫舰首舰下水"
+  },
+  "056型护卫舰首舰入列": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "056型护卫舰首舰入列"
+  },
+  "075型两栖攻击舰首舰下水仪式": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "075型两栖攻击舰首舰下水仪式"
+  },
+  "075型两栖攻击舰二号舰下水": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "075型两栖攻击舰二号舰下水"
+  },
+  "075型两栖攻击舰首舰航行试验": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "075型两栖攻击舰首舰航行试验"
+  },
+  "075型两栖攻击舰三号舰亮相": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "075型两栖攻击舰三号舰亮相"
+  },
+  "076型两栖攻击舰首舰下水": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "076型两栖攻击舰首舰下水"
+  },
+  "076型两栖攻击舰首舰出坞": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "076型两栖攻击舰首舰出坞"
+  },
+  "076型两栖攻击舰首舰首次航行试验": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "076型两栖攻击舰首舰首次航行试验"
+  },
+  "电磁弹射和阻拦技术": {
+    "chunk_ids": [
+      "chunk-04b46d90b58672bf577cb31b9b546afd"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "电磁弹射和阻拦技术"
+  },
+  "歼-15D": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "歼-15D"
+  },
+  "歼-15S": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "歼-15S"
+  },
+  "沈阳飞机工业集团": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "沈阳飞机工业集团"
+  },
+  "中航工业沈阳飞机设计研究所": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "中航工业沈阳飞机设计研究所"
+  },
+  "中航工业沈阳飞机工业(集团)有限公司": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "中航工业沈阳飞机工业(集团)有限公司"
+  },
+  "人民海军": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "人民海军"
+  },
+  "辽宁舰": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771139,
+    "update_time": 1778771139,
+    "_id": "辽宁舰"
+  },
+  "山东舰": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "山东舰"
+  },
+  "航母五件套": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "航母五件套"
+  },
+  "霹雳-9": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "霹雳-9"
+  },
+  "鹰击-83": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "鹰击-83"
+  },
+  "鹰击-91": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "鹰击-91"
+  },
+  "KD-88": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "KD-88"
+  },
+  "飞腾-2": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "飞腾-2"
+  },
+  "30毫米机炮": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "30毫米机炮"
+  },
+  "有源相控阵火控雷达": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "有源相控阵火控雷达"
+  },
+  "PL-15": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "PL-15"
+  },
+  "毫米波雷达": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "毫米波雷达"
+  },
+  "触控主屏": {
+    "chunk_ids": [
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "触控主屏"
+  },
+  "东风-31新型陆基洲际导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "东风-31新型陆基洲际导弹"
+  },
+  "东风-41洲际战略核导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "东风-41洲际战略核导弹"
+  },
+  "东风-26核常兼备导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "东风-26核常兼备导弹"
+  },
+  "东风-27远程弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633",
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 2,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "东风-27远程弹道导弹"
+  },
+  "火箭军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "火箭军"
+  },
+  "国庆70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633",
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 2,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "国庆70周年阅兵式"
+  },
+  "新中国成立70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "新中国成立70周年阅兵式"
+  },
+  "中国运载火箭技术研究院": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771140,
+    "update_time": 1778771140,
+    "_id": "中国运载火箭技术研究院"
+  },
+  "东风-5甲洲际弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "东风-5甲洲际弹道导弹"
+  },
+  "东风-5乙洲际弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "东风-5乙洲际弹道导弹"
+  },
+  "东风-5C洲际弹道导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "东风-5C洲际弹道导弹"
+  },
+  "中央专委": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "中央专委"
+  },
+  "国庆35周年阅兵式": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "国庆35周年阅兵式"
+  },
+  "美国民兵III导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "美国民兵III导弹"
+  },
+  "俄罗斯白杨SS导弹": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "俄罗斯白杨SS导弹"
+  },
+  "1980年5月18日首次全射程试验": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "1980年5月18日首次全射程试验"
+  },
+  "2012-2015年发射测试": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "2012-2015年发射测试"
+  },
+  "2017年边境地区部署": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "2017年边境地区部署"
+  },
+  "美军": {
+    "chunk_ids": [
+      "chunk-f6d193050226dfeef84543c4d4f03633",
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 2,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "美军"
+  },
+  "民机产品品牌命名规则": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "民机产品品牌命名规则"
+  },
+  "歼-16": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 2,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "歼-16"
+  },
+  "潜龙": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "潜龙"
+  },
+  "2025年5月": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "2025年5月"
+  },
+  "夜间对抗训练": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771141,
+    "update_time": 1778771141,
+    "_id": "夜间对抗训练"
+  },
+  "歼-10": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1",
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 3,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "歼-10"
+  },
+  "猛龙": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "猛龙"
+  },
+  "第三代战斗机": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "第三代战斗机"
+  },
+  "沈阳飞机工业(集团)有限公司": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "update_time": 1778771201,
+    "_id": "沈阳飞机工业(集团)有限公司"
+  },
+  "苏-27SK": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "苏-27SK"
+  },
+  "歼-35A": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-9bd7e42c9840aa987e2fbab905f020f2"
+    ],
+    "count": 2,
+    "update_time": 1778771202,
+    "_id": "歼-35A"
+  },
+  "中国航空工业集团": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "中国航空工业集团"
+  },
+  "沈阳飞机设计研究所": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "沈阳飞机设计研究所"
+  },
+  "FC-31": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "FC-31"
+  },
+  "鹘鹰": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "鹘鹰"
+  },
+  "第十五届中国航展": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 2,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "第十五届中国航展"
+  },
+  "珠海航展": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832",
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 2,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "珠海航展"
+  },
+  "国务院": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "国务院"
+  },
+  "中共中央": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "中共中央"
+  },
+  "航空航天工业部": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "航空航天工业部"
+  },
+  "国防科工委": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "国防科工委"
+  },
+  "沈飞": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "沈飞"
+  },
+  "霹雳15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "霹雳15"
+  },
+  "中国航空工业集团公司": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771142,
+    "update_time": 1778771142,
+    "_id": "中国航空工业集团公司"
+  },
+  "PL-15E": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "PL-15E"
+  },
+  "主动雷达导引技术": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "主动雷达导引技术"
+  },
+  "双脉冲发动机": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "双脉冲发动机"
+  },
+  "折叠尾翼设计": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "折叠尾翼设计"
+  },
+  "玻璃纤维复合材料": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "玻璃纤维复合材料"
+  },
+  "JF-17": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "JF-17"
+  },
+  "歼-20": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1",
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 2,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "歼-20"
+  },
+  "99A式主战坦克": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "99A式主战坦克"
+  },
+  "99式主战坦克": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "99式主战坦克"
+  },
+  "毛明院士": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "毛明院士"
+  },
+  "1500马力发动机": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "1500马力发动机"
+  },
+  "CH-1000型液力机械综合自动传动装置": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "CH-1000型液力机械综合自动传动装置"
+  },
+  "125毫米滑膛炮": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "125毫米滑膛炮"
+  },
+  "复合装甲": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "复合装甲"
+  },
+  "激光压制干扰系统": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "激光压制干扰系统"
+  },
+  "15式轻型坦克": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "15式轻型坦克"
+  },
+  "ZTQ-15": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "ZTQ-15"
+  },
+  "北方车辆": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1",
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 2,
+    "create_time": 1778771143,
+    "update_time": 1778771143,
+    "_id": "北方车辆"
+  },
+  "巴基斯坦空军": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "巴基斯坦空军"
+  },
+  "印度": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "印度"
+  },
+  "旁遮普邦": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "旁遮普邦"
+  },
+  "阿斯特拉Mark-2": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "阿斯特拉Mark-2"
+  },
+  "固体双推力火箭发动机": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "固体双推力火箭发动机"
+  },
+  "高效杆式杀伤战斗部": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "高效杆式杀伤战斗部"
+  },
+  "4马赫": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "4马赫"
+  },
+  "80公里": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "80公里"
+  },
+  "38G过载": {
+    "chunk_ids": [
+      "chunk-c52375ab041b92e6fc0a32d829ae29d1"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "38G过载"
+  },
+  "刃海级": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "刃海级"
+  },
+  "南昌舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "南昌舰"
+  },
+  "拉萨舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "拉萨舰"
+  },
+  "上海江南造船(集团)有限责任公司": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "上海江南造船(集团)有限责任公司"
+  },
+  "长兴造船基地": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "长兴造船基地"
+  },
+  "052D型驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "052D型驱逐舰"
+  },
+  "旅洋Ⅲ级驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "旅洋Ⅲ级驱逐舰"
+  },
+  "昆明号": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771144,
+    "update_time": 1778771144,
+    "_id": "昆明号"
+  },
+  "上海江南造船厂": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "上海江南造船厂"
+  },
+  "052C型驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "052C型驱逐舰"
+  },
+  "051C型驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "051C型驱逐舰"
+  },
+  "沈阳号驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "沈阳号驱逐舰"
+  },
+  "石家庄号驱逐舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "石家庄号驱逐舰"
+  },
+  "054A型护卫舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "054A型护卫舰"
+  },
+  "江凯Ⅱ级护卫舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "江凯Ⅱ级护卫舰"
+  },
+  "054型护卫舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "054型护卫舰"
+  },
+  "宜兴舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "宜兴舰"
+  },
+  "徐州号": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "徐州号"
+  },
+  "2017年6月28日": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "2017年6月28日"
+  },
+  "2020年1月12日": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "2020年1月12日"
+  },
+  "2021年3月2日": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "2021年3月2日"
+  },
+  "2012年8月28日": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "2012年8月28日"
+  },
+  "2023年1月15日": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "2023年1月15日"
+  },
+  "相控阵雷达": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "相控阵雷达"
+  },
+  "垂直发射区域防空导弹系统": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771145,
+    "update_time": 1778771145,
+    "_id": "垂直发射区域防空导弹系统"
+  },
+  "东部战区海军": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "东部战区海军"
+  },
+  "Type 901 Replenishment Ship": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "Type 901 Replenishment Ship"
+  },
+  "Type 903 Replenishment Ship": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "Type 903 Replenishment Ship"
+  },
+  "Type 903A Replenishment Ship": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "Type 903A Replenishment Ship"
+  },
+  "YJ-12 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "YJ-12 Anti-Ship Missile"
+  },
+  "YJ-18 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "YJ-18 Anti-Ship Missile"
+  },
+  "YJ-18C Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "YJ-18C Missile"
+  },
+  "YJ-21 Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "YJ-21 Missile"
+  },
+  "YJ-62 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "YJ-62 Anti-Ship Missile"
+  },
+  "YJ-83 Anti-Ship Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "YJ-83 Anti-Ship Missile"
+  },
+  "JL-2 Ballistic Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "JL-2 Ballistic Missile"
+  },
+  "Type 055 Destroyer": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "Type 055 Destroyer"
+  },
+  "H-6K Bomber": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "H-6K Bomber"
+  },
+  "HQ-16 Naval Air Defense Missile": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "HQ-16 Naval Air Defense Missile"
+  },
+  "70th National Day Military Parade": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "70th National Day Military Parade"
+  },
+  "14th China International Aviation and Aerospace Exhibition": {
+    "chunk_ids": [
+      "chunk-757015f89d4c935f7724a9ed12087838"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "14th China International Aviation and Aerospace Exhibition"
+  },
+  "Hongqi-22": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 2,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "Hongqi-22"
+  },
+  "People's Republic of China": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771146,
+    "update_time": 1778771146,
+    "_id": "People's Republic of China"
+  },
+  "70th Anniversary National Day Parade": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "70th Anniversary National Day Parade"
+  },
+  "Serbia": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9",
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 2,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Serbia"
+  },
+  "\"Power of Unity\" Parade": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "\"Power of Unity\" Parade"
+  },
+  "Fixed-wing Aircraft": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Fixed-wing Aircraft"
+  },
+  "Cruise Missiles": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Cruise Missiles"
+  },
+  "Air Defense and Missile Countermeasure Capability": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Air Defense and Missile Countermeasure Capability"
+  },
+  "Ground-to-Air Missile Weapon System": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Ground-to-Air Missile Weapon System"
+  },
+  "Medium-High Altitude, Medium-Range Air Defense": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Medium-High Altitude, Medium-Range Air Defense"
+  },
+  "Mobile Warfare Capability": {
+    "chunk_ids": [
+      "chunk-fb2683ab52babe1b4b3169f3fde79cb9"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "Mobile Warfare Capability"
+  },
+  "巨浪-2弹道导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "巨浪-2弹道导弹"
+  },
+  "巨浪-3潜射洲际导弹": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "巨浪-3潜射洲际导弹"
+  },
+  "沈阳飞机公司": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "沈阳飞机公司"
+  },
+  "096型战略核潜艇": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771147,
+    "update_time": 1778771147,
+    "_id": "096型战略核潜艇"
+  },
+  "东风系列": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "东风系列"
+  },
+  "惊雷-1": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "惊雷-1"
+  },
+  "纪念中国人民抗日战争暨世界反法西斯战争胜利80周年阅兵式": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "纪念中国人民抗日战争暨世界反法西斯战争胜利80周年阅兵式"
+  },
+  "庆祝中华人民共和国成立35周年大会": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "庆祝中华人民共和国成立35周年大会"
+  },
+  "庆祝中国人民解放军建军90周年阅兵": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "庆祝中国人民解放军建军90周年阅兵"
+  },
+  "第十一届珠海航展": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "第十一届珠海航展"
+  },
+  "第十四届中国航展": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a",
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 2,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "第十四届中国航展"
+  },
+  "三位一体战略核力量": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "三位一体战略核力量"
+  },
+  "巨浪-1": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "巨浪-1"
+  },
+  "涡扇-10发动机": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "涡扇-10发动机"
+  },
+  "Gsh-30-1型30毫米机关炮": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "Gsh-30-1型30毫米机关炮"
+  },
+  "自动电子扫描相控阵雷达": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "自动电子扫描相控阵雷达"
+  },
+  "成都": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "成都"
+  },
+  "珠海": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a",
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 2,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "珠海"
+  },
+  "龟背结构": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "龟背结构"
+  },
+  "二次核反击": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "二次核反击"
+  },
+  "固体战略弹道导弹项目": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "固体战略弹道导弹项目"
+  },
+  "15式坦克": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "15式坦克"
+  },
+  "黑豹": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771148,
+    "update_time": 1778771148,
+    "_id": "黑豹"
+  },
+  "庆祝改革开放40周年大型展览": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "庆祝改革开放40周年大型展览"
+  },
+  "新时代的中国国防": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "新时代的中国国防"
+  },
+  "新中国成立70周年国庆阅兵": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "新中国成立70周年国庆阅兵"
+  },
+  "新疆军区": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "新疆军区"
+  },
+  "高原驻训场": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "高原驻训场"
+  },
+  "62式轻型坦克": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "62式轻型坦克"
+  },
+  "04A式履带步战车": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "04A式履带步战车"
+  },
+  "ZBD-04A": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "ZBD-04A"
+  },
+  "中国兵器工业集团公司": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "中国兵器工业集团公司"
+  },
+  "04式步兵战车": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "04式步兵战车"
+  },
+  "纪念中国人民抗日战争胜利70周年阅兵式": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "纪念中国人民抗日战争胜利70周年阅兵式"
+  },
+  "中国北方工业公司": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "中国北方工业公司"
+  },
+  "数字化作战网络系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "数字化作战网络系统"
+  },
+  "北斗卫星导航系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "北斗卫星导航系统"
+  },
+  "新一代紧凑型柴油发动机": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "新一代紧凑型柴油发动机"
+  },
+  "综合传动系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "综合传动系统"
+  },
+  "105毫米线膛坦克炮": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771149,
+    "update_time": 1778771149,
+    "_id": "105毫米线膛坦克炮"
+  },
+  "新一代炮射反坦克导弹": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "新一代炮射反坦克导弹"
+  },
+  "尾舱式自动装弹机": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "尾舱式自动装弹机"
+  },
+  "440千瓦柴油发动机": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "440千瓦柴油发动机"
+  },
+  "100毫米线膛炮": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "100毫米线膛炮"
+  },
+  "30毫米自动炮": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "30毫米自动炮"
+  },
+  "7.62毫米并列机枪": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "7.62毫米并列机枪"
+  },
+  "猎-歼火控系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "猎-歼火控系统"
+  },
+  "北斗/惯性组合导航系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "北斗/惯性组合导航系统"
+  },
+  "战场敌我识别系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "战场敌我识别系统"
+  },
+  "综合电子信息系统": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "综合电子信息系统"
+  },
+  "数字化电台": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "数字化电台"
+  },
+  "烟幕弹发射器": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "烟幕弹发射器"
+  },
+  "二代自行火炮中型通用底盘": {
+    "chunk_ids": [
+      "chunk-4731a83decfc21288646e81408885206"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "二代自行火炮中型通用底盘"
+  },
+  "东风-26D导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "东风-26D导弹"
+  },
+  "东风-21弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "东风-21弹道导弹"
+  },
+  "东风-17导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "东风-17导弹"
+  },
+  "东风11甲地对地导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771150,
+    "update_time": 1778771150,
+    "_id": "东风11甲地对地导弹"
+  },
+  "东风-15弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "东风-15弹道导弹"
+  },
+  "中国人民解放军火箭军": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "中国人民解放军火箭军"
+  },
+  "巨浪一号潜地导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "巨浪一号潜地导弹"
+  },
+  "乘波体弹头": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "乘波体弹头"
+  },
+  "高超声速弹头": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "高超声速弹头"
+  },
+  "CSS-6": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "CSS-6"
+  },
+  "M-9": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "M-9"
+  },
+  "DF-21": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "DF-21"
+  },
+  "五轴自行式底盘": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "五轴自行式底盘"
+  },
+  "两级固体发动机": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "两级固体发动机"
+  },
+  "聚丁二烯复合推进剂": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "聚丁二烯复合推进剂"
+  },
+  "液体二次喷射控制方式": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "液体二次喷射控制方式"
+  },
+  "高超声速滑翔技术": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "高超声速滑翔技术"
+  },
+  "三棱锥形弹头": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "三棱锥形弹头"
+  },
+  "垂直发射方式": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "垂直发射方式"
+  },
+  "乘波体": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "乘波体"
+  },
+  "攻击-11": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "攻击-11"
+  },
+  "扁平化发动机喷口": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "扁平化发动机喷口"
+  },
+  "无尾飞翼构型": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771151,
+    "update_time": 1778771151,
+    "_id": "无尾飞翼构型"
+  },
+  "彩虹-7高空隐身无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "彩虹-7高空隐身无人机"
+  },
+  "中国航天科技集团": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "中国航天科技集团"
+  },
+  "航天彩虹无人机股份有限公司": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "航天彩虹无人机股份有限公司"
+  },
+  "WJ-700无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "WJ-700无人机"
+  },
+  "中国航天科工三院": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "中国航天科工三院"
+  },
+  "海鹰航空通用装备有限公司": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "海鹰航空通用装备有限公司"
+  },
+  "翼龙-2H": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "翼龙-2H"
+  },
+  "彩虹-6无人机": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e",
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 2,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "彩虹-6无人机"
+  },
+  "第十二届中国国际航空航天博览会": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "第十二届中国国际航空航天博览会"
+  },
+  "第十五届中国国际航空航天博览会": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "第十五届中国国际航空航天博览会"
+  },
+  "河南暴雨灾害": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "河南暴雨灾害"
+  },
+  "甘肃积石山地震": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "甘肃积石山地震"
+  },
+  "贵州省": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "贵州省"
+  },
+  "飞翼布局": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "飞翼布局"
+  },
+  "锯齿状海狸尾设计": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "锯齿状海狸尾设计"
+  },
+  "半隐藏式发动机尾喷管": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "半隐藏式发动机尾喷管"
+  },
+  "第十三届中国国际航空航天博览会": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e",
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 2,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "第十三届中国国际航空航天博览会"
+  },
+  "中国航天科技集团有限公司第十一研究院": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "中国航天科技集团有限公司第十一研究院"
+  },
+  "翼龙-2": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771152,
+    "update_time": 1778771152,
+    "_id": "翼龙-2"
+  },
+  "应急使命": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "应急使命"
+  },
+  "低可探测性能": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "低可探测性能"
+  },
+  "H-6N": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "H-6N"
+  },
+  "70th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "70th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War"
+  },
+  "East China Sea Air Defense Identification Zone": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "East China Sea Air Defense Identification Zone"
+  },
+  "Bashi Channel": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Bashi Channel"
+  },
+  "Miyako Strait": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Miyako Strait"
+  },
+  "Tsushima Strait": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Tsushima Strait"
+  },
+  "Russian Tu-95MS Bomber": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Russian Tu-95MS Bomber"
+  },
+  "Chukchi Sea": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Chukchi Sea"
+  },
+  "Bering Sea": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Bering Sea"
+  },
+  "15th China Air Show": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "15th China Air Show"
+  },
+  "Combat Readiness Patrol Around Taiwan Island": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Combat Readiness Patrol Around Taiwan Island"
+  },
+  "Strait Thunder-2025A Exercise": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Strait Thunder-2025A Exercise"
+  },
+  "80th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "80th Anniversary Of The Victory Of The Chinese People's War Of Resistance Against Japanese Aggression And The World Anti-Fascist War"
+  },
+  "H-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "H-20"
+  },
+  "KJ-3000": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "KJ-3000"
+  },
+  "Xi'an Aircraft Industry Group": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "Xi'an Aircraft Industry Group"
+  },
+  "National Day Parade 70th Anniversary": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "National Day Parade 70th Anniversary"
+  },
+  "China-Russia 9th Joint Air Strategic Patrol": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771153,
+    "update_time": 1778771153,
+    "_id": "China-Russia 9th Joint Air Strategic Patrol"
+  },
+  "Ma Xiaotian": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "Ma Xiaotian"
+  },
+  "AVIC": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "AVIC"
+  },
+  "Wang Wei": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "Wang Wei"
+  },
+  "First Island Chain": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "First Island Chain"
+  },
+  "Great Power Taking Off": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "Great Power Taking Off"
+  },
+  "Eternal Military Soul": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "Eternal Military Soul"
+  },
+  "J-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "J-20"
+  },
+  "Y-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "Y-20"
+  },
+  "Z-20": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "Z-20"
+  },
+  "KJ-200": {
+    "chunk_ids": [
+      "chunk-b3f6dbd085c699f93bdb83866be6350c"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "KJ-200"
+  },
+  "美国": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "美国"
+  },
+  "俄罗斯": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "俄罗斯"
+  },
+  "日本": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "日本"
+  },
+  "叙利亚": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "叙利亚"
+  },
+  "佩列斯韦特": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "佩列斯韦特"
+  },
+  "荚蒾": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "荚蒾"
+  },
+  "A-60机载战略激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "A-60机载战略激光武器"
+  },
+  "神光系列装置": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "神光系列装置"
+  },
+  "舰载激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "舰载激光武器"
+  },
+  "LY-1型激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771154,
+    "update_time": 1778771154,
+    "_id": "LY-1型激光武器"
+  },
+  "太阳神系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "太阳神系统"
+  },
+  "宙斯盾战斗系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "宙斯盾战斗系统"
+  },
+  "JYL-1A雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "JYL-1A雷达"
+  },
+  "JYL-1雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "JYL-1雷达"
+  },
+  "红旗-9防空导弹系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "红旗-9防空导弹系统"
+  },
+  "红旗-12防空导弹系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "红旗-12防空导弹系统"
+  },
+  "双坐标120型2D低空目标雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "双坐标120型2D低空目标雷达"
+  },
+  "JY-27雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "JY-27雷达"
+  },
+  "JY-27A雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "JY-27A雷达"
+  },
+  "JY-29/LSS-1 2D雷达": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "JY-29/LSS-1 2D雷达"
+  },
+  "071型两栖登陆舰": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "071型两栖登陆舰"
+  },
+  "伯克级驱逐舰": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "伯克级驱逐舰"
+  },
+  "1997年首次完成地基激光武器击毁卫星试验": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "1997年首次完成地基激光武器击毁卫星试验"
+  },
+  "抗战胜利80周年阅兵": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771155,
+    "update_time": 1778771155,
+    "_id": "抗战胜利80周年阅兵"
+  },
+  "巴黎航展": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "巴黎航展"
+  },
+  "世界雷达博览会": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "世界雷达博览会"
+  },
+  "巴尔米拉城": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "巴尔米拉城"
+  },
+  "反隐身能力": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "反隐身能力"
+  },
+  "大气衰减": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "大气衰减"
+  },
+  "气象条件": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "气象条件"
+  },
+  "软杀伤": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "软杀伤"
+  },
+  "硬杀伤": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "硬杀伤"
+  },
+  "烧蚀效应": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "烧蚀效应"
+  },
+  "能量存储装置": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "能量存储装置"
+  },
+  "新型冷却系统": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "新型冷却系统"
+  },
+  "天基激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "天基激光武器"
+  },
+  "地基激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "地基激光武器"
+  },
+  "涡扇发动机": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "涡扇发动机"
+  },
+  "涡桨发动机": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "涡桨发动机"
+  },
+  "阿特拉斯无人机蜂群作战系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "阿特拉斯无人机蜂群作战系统"
+  },
+  "蜂群2号陆战车": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "蜂群2号陆战车"
+  },
+  "指控车": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771156,
+    "update_time": 1778771156,
+    "_id": "指控车"
+  },
+  "保障车": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "保障车"
+  },
+  "微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "微波武器"
+  },
+  "定向能武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "定向能武器"
+  },
+  "高功率微波武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "高功率微波武器"
+  },
+  "反无人机方队": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "反无人机方队"
+  },
+  "激光武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "激光武器"
+  },
+  "弹炮武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "弹炮武器"
+  },
+  "反卫星激光武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "反卫星激光武器"
+  },
+  "高能激光束": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "高能激光束"
+  },
+  "CHAMP高功率微波导弹": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "CHAMP高功率微波导弹"
+  },
+  "Ranets-E防御系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "Ranets-E防御系统"
+  },
+  "Krasukha-4": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "Krasukha-4"
+  },
+  "佩列斯韦特战略激光武器": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "佩列斯韦特战略激光武器"
+  },
+  "荚蒾激光系统": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "荚蒾激光系统"
+  },
+  "SR-71黑鸟侦察机": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "SR-71黑鸟侦察机"
+  },
+  "Peresvet Strategic Laser Weapon": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "Peresvet Strategic Laser Weapon"
+  },
+  "Kalina Laser System": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "Kalina Laser System"
+  },
+  "SAR Radar": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "SAR Radar"
+  },
+  "Warning Radar": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "Warning Radar"
+  },
+  "Air-to-Ground Missile": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771157,
+    "update_time": 1778771157,
+    "_id": "Air-to-Ground Missile"
+  },
+  "Loitering Munition": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Loitering Munition"
+  },
+  "Swarm Control Algorithm": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Swarm Control Algorithm"
+  },
+  "Iron Triangle Defense System": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Iron Triangle Defense System"
+  },
+  "8x8 High Mobility Chassis": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "8x8 High Mobility Chassis"
+  },
+  "Dirt Runway": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Dirt Runway"
+  },
+  "Low Orbit Satellite": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Low Orbit Satellite"
+  },
+  "Surface Platform": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Surface Platform"
+  },
+  "Hongqi-17防空导弹系统": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Hongqi-17防空导弹系统"
+  },
+  "Hongqi-17AE": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Hongqi-17AE"
+  },
+  "Hongqi-19": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Hongqi-19"
+  },
+  "Hongqi-22防空导弹": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Hongqi-22防空导弹"
+  },
+  "FK-3": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "FK-3"
+  },
+  "Tor-M1": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Tor-M1"
+  },
+  "Zhuhai Airshow": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Zhuhai Airshow"
+  },
+  "Serbian Unity Parade": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "Serbian Unity Parade"
+  },
+  "People's Liberation Army Parade": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771158,
+    "update_time": 1778771158,
+    "_id": "People's Liberation Army Parade"
+  },
+  "National Day Parade": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "National Day Parade"
+  },
+  "Tilted Launch Angle": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Tilted Launch Angle"
+  },
+  "Active Radar Seeker": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Active Radar Seeker"
+  },
+  "Phased Array Radar": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Phased Array Radar"
+  },
+  "Hongqi-17": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Hongqi-17"
+  },
+  "Ballistic Missile": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Ballistic Missile"
+  },
+  "Hypersonic Glide Vehicle": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Hypersonic Glide Vehicle"
+  },
+  "Cruise Missile": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Cruise Missile"
+  },
+  "8 Compartment Module": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "8 Compartment Module"
+  },
+  "Electronic Missile Selection System": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Electronic Missile Selection System"
+  },
+  "Cylindrical Storage-Transport-Launch Canister": {
+    "chunk_ids": [
+      "chunk-a304b841923ff3f4b0cac84b22fd05b2"
+    ],
+    "count": 1,
+    "create_time": 1778771159,
+    "update_time": 1778771159,
+    "_id": "Cylindrical Storage-Transport-Launch Canister"
+  },
+  "Fiber Optic Guidance": {
+    "chunk_ids": [
+      "chunk-a6c58eb440d52cdbbe136ffdb2a4992a"
+    ],
+    "count": 1,
+    "create_time": 1778771166,
+    "update_time": 1778771166,
+    "_id": "Fiber Optic Guidance"
+  },
+  "Dongfeng Series Missiles": {
+    "chunk_ids": [
+      "chunk-36279db265c8672236969419f8ad5bf8"
+    ],
+    "count": 1,
+    "create_time": 1778771172,
+    "update_time": 1778771172,
+    "_id": "Dongfeng Series Missiles"
+  },
+  "Quad-Mount Launcher": {
+    "chunk_ids": [
+      "chunk-61385d5166d88f861fb75171fb78b5fc"
+    ],
+    "count": 1,
+    "create_time": 1778771180,
+    "update_time": 1778771180,
+    "_id": "Quad-Mount Launcher"
+  },
+  "空军某部": {
+    "chunk_ids": [
+      "chunk-80694e6b453c12f5da315d4b50c87832"
+    ],
+    "count": 1,
+    "create_time": 1778771207,
+    "update_time": 1778771207,
+    "_id": "空军某部"
+  },
+  "055型驱逐舰首舰": {
+    "chunk_ids": [
+      "chunk-b5ab03ee11b5a1268d6d7c08a4e4afe5"
+    ],
+    "count": 1,
+    "create_time": 1778771216,
+    "update_time": 1778771216,
+    "_id": "055型驱逐舰首舰"
+  },
+  "巨浪系列": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771221,
+    "update_time": 1778771221,
+    "_id": "巨浪系列"
+  },
+  "2015年": {
+    "chunk_ids": [
+      "chunk-5d66dea93b10874b191162cbdb0ab98a"
+    ],
+    "count": 1,
+    "create_time": 1778771222,
+    "update_time": 1778771222,
+    "_id": "2015年"
+  },
+  "东风-16弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771228,
+    "update_time": 1778771228,
+    "_id": "东风-16弹道导弹"
+  },
+  "东风-11导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-11导弹"
+  },
+  "东风-15B型": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771229,
+    "update_time": 1778771229,
+    "_id": "东风-15B型"
+  },
+  "东风-26导弹家族": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771230,
+    "update_time": 1778771230,
+    "_id": "东风-26导弹家族"
+  },
+  "中程弹道导弹": {
+    "chunk_ids": [
+      "chunk-038ddf1e5bbffbc2d8cad08f0e6438a3"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "中程弹道导弹"
+  },
+  "应急救灾型": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "应急救灾型"
+  },
+  "气象型": {
+    "chunk_ids": [
+      "chunk-20cb5a85f5c7beff50305b21a195412e"
+    ],
+    "count": 1,
+    "create_time": 1778771231,
+    "update_time": 1778771231,
+    "_id": "气象型"
+  },
+  "1兆瓦级功率": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "1兆瓦级功率"
+  },
+  "300千瓦级功率": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "300千瓦级功率"
+  },
+  "地基地激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "地基地激光武器"
+  },
+  "美国隐形战机": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "美国隐形战机"
+  },
+  "72个目标": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "72个目标"
+  },
+  "中美激光武器": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771237,
+    "update_time": 1778771237,
+    "_id": "中美激光武器"
+  },
+  "中高轨道卫星打击能力": {
+    "chunk_ids": [
+      "chunk-5ddaaa964e9f453ec408e945b3af0cf2"
+    ],
+    "count": 1,
+    "create_time": 1778771238,
+    "update_time": 1778771238,
+    "_id": "中高轨道卫星打击能力"
+  },
+  "Anti-Satellite Laser Weapon": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "Anti-Satellite Laser Weapon"
+  },
+  "CH-6 Drone": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771239,
+    "update_time": 1778771239,
+    "_id": "CH-6 Drone"
+  },
+  "Atlas Drone Swarm Combat System": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "Atlas Drone Swarm Combat System"
+  },
+  "High-Power Microwave Weapon": {
+    "chunk_ids": [
+      "chunk-8b231772b97253777c1632732ee0fbf1"
+    ],
+    "count": 1,
+    "create_time": 1778771240,
+    "update_time": 1778771240,
+    "_id": "High-Power Microwave Weapon"
+  }
+}

@@ -1,30 +1,31 @@
 import datetime
+import hashlib
 import os
 import json
+from typing import Dict, List, Optional
 import numpy as np
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import TextLoader, JSONLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from utils.logger import get_logger
 from models.factory import embed_model
-from utils.config_handler import chroma_conf
+from utils.config_handler import db_conf
 from utils.path_tools import get_abs_path, get_skills_path
 
-from langchain_classic.indexes import SQLRecordManager, index
 
 logger = get_logger()
 
 class RAG:
     """RAG功能实现，用于存储和检索专业知识"""
     
-    def __init__(self, collection_name=chroma_conf["data_collection_name"]):
+    def __init__(self, collection_name=db_conf["data_collection_name"], persist_directory=get_abs_path(db_conf["directory"])):
         """初始化RAG
         """
         logger.info("初始化RAG")
         self.vector_store = Chroma(
             collection_name=collection_name,
             embedding_function=embed_model,
-            persist_directory=get_abs_path(chroma_conf["persist_directory"]),
+            persist_directory=persist_directory,
         )
         self.embeddings = embed_model
         self.text_splitter = RecursiveCharacterTextSplitter(
@@ -32,33 +33,63 @@ class RAG:
             chunk_overlap=200,
             length_function=len
         )
-        self.record_manager = SQLRecordManager(
-            namespace="chroma/docs",
-            db_url=f"sqlite:///{get_abs_path(chroma_conf["langchain_indexing"])}"
-        )
-        self.record_manager.create_schema()
         
-    def add_text(self, text: str, src: str):
+    def get_text_id(self, text: str) -> str:
+        """根据标准化后的文本生成唯一 ID"""
+        normalized = text.strip()
+        return hashlib.md5(normalized.encode("utf-8")).hexdigest()
+    def add_text(self, text: str, category: str):
         """
         添加文本到知识库
         """
-        if len(text) > chroma_conf["chunk_size"]:
+        if len(text) > db_conf["chunk_size"]:
             knowledge_chunks: list[str] = self.spliter.split_text(text)
         else:
             knowledge_chunks = [text]
 
         metadata = {
-            "source": src,
-            "create_time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "category": category
         }
-    
+
+        ids=[self.get_text_id(text) for text in knowledge_chunks]
+
+        self.vector_store.get
         self.vector_store.add_texts(      # 内容就加载到向量库中了
             # iterable -> list \ tuple
             knowledge_chunks,
             metadatas=[metadata for _ in knowledge_chunks],
+            ids=ids
         )
 
-        logger.info(f"文本{src}已添加到知识库")
+        logger.info(f"文本{text}已添加到知识库")
+
+        return ids
+
+    async def aadd_text(self, text: str, category: str):
+        """
+        添加文本到知识库
+        """
+        if len(text) > db_conf["chunk_size"]:
+            knowledge_chunks: list[str] = self.spliter.split_text(text)
+        else:
+            knowledge_chunks = [text]
+
+        metadata = {
+            "category": category,
+        }
+
+        ids = [self.get_text_id(text) for text in knowledge_chunks]
+    
+        await self.vector_store.aadd_texts(      # 内容就加载到向量库中了
+            # iterable -> list \ tuple
+            knowledge_chunks,
+            metadatas=[metadata for _ in knowledge_chunks],
+            ids=ids
+        )
+
+        logger.info(f"文本{text}已添加到知识库")
+
+        return ids
 
     def add_document(self, file_path):
         """添加文档到知识库
@@ -86,47 +117,11 @@ class RAG:
             # 分割文档
             split_docs = self.text_splitter.split_documents(documents)
             logger.info(f"文档分割完成，生成{len(split_docs)}个文档块")
-            
-            # 添加到向量存储
-            # self.vector_store.add_documents(split_docs)
-            result = index(
-                docs_source=split_docs,
-                record_manager=self.record_manager,
-                vector_store=self.vector_store,
-                cleanup="incremental",
-                source_id_key="source"
-            )
-            
-            logger.info(f"文档添加成功: {file_path}\n索引结果为：{result}")
+                        
         except Exception as e:
             logger.error(f"添加文档失败: {e}", exc_info=True)
-    
-    def save_snapshot(self, snapshot, snapshot_file):
-        """将快照保存到文件（JSON格式）"""
-        with open(snapshot_file, 'w', encoding='utf-8') as f:
-            json.dump(snapshot, f, ensure_ascii=False, indent=2)
 
-    def load_snapshot(self, snapshot_file):
-        """从文件加载快照"""
-        if not os.path.exists(snapshot_file):
-            with open(snapshot_file, 'w') as f:
-                json.dump({}, f, indent=2)
-                return {}
 
-        with open(snapshot_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-        
-    def check_snapshot(self, snapshot, file_path):
-        """检查快照是否更新"""
-        stat_size = os.path.getsize(file_path)
-        stat_time = os.path.getmtime(file_path)
-        
-        if file_path not in snapshot or snapshot[file_path] != [stat_size, stat_time]:
-            print("="*20)
-            snapshot[file_path] = (stat_size, stat_time)
-            return True
-        
-        return False
 
     def add_skill_documents(self, skills_path=get_skills_path("")):
         """添加Skills目录下的所有文档到知识库
@@ -136,10 +131,6 @@ class RAG:
         """
         try:
             logger.info(f"开始添加Skills目录下的文档: {skills_path}")
-
-            snapshot_path = get_abs_path(chroma_conf["snapshot_path"])
-
-            snapshot = self.load_snapshot(snapshot_path)
             
             # 遍历Skills目录下的所有文件
             for root, dirs, files in os.walk(skills_path):
@@ -147,11 +138,8 @@ class RAG:
                     for file in files:
                         if file.endswith(('.md', '.txt', '.json')):
                             file_path = os.path.join(root, file)
-                            if self.check_snapshot(snapshot, file_path):
-                                self.add_document(file_path)
+                            self.add_document(file_path)
             
-            self.save_snapshot(snapshot, snapshot_path)
-
             logger.info("Skills文档添加完成")
         except Exception as e:
             logger.error(f"添加Skills文档失败: {e}", exc_info=True)
@@ -174,7 +162,42 @@ class RAG:
             
             # 相似度搜索
             results = self.vector_store.similarity_search(query, k=k)
+
+            # 格式化结果
+            # formatted_results = []
+            # for i, result in enumerate(results):
+            #     formatted_results.append({
+            #         "content": result.page_content,
+            #         "source": result.metadata.get("source", "unknown"),
+            #         "score": 1.0  # 返回分数，待计算
+            #     })
             
+            logger.info(f"查询完成，返回{len(results)}条结果")
+            # return formatted_results
+            return results
+        except Exception as e:
+            logger.error(f"查询失败: {e}", exc_info=True)
+            return []
+        
+    async def aquery(self, query, k=3):
+        """查询知识库
+        
+        Args:
+            query: 查询文本
+            k: 返回结果数量
+            
+        Returns:
+            相关文档列表
+        """
+        try:
+            logger.info(f"查询知识库: {query[:20]}..., 限制返回{ k }条结果")
+            if not self.vector_store:
+                logger.warning("知识库为空，请先添加文档")
+                return []
+            
+            # 相似度搜索
+            results = await self.vector_store.asimilarity_search(query, k=k)
+                        
             # 格式化结果
             # formatted_results = []
             # for i, result in enumerate(results):
@@ -206,23 +229,53 @@ class RAG:
         logger.info(f"获取到{len(results)}条相关知识")
         return results
     
+    def get_texts_by_category(self, category: str):
+        """
+        根据类别获取所有文本，返回字典列表，包含 id、文本。
+        """
+        results = self.vector_store.get(
+            where={"category": category},
+            include=["documents"]
+        )
+        if results["ids"]:
+            return [
+                {"k_id": id_, "kb_id": category, "content": doc}
+                for id_, doc in zip(
+                    results["ids"], results["documents"]
+                )
+            ]
+        return []
+    
+    async def adelete_text_by_id(self, id: str) -> bool:
+        """
+        根据文本内容删除对应记录。
+        返回 True 表示删除成功，False 表示未找到。
+        """
+        try:
+            await self.vector_store.adelete(ids=[id])
+
+        except Exception as e:
+            logger.error(f"删除失败: {e}", exc_info=True)
+            return False
+        
+        return True
+
+    
 
 # 示例用法
 if __name__ == "__main__":
     rag = RAG()
     
-    # 添加Skills文档
-    path = get_skills_path()
+    rag.add_text("这是一个测试文本", "environment")
+    rag.add_text("这是一个测试文本", "formation")
+    rag.add_text("这是一个测试文本", "weapon")
+    rag.add_text("这是一个测试文本", "tactics")
+    rag.add_text("这是一个测试文本", "task")
+    rag.add_text("这是一个测试文本", "other")
 
-    rag.add_skill_documents(path)
+    print(rag.get_texts_by_category("other"))
+
     
-    # 测试查询
-    results = rag.query("陆战想定生成规则")
-    print("查询结果:")
-    for i, result in enumerate(results):
-        print(f"{i+1}. 来源: {result['source']}")
-        print(f"   内容: {result['content'][:100]}...")
-        print()
 
 
 

@@ -1,0 +1,286 @@
+{
+  "doc-c01313aea30ec9826032eee45f83a133": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-63dfd7a87dfd28f5856896abb13b5c87",
+      "chunk-272b00f6d97de5a3de8f78e2d6a7851e",
+      "chunk-1a7610865bc56fc73c1989a23548f347",
+      "chunk-516fa4bb2c82a8017519f0c1ee450177",
+      "chunk-12f6aa4929841ed6a30ffdcdab213e7b",
+      "chunk-03a7d3d9560fe2b56cedf3cfdaba2f4a",
+      "chunk-43827b67edd15288722ea2a5a3a94f03",
+      "chunk-6e8cfc7a602ac472213d15ef41cf6d81",
+      "chunk-bfc767a21213904a266f2129f2b1351e",
+      "chunk-770e75b09bf3306fb7e43a79786bc058",
+      "chunk-b023ae1c5d93443720b726ec81502bff",
+      "chunk-4b7fae9e6c5c9adcf919f15d77e75c3b",
+      "chunk-3fc098f3a3543d54bc8f0881ae2eae85",
+      "chunk-f675a29b15c1691c9d14df4800ef9dcf"
+    ],
+    "content_summary": "Chapter 2\nCommon Tactical Concepts and Echelons\nTacticians apply common tactical concepts, military definitions, and the tactical\nechelons and organizations as they conduct offensive and defensive operations. This\nchapter discusses joint interdepende...",
+    "content_length": 74504,
+    "created_at": "2026-05-14T07:26:09.147870+00:00",
+    "updated_at": "2026-05-14T07:43:34.080767+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_152609_6c36e5c9",
+    "metadata": {
+      "processing_start_time": 1778743569,
+      "processing_end_time": 1778744614
+    }
+  },
+  "dup-697ff9f97986627f7f69ecaad69f8a42": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-c01313aea30ec9826032eee45f83a133",
+    "content_length": 74504,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T07:46:27.954281+00:00",
+    "updated_at": "2026-05-14T07:46:27.954281+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_154627_11529a69",
+    "error_msg": "Content already exists. Original doc_id: doc-c01313aea30ec9826032eee45f83a133, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-c01313aea30ec9826032eee45f83a133",
+      "original_track_id": "insert_20260514_152609_6c36e5c9"
+    }
+  },
+  "doc-867a90ccf0fce24f869574108814762b": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-1fa0cb96393bbc79e8f283b9593a9806",
+      "chunk-16d8c89f5caf99f0ea4f94711e809c9b",
+      "chunk-da551c8c73e884b03192b52010d81be5",
+      "chunk-9c73d56d8e9bfb3038d769d096b30c5f",
+      "chunk-64c2b09506eccedb4b06b038490a26a5",
+      "chunk-4fe75aaa5c3fd7e0ce8f1c7accd42b83",
+      "chunk-b6bf6abab46637a933d4adcc9ec578f4",
+      "chunk-a8e712cfc21b1d5eeb7e94fcc0ac1db7",
+      "chunk-4240b292090a3a425c9dae95b6a7c26a",
+      "chunk-279aa3020dae92333d1d26e60241ff57",
+      "chunk-e273c9c49d54aea292dd6741d10a78d4",
+      "chunk-71131e902d37087dc65113f52eae4eb8",
+      "chunk-c3b45e15d5cccdd3d631ceeba2a6d8d0",
+      "chunk-abe3f08fafe8b7389e20d639ffaa8692"
+    ],
+    "content_summary": "Chapter 3\nThe Offense\nThis chapter discusses the basics of the offense. These basics include the purposes of\nthe offense, characteristics of the offense, types of offensive operations, common\noffensive control measures, common offensive planning cons...",
+    "content_length": 78663,
+    "created_at": "2026-05-14T07:46:32.560062+00:00",
+    "updated_at": "2026-05-14T08:07:48.920533+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_154632_96261297",
+    "metadata": {
+      "processing_start_time": 1778744981,
+      "processing_end_time": 1778746068
+    }
+  },
+  "dup-625f2d5fb1099c7adc6fba458c92d79a": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-867a90ccf0fce24f869574108814762b",
+    "content_length": 78663,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T07:49:41.520252+00:00",
+    "updated_at": "2026-05-14T07:49:41.520252+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_154941_7dc9bbe3",
+    "error_msg": "Content already exists. Original doc_id: doc-867a90ccf0fce24f869574108814762b, Status: pending",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-867a90ccf0fce24f869574108814762b",
+      "original_track_id": "insert_20260514_154632_96261297"
+    }
+  },
+  "doc-e42383e9a8812ef94821d3fb139d7dfe": {
+    "status": "processed",
+    "chunks_count": 15,
+    "chunks_list": [
+      "chunk-3345760dcbfb2262ee6ddfa43b1677ad",
+      "chunk-ef422907967635431abf4581ffee5bb8",
+      "chunk-7d8387d6c63026bf8e7495c788ece1b3",
+      "chunk-16fb9a43ba23b08191569577e00618b7",
+      "chunk-adabd6aa6271efdc850feccf7016cdf0",
+      "chunk-12d54164de431a3e56787d0f04dea3cf",
+      "chunk-43a1cd0ab6021273635c13e3b7af3476",
+      "chunk-832f2104ac2a57f71576e95a87a29163",
+      "chunk-069de81fea4e6c37c85bab0a5a971f89",
+      "chunk-d61f4b5597bdee4add1bccdba2cbd3ff",
+      "chunk-f4e12f4d30fc2f3059510d3457b00e7b",
+      "chunk-fea48c62cf850e8a658d6027f583efe1",
+      "chunk-2d85f7f19b9f147f37bc741a7c59d700",
+      "chunk-2ac9465c9d545f87eb3a80e932a498f3",
+      "chunk-a418b78a90bc5acb3f47736189745955"
+    ],
+    "content_summary": "Chapter 4\nThe Defense\nThis chapter discusses the basics of defensive operations. These basics include the\npurposes of the defense, characteristics of the defense, the three types of defensive\noperations, common defensive control measures, common defe...",
+    "content_length": 81579,
+    "created_at": "2026-05-14T08:10:43.053979+00:00",
+    "updated_at": "2026-05-14T08:29:33.045530+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_161043_aea409d4",
+    "metadata": {
+      "processing_start_time": 1778746243,
+      "processing_end_time": 1778747373
+    }
+  },
+  "dup-a5ad199e2a0aab84e2121e46431c605d": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-e42383e9a8812ef94821d3fb139d7dfe",
+    "content_length": 81579,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T08:32:07.619982+00:00",
+    "updated_at": "2026-05-14T08:32:07.619982+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_163207_9467849d",
+    "error_msg": "Content already exists. Original doc_id: doc-e42383e9a8812ef94821d3fb139d7dfe, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-e42383e9a8812ef94821d3fb139d7dfe",
+      "original_track_id": "insert_20260514_161043_aea409d4"
+    }
+  },
+  "doc-a92661c58041afcc6ab103c8a8c2352c": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-2a88d8c8678543b9eb4fa95b4ea87591",
+      "chunk-03ce33eb77548e57e227d14350711715",
+      "chunk-b036aa74f3adbdabd1d826936e991c47"
+    ],
+    "content_summary": "Chapter 5\nEnabling Operations\nThe enabling operations discussed in this chapter are reconnaissance, security, troop\nmovement, relief in place, and passage of lines. Enabling operations apply to all\nelements of decisive action. Other publications disc...",
+    "content_length": 16389,
+    "created_at": "2026-05-14T08:32:22.801573+00:00",
+    "updated_at": "2026-05-14T08:39:43.284612+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_163222_05463cd2",
+    "metadata": {
+      "processing_start_time": 1778747900,
+      "processing_end_time": 1778747983
+    }
+  },
+  "dup-77ae18e49e604221e714743d6ecb12a9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-a92661c58041afcc6ab103c8a8c2352c",
+    "content_length": 16389,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T08:38:20.798202+00:00",
+    "updated_at": "2026-05-14T08:38:20.798202+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_163820_303d0e46",
+    "error_msg": "Content already exists. Original doc_id: doc-a92661c58041afcc6ab103c8a8c2352c, Status: failed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-a92661c58041afcc6ab103c8a8c2352c",
+      "original_track_id": "insert_20260514_163222_05463cd2"
+    }
+  },
+  "doc-d9e4ee9370f90d04a15d5ce55d5d9f40": {
+    "status": "processed",
+    "chunks_count": 16,
+    "chunks_list": [
+      "chunk-c503bd64404512328ab83ccc0ba0997e",
+      "chunk-d765189e92be25ee08b9a34a1f6fb186",
+      "chunk-446c344294ac1157381c690e0f0b5d6c",
+      "chunk-410889a9720065d35de43976293caee3",
+      "chunk-7b470a806dd10d8280c0cdf136820189",
+      "chunk-ecb60400466a6008ca4dd586ce73558f",
+      "chunk-94b0f13f75f0bd64d503a14651482e66",
+      "chunk-da2039fcc410ab417ea95cf892f406c7",
+      "chunk-dfe3e79800d49e6c15cc7d1d7485cab2",
+      "chunk-63ff2850046e68e7092903c98bb6595e",
+      "chunk-39bd2e6c05ba9ec2683ab1b01bd4603d",
+      "chunk-32189ba42b4061e42fcfd89b6143133c",
+      "chunk-b8dbf8d99e2395e386c1df16f3ddc745",
+      "chunk-02c0ca8e3a28d2a5576fbc54974744ac",
+      "chunk-a14acea44dac3d3616369b19ec0f2146",
+      "chunk-5b14fece49276b354d02ce9679408699"
+    ],
+    "content_summary": "Chapter I\nThe Urban Environment\n1. The Nature of the Urban Environment\na. This publication addresses planners’ and tactical operators’ unique\nconsiderations for conducting aviation operations within topographically complex\nareas and the adjacent natu...",
+    "content_length": 77721,
+    "created_at": "2026-05-14T09:18:40.091695+00:00",
+    "updated_at": "2026-05-14T09:39:51.034742+00:00",
+    "file_path": "D:\\Academic resources\\ARN34839-ATP_3-06.1-000-WEB-1.pdf",
+    "track_id": "insert_20260514_171840_77a69c64",
+    "metadata": {
+      "processing_start_time": 1778750320,
+      "processing_end_time": 1778751591
+    }
+  },
+  "doc-791fc3c9bd86777f1a3731a8e55acb9a": {
+    "status": "processed",
+    "chunks_count": 12,
+    "chunks_list": [
+      "chunk-950f5d02c8283b123e3471016b2f74a1",
+      "chunk-ef6e82af28ec6fa5c74054f474ea4690",
+      "chunk-d264de22c88d1296cd175906c25ab76b",
+      "chunk-5ada7ac41ab629e1f7809edf7d62800b",
+      "chunk-660d19754e7a8b4d28766ae683085446",
+      "chunk-fa8d93750f6d13a9825215c8b00f7149",
+      "chunk-c69d05b2f34d86a1867e7e7939634802",
+      "chunk-d90513532ac94b30a700a8204e509e17",
+      "chunk-a75fd9bf2d8ffd7deb7994794314ba94",
+      "chunk-5bdc5217db0cca10554a11bb5c365968",
+      "chunk-7e4dfc214ed288fc6b13f2a08be74357",
+      "chunk-d3a0c67aeaade5d9ae17a53e58e80e73"
+    ],
+    "content_summary": "Chapter 5\nArmy Special Operations Forces During Competition,\nCrisis, and Armed Conflict\nThis is another type of warfare, new in its intensity, ancient in its origins, war by\nguerrillas, subversives, insurgents, assassins, war by ambush instead of by ...",
+    "content_length": 64705,
+    "created_at": "2026-05-14T11:16:51.987700+00:00",
+    "updated_at": "2026-05-14T11:30:58.598386+00:00",
+    "file_path": "D:\\Academic resources\\ARN44116-FM_3-05-000-WEB-1.pdf",
+    "track_id": "insert_20260514_191651_8129bfb7",
+    "metadata": {
+      "processing_start_time": 1778757412,
+      "processing_end_time": 1778758258
+    }
+  },
+  "doc-2e26c656078a1673d5e380d0abe0b7fb": {
+    "status": "processed",
+    "chunks_count": 30,
+    "chunks_list": [
+      "chunk-bd09d5c1d391b2d64517a5d72254efc7",
+      "chunk-8cb3d0930de98ddce6ed3ada6a6c40cf",
+      "chunk-fc1b95a684a1e8d5c4b01db867ca78af",
+      "chunk-adaee111f19e7fd13f315f0ca1141b82",
+      "chunk-6a7ca33dacb79b2456dfa0debe68053e",
+      "chunk-d121313ed4af44c28824fd63c5a94377",
+      "chunk-0e0c57d3e73a6d0c3b1cbe5a2f59e546",
+      "chunk-e04593a83987ff6eb98f28906bbd37f6",
+      "chunk-cd2c67ada43a04708429aa1e720d42cd",
+      "chunk-a37387a27a64b26277551e337553582b",
+      "chunk-3c4507fc3a4f571c8dfbaa23d9a738cc",
+      "chunk-ed783d4ec3a234cf3d010d793d561f17",
+      "chunk-c6faa94aab2e13591315f79ebbd49ab0",
+      "chunk-278d433e3502ea4bdab16646b23bed0b",
+      "chunk-f976415bdf294d82666a68528ec01480",
+      "chunk-6ef40d1e9a5996f2179f1b53a42ee90d",
+      "chunk-acade8ec9a9d5344060a4314cfa18a5b",
+      "chunk-d4a15c71581af907f47533c1630b8096",
+      "chunk-503de8a915400d2e62dbb9df698d826a",
+      "chunk-8dcb0d8a5efb5ce308ca2c93988c72be",
+      "chunk-3473302fed80b78e94b810b62c26e3a4",
+      "chunk-15fb7baa23082d86c7d6fc25d3cc0e12",
+      "chunk-193261eb3b1bd80c929ecfd74166b738",
+      "chunk-0f1c7260e4a898eeeb86c6568add6249",
+      "chunk-9e097e89b46e0363b0e3141cd6e6f7d1",
+      "chunk-0e07adaae816a485b8bdcdde27baecf8",
+      "chunk-663e6d2263b508d6a68885919457bd03",
+      "chunk-65ec4365c5ad1d3448d3d2041d7edb2c",
+      "chunk-6d02d8715ba139ee7e2b9f2ae7c7d9bf",
+      "chunk-a4b4ce335843ab582068db841084575c"
+    ],
+    "content_summary": "Abrams Tank Upgrade — M1\nPEO Ground Combat Systems | Detroit Arsenal, MI\nDESCRIPTION M1A2 SEPv2: All M1A2 tanks have two sights, a gunner’s\nThe Abrams Main Battle Tank closes with and destroys the and commander’s sight, which increase the tank’s leth...",
+    "content_length": 139794,
+    "created_at": "2026-05-15T07:19:20.455576+00:00",
+    "updated_at": "2026-05-15T07:57:31.588449+00:00",
+    "file_path": "D:\\Academic resources\\WEAPON_SYSTEMS_HANDBOOK.pdf",
+    "track_id": "insert_20260515_151920_fc167bd0",
+    "metadata": {
+      "processing_start_time": 1778829560,
+      "processing_end_time": 1778831851
+    }
+  }
+}

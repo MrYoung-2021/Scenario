@@ -1,0 +1,118 @@
+{
+  "doc-c01313aea30ec9826032eee45f83a133": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-63dfd7a87dfd28f5856896abb13b5c87",
+      "chunk-272b00f6d97de5a3de8f78e2d6a7851e",
+      "chunk-1a7610865bc56fc73c1989a23548f347",
+      "chunk-516fa4bb2c82a8017519f0c1ee450177",
+      "chunk-12f6aa4929841ed6a30ffdcdab213e7b",
+      "chunk-03a7d3d9560fe2b56cedf3cfdaba2f4a",
+      "chunk-43827b67edd15288722ea2a5a3a94f03",
+      "chunk-6e8cfc7a602ac472213d15ef41cf6d81",
+      "chunk-bfc767a21213904a266f2129f2b1351e",
+      "chunk-770e75b09bf3306fb7e43a79786bc058",
+      "chunk-b023ae1c5d93443720b726ec81502bff",
+      "chunk-4b7fae9e6c5c9adcf919f15d77e75c3b",
+      "chunk-3fc098f3a3543d54bc8f0881ae2eae85",
+      "chunk-f675a29b15c1691c9d14df4800ef9dcf"
+    ],
+    "content_summary": "Chapter 2\nCommon Tactical Concepts and Echelons\nTacticians apply common tactical concepts, military definitions, and the tactical\nechelons and organizations as they conduct offensive and defensive operations. This\nchapter discusses joint interdepende...",
+    "content_length": 74504,
+    "created_at": "2026-05-14T07:26:09.147870+00:00",
+    "updated_at": "2026-05-14T07:43:34.080767+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_152609_6c36e5c9",
+    "metadata": {
+      "processing_start_time": 1778743569,
+      "processing_end_time": 1778744614
+    }
+  },
+  "dup-697ff9f97986627f7f69ecaad69f8a42": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-c01313aea30ec9826032eee45f83a133",
+    "content_length": 74504,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T07:46:27.954281+00:00",
+    "updated_at": "2026-05-14T07:46:27.954281+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_154627_11529a69",
+    "error_msg": "Content already exists. Original doc_id: doc-c01313aea30ec9826032eee45f83a133, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-c01313aea30ec9826032eee45f83a133",
+      "original_track_id": "insert_20260514_152609_6c36e5c9"
+    }
+  },
+  "dup-a6cbd0a81cef04d847e021a1db9d6837": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-c01313aea30ec9826032eee45f83a133",
+    "content_length": 74504,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T07:48:58.290862+00:00",
+    "updated_at": "2026-05-14T07:48:58.290862+00:00",
+    "file_path": "D:\\Academic resources\\ARN34828-ADP_3-90-000-WEB-1.pdf",
+    "track_id": "insert_20260514_154858_f9d28568",
+    "error_msg": "Content already exists. Original doc_id: doc-c01313aea30ec9826032eee45f83a133, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-c01313aea30ec9826032eee45f83a133",
+      "original_track_id": "insert_20260514_152609_6c36e5c9"
+    }
+  },
+  "doc-23768ed72a18de2f8132a6308530ab3e": {
+    "status": "processed",
+    "chunks_count": 19,
+    "chunks_list": [
+      "chunk-46540f7346ac66e8acd8448d556926d5",
+      "chunk-1118e47016e1aacd6394fca251ed2dba",
+      "chunk-d083ee11e02b24e5e46d8ecfba9df6bc",
+      "chunk-51979d8934c76925b7391cb149c853a0",
+      "chunk-a83d27ea86b67140cb6a36139ae1786c",
+      "chunk-02a07dcb1b08c46f988ffe232de0ba6b",
+      "chunk-1e2883359c75bc6fc3da995f38d6437f",
+      "chunk-b27d7d56a1c67174500dfb742aa9fc91",
+      "chunk-634019196f631f7ab3b7db7cf3971a9d",
+      "chunk-1c96559ad2979a6465236d374730b783",
+      "chunk-7e2c950368aaaddb9954e21827ca6fc1",
+      "chunk-89c2c3d76fec30a58c9326c2f2fbff67",
+      "chunk-65ca07053c85879007a4b12d71977eb3",
+      "chunk-2f24a47cacf5b4d8c879d2cac52eda18",
+      "chunk-7ec1050b8c05b4ecb8bdb51a5d2c0abb",
+      "chunk-b0b01db05e3701dde254ad8d25610798",
+      "chunk-7124d28a5494b25065ecde8dbfca305b",
+      "chunk-b2ba37bc0e16b243f02ab5b7be2e100c",
+      "chunk-3eaac3759faff54df152d27018118936"
+    ],
+    "content_summary": "Chapter 1\nArmy Special Operations Forces\nOur forces, therefore, must fulfill a broader role as a complement to our diplomacy, as an\narm of our diplomacy, as a deterrent to our adversaries, and as a symbol to our allies of\nour determination to support...",
+    "content_length": 103924,
+    "created_at": "2026-05-14T10:17:42.430880+00:00",
+    "updated_at": "2026-05-14T10:43:44.883106+00:00",
+    "file_path": "D:\\Academic resources\\ARN44116-FM_3-05-000-WEB-1.pdf",
+    "track_id": "insert_20260514_181742_0b37f96a",
+    "metadata": {
+      "processing_start_time": 1778754737,
+      "processing_end_time": 1778755424
+    }
+  },
+  "dup-cfc627c504c4a003bdcffd7a319173d2": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-23768ed72a18de2f8132a6308530ab3e",
+    "content_length": 103924,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-05-14T10:32:17.707650+00:00",
+    "updated_at": "2026-05-14T10:32:17.707650+00:00",
+    "file_path": "D:\\Academic resources\\ARN44116-FM_3-05-000-WEB-1.pdf",
+    "track_id": "insert_20260514_183217_8d5b3c1c",
+    "error_msg": "Content already exists. Original doc_id: doc-23768ed72a18de2f8132a6308530ab3e, Status: failed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-23768ed72a18de2f8132a6308530ab3e",
+      "original_track_id": "insert_20260514_181742_0b37f96a"
+    }
+  }
+}
