@@ -5,7 +5,6 @@ from langgraph.prebuilt.tool_node import ToolCallRequest
 
 from utils.path_tools import get_abs_path
 from utils.prompt_loader import load_summary_prompt
-from utils.skills_loader import load_text_examples
 from utils.config_handler import rag_conf, db_conf
 from rag.rag import RAG
 from utils.logger import get_logger
@@ -14,10 +13,6 @@ logger = get_logger()
 
 from rag.lightrag_deepseek import LightRAGWrapper
 
-@tool(description="获取军事想定参考样例")
-def get_example() -> str:
-    logger.info("调用get_example工具")
-    return load_text_examples()
 
 @tool(description="从军事想定地理和气象知识库中检索相关资料")
 async def search_environment_KB(query: str) -> str:

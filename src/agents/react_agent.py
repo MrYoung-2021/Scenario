@@ -5,7 +5,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.messages import AIMessageChunk
 from agents.tools.middleware import trim_messages
 from agents.tools.agent_tools import *
-from models.factory import chat_model, qwen3_openai, deepseek_openai, mini_model
+from models.factory import chat_model, qwen3_openai, mini_model
 from utils.prompt_loader import load_scenario_prompt, load_system_prompt
 from utils.path_tools import get_abs_path
 from utils.prompt_loader import load_background_prompt, load_formation_prompt, load_task_prompt, load_revise_prompt
@@ -84,7 +84,7 @@ class ReactAgent(object):
 background_agent = create_agent(model=qwen3_openai, tools=[search_environment_KB], system_prompt=load_background_prompt(), name="background_agent")
 formation_agent = create_agent(model=qwen3_openai, tools=[search_red_formation_KB, search_blue_formation_KB, search_red_weapon_KB, search_blue_weapon_KB], system_prompt=load_formation_prompt(), name="formation_agent")
 task_agent = create_agent(model=qwen3_openai, tools=[search_red_weapon_KB, search_blue_weapon_KB, search_red_task_KB, search_blue_task_KB], system_prompt=load_task_prompt(), name="task_agent")
-output_agent = create_agent(model=qwen3_openai, tools=[search_expert_KB, search_experience_KB, get_example], system_prompt=load_system_prompt(), name="output_agent")
+output_agent = create_agent(model=qwen3_openai, tools=[search_expert_KB, search_experience_KB], system_prompt=load_system_prompt(), name="output_agent")
 revise_agent = create_agent(model=qwen3_openai, tools=[search_expert_KB, search_experience_KB, search_red_weapon_KB, search_blue_weapon_KB, search_task_KB], system_prompt=load_revise_prompt(), name="revise_agent")
 summary_agent = create_agent(model=mini_model, tools=[], system_prompt=load_summary_prompt(), name="summary_agent")
 

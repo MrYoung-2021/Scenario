@@ -20,3 +20,5 @@ python-dotenv
 rich
 click
 fastapi
+pdfplumber
+aiosqlite

@@ -11,32 +11,6 @@ from rag.rag import RAG
 
 logger = get_logger()
 
-# def run_background_agent(user_input: str):
-#     for c in "正在查询地理与气象知识库，请稍等...":
-#         await asyncio.sleep(0.1)
-#         yield c
-#     background = await background_agent.ainvoke(user_input)
-#     for c in "地理与气象知识库查询完成！":
-#         await asyncio.sleep(0.1)
-#         yield c
-
-# def run_formation_agent(user_input: str):
-#     for c in "正在查询红蓝双方兵力部署与武器知识库，请稍等...":
-#             await asyncio.sleep(0.1)
-#             yield c
-#     formation = await formation_agent.ainvoke(user_input)
-#     for c in "红蓝双方兵力部署与武器知识库查询完成！":
-#         await asyncio.sleep(0.1)
-#         yield c
-
-# def run_task_agent(user_input: str):
-#     for c in "正在查询红蓝双方战术与任务知识库，请稍等...":
-#             await asyncio.sleep(0.1)
-#             yield c
-#     task = await task_agent.ainvoke(user_input)
-#     for c in "红蓝双方战术与任务知识库查询完成！":
-#         await asyncio.sleep(0.1)
-#         yield c
 
 async def invoke_agent(agent, input: list[str]):
     input_dict = {
@@ -53,6 +27,7 @@ async def stream_agent(agent, input: list[str]):
         if isinstance(chunk, AIMessageChunk):
             yield chunk.content
             # print(chunk.content, end="")
+            
 async def run_agent(user_input: str, conv_id: str):
     conv_store = await get_conv_store()
 

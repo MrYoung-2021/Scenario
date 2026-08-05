@@ -2,7 +2,6 @@ data_collection_name: agent
 feedback_collection_name: feedback
 
 directory: lw_db
-# checkpointer_sql: chroma_db/checkpointer.sqlite
 k: 3
 data_path: data
 md5_hex_store: md5.text

@@ -1,4 +1,4 @@
-chat_model_name: qwen3.6-plus-2026-04-02
-mini_model_name: qwen3.6-plus-2026-04-02
+chat_model_name: qwen3.7-max-2026-05-20
+mini_model_name: qwen3.7-max-2026-05-20
 embedding_model_name: text-embedding-v4
 base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
