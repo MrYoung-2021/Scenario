@@ -62,7 +62,15 @@ class ScenarioService:
     ) -> dict[str, Any]:
         if step == StepType.FINAL:
             raise ScenarioServiceError("STEP_HAS_NO_INPUT", "Final step has no editable input")
-        await self.get(scenario_id)
+        scenario = await self.get(scenario_id)
+        current_step = next(item for item in scenario["steps"] if item["step_type"] == step)
+        if current_step["status"] == StepStatus.GENERATING:
+            raise ScenarioServiceError(
+                "GENERATION_IN_PROGRESS",
+                "Step input cannot be changed while generation is running",
+                409,
+                step=step,
+            )
         try:
             validated = INPUT_MODELS[step].model_validate(input_data)
         except ValidationError as exc:

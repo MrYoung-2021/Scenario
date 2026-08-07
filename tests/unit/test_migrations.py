@@ -8,8 +8,9 @@ from repositories.migrations import MIGRATIONS, apply_migrations
 async def test_migrations_are_idempotent(tmp_path) -> None:
     conn = await aiosqlite.connect(tmp_path / "scenario.db")
     try:
-        assert await apply_migrations(conn) == 1
-        assert await apply_migrations(conn) == 1
+        latest_version = MIGRATIONS[-1][0]
+        assert await apply_migrations(conn) == latest_version
+        assert await apply_migrations(conn) == latest_version
         cursor = await conn.execute(
             "SELECT name FROM sqlite_master WHERE type = 'table' AND name LIKE 'scenario%'"
         )
@@ -22,7 +23,11 @@ async def test_migrations_are_idempotent(tmp_path) -> None:
 @pytest.mark.asyncio
 async def test_failed_migration_rolls_back(tmp_path) -> None:
     conn = await aiosqlite.connect(tmp_path / "rollback.db")
-    broken = (*MIGRATIONS, (2, ("CREATE TABLE partial_table(id INTEGER)", "INVALID SQL")))
+    broken_version = MIGRATIONS[-1][0] + 1
+    broken = (
+        *MIGRATIONS,
+        (broken_version, ("CREATE TABLE partial_table(id INTEGER)", "INVALID SQL")),
+    )
     try:
         with pytest.raises(aiosqlite.OperationalError):
             await apply_migrations(conn, broken)
@@ -31,6 +36,6 @@ async def test_failed_migration_rolls_back(tmp_path) -> None:
         )
         assert await cursor.fetchone() is None
         cursor = await conn.execute("SELECT MAX(version) FROM schema_migrations")
-        assert (await cursor.fetchone())[0] == 1
+        assert (await cursor.fetchone())[0] == MIGRATIONS[-1][0]
     finally:
         await conn.close()

@@ -1,9 +1,17 @@
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, Request, Response, status
+from fastapi.responses import StreamingResponse
 
 from repositories.scenario_repository import ScenarioRepository
-from schemas.scenario import ConfirmRequest, ScenarioCreate, StepInputUpdate, StepType
+from schemas.scenario import (
+    ConfirmRequest,
+    GenerationRequest,
+    ScenarioCreate,
+    StepInputUpdate,
+    StepType,
+)
+from services.generation_service import GenerationService, encode_ndjson
 from services.scenario_service import ScenarioService
 
 
@@ -15,6 +23,22 @@ def get_scenario_service(request: Request) -> ScenarioService:
 
 
 ScenarioServiceDependency = Annotated[ScenarioService, Depends(get_scenario_service)]
+
+
+def get_generation_service(request: Request) -> GenerationService:
+    repository = ScenarioRepository(request.app.state.sqlite_conn.conn)
+    generator = getattr(request.app.state, "scenario_generator", None)
+    if generator is None:
+        from agents.new_agent import LangChainScenarioGenerator
+
+        generator = LangChainScenarioGenerator()
+    return GenerationService(repository, ScenarioService(repository), generator)
+
+
+GenerationServiceDependency = Annotated[
+    GenerationService,
+    Depends(get_generation_service),
+]
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)
@@ -56,6 +80,35 @@ async def confirm_step(
     service: ScenarioServiceDependency,
 ):
     return await service.confirm(scenario_id, step, payload.version)
+
+
+@router.post("/{scenario_id}/steps/{step}/generate")
+async def generate_step(
+    scenario_id: str,
+    step: StepType,
+    payload: GenerationRequest,
+    service: GenerationServiceDependency,
+):
+    prepared = await service.prepare(scenario_id, step, payload)
+    return StreamingResponse(
+        encode_ndjson(service.stream_events(prepared)),
+        media_type="application/x-ndjson",
+        headers={"Cache-Control": "no-store"},
+    )
+
+
+@router.post("/{scenario_id}/finalize")
+async def finalize_scenario(
+    scenario_id: str,
+    payload: GenerationRequest,
+    service: GenerationServiceDependency,
+):
+    prepared = await service.prepare(scenario_id, StepType.FINAL, payload)
+    return StreamingResponse(
+        encode_ndjson(service.stream_events(prepared)),
+        media_type="application/x-ndjson",
+        headers={"Cache-Control": "no-store"},
+    )
 
 
 @router.get("/{scenario_id}/steps/{step}/versions")

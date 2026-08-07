@@ -2,12 +2,15 @@
 
 import asyncio
 import json
+from collections.abc import AsyncIterator
+from typing import Any
 from agents.react_agent import background_agent, formation_agent, task_agent, output_agent, revise_agent, summary_agent
 from langchain.messages import AIMessageChunk
 from utils.logger import get_logger
 from utils.chat_history_handler import get_conv_store
-from utils.config_handler import db_conf
+from utils.config_handler import db_conf, rag_conf
 from rag.rag import RAG
+from schemas.scenario import GenerationMode, StepType
 
 logger = get_logger()
 
@@ -27,9 +30,156 @@ async def stream_agent(agent, input: list[str]):
         if isinstance(chunk, AIMessageChunk):
             yield chunk.content
             # print(chunk.content, end="")
+
+
+def _structured_prompt(
+    selections: dict[str, Any],
+    confirmed_context: dict[str, Any],
+    retrieved_knowledge: list[dict[str, Any]] | None = None,
+    extra: str | None = None,
+) -> str:
+    selections = dict(selections)
+    custom_requirements = selections.pop("custom_requirements", "")
+    blocks = (
+        ("USER_SELECTIONS", selections),
+        ("CUSTOM_REQUIREMENTS", custom_requirements),
+        ("CONFIRMED_CONTEXT", confirmed_context),
+        (
+            "RETRIEVED_KNOWLEDGE",
+            retrieved_knowledge
+            if retrieved_knowledge is not None
+            else "Use the bound knowledge tools and preserve their source scope.",
+        ),
+    )
+    prompt = "\n\n".join(
+        f"<{name}>\n{json.dumps(value, ensure_ascii=False, indent=2)}\n</{name}>"
+        for name, value in blocks
+    )
+    if extra:
+        prompt = f"{prompt}\n\n<STEP_INSTRUCTION>\n{extra}\n</STEP_INSTRUCTION>"
+    return prompt
+
+
+async def generate_background(input_model: dict[str, Any]) -> AsyncIterator[str]:
+    prompt = _structured_prompt(input_model, {})
+    async for chunk in stream_agent(background_agent, [prompt]):
+        yield chunk
+
+
+async def generate_formation(
+    input_model: dict[str, Any],
+    confirmed_background: dict[str, Any],
+) -> AsyncIterator[str]:
+    prompt = _structured_prompt(
+        input_model,
+        {"background": confirmed_background},
+    )
+    async for chunk in stream_agent(formation_agent, [prompt]):
+        yield chunk
+
+
+async def generate_task(
+    input_model: dict[str, Any],
+    confirmed_background: dict[str, Any],
+    confirmed_formation: dict[str, Any],
+) -> AsyncIterator[str]:
+    prompt = _structured_prompt(
+        input_model,
+        {
+            "background": confirmed_background,
+            "formation": confirmed_formation,
+        },
+    )
+    async for chunk in stream_agent(task_agent, [prompt]):
+        yield chunk
+
+
+async def generate_final(
+    confirmed_background: dict[str, Any],
+    confirmed_formation: dict[str, Any],
+    confirmed_task: dict[str, Any],
+) -> AsyncIterator[str]:
+    prompt = _structured_prompt(
+        {},
+        {
+            "background": confirmed_background,
+            "formation": confirmed_formation,
+            "task": confirmed_task,
+        },
+        extra=(
+            "Integrate only the confirmed context into the final document. "
+            "Do not change confirmed facts or silently fill conflicts."
+        ),
+    )
+    async for chunk in stream_agent(output_agent, [prompt]):
+        yield chunk
+
+
+async def revise_step(
+    step: StepType,
+    current_output: str,
+    instruction: str,
+    confirmed_context: dict[str, Any],
+) -> AsyncIterator[str]:
+    prompt = _structured_prompt(
+        {},
+        confirmed_context,
+        extra=(
+            f"Revise only the '{step}' step.\n"
+            f"REVISION_INSTRUCTION:\n{instruction}\n\n"
+            f"CURRENT_STEP_OUTPUT:\n{current_output}\n\n"
+            "Return the complete revised content for this step only. "
+            "Never rewrite confirmed prerequisite content."
+        ),
+    )
+    async for chunk in stream_agent(revise_agent, [prompt]):
+        yield chunk
+
+
+class LangChainScenarioGenerator:
+    model_name = rag_conf["chat_model_name"]
+
+    async def stream(
+        self,
+        step: StepType,
+        mode: GenerationMode,
+        input_data: dict[str, Any],
+        confirmed_context: dict[str, Any],
+        current_output: str | None = None,
+        revision_instruction: str | None = None,
+    ) -> AsyncIterator[str]:
+        if mode == GenerationMode.REVISE:
+            assert current_output is not None and revision_instruction is not None
+            async for chunk in revise_step(
+                step,
+                current_output,
+                revision_instruction,
+                confirmed_context,
+            ):
+                yield chunk
+            return
+        if step == StepType.BACKGROUND:
+            stream = generate_background(input_data)
+        elif step == StepType.FORMATION:
+            stream = generate_formation(input_data, confirmed_context["background"])
+        elif step == StepType.TASK:
+            stream = generate_task(
+                input_data,
+                confirmed_context["background"],
+                confirmed_context["formation"],
+            )
+        else:
+            stream = generate_final(
+                confirmed_context["background"],
+                confirmed_context["formation"],
+                confirmed_context["task"],
+            )
+        async for chunk in stream:
+            yield chunk
             
 async def run_agent(user_input: str, conv_id: str):
     conv_store = await get_conv_store()
+    store_tasks: list[asyncio.Task] = []
 
     # 1. 获取 background
     background = await conv_store.get_config_field(conv_id, "background")
@@ -49,12 +199,15 @@ async def run_agent(user_input: str, conv_id: str):
             background = await background_task
         except Exception as e:
             logger.error(f"background_agent 执行失败: {e}")
+            raise
 
         for c in "地理与气象知识库查询完成！\n\n":
             await asyncio.sleep(0.1)
             yield {"thinking": c}
 
-        store_background = asyncio.create_task(conv_store.set_config_field(conv_id, "background", background))
+        store_tasks.append(
+            asyncio.create_task(conv_store.set_config_field(conv_id, "background", background))
+        )
 
     # 2. 获取 formation
     formation = await conv_store.get_config_field(conv_id, "formation")
@@ -74,12 +227,15 @@ async def run_agent(user_input: str, conv_id: str):
             formation = await formation_task
         except Exception as e:
             logger.error(f"formation_agent 执行失败: {e}")
+            raise
 
         for c in "红蓝双方兵力部署与武器知识库查询完成！\n\n":
             await asyncio.sleep(0.1)
             yield {"thinking": c}
 
-        store_formation = asyncio.create_task(conv_store.set_config_field(conv_id, "formation", formation))
+        store_tasks.append(
+            asyncio.create_task(conv_store.set_config_field(conv_id, "formation", formation))
+        )
 
     # 3. 获取 task
     task = await conv_store.get_config_field(conv_id, "task")
@@ -98,22 +254,21 @@ async def run_agent(user_input: str, conv_id: str):
             task = await task_task
         except Exception as e:
             logger.error(f"formation_agent 执行失败: {e}")
+            raise
 
         for c in "红蓝双方战术与任务知识库查询完成！\n\n":
             await asyncio.sleep(0.1)
             yield {"thinking": c}
 
-        store_task = asyncio.create_task(conv_store.set_config_field(conv_id, "task", task))
+        store_tasks.append(
+            asyncio.create_task(conv_store.set_config_field(conv_id, "task", task))
+        )
 
     async for chunk in stream_agent(output_agent, [background, formation, task]):
         yield {"content": chunk}
 
-    try:
-        await store_background
-        await store_formation
-        await store_task
-    except asyncio.CancelledError:
-        pass
+    if store_tasks:
+        await asyncio.gather(*store_tasks)
 
 
 async def run_agent_summary(user_input: str, max_retries=2):

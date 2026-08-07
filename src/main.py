@@ -106,7 +106,7 @@ class ElementModel(BaseModel):
     element: str
 
 
-@app.post("/api/chat")
+@app.post("/api/chat", deprecated=True)
 async def chat_endpoint(request: ChatRequest):
     """
     接收用户消息并返回流式助手回复
@@ -135,7 +135,11 @@ async def chat_endpoint(request: ChatRequest):
     # 返回流式响应
     return StreamingResponse(
         generate_response(),
-        media_type="application/x-ndjson"  # 使用ndjson格式以支持逐行JSON
+        media_type="application/x-ndjson",  # 使用ndjson格式以支持逐行JSON
+        headers={
+            "Deprecation": "true",
+            "Link": '</api/scenarios>; rel="successor-version"',
+        },
     )
 
 

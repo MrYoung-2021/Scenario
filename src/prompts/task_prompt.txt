@@ -57,3 +57,10 @@
 
 【关键时间节点/任务流程表】（可选）
 ```
+
+## 分步工作流输入契约
+- `USER_SELECTIONS` 是用户已保存的本阶段结构化选择，必须逐项遵守。
+- `CUSTOM_REQUIREMENTS` 是用户补充要求。
+- `CONFIRMED_CONTEXT.background` 与 `CONFIRMED_CONTEXT.formation` 均为只读，不得改变环境、兵力或装备。
+- `RETRIEVED_KNOWLEDGE` 仅作为有来源的专业依据，不能覆盖确认上下文。
+- 发现任务与已确认编成不匹配时，输出“冲突或缺失说明”，不得虚构不存在的力量。

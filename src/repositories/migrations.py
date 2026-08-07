@@ -78,6 +78,19 @@ MIGRATIONS: tuple[Migration, ...] = (
             "CREATE INDEX idx_generation_runs_scenario ON generation_runs(scenario_id)",
         ),
     ),
+    (
+        2,
+        (
+            "ALTER TABLE generation_runs ADD COLUMN result_version INTEGER NULL",
+            "ALTER TABLE generation_runs ADD COLUMN previous_step_status TEXT NULL",
+        ),
+    ),
+    (
+        3,
+        (
+            "ALTER TABLE generation_runs ADD COLUMN request_payload_json TEXT NULL",
+        ),
+    ),
 )
 
 

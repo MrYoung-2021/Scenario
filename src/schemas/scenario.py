@@ -121,6 +121,26 @@ class ConfirmRequest(BaseModel):
     version: int = Field(ge=1)
 
 
+class GenerationRequest(BaseModel):
+    mode: GenerationMode = GenerationMode.GENERATE
+    base_version: int | None = Field(default=None, ge=1)
+    revision_instruction: str | None = Field(default=None, max_length=1000)
+    request_id: str = Field(min_length=1, max_length=100)
+
+    @model_validator(mode="after")
+    def validate_mode_fields(self) -> "GenerationRequest":
+        if self.mode == GenerationMode.REVISE:
+            if self.base_version is None or not self.revision_instruction:
+                raise ValueError(
+                    "revise mode requires base_version and revision_instruction"
+                )
+        elif self.base_version is not None or self.revision_instruction is not None:
+            raise ValueError(
+                "base_version and revision_instruction are only valid in revise mode"
+            )
+        return self
+
+
 class ScenarioSummary(BaseModel):
     id: str
     title: str
