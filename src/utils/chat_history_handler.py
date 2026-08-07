@@ -7,6 +7,7 @@ from typing import List, Dict, Optional
 import aiosqlite
 from utils.path_tools import get_abs_path
 from utils.config_handler import db_conf
+from repositories.migrations import apply_migrations
 
 class ConversationStore:
     """基于 SQLite 的对话存储，只需传入文件路径即可。"""
@@ -224,6 +225,7 @@ class AsyncConversationStore:
             )
         """)
         await conn.commit()
+        await apply_migrations(conn)
         return cls(conn)
 
     async def create_conversation(self, title: Optional[str] = None) -> str:
@@ -359,9 +361,15 @@ class AsyncConversationStore:
     
 
     async def delete_conversation(self, conversation_id: str):
-        await self.conn.execute("DELETE FROM messages WHERE conversation_id = ?", (conversation_id,))
-        await self.conn.execute("DELETE FROM conversations WHERE id = ?", (conversation_id,))
-        await self.conn.commit()
+        await self.conn.execute("BEGIN IMMEDIATE")
+        try:
+            await self.conn.execute("DELETE FROM task_configs WHERE conversation_id = ?", (conversation_id,))
+            await self.conn.execute("DELETE FROM messages WHERE conversation_id = ?", (conversation_id,))
+            await self.conn.execute("DELETE FROM conversations WHERE id = ?", (conversation_id,))
+            await self.conn.commit()
+        except Exception:
+            await self.conn.rollback()
+            raise
 
     async def close(self):
         await self.conn.close()
@@ -376,9 +384,14 @@ class AsyncConversationStore:
 # 全局单例懒加载（异步）
 _conv_store: Optional[AsyncConversationStore] = None
 
-async def get_conv_store(db_path: str = get_abs_path(os.path.join(db_conf["directory"], "chat_history.db"))) -> AsyncConversationStore:
+async def get_conv_store(db_path: Optional[str] = None) -> AsyncConversationStore:
     global _conv_store
     if _conv_store is None:
+        if db_path is None:
+            db_path = os.environ.get(
+                "SCENARIO_DB_PATH",
+                get_abs_path(os.path.join(db_conf["directory"], "chat_history.db")),
+            )
         _conv_store = await AsyncConversationStore.create(db_path)
     return _conv_store
 

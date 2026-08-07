@@ -21,17 +21,29 @@ from utils.chat_history_handler import get_conv_store
 
 console = Console()
 logger = get_logger()
-rag = RAG()
+rag: RAG | None = None
+
+
+def get_rag() -> RAG:
+    """Initialize the standard knowledge base only when an endpoint needs it."""
+    global rag
+    if rag is None:
+        rag = RAG()
+    return rag
 
 
 from fastapi import FastAPI, Query, Request
 from fastapi.responses import StreamingResponse
+from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import asyncio
 import json
 import uvicorn
 from typing import Annotated, AsyncGenerator
+from api.system_routes import router as system_router
+from api.scenario_routes import router as scenario_router
+from services.scenario_service import ScenarioServiceError
 
 
 
@@ -55,6 +67,22 @@ async def lifespan(app: FastAPI):
         await app.state.sqlite_conn.close()
 
 app = FastAPI(lifespan=lifespan)
+app.include_router(system_router)
+app.include_router(scenario_router)
+
+
+@app.exception_handler(ScenarioServiceError)
+async def scenario_service_error_handler(request: Request, exc: ScenarioServiceError):
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "error": {
+                "code": exc.code,
+                "message": exc.message,
+                "details": exc.details,
+            }
+        },
+    )
 
 
 static_dir = Path(__file__).parent / 'static'
@@ -178,7 +206,7 @@ async def get_knowledge(
     """
     knowledge_list = []
     for id in kb_id:
-        knowledge_list += rag.get_texts_by_category(id)
+        knowledge_list += get_rag().get_texts_by_category(id)
 
     return knowledge_list
 
@@ -188,7 +216,7 @@ async def add_knowledge(request: KnowledgeModel):
     添加知识库内容
     """
     # ids = await rag.aadd_text(request.content, request.kb_id)
-    ids = rag.add_text(request.content, request.kb_id)
+    ids = get_rag().add_text(request.content, request.kb_id)
     return {"k_id": ids[0]}
 
 @app.delete("/api/delete_knowledge")
@@ -196,7 +224,7 @@ async def delete_knowledge(k_id: str):
     """
     删除知识库的一条内容
     """
-    res = await rag.adelete_text_by_id(k_id)
+    res = await get_rag().adelete_text_by_id(k_id)
     return {"success": res}
 
 @app.get("/api/get_elements")
