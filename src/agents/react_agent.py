@@ -8,7 +8,13 @@ from agents.tools.agent_tools import *
 from models.factory import chat_model, qwen3_openai, mini_model
 from utils.prompt_loader import load_scenario_prompt, load_system_prompt
 from utils.path_tools import get_abs_path
-from utils.prompt_loader import load_background_prompt, load_formation_prompt, load_task_prompt, load_revise_prompt
+from utils.prompt_loader import (
+    load_background_prompt,
+    load_formation_prompt,
+    load_task_prompt,
+    load_revise_prompt,
+    load_summary_prompt,
+)
 
 memory = MemorySaver()
 summary_middleware = SummarizationMiddleware(

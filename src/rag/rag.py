@@ -1,9 +1,7 @@
-import datetime
 import hashlib
 import os
-import json
-from typing import Dict, List, Optional
-import numpy as np
+from datetime import datetime, timezone
+from typing import Any
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import TextLoader, JSONLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -11,6 +9,11 @@ from utils.logger import get_logger
 from models.factory import embed_model
 from utils.config_handler import db_conf
 from utils.path_tools import get_abs_path, get_skills_path
+from schemas.retrieval import RetrievedItem
+
+_VALID_CATEGORIES = {
+    "environment", "formation", "weapon", "tactics_campaign", "tactics_tactical", "task", "expert", "feedback"
+}
 
 
 logger = get_logger()
@@ -18,16 +21,16 @@ logger = get_logger()
 class RAG:
     """RAG功能实现，用于存储和检索专业知识"""
     
-    def __init__(self, collection_name=db_conf["data_collection_name"], persist_directory=get_abs_path(db_conf["directory"])):
+    def __init__(self, collection_name=db_conf["data_collection_name"], persist_directory=get_abs_path(db_conf["directory"]), *, vector_store=None, embeddings=None):
         """初始化RAG
         """
         logger.info("初始化RAG")
-        self.vector_store = Chroma(
+        self.vector_store = vector_store or Chroma(
             collection_name=collection_name,
-            embedding_function=embed_model,
+            embedding_function=embeddings or embed_model,
             persist_directory=persist_directory,
         )
-        self.embeddings = embed_model
+        self.embeddings = embeddings or embed_model
         self.text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
             chunk_overlap=200,
@@ -38,22 +41,29 @@ class RAG:
         """根据标准化后的文本生成唯一 ID"""
         normalized = text.strip()
         return hashlib.md5(normalized.encode("utf-8")).hexdigest()
-    def add_text(self, text: str, category: str):
+    def add_text(self, text: str, category: str, metadata: dict[str, Any] | None = None):
         """
         添加文本到知识库
         """
         if len(text) > db_conf["chunk_size"]:
-            knowledge_chunks: list[str] = self.spliter.split_text(text)
+            knowledge_chunks: list[str] = self.text_splitter.split_text(text)
         else:
             knowledge_chunks = [text]
 
-        metadata = {
-            "category": category
-        }
+        metadata = {"category": category, **(metadata or {})}
+        metadata.setdefault("level", "general")
+        metadata.setdefault("domain", "general")
+        metadata.setdefault("side", "all")
+        metadata.setdefault("scenario_type", "all")
+        metadata.setdefault("source", "manual")
+        metadata.setdefault("source_id", "")
+        metadata.setdefault("verified", False)
+        metadata.setdefault("content_hash", "")
+        metadata.setdefault("created_at", datetime.now(timezone.utc).isoformat())
+        metadata.setdefault("version", 1)
 
-        ids=[self.get_text_id(text) for text in knowledge_chunks]
+        ids = [self.get_text_id(chunk) for chunk in knowledge_chunks]
 
-        self.vector_store.get
         self.vector_store.add_texts(      # 内容就加载到向量库中了
             # iterable -> list \ tuple
             knowledge_chunks,
@@ -65,20 +75,28 @@ class RAG:
 
         return ids
 
-    async def aadd_text(self, text: str, category: str):
+    async def aadd_text(self, text: str, category: str, metadata: dict[str, Any] | None = None):
         """
         添加文本到知识库
         """
         if len(text) > db_conf["chunk_size"]:
-            knowledge_chunks: list[str] = self.spliter.split_text(text)
+            knowledge_chunks: list[str] = self.text_splitter.split_text(text)
         else:
             knowledge_chunks = [text]
 
-        metadata = {
-            "category": category,
-        }
+        metadata = {"category": category, **(metadata or {})}
+        metadata.setdefault("level", "general")
+        metadata.setdefault("domain", "general")
+        metadata.setdefault("side", "all")
+        metadata.setdefault("scenario_type", "all")
+        metadata.setdefault("source", "manual")
+        metadata.setdefault("source_id", "")
+        metadata.setdefault("verified", False)
+        metadata.setdefault("content_hash", "")
+        metadata.setdefault("created_at", datetime.now(timezone.utc).isoformat())
+        metadata.setdefault("version", 1)
 
-        ids = [self.get_text_id(text) for text in knowledge_chunks]
+        ids = [self.get_text_id(chunk) for chunk in knowledge_chunks]
     
         await self.vector_store.aadd_texts(      # 内容就加载到向量库中了
             # iterable -> list \ tuple
@@ -178,6 +196,60 @@ class RAG:
         except Exception as e:
             logger.error(f"查询失败: {e}", exc_info=True)
             return []
+
+    async def asearch(
+        self,
+        query: str,
+        *,
+        k: int = 3,
+        metadata_filter: dict[str, Any] | None = None,
+    ) -> list[RetrievedItem]:
+        """Return serializable scored items for tiered retrieval."""
+        if not self.vector_store:
+            return []
+        where = self._where_filter(metadata_filter or {})
+        try:
+            pairs = await self.vector_store.asimilarity_search_with_relevance_scores(
+                query, k=k, filter=where
+            )
+        except TypeError:
+            pairs = await self.vector_store.asimilarity_search_with_relevance_scores(query, k=k, where=where)
+        items: list[RetrievedItem] = []
+        for document, score in pairs:
+            metadata = dict(document.metadata or {})
+            category = metadata.get("category", "expert")
+            if category == "tactics":
+                category = "tactics_tactical"
+            elif category not in _VALID_CATEGORIES:
+                category = "expert"
+            items.append(
+                RetrievedItem(
+                    content=document.page_content,
+                    backend="standard",
+                    category=category,
+                    score=float(score),
+                    source=str(metadata.get("source", "standard")),
+                    source_id=str(metadata.get("source_id") or metadata.get("id") or ""),
+                    verified=bool(metadata.get("verified", False)),
+                    metadata=metadata,
+                )
+            )
+        return items
+
+    @staticmethod
+    def _where_filter(filters: dict[str, Any]) -> dict[str, Any] | None:
+        filters = {key: value for key, value in filters.items() if value is not None}
+        if not filters:
+            return None
+        clauses = []
+        for key, value in filters.items():
+            if key == "side" and value != "all":
+                clauses.append({"$or": [{"side": value}, {"side": "all"}]})
+            else:
+                clauses.append({key: value})
+        if len(clauses) == 1:
+            return clauses[0]
+        return {"$and": clauses}
         
     async def aquery(self, query, k=3):
         """查询知识库
@@ -235,16 +307,35 @@ class RAG:
         """
         results = self.vector_store.get(
             where={"category": category},
-            include=["documents"]
+            include=["documents", "metadatas"]
         )
         if results["ids"]:
             return [
-                {"k_id": id_, "kb_id": category, "content": doc}
-                for id_, doc in zip(
-                    results["ids"], results["documents"]
+                {"k_id": id_, "kb_id": category, "content": doc, **(metadata or {})}
+                for id_, doc, metadata in zip(
+                    results["ids"], results["documents"], results.get("metadatas", [])
                 )
             ]
         return []
+
+    def find_by_content_hash(self, value: str) -> dict | None:
+        results = self.vector_store.get(where={"content_hash": value}, include=["documents", "metadatas"])
+        if not results.get("ids"):
+            return None
+        return {"k_id": results["ids"][0], "content": results.get("documents", [""])[0], **(results.get("metadatas", [{}])[0] or {})}
+
+    def set_verified(self, knowledge_id: str, verified: bool) -> bool:
+        results = self.vector_store.get(ids=[knowledge_id], include=["documents", "metadatas"])
+        if not results.get("ids"):
+            return False
+        metadata = dict((results.get("metadatas") or [{}])[0] or {})
+        metadata["verified"] = verified
+        from langchain_core.documents import Document
+        self.vector_store.update_documents(
+            [knowledge_id],
+            [Document(page_content=(results.get("documents") or [""])[0], metadata=metadata)],
+        )
+        return True
     
     async def adelete_text_by_id(self, id: str) -> bool:
         """

@@ -11,7 +11,6 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.json import JSON
 
-from rag.rag import RAG
 from utils.logger import get_logger, get_log_file
 from utils.config_handler import db_conf
 from utils.config_handler import ConfigHandler
@@ -21,18 +20,7 @@ from utils.chat_history_handler import get_conv_store
 
 console = Console()
 logger = get_logger()
-rag: RAG | None = None
-
-
-def get_rag() -> RAG:
-    """Initialize the standard knowledge base only when an endpoint needs it."""
-    global rag
-    if rag is None:
-        rag = RAG()
-    return rag
-
-
-from fastapi import FastAPI, Query, Request
+from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
@@ -40,11 +28,12 @@ from pydantic import BaseModel
 import asyncio
 import json
 import uvicorn
-from typing import Annotated, AsyncGenerator
+from typing import AsyncGenerator
 from api.system_routes import router as system_router
 from api.location_routes import router as location_router
 from api.scenario_routes import options_router as scenario_options_router
 from api.scenario_routes import router as scenario_router
+from api.knowledge_routes import router as knowledge_router
 from services.scenario_service import ScenarioServiceError
 
 
@@ -75,6 +64,7 @@ app.include_router(system_router)
 app.include_router(location_router)
 app.include_router(scenario_router)
 app.include_router(scenario_options_router)
+app.include_router(knowledge_router)
 
 
 @app.exception_handler(ScenarioServiceError)
@@ -102,10 +92,6 @@ class ChatRequest(BaseModel):
     conv_id: str
     title: str
     elements: str
-
-class KnowledgeModel(BaseModel):
-    kb_id: str
-    content: str
 
 class ElementModel(BaseModel):
     name: str
@@ -197,45 +183,6 @@ async def delete_conversation(conv_id: str):
     await conv_store.delete_conversation(conv_id)
     return {"success": True}
 
-
-@app.get("/api/get_knowledge_bases")
-async def get_knowledge_bases():
-    """
-    返回所有知识库列表
-    """
-    kb_list = [{"kb_id": "environment", "name": "环境知识库"}, {"kb_id": "formation", "name": "编成知识库"}, {"kb_id": "weapon", "name": "武器知识库"}, {"kb_id": "tactics", "name": "战术知识库"}, {"kb_id": "task", "name": "任务流程知识库"}, {"kb_id": "other", "name": "其他知识库"}]
-
-    return kb_list
-
-@app.get("/api/get_knowledge")
-async def get_knowledge(
-    kb_id: Annotated[list[str] | None, Query()] = None
-):
-    """
-    根据kbId参数获取知识库的知识内容
-    """
-    knowledge_list = []
-    for id in kb_id:
-        knowledge_list += get_rag().get_texts_by_category(id)
-
-    return knowledge_list
-
-@app.post("/api/add_knowledge")
-async def add_knowledge(request: KnowledgeModel):
-    """
-    添加知识库内容
-    """
-    # ids = await rag.aadd_text(request.content, request.kb_id)
-    ids = get_rag().add_text(request.content, request.kb_id)
-    return {"k_id": ids[0]}
-
-@app.delete("/api/delete_knowledge")
-async def delete_knowledge(k_id: str):
-    """
-    删除知识库的一条内容
-    """
-    res = await get_rag().adelete_text_by_id(k_id)
-    return {"success": res}
 
 @app.get("/api/get_elements")
 async def get_elements():

@@ -23,6 +23,8 @@ async def test_scenario_static_page_exposes_workflow_assets() -> None:
     assert 'id="stepper"' in page.text
     assert 'id="knowledge-modal"' in page.text
     assert 'id="knowledge-delete-modal"' in page.text
+    assert 'id="knowledge-level"' in page.text
+    assert 'id="knowledge-source"' in page.text
     assert "/static/scenario.css?v=6" in page.text
     assert "/static/scenario.js?v=6" in page.text
     assert stylesheet.status_code == 200
@@ -32,3 +34,7 @@ async def test_scenario_static_page_exposes_workflow_assets() -> None:
     assert "/api/locations/search" in script.text
     assert "setTimeout(() => searchLocations(query, requestId), 500)" in script.text
     assert "weather_mode" in script.text
+    assert "/api/knowledge/${encodeURIComponent(id)}/approve" in script.text
+    assert "knowledge-card-review" in script.text
+    assert "entry.source" in script.text
+    assert "entry.level" in script.text

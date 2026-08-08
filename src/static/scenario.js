@@ -835,6 +835,8 @@ const KnowledgeApp = {
       `<option value="${escapeAttr(base.kb_id)}" ${base.kb_id === this.selected ? 'selected' : ''}>${escapeHtml(base.name)}</option>`
     )).join('');
     document.getElementById('knowledge-content').value = '';
+    document.getElementById('knowledge-level').value = 'general';
+    document.getElementById('knowledge-source').value = 'manual';
     App.openModal('knowledge-modal');
   },
 
@@ -851,7 +853,12 @@ const KnowledgeApp = {
       const response = await fetch(`${API}/api/add_knowledge`, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({kb_id: kbId, content}),
+        body: JSON.stringify({
+          kb_id: kbId,
+          content,
+          level: document.getElementById('knowledge-level').value,
+          source: document.getElementById('knowledge-source').value.trim() || 'manual',
+        }),
       });
       if (!response.ok) throw new Error();
       document.getElementById('knowledge-modal').classList.add('hidden');
@@ -869,6 +876,17 @@ const KnowledgeApp = {
   async remove(id) {
     this.pendingDelete = id;
     App.openModal('knowledge-delete-modal');
+  },
+
+  async approve(id) {
+    try {
+      const response = await fetch(`${API}/api/knowledge/${encodeURIComponent(id)}/approve`, {method: 'POST'});
+      if (!response.ok) throw new Error();
+      await this.loadEntries();
+      toast('知识已审核通过', 'success');
+    } catch {
+      toast('知识审核失败', 'error');
+    }
   },
 
   async confirmRemove() {
@@ -912,11 +930,15 @@ function renderKnowledgeEntries() {
   const base = KnowledgeApp.bases.find((item) => item.kb_id === KnowledgeApp.selected);
   container.innerHTML = KnowledgeApp.entries.map((entry) => `<article class="knowledge-card">
     <div class="knowledge-card-body"><div class="knowledge-card-content">${escapeHtml(entry.content)}</div>
-    <div class="knowledge-card-meta">来源：${escapeHtml(base?.name || entry.kb_id)} · ${escapeHtml(entry.k_id)}</div></div>
-    <button class="danger-button knowledge-delete" data-id="${escapeAttr(entry.k_id)}" title="删除知识">删除</button>
+    <div class="knowledge-card-meta">来源：${escapeHtml(entry.source || base?.name || entry.kb_id)} · 层级：${escapeHtml(entry.level || 'general')} · ${escapeHtml(entry.k_id)}</div>
+    <div class="knowledge-card-review ${entry.verified ? 'approved' : ''}">${entry.verified ? '已审核' : '待审核'}</div></div>
+    <div class="knowledge-card-actions">${entry.verified ? '' : `<button class="outline-button knowledge-approve" data-id="${escapeAttr(entry.k_id)}" title="审核通过">审核通过</button>`}<button class="danger-button knowledge-delete" data-id="${escapeAttr(entry.k_id)}" title="删除知识">删除</button></div>
   </article>`).join('');
   container.querySelectorAll('.knowledge-delete').forEach((button) => {
     button.addEventListener('click', () => KnowledgeApp.remove(button.dataset.id));
+  });
+  container.querySelectorAll('.knowledge-approve').forEach((button) => {
+    button.addEventListener('click', () => KnowledgeApp.approve(button.dataset.id));
   });
 }
 

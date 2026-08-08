@@ -2,3 +2,9 @@ chat_model_name: qwen3.7-max-2026-05-20
 mini_model_name: qwen3.7-max-2026-05-20
 embedding_model_name: text-embedding-v4
 base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+
+retrieval:
+  score_threshold: 0.65
+  standard_top_k: 5
+  lightrag_top_k: 5
+  minimum_verified_hits: 2

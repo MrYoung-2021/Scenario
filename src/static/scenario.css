@@ -5,6 +5,7 @@
 .knowledge-card{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
 .knowledge-card-body{min-width:0;flex:1}
 .knowledge-delete{padding:6px 10px;flex:0 0 auto}
+.knowledge-card-actions{display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap}.knowledge-card-review{display:inline-block;margin-top:8px;padding:3px 7px;border:1px solid #efd18a;color:var(--warning);font-size:10px;background:#fff7e6}.knowledge-card-review.approved{border-color:#b6dfd1;color:var(--accent);background:var(--accent-soft)}
 .modal-card select{width:100%;border:1px solid var(--line);padding:10px 11px;margin-bottom:20px;background:#fff}
 .modal-copy{color:var(--muted);font-size:13px;line-height:1.7;margin:0 0 22px}
 .subsection-title{font-size:12px;font-weight:700;color:#46535c;margin-bottom:2px}
@@ -30,4 +31,5 @@
   .empty-sidebar{padding:8px;text-align:left}
   .knowledge-card{align-items:stretch;flex-direction:column;gap:10px}
   .knowledge-delete{align-self:flex-start}
+  .knowledge-card-actions{align-items:stretch}.knowledge-card-actions button{flex:1}
 }
