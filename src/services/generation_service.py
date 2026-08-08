@@ -5,11 +5,13 @@ from collections.abc import AsyncIterator
 from dataclasses import dataclass
 import json
 import logging
+from time import perf_counter
 from typing import Any, Protocol
 
 from repositories.scenario_repository import ScenarioRepository
 from schemas.scenario import GenerationMode, GenerationRequest, StepStatus, StepType
 from services.scenario_service import PREREQUISITES, ScenarioService, ScenarioServiceError
+from utils.logger import log_event
 
 
 logger = logging.getLogger("ScenarioAgent")
@@ -207,6 +209,7 @@ class GenerationService:
             return
 
         request_id = prepared.request.request_id
+        started_at = perf_counter()
         try:
             yield {
                 "type": "progress",
@@ -250,12 +253,30 @@ class GenerationService:
                 prepared.request.mode,
                 prepared.request.revision_instruction,
             )
+            log_event(
+                logger,
+                logging.INFO,
+                "generation_completed",
+                scenario_id=prepared.scenario_id,
+                step=prepared.step,
+                request_id=request_id,
+                duration_ms=round((perf_counter() - started_at) * 1000),
+            )
             yield {
                 "type": "done",
                 "version": version,
                 "status": StepStatus.GENERATED,
             }
         except asyncio.CancelledError:
+            log_event(
+                logger,
+                logging.WARNING,
+                "generation_cancelled",
+                scenario_id=prepared.scenario_id,
+                step=prepared.step,
+                request_id=request_id,
+                duration_ms=round((perf_counter() - started_at) * 1000),
+            )
             await self.repository.fail_generation(
                 request_id,
                 "GENERATION_CANCELLED",
@@ -263,11 +284,15 @@ class GenerationService:
             )
             raise
         except Exception:
-            logger.exception(
-                "Generation failed scenario_id=%s step=%s request_id=%s",
-                prepared.scenario_id,
-                prepared.step,
-                request_id,
+            logger.exception("Generation failed")
+            log_event(
+                logger,
+                logging.ERROR,
+                "generation_failed",
+                scenario_id=prepared.scenario_id,
+                step=prepared.step,
+                request_id=request_id,
+                duration_ms=round((perf_counter() - started_at) * 1000),
             )
             await self.repository.fail_generation(
                 request_id,

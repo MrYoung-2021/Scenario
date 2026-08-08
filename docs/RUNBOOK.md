@@ -50,6 +50,10 @@ $env:PYTHONPATH = "src"
 python .\scripts\validate_migration.py $env:TEMP\scenario-migration-test.db
 ```
 
+迁移是可重复执行的。首次运行会把旧 `conversations` 和 `task_configs` 中的背景、编成、任务文本复制到场景工作流的版本 1，并写入 `legacy_session_migrations` 标记；原有会话、消息和任务配置保留不动。再次运行只检查已存在的标记，不会创建重复场景或版本。验证脚本应始终指向副本，不要直接指向生产或用户数据库。
+
+迁移日志会记录每个版本的执行前后表数量。生成日志使用 `event=generation_completed`、`event=generation_failed` 等结构化事件，并包含 `scenario_id`、`step`、`request_id` 和 `duration_ms`。分级检索使用 `event=rag_retrieval` 记录普通候选数、已审核命中数、回退数和回退率；日志处理器会移除 API key、token、bearer 和 password 值。
+
 ## 启动与检查
 
 从仓库根目录启动服务：
@@ -68,4 +72,12 @@ python -m uvicorn main:app --app-dir src --host 127.0.0.1 --port 8000
 
 ```powershell
 python -m pytest
+```
+
+阶段 6 交付前还应执行：
+
+```powershell
+python -m pytest -q
+python -m compileall -q src
+python -m pip check
 ```

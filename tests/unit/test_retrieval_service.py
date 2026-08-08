@@ -1,4 +1,5 @@
 import pytest
+import logging
 
 from schemas.retrieval import RetrievedItem, RetrievalQuery
 from services.retrieval_service import TieredRetriever
@@ -112,3 +113,16 @@ async def test_tactics_level_and_side_route_to_matching_weapon_scope() -> None:
     assert result.fallback_scopes == ["red_weapon"]
     assert result.items[0].category == "tactics_campaign"
 
+
+@pytest.mark.asyncio
+async def test_retrieval_logs_hit_and_fallback_statistics(caplog) -> None:
+    light = LightBackend("fallback")
+    with caplog.at_level(logging.INFO, logger="ScenarioAgent"):
+        await retriever(StandardBackend([]), {"environment": light}).retrieve(
+            RetrievalQuery(query="weather", category="environment")
+        )
+
+    assert "event=rag_retrieval" in caplog.text
+    assert "standard_hit_count=0" in caplog.text
+    assert "lightrag_fallback_count=1" in caplog.text
+    assert "lightrag_fallback_rate=1.0" in caplog.text

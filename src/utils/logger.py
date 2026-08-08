@@ -1,6 +1,30 @@
 import logging
 import os
+import re
 from datetime import datetime
+
+
+_SENSITIVE_KEY_NAMES = re.compile(
+    r"(?i)(api[_-]?key|authorization|bearer|token|password|secret)\s*[=:]\s*([^\s,;]+)"
+)
+_TOKEN_PATTERN = re.compile(r"(?i)\b(?:sk|key|token)-[A-Za-z0-9._-]{6,}\b")
+
+
+class SensitiveDataFilter(logging.Filter):
+    """Remove credential-like values before records reach console or files."""
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        rendered = record.getMessage()
+        rendered = _SENSITIVE_KEY_NAMES.sub(lambda match: f"{match.group(1)}=[REDACTED]", rendered)
+        rendered = _TOKEN_PATTERN.sub("[REDACTED]", rendered)
+        record.msg = rendered
+        record.args = ()
+        return True
+
+
+def log_event(logger: logging.Logger, level: int, event: str, **fields: object) -> None:
+    values = " ".join(f"{key}={value}" for key, value in sorted(fields.items()) if value is not None)
+    logger.log(level, "event=%s%s", event, f" {values}" if values else "")
 
 class Logger:
     """日志模块"""
@@ -33,6 +57,9 @@ class Logger:
             # 控制台处理器
             console_handler = logging.StreamHandler()
             console_handler.setLevel(logging.INFO)
+
+            file_handler.addFilter(SensitiveDataFilter())
+            console_handler.addFilter(SensitiveDataFilter())
             
             # 格式化器
             formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')

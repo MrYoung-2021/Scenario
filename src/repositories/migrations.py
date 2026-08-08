@@ -1,6 +1,7 @@
 from collections.abc import Sequence
 from datetime import datetime, timezone
 import logging
+import json
 
 import aiosqlite
 
@@ -91,6 +92,18 @@ MIGRATIONS: tuple[Migration, ...] = (
             "ALTER TABLE generation_runs ADD COLUMN request_payload_json TEXT NULL",
         ),
     ),
+    (
+        4,
+        (
+            """
+            CREATE TABLE IF NOT EXISTS legacy_session_migrations (
+                conversation_id TEXT PRIMARY KEY,
+                migrated_at TEXT NOT NULL,
+                FOREIGN KEY (conversation_id) REFERENCES conversations(id) ON DELETE CASCADE
+            )
+            """,
+        ),
+    ),
 )
 
 
@@ -144,4 +157,133 @@ async def apply_migrations(
         logger.info("Applied schema migration %s; counts before=%s after=%s", version, before, after)
         current_version = version
 
+    await migrate_legacy_sessions(conn)
     return current_version
+
+
+async def _table_exists(conn: aiosqlite.Connection, table: str) -> bool:
+    cursor = await conn.execute(
+        "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = ?",
+        (table,),
+    )
+    return await cursor.fetchone() is not None
+
+
+async def migrate_legacy_sessions(conn: aiosqlite.Connection) -> int:
+    """Copy legacy conversations into the scenario model without deleting source rows.
+
+    The operation is deliberately idempotent: a marker is written for every source
+    conversation and each generated legacy step uses a unique version key.
+    """
+    if not await _table_exists(conn, "conversations"):
+        return 0
+    if not await _table_exists(conn, "legacy_session_migrations"):
+        return 0
+
+    cursor = await conn.execute(
+        "SELECT id, title, created_at, updated_at FROM conversations ORDER BY created_at"
+    )
+    conversations = await cursor.fetchall()
+    if not conversations:
+        return 0
+
+    config_by_conversation: dict[str, dict[str, str | None]] = {}
+    if await _table_exists(conn, "task_configs"):
+        cursor = await conn.execute(
+            "SELECT conversation_id, background, formation, task FROM task_configs"
+        )
+        for row in await cursor.fetchall():
+            config_by_conversation[row["conversation_id"]] = {
+                "background": row["background"],
+                "formation": row["formation"],
+                "task": row["task"],
+            }
+
+    migrated = 0
+    await conn.execute("BEGIN IMMEDIATE")
+    try:
+        for conversation in conversations:
+            conversation_id = conversation["id"]
+            marker = await conn.execute(
+                "SELECT 1 FROM legacy_session_migrations WHERE conversation_id = ?",
+                (conversation_id,),
+            )
+            if await marker.fetchone():
+                continue
+
+            await conn.execute(
+                """
+                INSERT OR IGNORE INTO scenarios(
+                    id, title, current_step, status, final_output, created_at, updated_at
+                ) VALUES (?, ?, 'background', 'active', NULL, ?, ?)
+                """,
+                (
+                    conversation_id,
+                    conversation["title"] or "Legacy scenario",
+                    conversation["created_at"],
+                    conversation["updated_at"],
+                ),
+            )
+            await conn.executemany(
+                """
+                INSERT OR IGNORE INTO scenario_steps(
+                    scenario_id, step_type, input_json, status,
+                    current_version, confirmed_version, created_at, updated_at
+                ) VALUES (?, ?, '{}', 'empty', NULL, NULL, ?, ?)
+                """,
+                [
+                    (conversation_id, step, conversation["created_at"], conversation["updated_at"])
+                    for step in ("background", "formation", "task", "final")
+                ],
+            )
+
+            configs = config_by_conversation.get(conversation_id, {})
+            for step in ("background", "formation", "task"):
+                output = configs.get(step)
+                if not output:
+                    continue
+                existing = await conn.execute(
+                    """
+                    SELECT 1 FROM scenario_step_versions
+                    WHERE scenario_id = ? AND step_type = ? AND version = 1
+                    """,
+                    (conversation_id, step),
+                )
+                if await existing.fetchone():
+                    continue
+                await conn.execute(
+                    """
+                    INSERT INTO scenario_step_versions(
+                        scenario_id, step_type, version, input_snapshot_json,
+                        context_snapshot_json, output_text, sources_json,
+                        generation_mode, revision_instruction, created_at
+                    ) VALUES (?, ?, 1, '{}', '{}', ?, '[]', 'generate', NULL, ?)
+                    """,
+                    (conversation_id, step, output, conversation["updated_at"]),
+                )
+                await conn.execute(
+                    """
+                    UPDATE scenario_steps
+                    SET status = 'generated', current_version = 1, updated_at = ?
+                    WHERE scenario_id = ? AND step_type = ?
+                    """,
+                    (conversation["updated_at"], conversation_id, step),
+                )
+
+            await conn.execute(
+                """
+                INSERT INTO legacy_session_migrations(conversation_id, migrated_at)
+                VALUES (?, ?)
+                """,
+                (conversation_id, datetime.now(timezone.utc).isoformat()),
+            )
+            migrated += 1
+
+        await conn.commit()
+    except Exception:
+        await conn.rollback()
+        raise
+
+    if migrated:
+        logger.info("Migrated %s legacy conversation(s) into scenario workflow", migrated)
+    return migrated

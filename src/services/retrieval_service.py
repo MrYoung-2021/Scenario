@@ -3,11 +3,15 @@
 from __future__ import annotations
 
 import hashlib
+import logging
 import re
 from collections.abc import Awaitable, Callable
 from typing import Protocol
 
 from schemas.retrieval import RetrievedItem, RetrievalQuery, RetrievalResult
+
+
+logger = logging.getLogger("ScenarioAgent")
 
 
 class StandardKnowledgeBackend(Protocol):
@@ -91,6 +95,18 @@ class TieredRetriever:
                 )
             )
 
+        standard_hit_count = len(verified)
+        fallback_count = len(fallback_items)
+        logger.info(
+            "event=rag_retrieval category=%s standard_hit_count=%s standard_candidate_count=%s "
+            "lightrag_fallback_count=%s lightrag_fallback_rate=%s fallback_reason=%s",
+            request.category,
+            standard_hit_count,
+            len(standard_items),
+            fallback_count,
+            1.0 if scopes else 0.0,
+            reason or "none",
+        )
         return RetrievalResult(
             items=self._deduplicate([*eligible, *fallback_items]),
             used_fallback=bool(scopes),
@@ -142,4 +158,3 @@ class TieredRetriever:
             int(item.verified),
             item.score or 0.0,
         )
-
