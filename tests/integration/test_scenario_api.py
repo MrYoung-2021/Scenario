@@ -3,7 +3,7 @@ import pytest
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from api.scenario_routes import router
+from api.scenario_routes import options_router, router
 from repositories.scenario_repository import ScenarioRepository
 from schemas.scenario import StepType
 from services.scenario_service import ScenarioServiceError
@@ -16,6 +16,7 @@ async def test_create_save_and_fetch_scenario(tmp_path) -> None:
     app = FastAPI()
     app.state.sqlite_conn = store
     app.include_router(router)
+    app.include_router(options_router)
 
     @app.exception_handler(ScenarioServiceError)
     async def handle_error(request: Request, exc: ScenarioServiceError):
@@ -27,6 +28,10 @@ async def test_create_save_and_fetch_scenario(tmp_path) -> None:
     transport = httpx.ASGITransport(app=app)
     try:
         async with httpx.AsyncClient(transport=transport, base_url="http://test") as client:
+            options = await client.get("/api/scenario-options")
+            assert options.status_code == 200
+            assert {"terrain_types", "scenario_scales", "task_types"} <= options.json().keys()
+
             created = await client.post("/api/scenarios", json={"title": "API scenario"})
             assert created.status_code == 201
             scenario_id = created.json()["id"]

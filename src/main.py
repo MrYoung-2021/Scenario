@@ -42,6 +42,7 @@ import json
 import uvicorn
 from typing import Annotated, AsyncGenerator
 from api.system_routes import router as system_router
+from api.scenario_routes import options_router as scenario_options_router
 from api.scenario_routes import router as scenario_router
 from services.scenario_service import ScenarioServiceError
 
@@ -69,6 +70,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 app.include_router(system_router)
 app.include_router(scenario_router)
+app.include_router(scenario_options_router)
 
 
 @app.exception_handler(ScenarioServiceError)

@@ -16,6 +16,19 @@ from services.scenario_service import ScenarioService
 
 
 router = APIRouter(prefix="/api/scenarios", tags=["scenarios"])
+options_router = APIRouter(prefix="/api", tags=["scenarios"])
+
+SCENARIO_OPTIONS = {
+    "terrain_types": ["海岛", "沿海", "城市", "山地", "高原", "平原", "丘陵", "森林", "荒漠", "河网", "湖泊"],
+    "seasons": ["春", "夏", "秋", "冬", "雨季", "旱季"],
+    "operation_contexts": ["演训", "危机", "对抗", "其他"],
+    "scenario_scales": ["战区/战役", "师旅级", "营级及以下", "自定义"],
+    "branches": ["陆军", "海军", "空军", "火箭军", "无人系统", "电子对抗", "后勤保障"],
+    "roles": ["进攻", "防御", "机动", "保障", "自定义"],
+    "levels": ["campaign", "tactical"],
+    "action_types": ["进攻", "防御", "机动", "保障", "侦察", "对抗"],
+    "task_types": ["联合火力打击", "区域防御", "跨区机动", "侦察监视", "要点控制", "综合保障"],
+}
 
 
 def get_scenario_service(request: Request) -> ScenarioService:
@@ -39,6 +52,16 @@ GenerationServiceDependency = Annotated[
     GenerationService,
     Depends(get_generation_service),
 ]
+
+
+@router.get("/options")
+async def scenario_options():
+    return SCENARIO_OPTIONS
+
+
+@options_router.get("/scenario-options")
+async def scenario_options_alias():
+    return SCENARIO_OPTIONS
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)
