@@ -22,6 +22,11 @@ class ConfigHandler(object):
     def load_agent_config(config_path: str = get_abs_path("config/agent.yml"), encoding="utf-8"):
         with open(config_path, "r", encoding=encoding) as f:
             return yaml.load(f.read(), Loader=yaml.FullLoader)
+
+    @staticmethod
+    def load_location_config(config_path: str = get_abs_path("config/location.yml"), encoding="utf-8"):
+        with open(config_path, "r", encoding=encoding) as f:
+            return yaml.load(f.read(), Loader=yaml.FullLoader)
         
     @staticmethod
     def load_elements_json(config_path: str = get_abs_path("config/elements.json"), encoding="utf-8"):
@@ -113,3 +118,4 @@ rag_conf = ConfigHandler.load_rag_config()
 db_conf = ConfigHandler.load_db_config()
 prompts_conf = ConfigHandler.load_prompts_config()
 agent_conf = ConfigHandler.load_agent_config()
+location_conf = ConfigHandler.load_location_config()

@@ -34,6 +34,16 @@ const App = {
   step: 'background',
   generating: false,
   page: 'workspace',
+  locationSearch: {
+    query: '',
+    selected: null,
+    candidates: [],
+    state: 'idle',
+    message: '',
+    timer: null,
+    controller: null,
+    requestId: 0,
+  },
 
   async init() {
     this.bind();
@@ -362,10 +372,15 @@ function renderForm() {
   )).join('\n\n');
 
   const form = document.getElementById('step-form');
-  if (App.step === 'background') form.innerHTML = backgroundForm(record.input || {});
-  else if (App.step === 'formation') form.innerHTML = formationForm(record.input || {});
-  else if (App.step === 'task') form.innerHTML = taskForm(record.input || {});
-  else form.innerHTML = '<div class="form-hint">前三个阶段确认后，生成完整定稿。</div>';
+  if (App.step === 'background') {
+    syncLocationSearch(record.input || {});
+    form.innerHTML = backgroundForm(record.input || {});
+  } else {
+    cancelLocationSearch();
+    if (App.step === 'formation') form.innerHTML = formationForm(record.input || {});
+    else if (App.step === 'task') form.innerHTML = taskForm(record.input || {});
+    else form.innerHTML = '<div class="form-hint">前三个阶段确认后，生成完整定稿。</div>';
+  }
   bindDynamicFormControls();
 
   document.getElementById('save-input').disabled = App.generating || App.step === 'final';
@@ -383,9 +398,16 @@ function backgroundForm(value) {
   return `<div class="form-grid">
     <fieldset class="field full"><legend>地点模式</legend><div class="choice-row">
       ${radioChoice('location_mode', 'terrain_template', '地理类型模板', value.location_mode !== 'exact_location')}
-      ${radioChoice('location_mode', 'exact_location', '真实地点（下一阶段接入）', value.location_mode === 'exact_location')}
+      ${radioChoice('location_mode', 'exact_location', '指定真实地点', value.location_mode === 'exact_location')}
     </div></fieldset>
-    <fieldset class="field full"><legend>地理类型</legend><div class="choice-row">
+    <div id="exact-location-fields" class="field full location-search">
+      <label for="location-query">地址搜索</label>
+      <input id="location-query" name="location_query" maxlength="200" autocomplete="off" value="${escapeAttr(App.locationSearch.query)}" placeholder="输入地点名称">
+      <div id="location-selected"></div>
+      <div id="location-search-status" class="location-search-status" aria-live="polite"></div>
+      <div id="location-results" class="location-results" role="listbox" aria-label="地点候选"></div>
+    </div>
+    <fieldset id="terrain-template-fields" class="field full"><legend>地理类型</legend><div class="choice-row">
       ${withSavedOptions(scenarioOptions.terrain_types, value.terrain_types).map((item) => checkChoice('terrain_types', item, value.terrain_types?.includes(item))).join('')}
     </div></fieldset>
     ${selectField('season', '季节', scenarioOptions.seasons, value.season)}
@@ -450,24 +472,162 @@ function taskForm(value) {
 
 function bindDynamicFormControls() {
   const weatherMode = document.querySelector('[name=weather_mode]');
-  if (!weatherMode) return;
-  const updateWeather = () => {
-    document.getElementById('manual-weather').classList.toggle('hidden', weatherMode.value !== 'manual');
-  };
-  weatherMode.addEventListener('change', updateWeather);
-  updateWeather();
+  if (weatherMode) {
+    const updateWeather = () => {
+      document.getElementById('manual-weather').classList.toggle('hidden', weatherMode.value !== 'manual');
+    };
+    weatherMode.addEventListener('change', updateWeather);
+    updateWeather();
+  }
+  const locationModes = document.querySelectorAll('[name=location_mode]');
+  if (locationModes.length) {
+    const updateLocationMode = () => {
+      const exact = checkedValue(document.getElementById('step-form'), 'location_mode') === 'exact_location';
+      document.getElementById('exact-location-fields').classList.toggle('hidden', !exact);
+      document.getElementById('terrain-template-fields').classList.toggle('hidden', exact);
+    };
+    locationModes.forEach((input) => input.addEventListener('change', updateLocationMode));
+    document.getElementById('location-query').addEventListener('input', onLocationQueryInput);
+    updateLocationMode();
+    renderLocationSearch();
+  }
+}
+
+function syncLocationSearch(input) {
+  cancelLocationSearch();
+  const selected = input.location_mode === 'exact_location' ? input.location || null : null;
+  App.locationSearch.query = selected?.display_name || '';
+  App.locationSearch.selected = selected;
+  App.locationSearch.candidates = [];
+  App.locationSearch.state = selected ? 'selected' : 'idle';
+  App.locationSearch.message = '';
+}
+
+function cancelLocationSearch() {
+  const search = App.locationSearch;
+  if (search.timer) clearTimeout(search.timer);
+  if (search.controller) search.controller.abort();
+  search.timer = null;
+  search.controller = null;
+  search.requestId += 1;
+}
+
+function onLocationQueryInput(event) {
+  const search = App.locationSearch;
+  cancelLocationSearch();
+  search.query = event.target.value;
+  if (search.selected && search.query !== search.selected.display_name) search.selected = null;
+  search.candidates = [];
+  const query = search.query.trim();
+  if (query.length < 2) {
+    search.state = query ? 'short' : 'idle';
+    search.message = query ? '搜索词至少需要 2 个字符' : '';
+    renderLocationSearch();
+    return;
+  }
+  search.state = 'debouncing';
+  search.message = '';
+  const requestId = search.requestId;
+  search.timer = setTimeout(() => searchLocations(query, requestId), 500);
+  renderLocationSearch();
+}
+
+async function searchLocations(query, requestId) {
+  const search = App.locationSearch;
+  if (requestId !== search.requestId) return;
+  search.state = 'loading';
+  search.message = '正在搜索地点...';
+  search.controller = new AbortController();
+  renderLocationSearch();
+  try {
+    const response = await fetch(`${API}/api/locations/search?q=${encodeURIComponent(query)}`, {
+      signal: search.controller.signal,
+    });
+    const body = await response.json();
+    if (!response.ok) throw new Error(body.error?.message || '地址服务不可用');
+    if (requestId !== search.requestId) return;
+    search.candidates = body;
+    search.state = body.length ? 'results' : 'empty';
+    search.message = body.length ? '' : '未找到匹配地点';
+  } catch (error) {
+    if (error.name === 'AbortError' || requestId !== search.requestId) return;
+    search.candidates = [];
+    search.state = 'error';
+    search.message = error.message || '地址服务不可用';
+  } finally {
+    if (requestId === search.requestId) search.controller = null;
+    renderLocationSearch();
+  }
+}
+
+function renderLocationSearch() {
+  const selectedContainer = document.getElementById('location-selected');
+  const status = document.getElementById('location-search-status');
+  const results = document.getElementById('location-results');
+  if (!selectedContainer || !status || !results) return;
+  const search = App.locationSearch;
+  selectedContainer.innerHTML = search.selected ? `<div class="location-selected">
+    <div><strong>${escapeHtml(search.selected.display_name)}</strong><span>${escapeHtml(locationMeta(search.selected))}</span></div>
+    <button type="button" class="icon-button location-clear" title="清除地点" aria-label="清除地点">×</button>
+  </div>` : '';
+  selectedContainer.querySelector('.location-clear')?.addEventListener('click', clearSelectedLocation);
+  status.textContent = search.message;
+  status.className = `location-search-status ${search.state === 'error' ? 'error' : ''}`;
+  results.innerHTML = search.state === 'results' ? search.candidates.map((location, index) => `
+    <button type="button" class="location-result" data-index="${index}" role="option">
+      <strong>${escapeHtml(location.display_name)}</strong>
+      <span>${escapeHtml(locationMeta(location))}</span>
+    </button>`).join('') : '';
+  results.querySelectorAll('.location-result').forEach((button) => {
+    button.addEventListener('click', () => selectLocation(Number(button.dataset.index)));
+  });
+}
+
+function selectLocation(index) {
+  const location = App.locationSearch.candidates[index];
+  if (!location) return;
+  cancelLocationSearch();
+  App.locationSearch.selected = location;
+  App.locationSearch.query = location.display_name;
+  App.locationSearch.candidates = [];
+  App.locationSearch.state = 'selected';
+  App.locationSearch.message = '';
+  document.getElementById('location-query').value = location.display_name;
+  renderLocationSearch();
+}
+
+function clearSelectedLocation() {
+  cancelLocationSearch();
+  App.locationSearch.selected = null;
+  App.locationSearch.query = '';
+  App.locationSearch.candidates = [];
+  App.locationSearch.state = 'idle';
+  App.locationSearch.message = '';
+  document.getElementById('location-query').value = '';
+  document.getElementById('location-query').focus();
+  renderLocationSearch();
+}
+
+function locationMeta(location) {
+  const regions = [location.country, location.admin1, location.admin2].filter(Boolean);
+  const coordinates = `${Number(location.latitude).toFixed(4)}, ${Number(location.longitude).toFixed(4)}`;
+  return [...new Set(regions)].join(' · ') + `${regions.length ? ' · ' : ''}${coordinates}`;
 }
 
 function readForm(step) {
   const form = document.getElementById('step-form');
   if (step === 'background') {
     const locationMode = checkedValue(form, 'location_mode');
-    const terrainTypes = checkedValues(form, 'terrain_types');
-    if (locationMode === 'exact_location') {
-      toast('真实地点需要从地址候选中选择，地址搜索将在下一阶段接入', 'error');
+    let terrainTypes = checkedValues(form, 'terrain_types');
+    let location = null;
+    if (locationMode === 'exact_location' && !App.locationSearch.selected) {
+      toast('请从地址搜索结果中选择一个地点', 'error');
       return null;
     }
-    if (!terrainTypes.length) {
+    if (locationMode === 'exact_location') {
+      location = App.locationSearch.selected;
+      terrainTypes = [];
+    } else if (!terrainTypes.length) {
       toast('请至少选择一种地理类型', 'error');
       return null;
     }
@@ -488,6 +648,7 @@ function readForm(step) {
     }
     return {
       location_mode: locationMode,
+      location,
       terrain_types: terrainTypes,
       season: fieldValue(form, 'season'),
       weather_mode: weatherMode,

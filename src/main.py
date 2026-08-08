@@ -42,6 +42,7 @@ import json
 import uvicorn
 from typing import Annotated, AsyncGenerator
 from api.system_routes import router as system_router
+from api.location_routes import router as location_router
 from api.scenario_routes import options_router as scenario_options_router
 from api.scenario_routes import router as scenario_router
 from services.scenario_service import ScenarioServiceError
@@ -66,9 +67,12 @@ async def lifespan(app: FastAPI):
     # SQLite3 连接关闭
     if hasattr(app.state, 'sqlite_conn'):
         await app.state.sqlite_conn.close()
+    if hasattr(app.state, 'location_service'):
+        await app.state.location_service.close()
 
 app = FastAPI(lifespan=lifespan)
 app.include_router(system_router)
+app.include_router(location_router)
 app.include_router(scenario_router)
 app.include_router(scenario_options_router)
 

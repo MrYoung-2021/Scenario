@@ -53,8 +53,17 @@ async def test_generation_endpoint_streams_ndjson_and_is_idempotent(tmp_path) ->
                 f"/api/scenarios/{scenario_id}/steps/background/input",
                 json={
                     "input": {
-                        "location_mode": "terrain_template",
-                        "terrain_types": ["mountain"],
+                        "location_mode": "exact_location",
+                        "location": {
+                            "place_id": "mock:beijing",
+                            "display_name": "北京市，中国",
+                            "country": "中国",
+                            "admin1": "北京市",
+                            "latitude": 39.9042,
+                            "longitude": 116.4074,
+                            "bbox": [39.4, 41.1, 115.4, 117.5],
+                            "source": "mock",
+                        },
                         "season": "summer",
                         "operation_context": "exercise",
                     }

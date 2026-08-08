@@ -3,6 +3,11 @@ from typing import Any, Annotated, Literal
 
 from pydantic import BaseModel, Field, model_validator
 
+from schemas.location import LocationResult
+
+
+LocationSelection = LocationResult
+
 
 class StepType(StrEnum):
     BACKGROUND = "background"
@@ -25,20 +30,6 @@ class GenerationMode(StrEnum):
     GENERATE = "generate"
     REGENERATE = "regenerate"
     REVISE = "revise"
-
-
-class LocationSelection(BaseModel):
-    model_config = {"extra": "forbid"}
-
-    place_id: str = Field(min_length=1, max_length=300)
-    display_name: str = Field(min_length=1, max_length=500)
-    country: str | None = Field(default=None, max_length=100)
-    admin1: str | None = Field(default=None, max_length=100)
-    admin2: str | None = Field(default=None, max_length=100)
-    latitude: float = Field(ge=-90, le=90)
-    longitude: float = Field(ge=-180, le=180)
-    bbox: tuple[float, float, float, float] | None = None
-    source: str = Field(min_length=1, max_length=50)
 
 
 class BackgroundInput(BaseModel):

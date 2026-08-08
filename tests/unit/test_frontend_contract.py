@@ -23,10 +23,12 @@ async def test_scenario_static_page_exposes_workflow_assets() -> None:
     assert 'id="stepper"' in page.text
     assert 'id="knowledge-modal"' in page.text
     assert 'id="knowledge-delete-modal"' in page.text
-    assert "/static/scenario.css?v=5" in page.text
-    assert "/static/scenario.js?v=5" in page.text
+    assert "/static/scenario.css?v=6" in page.text
+    assert "/static/scenario.js?v=6" in page.text
     assert stylesheet.status_code == 200
     assert script.status_code == 200
     assert "localStorage" not in script.text
     assert "/api/scenario-options" in script.text
+    assert "/api/locations/search" in script.text
+    assert "setTimeout(() => searchLocations(query, requestId), 500)" in script.text
     assert "weather_mode" in script.text
