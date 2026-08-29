@@ -35,6 +35,7 @@ from api.scenario_routes import options_router as scenario_options_router
 from api.scenario_routes import router as scenario_router
 from api.knowledge_routes import router as knowledge_router
 from services.scenario_service import ScenarioServiceError
+from services.retrieval_registry import start_deposition_worker, stop_deposition_worker
 
 
 
@@ -46,6 +47,7 @@ async def lifespan(app: FastAPI):
     
     # 1. SQLite3（同步连接，设置 check_same_thread=False 以便在多线程中使用）
     app.state.sqlite_conn = await get_conv_store()
+    await start_deposition_worker()
     # 建议开启 WAL 模式提高并发性能
     # app.state.sqlite_conn.execute("PRAGMA journal_mode=WAL")
     
@@ -53,6 +55,7 @@ async def lifespan(app: FastAPI):
     
     # ========== 关闭：释放所有资源 ==========
     
+    await stop_deposition_worker()
     # SQLite3 连接关闭
     if hasattr(app.state, 'sqlite_conn'):
         await app.state.sqlite_conn.close()

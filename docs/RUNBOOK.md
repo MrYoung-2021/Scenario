@@ -54,6 +54,8 @@ python .\scripts\validate_migration.py $env:TEMP\scenario-migration-test.db
 
 迁移日志会记录每个版本的执行前后表数量。生成日志使用 `event=generation_completed`、`event=generation_failed` 等结构化事件，并包含 `scenario_id`、`step`、`request_id` 和 `duration_ms`。分级检索使用 `event=rag_retrieval` 记录普通候选数、已审核命中数、回退数和回退率；日志处理器会移除 API key、token、bearer 和 password 值。
 
+知识沉淀由 `config/rag.yml` 中的 `knowledge_deposition` 配置控制。LightRAG 回退内容进入有界进程内队列，由固定数量消费者异步总结并写入 Chroma；队列满、模型失败或写入失败只记录 `knowledge_deposition_*` 事件，不影响检索和生成。自动写入条目默认为 `verified=false`，需在知识库管理页人工批准。应用关闭时最多等待 `shutdown_timeout_seconds` 秒清空队列，超时任务会被取消；进程异常退出时未执行任务允许丢失，重复召回由内容哈希去重。
+
 ## 启动与检查
 
 从仓库根目录启动服务：

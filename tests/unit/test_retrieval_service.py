@@ -127,3 +127,33 @@ async def test_retrieval_logs_hit_and_fallback_statistics(caplog) -> None:
     assert "standard_hit_count=0" in caplog.text
     assert "lightrag_fallback_count=1" in caplog.text
     assert "lightrag_fallback_rate=1.0" in caplog.text
+
+
+@pytest.mark.asyncio
+async def test_lightrag_fallback_dispatches_scoped_deposition_job() -> None:
+    class Dispatcher:
+        def __init__(self):
+            self.jobs = []
+
+        def dispatch(self, job):
+            self.jobs.append(job)
+            return True
+
+    dispatcher = Dispatcher()
+    result = await TieredRetriever(
+        StandardBackend([]),
+        {"red_task": LightBackend("task context")},
+        score_threshold=0.65,
+        standard_top_k=5,
+        lightrag_top_k=4,
+        minimum_verified_hits=1,
+        deposition_dispatcher=dispatcher,
+    ).retrieve(RetrievalQuery(query="planning", category="task", side="red"))
+
+    assert result.used_fallback is True
+    assert len(dispatcher.jobs) == 1
+    job = dispatcher.jobs[0]
+    assert job.category == "task"
+    assert job.side == "red"
+    assert job.scope == "red_task"
+    assert job.mode == "summarize"

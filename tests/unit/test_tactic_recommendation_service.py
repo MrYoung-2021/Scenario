@@ -85,6 +85,34 @@ async def test_recommendations_use_red_and_blue_task_retrieval_and_cache() -> No
 
 
 @pytest.mark.asyncio
+async def test_recommendations_dispatch_direct_tactics_and_objectives() -> None:
+    class Dispatcher:
+        def __init__(self):
+            self.jobs = []
+
+        def dispatch(self, job):
+            self.jobs.append(job)
+            return True
+
+    dispatcher = Dispatcher()
+    service = TacticRecommendationService(
+        ScenarioService(), retriever=Retriever(), summarizer=summarizer,
+        deposition_dispatcher=dispatcher,
+    )
+
+    await service.recommend("scenario-1")
+
+    assert [(job.category, job.side, job.mode) for job in dispatcher.jobs] == [
+        ("tactics_campaign", "all", "direct"),
+        ("tactics_tactical", "all", "direct"),
+        ("task", "red", "direct"),
+        ("task", "blue", "direct"),
+    ]
+    assert dispatcher.jobs[0].title == "纵深分割"
+    assert dispatcher.jobs[2].scope == "objective_recommendation"
+
+
+@pytest.mark.asyncio
 async def test_recommendation_timeout_is_configurable(caplog) -> None:
     class SlowRetriever:
         async def retrieve(self, request):

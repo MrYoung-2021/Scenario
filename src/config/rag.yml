@@ -9,3 +9,10 @@ retrieval:
   lightrag_top_k: 5
   minimum_verified_hits: 2
   tactic_recommendation_timeout_seconds: 180
+
+knowledge_deposition:
+  enabled: true
+  queue_size: 100
+  worker_count: 2
+  shutdown_timeout_seconds: 10
+  max_summary_entries: 8

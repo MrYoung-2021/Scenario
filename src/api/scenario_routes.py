@@ -14,6 +14,7 @@ from schemas.scenario import (
 )
 from services.generation_service import GenerationService, encode_ndjson
 from services.retrieval_registry import get_tiered_retriever
+from services.retrieval_registry import get_deposition_worker
 from services.scenario_service import ScenarioService
 from services.tactic_recommendation_service import TacticRecommendationService
 from utils.config_handler import ConfigHandler, rag_conf
@@ -73,6 +74,7 @@ def get_recommendation_service(request: Request) -> TacticRecommendationService:
         service = TacticRecommendationService(
             ScenarioService(repository),
             get_tiered_retriever(),
+            deposition_dispatcher=get_deposition_worker(),
             timeout_seconds=float(
                 os.getenv(
                     "TACTIC_RECOMMENDATION_TIMEOUT_SECONDS",

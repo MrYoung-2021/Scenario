@@ -49,6 +49,7 @@ class KnowledgePromotionService:
         *,
         source: str,
         source_id: str,
+        extra_metadata: dict | None = None,
     ) -> list[dict]:
         results: list[dict] = []
         for entry in entries:
@@ -58,19 +59,22 @@ class KnowledgePromotionService:
             if existing:
                 results.append({"k_id": existing["k_id"], "duplicate": True})
                 continue
+            metadata = {
+                "level": entry.level,
+                "domain": entry.domain,
+                "side": entry.side,
+                "scenario_type": entry.scenario_type,
+                "source": source,
+                "source_id": source_id,
+                "verified": False,
+                "content_hash": digest,
+            }
+            if extra_metadata:
+                metadata.update(extra_metadata)
             ids = self.store.add_text(
                 document,
                 entry.category,
-                {
-                    "level": entry.level,
-                    "domain": entry.domain,
-                    "side": entry.side,
-                    "scenario_type": entry.scenario_type,
-                    "source": source,
-                    "source_id": source_id,
-                    "verified": False,
-                    "content_hash": digest,
-                },
+                metadata,
             )
             results.extend({"k_id": knowledge_id, "duplicate": False} for knowledge_id in ids)
         return results

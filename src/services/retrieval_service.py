@@ -8,7 +8,7 @@ import re
 from collections.abc import Awaitable, Callable
 from typing import Protocol
 
-from schemas.retrieval import RetrievedItem, RetrievalQuery, RetrievalResult
+from schemas.retrieval import DepositionJob, RetrievedItem, RetrievalQuery, RetrievalResult
 
 
 logger = logging.getLogger("ScenarioAgent")
@@ -26,6 +26,10 @@ class StandardKnowledgeBackend(Protocol):
 
 class LightKnowledgeBackend(Protocol):
     async def query(self, query: str, *, top_k: int) -> str: ...
+
+
+class DepositionDispatcher(Protocol):
+    def dispatch(self, job: DepositionJob) -> bool: ...
 
 
 class LazyLightRAGBackend:
@@ -55,6 +59,7 @@ class TieredRetriever:
         standard_top_k: int,
         lightrag_top_k: int,
         minimum_verified_hits: int,
+        deposition_dispatcher: DepositionDispatcher | None = None,
     ) -> None:
         self.standard = standard
         self.fallbacks = fallbacks
@@ -62,6 +67,7 @@ class TieredRetriever:
         self.standard_top_k = standard_top_k
         self.lightrag_top_k = lightrag_top_k
         self.minimum_verified_hits = minimum_verified_hits
+        self.deposition_dispatcher = deposition_dispatcher
 
     async def retrieve(self, request: RetrievalQuery) -> RetrievalResult:
         standard_items = await self.standard.asearch(
@@ -84,16 +90,20 @@ class TieredRetriever:
             content = (await backend.query(request.query, top_k=self.lightrag_top_k)).strip()
             if not content:
                 continue
+            fallback_source_id = hashlib.sha256(
+                f"{scope}|{request.query}|{content}".encode("utf-8")
+            ).hexdigest()
             fallback_items.append(
                 RetrievedItem(
                     content=content,
                     backend="lightrag",
                     category=request.category,
                     source=scope,
-                    source_id=scope,
+                    source_id=fallback_source_id,
                     metadata={"scope": scope},
                 )
             )
+            self._dispatch_deposition(request, scope, content)
 
         standard_hit_count = len(verified)
         fallback_count = len(fallback_items)
@@ -113,6 +123,36 @@ class TieredRetriever:
             fallback_reason=reason,
             fallback_scopes=scopes,
         )
+
+    def _dispatch_deposition(self, request: RetrievalQuery, scope: str, content: str) -> None:
+        if self.deposition_dispatcher is None or request.category.startswith("tactics_"):
+            return
+        if request.category == "environment":
+            side = "all"
+        elif request.side in {"red", "blue"}:
+            side = request.side
+        else:
+            side = "red" if scope.startswith("red_") else "blue"
+        source_id = hashlib.sha256(
+            f"{scope}|{request.query}|{content}".encode("utf-8")
+        ).hexdigest()
+        job = DepositionJob(
+            query=request.query,
+            content=content,
+            category=request.category,
+            side=side,
+            scope=scope,
+            source_id=source_id,
+            source=scope,
+            level=request.level or "general",
+            domain=request.domain or "general",
+            scenario_type=request.scenario_type or "all",
+            context_hash=hashlib.sha256(request.query.encode("utf-8")).hexdigest(),
+        )
+        try:
+            self.deposition_dispatcher.dispatch(job)
+        except Exception:
+            logger.exception("event=knowledge_deposition_failed reason=dispatch_exception category=%s scope=%s", request.category, scope)
 
     def _fallback_reason(
         self,

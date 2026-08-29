@@ -13,6 +13,7 @@ from typing import Any, Literal
 from pydantic import BaseModel, ConfigDict, Field
 
 from schemas.retrieval import (
+    DepositionJob,
     RetrievalQuery,
     RetrievalResult,
     TacticRecommendationItem,
@@ -20,6 +21,7 @@ from schemas.retrieval import (
 )
 from schemas.scenario import StepStatus, StepType
 from services.retrieval_service import TieredRetriever
+from services.retrieval_service import DepositionDispatcher
 from services.scenario_service import ScenarioService, ScenarioServiceError
 
 
@@ -73,6 +75,7 @@ class TacticRecommendationService:
         cache_max_entries: int = 128,
         timeout_seconds: float = 180,
         clock: Callable[[], float] = time.monotonic,
+        deposition_dispatcher: DepositionDispatcher | None = None,
     ) -> None:
         self.scenario_service = scenario_service
         self.retriever = retriever
@@ -81,6 +84,7 @@ class TacticRecommendationService:
         self.cache_max_entries = max(1, cache_max_entries)
         self.timeout_seconds = max(1.0, timeout_seconds)
         self.clock = clock
+        self.deposition_dispatcher = deposition_dispatcher
         self._cache: OrderedDict[str, _CacheEntry] = OrderedDict()
 
     async def recommend(self, scenario_id: str) -> TacticRecommendations:
@@ -172,7 +176,7 @@ class TacticRecommendationService:
         red_provenance = _provenance(red_result)
         blue_provenance = _provenance(blue_result)
         combined_provenance = _combine_provenance(red_result, blue_result)
-        return TacticRecommendations(
+        recommendations = TacticRecommendations(
             red_objectives=_build_items(
                 generated.red_objectives, "campaign", red_provenance
             ),
@@ -186,6 +190,71 @@ class TacticRecommendationService:
                 generated.tactical_tactics, "tactical", combined_provenance
             ),
         )
+        self._dispatch_generated_knowledge(recommendations, context)
+        return recommendations
+
+    def _dispatch_generated_knowledge(
+        self, recommendations: TacticRecommendations, context: dict[str, Any]
+    ) -> None:
+        dispatcher = self.deposition_dispatcher
+        if dispatcher is None:
+            return
+        context_hash = hashlib.sha256(
+            json.dumps(context, ensure_ascii=False, sort_keys=True).encode("utf-8")
+        ).hexdigest()
+        jobs = [
+            *(
+                DepositionJob(
+                    title=item.label,
+                    content=item.content,
+                    category="tactics_campaign",
+                    level="campaign",
+                    side="all",
+                    scope="tactic_recommendation",
+                    source="tactic_recommendation",
+                    source_id=item.id,
+                    context_hash=context_hash,
+                    mode="direct",
+                )
+                for item in recommendations.campaign_tactics
+            ),
+            *(
+                DepositionJob(
+                    title=item.label,
+                    content=item.content,
+                    category="tactics_tactical",
+                    level="tactical",
+                    side="all",
+                    scope="tactic_recommendation",
+                    source="tactic_recommendation",
+                    source_id=item.id,
+                    context_hash=context_hash,
+                    mode="direct",
+                )
+                for item in recommendations.tactical_tactics
+            ),
+            *(
+                DepositionJob(
+                    title=item.label,
+                    content=item.content,
+                    category="task",
+                    level="campaign",
+                    side=side,
+                    scope="objective_recommendation",
+                    source="objective_recommendation",
+                    source_id=item.id,
+                    context_hash=context_hash,
+                    mode="direct",
+                )
+                for side, items in (("red", recommendations.red_objectives), ("blue", recommendations.blue_objectives))
+                for item in items
+            ),
+        ]
+        for job in jobs:
+            try:
+                dispatcher.dispatch(job)
+            except Exception:
+                logger.exception("event=knowledge_deposition_failed reason=dispatch_exception category=%s source_id=%s", job.category, job.source_id)
 
 
 def _compact_context(context: dict[str, Any]) -> str:

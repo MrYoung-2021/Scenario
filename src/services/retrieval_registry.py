@@ -8,11 +8,14 @@ from pathlib import Path
 from rag.lightrag_deepseek import LightRAGWrapper
 from rag.rag import RAG
 from services.retrieval_service import LazyLightRAGBackend, TieredRetriever
+from services.knowledge_deposition_service import AIKnowledgeSummarizer, KnowledgeDepositionWorker
+from services.knowledge_promotion_service import KnowledgePromotionService
 from utils.config_handler import db_conf, rag_conf
 
 
 _retriever: TieredRetriever | None = None
 _feedback_retriever: TieredRetriever | None = None
+_deposition_worker: KnowledgeDepositionWorker | None = None
 
 
 def _light_backend(scope: str) -> LazyLightRAGBackend:
@@ -51,7 +54,36 @@ def _build(standard: RAG, *, include_lightrag: bool = True) -> TieredRetriever:
         standard_top_k=int(settings["standard_top_k"]),
         lightrag_top_k=int(settings["lightrag_top_k"]),
         minimum_verified_hits=int(settings["minimum_verified_hits"]),
+        deposition_dispatcher=get_deposition_worker() if include_lightrag else None,
     )
+
+
+def get_deposition_worker() -> KnowledgeDepositionWorker | None:
+    global _deposition_worker
+    settings = rag_conf.get("knowledge_deposition", {})
+    if not settings.get("enabled", True):
+        return None
+    if _deposition_worker is None:
+        _deposition_worker = KnowledgeDepositionWorker(
+            KnowledgePromotionService(RAG()),
+            AIKnowledgeSummarizer(),
+            queue_size=int(settings.get("queue_size", 100)),
+            worker_count=int(settings.get("worker_count", 2)),
+            max_summary_entries=int(settings.get("max_summary_entries", 8)),
+        )
+    return _deposition_worker
+
+
+async def start_deposition_worker() -> None:
+    worker = get_deposition_worker()
+    if worker is not None:
+        await worker.start()
+
+
+async def stop_deposition_worker() -> None:
+    worker = get_deposition_worker()
+    if worker is not None:
+        await worker.stop(float(rag_conf.get("knowledge_deposition", {}).get("shutdown_timeout_seconds", 10)))
 
 
 def get_tiered_retriever() -> TieredRetriever:

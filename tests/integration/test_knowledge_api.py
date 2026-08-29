@@ -35,6 +35,18 @@ class Store:
 
 
 @pytest.mark.asyncio
+async def test_knowledge_base_names_use_battle_method_wording() -> None:
+    app = FastAPI()
+    app.include_router(knowledge_routes.router)
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        response = await client.get("/api/get_knowledge_bases")
+
+    names = {item["kb_id"]: item["name"] for item in response.json()}
+    assert names["tactics_campaign"] == "战役级战法知识库"
+    assert names["tactics_tactical"] == "战术级战法知识库"
+
+
+@pytest.mark.asyncio
 async def test_knowledge_creation_review_and_duplicate_contract(monkeypatch) -> None:
     store = Store()
     monkeypatch.setattr(knowledge_routes, "_knowledge_store", store)

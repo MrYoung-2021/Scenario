@@ -1,5 +1,6 @@
 """Shared contracts for tiered retrieval and reusable knowledge."""
 
+from datetime import datetime, timezone
 from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
@@ -15,6 +16,16 @@ KnowledgeCategory = Literal[
     "expert",
     "feedback",
 ]
+
+DepositionCategory = Literal[
+    "environment",
+    "formation",
+    "weapon",
+    "tactics_campaign",
+    "tactics_tactical",
+    "task",
+]
+DepositionMode = Literal["summarize", "direct"]
 
 
 class RetrievalQuery(BaseModel):
@@ -48,6 +59,25 @@ class RetrievalResult(BaseModel):
     used_fallback: bool = False
     fallback_reason: str | None = None
     fallback_scopes: list[str] = Field(default_factory=list)
+
+
+class DepositionJob(BaseModel):
+    """A bounded, non-blocking request to promote retrieved/generated knowledge."""
+
+    query: str = Field(default="", max_length=12000)
+    content: str = Field(min_length=1, max_length=30000)
+    title: str = Field(default="", max_length=200)
+    category: DepositionCategory
+    side: Literal["red", "blue", "all"] = "all"
+    scope: str = Field(min_length=1, max_length=120)
+    source_id: str = Field(min_length=1, max_length=200)
+    mode: DepositionMode = "summarize"
+    source: str = Field(min_length=1, max_length=200)
+    level: Literal["campaign", "tactical", "general"] = "general"
+    domain: str = Field(default="general", max_length=120)
+    scenario_type: str = Field(default="all", max_length=120)
+    context_hash: str = Field(default="", max_length=128)
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
 
 class TacticRecommendationItem(BaseModel):
