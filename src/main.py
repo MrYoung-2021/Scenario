@@ -24,7 +24,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import asyncio
 import json
 import uvicorn
@@ -94,8 +94,8 @@ class ChatRequest(BaseModel):
     elements: str
 
 class ElementModel(BaseModel):
-    name: str
-    element: str
+    name: str = Field(min_length=1, max_length=50)
+    element: str = Field(min_length=1, max_length=100)
 
 
 @app.post("/api/chat", deprecated=True)
@@ -196,8 +196,8 @@ async def add_element(request: ElementModel):
     """
     添加装载元素
     """
-    ConfigHandler.update_elements_json({"name": request.name, "element": request.element})
-    return {"success": True}
+    added = ConfigHandler.update_elements_json({"name": request.name, "element": request.element})
+    return {"success": True, "added": added}
 
 @app.delete("/api/delete_element")
 async def delete_element(name: str, element: str):

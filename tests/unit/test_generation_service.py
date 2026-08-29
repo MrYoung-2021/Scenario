@@ -126,7 +126,11 @@ async def test_generation_persists_version_sources_and_replays(generation_workfl
         "weather": None,
         "time_condition": None,
         "location": None,
+        "location_profile": None,
+        "custom_terrain_types": [],
     }
+    assert events[0]["message"] == "正在准备前置条件和知识检索"
+    assert events[1]["message"] == "正在生成背景与环境"
 
     replay_events = await collect(
         generation_service,

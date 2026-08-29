@@ -1,3 +1,4 @@
+import os
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, Request, Response, status
@@ -12,23 +13,34 @@ from schemas.scenario import (
     StepType,
 )
 from services.generation_service import GenerationService, encode_ndjson
+from services.retrieval_registry import get_tiered_retriever
 from services.scenario_service import ScenarioService
+from services.tactic_recommendation_service import TacticRecommendationService
+from utils.config_handler import ConfigHandler, rag_conf
 
 
 router = APIRouter(prefix="/api/scenarios", tags=["scenarios"])
 options_router = APIRouter(prefix="/api", tags=["scenarios"])
 
-SCENARIO_OPTIONS = {
-    "terrain_types": ["海岛", "沿海", "城市", "山地", "高原", "平原", "丘陵", "森林", "荒漠", "河网", "湖泊"],
+STATIC_SCENARIO_OPTIONS = {
+    "terrain_types": [
+        {"value": value, "label": value, "builtin": True}
+        for value in ("海岛", "沿海", "城市", "山地", "高原", "平原", "丘陵", "森林", "荒漠", "河网", "湖泊")
+    ],
     "seasons": ["春", "夏", "秋", "冬", "雨季", "旱季"],
     "operation_contexts": ["演训", "危机", "对抗", "其他"],
     "scenario_scales": ["战区/战役", "师旅级", "营级及以下", "自定义"],
     "branches": ["陆军", "海军", "空军", "火箭军", "无人系统", "电子对抗", "后勤保障"],
-    "roles": ["进攻", "防御", "机动", "保障", "自定义"],
-    "levels": ["campaign", "tactical"],
-    "action_types": ["进攻", "防御", "机动", "保障", "侦察", "对抗"],
-    "task_types": ["联合火力打击", "区域防御", "跨区机动", "侦察监视", "要点控制", "综合保障"],
+    "echelons": ["班", "排", "连", "营", "团", "旅", "师", "军", "战区"],
+    "tactic_sources": ["campaign", "tactical"],
 }
+
+
+def load_scenario_options() -> dict:
+    return {
+        **STATIC_SCENARIO_OPTIONS,
+        "weapon_categories": ConfigHandler.load_elements_json(),
+    }
 
 
 def get_scenario_service(request: Request) -> ScenarioService:
@@ -54,14 +66,40 @@ GenerationServiceDependency = Annotated[
 ]
 
 
+def get_recommendation_service(request: Request) -> TacticRecommendationService:
+    service = getattr(request.app.state, "tactic_recommendation_service", None)
+    if service is None:
+        repository = ScenarioRepository(request.app.state.sqlite_conn.conn)
+        service = TacticRecommendationService(
+            ScenarioService(repository),
+            get_tiered_retriever(),
+            timeout_seconds=float(
+                os.getenv(
+                    "TACTIC_RECOMMENDATION_TIMEOUT_SECONDS",
+                    rag_conf["retrieval"].get(
+                        "tactic_recommendation_timeout_seconds", 180
+                    ),
+                )
+            ),
+        )
+        request.app.state.tactic_recommendation_service = service
+    return service
+
+
+RecommendationServiceDependency = Annotated[
+    TacticRecommendationService,
+    Depends(get_recommendation_service),
+]
+
+
 @router.get("/options")
 async def scenario_options():
-    return SCENARIO_OPTIONS
+    return load_scenario_options()
 
 
 @options_router.get("/scenario-options")
 async def scenario_options_alias():
-    return SCENARIO_OPTIONS
+    return load_scenario_options()
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)
@@ -77,6 +115,14 @@ async def list_scenarios(service: ScenarioServiceDependency):
 @router.get("/{scenario_id}")
 async def get_scenario(scenario_id: str, service: ScenarioServiceDependency):
     return await service.get(scenario_id)
+
+
+@router.post("/{scenario_id}/tactic-recommendations")
+async def tactic_recommendations(
+    scenario_id: str,
+    service: RecommendationServiceDependency,
+):
+    return await service.recommend(scenario_id)
 
 
 @router.delete("/{scenario_id}", status_code=status.HTTP_204_NO_CONTENT)

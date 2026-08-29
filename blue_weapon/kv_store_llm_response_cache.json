@@ -1379,15 +1379,15 @@
     "update_time": 1780744190,
     "_id": "local:keywords:45fdb0d5f9d3a32a63f67e82576e5295"
   },
-  "local:keywords:b53619966fca71f901aa673a2485f1b4": {
-    "return": "{\"high_level_keywords\": [\"Mountain warfare\", \"Defensive strategy\", \"Force organization\"], \"low_level_keywords\": [\"High-altitude terrain\", \"Blue force\", \"Mountain infantry brigade\", \"Defensive deployment\"]}",
+  "local:keywords:f249805856f0c275da13b4b0c933522e": {
+    "return": "{\"high_level_keywords\": [\"\\u6d77\\u5c9b\\u5730\\u5f62\\u7279\\u5f81\", \"\\u519b\\u4e8b\\u5f71\\u54cd\"], \"low_level_keywords\": [\"\\u6d77\\u5c9b\", \"\\u5730\\u5f62\", \"\\u519b\\u4e8b\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "高海拔山地 蓝方 兵力编成 山地步兵旅 防御部署",
+    "original_prompt": "海岛地形特征 军事影响",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1395,19 +1395,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744294,
-    "update_time": 1780744294,
-    "_id": "local:keywords:b53619966fca71f901aa673a2485f1b4"
+    "create_time": 1786520925,
+    "update_time": 1786520925,
+    "_id": "local:keywords:f249805856f0c275da13b4b0c933522e"
   },
-  "local:keywords:5f34bd67b710ae1ad5ccddf1363f405c": {
-    "return": "{\"high_level_keywords\": [\"High-cold mountainous terrain\", \"Weapons and equipment\", \"Military tactics\", \"Blue force\"], \"low_level_keywords\": [\"Light artillery\", \"Air defense systems\", \"Reconnaissance UAVs\", \"Individual weapons\"]}",
+  "local:keywords:55479d9073930e497ced45dd921eece0": {
+    "return": "{\"high_level_keywords\": [\"\\u6c14\\u8c61\", \"\\u6c14\\u5019\\u7279\\u5f81\", \"\\u6625\\u5b63\"], \"low_level_keywords\": [\"\\u6d77\\u5c9b\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "高寒山地 蓝方 武器装备 轻型火炮 防空系统 侦察无人机 单兵武器 战术",
+    "original_prompt": "海岛 春季 气象 气候特征",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1415,19 +1415,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744298,
-    "update_time": 1780744298,
-    "_id": "local:keywords:5f34bd67b710ae1ad5ccddf1363f405c"
+    "create_time": 1786520925,
+    "update_time": 1786520925,
+    "_id": "local:keywords:55479d9073930e497ced45dd921eece0"
   },
-  "local:keywords:7db4af38a0c5890ea01df6b999c1d03c": {
-    "return": "{\"high_level_keywords\": [\"High-altitude cold mountain warfare\", \"Red force\", \"Weapons and equipment\"], \"low_level_keywords\": [\"Light tank\", \"Self-propelled artillery\", \"Air defense missile\", \"Unmanned aerial vehicle\", \"Ammunition tactics\"]}",
+  "local:keywords:f979b681ffb2162b63b759b0cb618cdc": {
+    "return": "{\"high_level_keywords\": [\"hydrological conditions\", \"tidal coast\"], \"low_level_keywords\": [\"island\", \"tides\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "高寒山地 红方 武器装备 轻型坦克 自行火炮 防空导弹 无人机 弹药战术",
+    "original_prompt": "海岛水文条件 潮汐海岸",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1435,19 +1435,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744300,
-    "update_time": 1780744300,
-    "_id": "local:keywords:7db4af38a0c5890ea01df6b999c1d03c"
+    "create_time": 1787064838,
+    "update_time": 1787064838,
+    "_id": "local:keywords:f979b681ffb2162b63b759b0cb618cdc"
   },
-  "local:keywords:2fdad271ff8c1e81e937fe30e02c437b": {
-    "return": "{\"high_level_keywords\": [\"Mountain Warfare\", \"High-altitude Military Operations\", \"Troop Deployment\"], \"low_level_keywords\": [\"High-altitude Mountainous Terrain\", \"Plateau Combined Arms Brigade\", \"Force Composition\"]}",
+  "local:keywords:6ea57bfb5d4d747a7118b38074cb7ccc": {
+    "return": "{\"high_level_keywords\": [\"meteorological conditions\", \"spring season\", \"climate factors\"], \"low_level_keywords\": [\"island\", \"temperature\", \"precipitation\", \"wind force\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "高海拔山岳地带 兵力编成 高原合成旅 山地作战 部署",
+    "original_prompt": "海岛春季气象条件 温度降水风力",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1455,19 +1455,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744316,
-    "update_time": 1780744316,
-    "_id": "local:keywords:2fdad271ff8c1e81e937fe30e02c437b"
+    "create_time": 1787064853,
+    "update_time": 1787064853,
+    "_id": "local:keywords:6ea57bfb5d4d747a7118b38074cb7ccc"
   },
-  "local:keywords:2411820c094be64903b83e9e78abaa54": {
-    "return": "{\"high_level_keywords\": [\"Tactical ambush operations\", \"Aerial reconnaissance\", \"Combined arms coordination\", \"Terrain warfare\"], \"low_level_keywords\": [\"Javelin missile\", \"Mountain pass\", \"Gray Eagle UAV\", \"Reconnaissance guidance\"]}",
+  "local:keywords:12425dca84647303aab886b292c3ea72": {
+    "return": "{\"high_level_keywords\": [\"\\u6d77\\u5c9b\\u5730\\u5f62\\u5730\\u8c8c\\u7279\\u5f81\", \"\\u519b\\u4e8b\\u884c\\u52a8\\u5f71\\u54cd\"], \"low_level_keywords\": []}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "标枪导弹山地隘口伏击与灰鹰无人机侦察引导",
+    "original_prompt": "海岛地形地貌特征 军事行动影响",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1475,19 +1475,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744462,
-    "update_time": 1780744462,
-    "_id": "local:keywords:2411820c094be64903b83e9e78abaa54"
+    "create_time": 1787064855,
+    "update_time": 1787064855,
+    "_id": "local:keywords:12425dca84647303aab886b292c3ea72"
   },
-  "local:keywords:521ae594b8125144880757d4964645e6": {
-    "return": "{\"high_level_keywords\": [\"Air defense tactics\", \"Mountain warfare\", \"Counter-air operations\", \"Integrated air defense systems\"], \"low_level_keywords\": [\"Gun-missile integrated air defense system\", \"Mountain terrain\", \"Unmanned aerial vehicles\", \"Military aircraft\", \"Anti-drone tactics\", \"Counter-aviation tactics\"]}",
+  "local:keywords:cd9aa59b00930e2e5d2dcbbc42ac50aa": {
+    "return": "{\"high_level_keywords\": [\"\\u6d77\\u5c9b\\u690d\\u88ab\", \"\\u5c9b\\u5c7f\\u5730\\u8868\\u571f\\u58e4\"], \"low_level_keywords\": [\"\\u4e9a\\u70ed\\u5e26\", \"\\u70ed\\u5e26\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "弹炮一体化防空系统山地反无人机与反航空兵战术",
+    "original_prompt": "海岛植被 亚热带热带 岛屿地表土壤",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1495,19 +1495,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744465,
-    "update_time": 1780744465,
-    "_id": "local:keywords:521ae594b8125144880757d4964645e6"
+    "create_time": 1787065077,
+    "update_time": 1787065077,
+    "_id": "local:keywords:cd9aa59b00930e2e5d2dcbbc42ac50aa"
   },
-  "local:keywords:0d2c3c91acac7e8947bca67d9d793e83": {
-    "return": "{\"high_level_keywords\": [\"Mountain warfare\", \"Command coordination\", \"Combat phase division\", \"High-altitude tactical operations\"], \"low_level_keywords\": [\"Red force\", \"Plateau synthetic brigade\", \"Combined arms brigade\"]}",
+  "local:keywords:ade7a94d21a294ef48438e918ae1cd11": {
+    "return": "{\"high_level_keywords\": [\"\\u6625\\u5b63\\u6d77\\u96fe\", \"\\u6cbf\\u6d77\\u80fd\\u89c1\\u5ea6\", \"\\u5b63\\u98ce\\u98ce\\u5411\\u8f6c\\u6362\"], \"low_level_keywords\": []}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "红方高原合成旅山地作战阶段划分与指挥协同",
+    "original_prompt": "春季海雾 沿海能见度 季风风向转换",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1515,19 +1515,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744469,
-    "update_time": 1780744469,
-    "_id": "local:keywords:0d2c3c91acac7e8947bca67d9d793e83"
+    "create_time": 1787065080,
+    "update_time": 1787065080,
+    "_id": "local:keywords:ade7a94d21a294ef48438e918ae1cd11"
   },
-  "local:keywords:3b7d1164aaf6c8603123522d8d66c6b5": {
-    "return": "{\"high_level_keywords\": [\"Command and Control Structures\", \"Tactical Mission Planning\", \"Terrain Interdiction\", \"Anti-Armor Operations\"], \"low_level_keywords\": [\"Flattened command system\", \"Valley blocking line\", \"Defensive line construction\", \"Anti-armor mission planning\"]}",
+  "local:keywords:56f80b3ddeb9e40e1d0487c1b18fe066": {
+    "return": "{\"high_level_keywords\": [\"hydrological conditions\", \"amphibious landing operations\"], \"low_level_keywords\": [\"island\", \"tides\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "扁平化指挥体系下山谷阻绝线构建与反装甲任务规划",
+    "original_prompt": "海岛水文条件 潮汐 登陆作战",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1535,19 +1535,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744470,
-    "update_time": 1780744470,
-    "_id": "local:keywords:3b7d1164aaf6c8603123522d8d66c6b5"
+    "create_time": 1787065701,
+    "update_time": 1787065701,
+    "_id": "local:keywords:56f80b3ddeb9e40e1d0487c1b18fe066"
   },
-  "local:keywords:a6236d19c87c8e2d44a7be7feb234b28": {
-    "return": "{\"high_level_keywords\": [\"Tactical defense operations\", \"Counterattack strategy\", \"Military operational procedures\"], \"low_level_keywords\": [\"Blue force infantry brigade\", \"Mountainous terrain\", \"Dispersed defense in depth\", \"Counterattack workflow\"]}",
+  "local:keywords:a9c817c433769987642429b4ac005716": {
+    "return": "{\"high_level_keywords\": [\"\\u6c14\\u8c61\", \"\\u6c14\\u5019\"], \"low_level_keywords\": [\"\\u6d77\\u5c9b\", \"\\u6625\\u5b63\", \"\\u6d77\\u96fe\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "蓝方步兵旅山地分散纵深防御与反击流程",
+    "original_prompt": "海岛 春季 气象 海雾 气候",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1555,19 +1555,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744473,
-    "update_time": 1780744473,
-    "_id": "local:keywords:a6236d19c87c8e2d44a7be7feb234b28"
+    "create_time": 1787065979,
+    "update_time": 1787065979,
+    "_id": "local:keywords:a9c817c433769987642429b4ac005716"
   },
-  "local:keywords:6f7a85d7ca7c4d782fd6bd58e039ebb0": {
-    "return": "{\"high_level_keywords\": [\"High-altitude operations\", \"Military logistics\", \"Mission constraint planning\", \"Operational risk management\"], \"low_level_keywords\": [\"High-altitude environment\", \"Logistics support\", \"Non-combat casualty control\", \"Task limitations\"]}",
+  "local:keywords:bdfe2c556c1ecf7824770db90ba48040": {
+    "return": "{\"high_level_keywords\": [\"\\u519b\\u4e8b\\u5f71\\u54cd\", \"\\u5730\\u5f62\", \"\\u5730\\u8c8c\"], \"low_level_keywords\": [\"\\u6d77\\u5c9b\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "高海拔环境后勤保障与非战斗减员控制任务约束",
+    "original_prompt": "海岛 地形 地貌 军事影响",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1575,19 +1575,19 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744474,
-    "update_time": 1780744474,
-    "_id": "local:keywords:6f7a85d7ca7c4d782fd6bd58e039ebb0"
+    "create_time": 1787065992,
+    "update_time": 1787065992,
+    "_id": "local:keywords:bdfe2c556c1ecf7824770db90ba48040"
   },
-  "local:keywords:3f17287bc797337c715ff18504e7be38": {
-    "return": "{\"high_level_keywords\": [\"Mobile strike tactics\", \"High-altitude mountain warfare\", \"Mechanized artillery operations\"], \"low_level_keywords\": [\"Stryker Brigade\", \"HIMARS\", \"High-cold mountain terrain\"]}",
+  "local:keywords:58e813a77b57bb9f5d90be0ee414fc93": {
+    "return": "{\"high_level_keywords\": [\"\\u6d77\\u5c9b\", \"\\u6c34\\u6587\"], \"low_level_keywords\": [\"\\u6f6e\\u6c50\", \"\\u690d\\u88ab\", \"\\u571f\\u58e4\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "斯特赖克旅与海马斯高寒山地机动打击战术",
+    "original_prompt": "海岛 水文 潮汐 植被 土壤",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
-      "top_k": 10,
+      "top_k": 5,
       "chunk_top_k": 20,
       "max_entity_tokens": 6000,
       "max_relation_tokens": 8000,
@@ -1595,8 +1595,447 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1780744476,
-    "update_time": 1780744476,
-    "_id": "local:keywords:3f17287bc797337c715ff18504e7be38"
+    "create_time": 1787065994,
+    "update_time": 1787065994,
+    "_id": "local:keywords:58e813a77b57bb9f5d90be0ee414fc93"
+  },
+  "local:keywords:d02e78118750e093cc33a081b38296b8": {
+    "return": "{\"high_level_keywords\": [\"Military operations\", \"Terrain impact\"], \"low_level_keywords\": [\"Grassland\", \"Hilly terrain\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "草原 丘陵 地形 军事行动 影响",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787394912,
+    "update_time": 1787394912,
+    "_id": "local:keywords:d02e78118750e093cc33a081b38296b8"
+  },
+  "local:keywords:6e30716751384cdfdc8982318139aa1e": {
+    "return": "{\"high_level_keywords\": [\"Meteorology\", \"Military exercise\", \"Impact\"], \"low_level_keywords\": [\"Northern region\", \"Spring\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "北方 春季 气象 演训 影响",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787394918,
+    "update_time": 1787394918,
+    "_id": "local:keywords:6e30716751384cdfdc8982318139aa1e"
+  },
+  "local:keywords:39d5b971c206973e7a446cb83149a4e2": {
+    "return": "{\"high_level_keywords\": [\"tactical training\", \"military exercises\", \"environmental factors\"], \"low_level_keywords\": [\"comprehensive tactical training base\", \"terrain\", \"meteorology\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "综合战术训练基地 地形 气象",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787394921,
+    "update_time": 1787394921,
+    "_id": "local:keywords:39d5b971c206973e7a446cb83149a4e2"
+  },
+  "local:keywords:ee220f60c844446d7633795b09fc70c4": {
+    "return": "{\"high_level_keywords\": [\"\\u53f0\\u6e7e\\u5c9b\\u5730\\u5f62\\u5730\\u8c8c\", \"\\u53f0\\u6e7e\\u5c9b\\u6625\\u5b63\\u81ea\\u7136\\u73af\\u5883\", \"\\u53f0\\u6e7e\\u5c9b\\u6c14\\u5019\\u7279\\u5f81\", \"\\u53f0\\u6e7e\\u5c9b\\u751f\\u6001\\u73af\\u5883\"], \"low_level_keywords\": [\"\\u53f0\\u6e7e\\u5c9b\", \"\\u6625\\u5b63\", \"\\u5730\\u5f62\", \"\\u6d77\\u62d4\\u5730\\u8c8c\", \"\\u690d\\u88ab\", \"\\u6c34\\u7cfb\", \"\\u4ea4\\u901a\", \"\\u6e29\\u5ea6\", \"\\u964d\\u6c34\", \"\\u98ce\", \"\\u80fd\\u89c1\\u5ea6\", \"\\u6781\\u7aef\\u5929\\u6c14\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾岛，季节为春的典型地形、海拔地貌、植被、水系、交通、季节影响、温度、降水、风、能见度和极端天气",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787758005,
+    "update_time": 1787758005,
+    "_id": "local:keywords:ee220f60c844446d7633795b09fc70c4"
+  },
+  "local:keywords:bf6f4f2896d01508a1a2f573e55c46a0": {
+    "return": "{\"high_level_keywords\": [\"typical landforms\", \"altitude and geomorphology\", \"vegetation\", \"water systems\", \"transportation\", \"seasonal influences\", \"temperature\", \"precipitation\", \"wind\", \"visibility\", \"extreme weather\"], \"low_level_keywords\": [\"Neko no Sushi\", \"Tokyo Tower\", \"yakitori izakaya\", \"spring season\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "鮨のにゃんです·東京塔·烧鸟居酒屋，季节为春的典型地形、海拔地貌、植被、水系、交通、季节影响、温度、降水、风、能见度和极端天气",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787819926,
+    "update_time": 1787819926,
+    "_id": "local:keywords:bf6f4f2896d01508a1a2f573e55c46a0"
+  },
+  "local:keywords:0c4b379c7c0b55edbb3c5a2c5627e52a": {
+    "return": "{\"high_level_keywords\": [\"\\u5730\\u5f62\", \"\\u5730\\u7406\\u73af\\u5883\"], \"low_level_keywords\": [\"\\u53f0\\u6e7e\\u7701\", \"\\u9ad8\\u96c4\\u5e02\", \"\\u6843\\u6e90\\u533a\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾省高雄市桃源区 地形 地理环境",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822325,
+    "update_time": 1787822325,
+    "_id": "local:keywords:0c4b379c7c0b55edbb3c5a2c5627e52a"
+  },
+  "local:keywords:be3849f21232224789fb1474ca2bd89f": {
+    "return": "{\"high_level_keywords\": [\"\\u5730\\u5f62\\u5730\\u8c8c\", \"\\u5c71\\u5730\\u7279\\u5f81\"], \"low_level_keywords\": [\"\\u53f0\\u6e7e\\u5c9b\", \"\\u4e2d\\u592e\\u5c71\\u8109\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾岛地形地貌 中央山脉 山地特征",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822328,
+    "update_time": 1787822328,
+    "_id": "local:keywords:be3849f21232224789fb1474ca2bd89f"
+  },
+  "local:keywords:ffbb70bd5cf0620370c8513d994d8efd": {
+    "return": "{\"high_level_keywords\": [\"spring weather conditions\"], \"low_level_keywords\": [\"Taiwan Island\", \"temperature\", \"precipitation\", \"wind force\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾岛春季气象条件 气温 降水 风力",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822354,
+    "update_time": 1787822354,
+    "_id": "local:keywords:ffbb70bd5cf0620370c8513d994d8efd"
+  },
+  "local:keywords:0957fbd62f41bc2c33544dfad8c55230": {
+    "return": "{\"high_level_keywords\": [\"\\u6cb3\\u6d41\\u6c34\\u7cfb\", \"\\u6c34\\u6587\\u7279\\u5f81\", \"\\u690d\\u88ab\"], \"low_level_keywords\": [\"\\u53f0\\u6e7e\\u5c9b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾岛河流水系 水文特征 植被",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822387,
+    "update_time": 1787822387,
+    "_id": "local:keywords:0957fbd62f41bc2c33544dfad8c55230"
+  },
+  "local:keywords:c99cfd4e5cb0625780d0e0b1aaa07ba1": {
+    "return": "{\"high_level_keywords\": [\"\\u5730\\u5f62\\u5bf9\\u519b\\u4e8b\\u884c\\u52a8\\u5f71\\u54cd\", \"\\u519b\\u4e8b\\u5730\\u7406\\u5206\\u6790\", \"\\u5c71\\u5730\\u4f5c\\u6218\"], \"low_level_keywords\": [\"\\u53f0\\u6e7e\\u5c71\\u8109\", \"\\u4e2d\\u592e\\u5c71\\u8109\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾山脉 中央山脉 地形对军事行动影响",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822388,
+    "update_time": 1787822388,
+    "_id": "local:keywords:c99cfd4e5cb0625780d0e0b1aaa07ba1"
+  },
+  "local:keywords:5892b6be723c7a5f2e48ac75cf3ee0bf": {
+    "return": "{\"high_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\\u7f16\\u6210\", \"\\u6d77\\u519b\\u7f16\\u5236\"], \"low_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\", \"\\u6d77\\u519b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "团级部队编成 海军",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822510,
+    "update_time": 1787822510,
+    "_id": "local:keywords:5892b6be723c7a5f2e48ac75cf3ee0bf"
+  },
+  "local:keywords:d9a8073df0aacbe846e2bc7734e4c8d7": {
+    "return": "{\"high_level_keywords\": [\"\\u9646\\u519b\", \"\\u6b66\\u5668\\u88c5\\u5907\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "陆军 武器装备",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822522,
+    "update_time": 1787822522,
+    "_id": "local:keywords:d9a8073df0aacbe846e2bc7734e4c8d7"
+  },
+  "local:keywords:364e12ab8ca2ff6f830a02ee3f59f8e0": {
+    "return": "{\"high_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\\u7f16\\u6210\", \"\\u9646\\u519b\\u7f16\\u5236\"], \"low_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\", \"\\u9646\\u519b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "团级部队编成 陆军",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822523,
+    "update_time": 1787822523,
+    "_id": "local:keywords:364e12ab8ca2ff6f830a02ee3f59f8e0"
+  },
+  "local:keywords:a5b747c25c9e7229fb38022b6998fff6": {
+    "return": "{\"high_level_keywords\": [\"brigade-level force composition\", \"naval force structure\"], \"low_level_keywords\": [\"brigade-level unit\", \"navy\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "旅级部队编成 海军",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822525,
+    "update_time": 1787822525,
+    "_id": "local:keywords:a5b747c25c9e7229fb38022b6998fff6"
+  },
+  "local:keywords:aa09388ba23b5dd0bbf5edf75e1dbcb6": {
+    "return": "{\"high_level_keywords\": [\"brigade-level unit composition\", \"army organization\"], \"low_level_keywords\": [\"\\u65c5\\u7ea7\\u90e8\\u961f\", \"\\u9646\\u519b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "旅级部队编成 陆军",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822528,
+    "update_time": 1787822528,
+    "_id": "local:keywords:aa09388ba23b5dd0bbf5edf75e1dbcb6"
+  },
+  "local:keywords:d29f0db0bb13f7ee4794b0a95c948e34": {
+    "return": "{\"high_level_keywords\": [\"naval equipment\", \"military weapons\"], \"low_level_keywords\": [\"\\u6d77\\u519b\", \"\\u6b66\\u5668\\u88c5\\u5907\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "海军 武器装备",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "update_time": 1787822530,
+    "_id": "local:keywords:d29f0db0bb13f7ee4794b0a95c948e34"
+  },
+  "local:keywords:aa9de60e32e1dbf4490f07c486a10cf6": {
+    "return": "{\"high_level_keywords\": [\"military vehicles\", \"combat systems\", \"weapon systems\"], \"low_level_keywords\": [\"tank\", \"armored vehicle\", \"artillery\", \"air defense\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "tank armored vehicle artillery air defense",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822566,
+    "update_time": 1787822566,
+    "_id": "local:keywords:aa9de60e32e1dbf4490f07c486a10cf6"
+  },
+  "local:keywords:dac4386f6748302200851cc6360ec18e": {
+    "return": "{\"high_level_keywords\": [\"military organization structure\"], \"low_level_keywords\": [\"brigade combat team\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "brigade combat team organization structure",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822568,
+    "update_time": 1787822568,
+    "_id": "local:keywords:dac4386f6748302200851cc6360ec18e"
+  },
+  "local:keywords:bf02dc0128ffa90d98b50958294bcd2f": {
+    "return": "{\"high_level_keywords\": [\"naval vessels\", \"warships\"], \"low_level_keywords\": [\"navy ship\", \"destroyer\", \"frigate\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "navy ship destroyer frigate",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822570,
+    "update_time": 1787822570,
+    "_id": "local:keywords:bf02dc0128ffa90d98b50958294bcd2f"
+  },
+  "local:keywords:6a8d8b34ea111d841d21616263112c88": {
+    "return": "{\"high_level_keywords\": [\"military vehicles\", \"armored vehicles\"], \"low_level_keywords\": [\"tank\", \"armored vehicle\", \"infantry fighting vehicle\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "坦克 装甲车 步兵战车",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822572,
+    "update_time": 1787822572,
+    "_id": "local:keywords:6a8d8b34ea111d841d21616263112c88"
+  },
+  "local:keywords:ad44314b6779b780a51de043bec27daa": {
+    "return": "{\"high_level_keywords\": [\"\\u9632\\u7a7a\\u5bfc\\u5f39\", \"\\u76f4\\u5347\\u673a\"], \"low_level_keywords\": [\"\\u9632\\u7a7a\\u5bfc\\u5f39\", \"\\u76f4\\u5347\\u673a\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "防空 导弹 直升机",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787822576,
+    "update_time": 1787822576,
+    "_id": "local:keywords:ad44314b6779b780a51de043bec27daa"
+  },
+  "local:keywords:257c1eb509a6dc1559f6239aec030811": {
+    "return": "{\"high_level_keywords\": [\"Blue Force operational objective recommendation\", \"military scenario context\", \"combat environment analysis\", \"force composition and deployment\", \"weapon systems evaluation\", \"terrain and weather impact on operations\"], \"low_level_keywords\": [\"Blue Force\", \"Taiwan Island\", \"Kaohsiung City\", \"Taoyuan District\", \"Central Mountain Range\", \"Red Force\", \"15\\u5f0f\\u8f7b\\u578b\\u5766\\u514b\", \"ZTQ-15\", \"05\\u5f0f\\u81ea\\u884c\\u52a0\\u69b4\\u70ae\", \"191\\u8fdc\\u7a0b\\u7bb1\\u5f0f\\u706b\\u7bad\\u70ae\", \"\\u7ea2\\u65d7-22\", \"Hongqi-22\", \"052D\\u578b\\u9a71\\u9010\\u8230\", \"055\\u578b\\u9a71\\u9010\\u8230\", \"054A\\u578b\\u62a4\\u536b\\u8230\", \"075\\u578b\\u4e24\\u6816\\u653b\\u51fb\\u8230\", \"\\u6b7c-15T\", \"\\u6b7c-35\", \"\\u7a7a\\u8b66-600\", \"M1 Abrams\", \"Brigade Combat Team\", \"FM 3-96\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方作战目标推荐。想定上下文：{\"background\":\"```\\n【想定背景】\\n\\n本想定以台湾岛南部高雄市桃源区及周边地域为行动区域，设定于春季，作战背景为对抗行动。台湾岛位于中国东南沿海，地处西太平洋岛链关键位置，扼控东南沿海海上通道，战略地位十分重要。台湾山脉属东北—西南走向，是我国东部最东列山脉，中央山脉纵贯全岛南北，地势起伏较大，海拔较高处气温随高度明显降低。行动区域位于台湾岛南部，属热带气候区。\\n\\n【环境设定】\\n\\n一、地理位置与区域范围\\n\\n行动区域位于台湾岛南部高雄市桃源区一带（北纬23.27°，东经120.88°附近），地处台湾岛西南部内陆山地区域。台湾岛位于中国东南沿海大陆架上，东临太平洋，西隔台湾海峡与福建省相望，北濒东海，南界巴士海峡与菲律宾群岛相对。台湾岛地处西太平洋岛链关键位置，扼控东南沿海海上通道，战略地位十分重要。行动区域距台湾海峡西侧海岸线约30至50公里，距高雄市区约40至60公里，属台湾岛南部中央山脉西侧山麓地带。\\n\\n二、地形地貌\\n\\n台湾岛地形以山地为主，地势起伏较大。中央山脉纵贯南北，为全岛地形脊梁，海拔较高处山峰超过3000米。台湾山脉属东北—西南走向的山脉系统，是我国东部沿海最东侧的一列山脉。行动区域所在的桃源区地处中央山脉西麓，地形以中低山地和丘陵为主，山势陡峭，沟谷纵横，海拔由西侧平原的数十米向东侧山区迅速攀升至数百米乃至千米以上。\\n\\n山地地形对军事行动影响显著：山地便于凭险固守、隐蔽行动、迂回包围、穿插分割和设置埋伏，有利于近战、夜战和小分队独立作战；但坡陡、石多、路小，交通不便，对坦克和炮兵等机械化部队的行动有较大限制，死角多，观察和通信联络不便，不利于指挥和协同动作。山间谷地和溪流对部队机动构成天然障碍，制高点的控制对观察射击和火力配系具有决定性意义。\\n\\n三、气象条件\\n\\n台湾岛南部属热带气候区，全年无冬，终年无霜。春季（3月至5月）气温温暖，长江以南地区春季气温一般在16至26℃之间，台湾南部地区气温略高，日间最高气温可达25至30℃，夜间最低气温约18至22℃。春季降水相对较少，天气以晴好为主，能见度和风力条件总体较好，春季的气候条件对军事行动较为有利。\\n\\n台湾是台风登陆频繁的地区之一，但台风主要集中在夏秋季节（7至9月），春季台风影响较小。春季偶有锋面系统过境带来的短时降水和雾气，山区晨间易出现低云和薄雾，对观察和航空行动有一定影响。春季 prevailing 风向以偏东风为主，风力一般3至4级，沿海及山口地带风力可达5级。\\n\\n四、水文条件\\n\\n台湾岛水系发育，河流短促且水流湍急。岛上河流多发源于中央山脉，向西注入台湾海峡或向东注入太平洋，河流比降大，水量丰沛，流速急。行动区域内分布有多条溪流及河谷，春季尚属枯水期向丰水期过渡阶段，河流水位较夏季为低，但山区溪流因降雨集中仍可出现水位骤涨的情况。\\n\\n河流对军事行动的影响主要表现为：与作战方向垂直的溪流构成天然障碍，会阻止或迟滞部队推进速度；河流水流湍急，渡河行动需选择适当渡口或架设桥梁；河谷地带通常植被茂密，通行困难，但可作为隐蔽机动通道。\\n\\n五、植被与地表覆盖\\n\\n台湾岛植被茂密，岛上森林覆盖率高。台湾南部低海拔山区以亚热带常绿阔叶林为主，植被类型丰富，林木茂密。行动区域内山地丘陵地带森林覆盖密集，灌木丛和竹林分布广泛。茂密的植被有利于部队隐蔽伪装和防御工事构筑，但对观察、射击和通信联络造成不利影响，判定方位和指示目标较为困难。\\n\\n六、其他自然因素\\n\\n台湾岛地处环太平洋地震带，地震活动较为频繁，需注意地震对工事构筑和部队行动安全的影响。春季白昼时间逐渐增长，日出时间约在06:00前后，日落时间约在18:30前后，昼长约12至13小时，有利于日间作战行动的展开。山区昼夜温差较平原地区偏大，夜间气温可降至15℃左右，需注意部队夜间行动的防寒保暖。\\n\\n（注：以上气象数据为台湾岛南部春季典型气候特征，来源于环境知识库典型资料，不代表实时天气状况。）\\n```\",\"formation\":\"【红蓝双方兵力与武器配置】\\n\\n---\\n\\n## 【红方】\\n\\n### 兵力编成\\n\\n红方以**团**为基本作战单元，隶属陆军与海军联合编成，想定规模为战区/战役级别。\\n\\n| 编成要素 | 说明 |\\n|---------|------|\\n| **基本层级** | 团（知识库建议：团级单位下辖若干营、连，兵力规模约2,000～3,000人） |\\n| **军种构成** | 陆军为主，海军配合 |\\n| **陆军编成** | 合成团编成，下辖步兵营（含山地步兵）、装甲营、炮兵营、防空连、侦察连、工兵连、通信连及后勤保障分队 |\\n| **海军编成** | 配属近海作战舰艇编队，负责海峡方向火力支援与海上封锁 |\\n| **指挥关系** | 团指挥所统一指挥所属各营连，海军配属兵力接受联合指挥所协调 |\\n\\n> **注**：红方团级合成编制的具体营连数量为**推断**，依据知识库中旅级单位（2,000～5,000人）及师/旅/营层级结构推算。\\n\\n### 武器装备\\n\\n#### 陆军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **轻型坦克** | 15式轻型坦克（ZTQ-15） | 全重约33～36吨，配装105毫米线膛坦克炮及新一代炮射反坦克导弹，尾舱式自动装弹机，数字化作战网络系统，**适合山地、丘陵环境作战** |\\n| **自行加榴炮** | 05式自行加榴炮 | 52倍口径155毫米线膛炮，全重约35吨，最大速度60公里/小时，最大射程53公里 |\\n| **车载加榴炮** | 155车载加榴炮 | 机动性强，适合山地公路机动部署 |\\n| **远程火箭炮** | 191远程箱式火箭炮 | 远程火力打击骨干装备，性能超过美国M270型和M142海马斯型火箭炮 |\\n| **防空导弹** | 红旗-22（Hongqi-22） | 中远程防空系统，主要用于打击各类固定翼飞机 |\\n\\n#### 海军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **驱逐舰** | 052D型驱逐舰 | 配备垂直发射区域防空导弹系统，具备区域防空能力 |\\n| **驱逐舰** | 055型驱逐舰 | 大型导弹驱逐舰，综合战力强 |\\n| **护卫舰** | 054A型护卫舰 | 导弹护卫舰，多用途作战平台 |\\n| **护卫舰** | 056型护卫舰 | 多用途轻型护卫舰，近海作战 |\\n| **两栖攻击舰** | 075型两栖攻击舰 | 装备于南海舰队，可搭载直升机及两栖兵力 |\\n| **舰载机** | 歼-15T / 歼-35 | 人民海军\\\"航母五件套\\\"成员，舰载战斗机 |\\n| **预警机** | 空警-600 | 舰载固定翼预警机 |\\n\\n> **注**：以上装备型号来源于红方兵器知识库，具体配属数量未检索到精确数据，标注为**知识库建议**。\\n\\n### 部署\\n\\n- **主要部署位置**：行动区域位于台湾岛南部高雄市桃源区一带，地处中央山脉西侧山麓地带。红方陆军团级兵力沿台湾海峡西岸部署，以山地丘陵地带为主要进攻出发阵地。\\n- **进攻轴线**：由西向东，跨越台湾海峡后在台湾岛西南部登陆，沿中央山脉西麓谷地向纵深推进。\\n- **装甲兵力运用**：15式轻型坦克因适合山地丘陵环境，作为装甲突击主力前出部署；05式自行加榴炮及155车载加榴炮部署于西侧相对平坦地域，提供火力支援。\\n- **海军部署**：舰艇编队部署于台湾海峡及巴士海峡方向，执行海上封锁、火力支援及反介入任务。075型两栖攻击舰搭载两栖兵力在海峡西侧待命。\\n- **防空部署**：红旗-22防空系统沿进攻轴线梯次配置，掩护主力部队空中安全。\\n- **预备队**：团级预备队（推断为1个步兵营加强兵力）配置于登陆场纵深，随时投入扩张战果或应对突发情况。\\n\\n---\\n\\n## 【蓝方】\\n\\n### 兵力编成\\n\\n蓝方以**旅**为基本作战单元，隶属陆军与海军联合编成。\\n\\n| 编成要素 | 说明 |\\n|---------|------|\\n| **基本层级** | 旅级战斗队（Brigade Combat Team） |\\n| **编制结构** | 旅部及旅部连、至少2个机动营（步兵/装甲）、1个骑兵侦察中队、1个野战炮兵营、1个旅工兵营、1个旅支援营（知识库来源） |\\n| **兵力规模** | 2,500～5,000人（知识库来源） |\\n| **军种构成** | 陆军为主，海军配合 |\\n| **旅级类型** | 可编成为步兵旅战斗队（Infantry BCT）、装甲旅战斗队（Armored BCT）或斯特赖克旅战斗队（Stryker BCT） |\\n| **指挥关系** | 旅战斗队为陆军最大固定战术单位，在师级指挥下独立作战，可接受配属或 detach 连级单位进行任务编组 |\\n\\n> **注**：蓝方旅级编成结构来源于蓝方编成知识库（FM 3-96体系），具体营连数量为**知识库建议**。\\n\\n### 武器装备\\n\\n#### 陆军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **主战坦克** | M1 Abrams | 主战坦克，配备扫雷犁/滚轮等突击",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787823901,
+    "update_time": 1787823901,
+    "_id": "local:keywords:257c1eb509a6dc1559f6239aec030811"
   }
 }

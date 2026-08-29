@@ -91,10 +91,20 @@ async def approve_knowledge(knowledge_id: str) -> dict[str, bool]:
 
 
 @router.delete("/delete_knowledge")
-async def delete_knowledge(k_id: str) -> dict[str, bool]:
-    deleted = False
-    for category in ("feedback", "environment", "formation", "weapon", "tactics_campaign", "tactics_tactical", "task", "expert"):
-        deleted = await get_store(category).adelete_text_by_id(k_id)
-        if deleted:
-            break
-    return {"success": deleted}
+async def delete_knowledge(k_id: str, kb_id: str | None = None) -> dict[str, bool]:
+    categories = [item["kb_id"] for item in KNOWLEDGE_BASES]
+    if kb_id is not None and kb_id not in categories:
+        raise HTTPException(status_code=400, detail="未知的知识库")
+    ordered = ([kb_id] if kb_id else []) + [
+        category for category in categories if category != kb_id
+    ]
+    visited: set[int] = set()
+    for category in ordered:
+        store = get_store(category)
+        identity = id(store)
+        if identity in visited:
+            continue
+        visited.add(identity)
+        if await store.adelete_text_by_id(k_id):
+            return {"success": True}
+    raise HTTPException(status_code=404, detail="知识条目不存在或已删除")

@@ -15,18 +15,35 @@ const STATUS_NAMES = {
   stale: '需重生成',
   failed: '生成失败',
 };
+const SCENARIO_STATUS_NAMES = {active: '进行中', finalized: '已定稿'};
 const DEFAULT_OPTIONS = {
-  terrain_types: ['海岛', '沿海', '城市', '山地', '高原', '平原', '丘陵', '森林', '荒漠', '河网', '湖泊'],
+  terrain_types: ['海岛', '沿海', '城市', '山地', '高原', '平原', '丘陵', '森林', '荒漠', '河网', '湖泊'].map((value) => ({value, label: value, builtin: true})),
   seasons: ['春', '夏', '秋', '冬', '雨季', '旱季'],
   operation_contexts: ['演训', '危机', '对抗', '其他'],
   scenario_scales: ['战区/战役', '师旅级', '营级及以下', '自定义'],
   branches: ['陆军', '海军', '空军', '火箭军', '无人系统', '电子对抗', '后勤保障'],
-  roles: ['进攻', '防御', '机动', '保障', '自定义'],
-  levels: ['campaign', 'tactical'],
-  action_types: ['进攻', '防御', '机动', '保障', '侦察', '对抗'],
-  task_types: ['联合火力打击', '区域防御', '跨区机动', '侦察监视', '要点控制', '综合保障'],
+  echelons: ['班', '排', '连', '营', '团', '旅', '师', '军', '战区'],
+  weapon_categories: [],
 };
 let scenarioOptions = {...DEFAULT_OPTIONS};
+let streamBuffer = '';
+let markdownTimer = null;
+
+const ERROR_MESSAGES = {
+  INVALID_STEP_INPUT: '输入内容不符合要求，请检查必填项和长度限制',
+  PREREQUISITE_NOT_CONFIRMED: '请先确认前置步骤',
+  STEP_INPUT_REQUIRED: '请先保存当前步骤输入',
+  GENERATION_IN_PROGRESS: '当前步骤正在生成，请稍候',
+  GENERATION_FAILED: '生成失败，请稍后重试',
+  VERSION_CONFLICT: '内容版本已变化，请刷新后重试',
+  LOCATION_SERVICE_UNAVAILABLE: '地点服务暂时不可用',
+  LOCATION_PROFILE_UNAVAILABLE: '典型地理气象资料暂时不可用，可继续手动设置气象',
+};
+const SOURCE_NAMES = {
+  standard: '标准知识库', lightrag: 'LightRAG', environment: '环境知识',
+  tactics_campaign: '战役战法', tactics_tactical: '战术战法', task: '任务知识',
+  formation: '编成知识', weapon: '装备知识', expert: '专家知识', feedback: '反馈知识',
+};
 
 const App = {
   scenarios: [],
@@ -40,10 +57,14 @@ const App = {
     candidates: [],
     state: 'idle',
     message: '',
+    profile: null,
+    profileState: 'idle',
     timer: null,
     controller: null,
     requestId: 0,
   },
+  recommendations: {state: 'idle', data: null, scenarioId: null, message: ''},
+  weaponModal: {side: null},
 
   async init() {
     this.bind();
@@ -67,6 +88,7 @@ const App = {
     document.getElementById('confirm-step').addEventListener('click', () => this.confirm());
     document.getElementById('revise-step').addEventListener('click', () => this.openModal('revision-modal'));
     document.getElementById('submit-revision').addEventListener('click', () => this.submitRevision());
+    document.getElementById('confirm-weapon-selection').addEventListener('click', confirmWeaponSelection);
     document.getElementById('project-title').addEventListener('keydown', (event) => {
       if (event.key === 'Enter') this.createScenario();
     });
@@ -95,6 +117,9 @@ const App = {
       if (!response.ok) throw new Error();
       const loaded = await response.json();
       scenarioOptions = {...DEFAULT_OPTIONS, ...loaded};
+      scenarioOptions.terrain_types = (scenarioOptions.terrain_types || []).map((item) => (
+        typeof item === 'string' ? {value: item, label: item, builtin: true} : item
+      ));
     } catch {
       scenarioOptions = {...DEFAULT_OPTIONS};
     }
@@ -136,6 +161,7 @@ const App = {
       .map((item) => item.step_type);
     if (!available.includes(this.step)) this.step = this.current.current_step || 'background';
     renderWorkspace();
+    if (this.step === 'task') this.loadRecommendations();
   },
 
   switchPage(page) {
@@ -204,7 +230,7 @@ const App = {
         body: JSON.stringify({input: data}),
       });
       const body = await response.json();
-      if (!response.ok) throw new Error(body.error?.message || validationMessage(body) || '保存失败');
+      if (!response.ok) throw new Error(localizedError(body, '保存失败'));
       this.current = body;
       renderWorkspace();
       if (!silent) toast('输入已保存', 'success');
@@ -240,7 +266,7 @@ const App = {
       });
       if (!response.ok) {
         const body = await response.json();
-        throw new Error(body.error?.message || '生成前置校验失败');
+        throw new Error(localizedError(body, '生成前置校验失败'));
       }
       await consumeNdjson(response, handleEvent);
       const refreshed = await fetch(`${API}/api/scenarios/${this.current.id}`);
@@ -266,10 +292,12 @@ const App = {
         body: JSON.stringify({version: record.current_version}),
       });
       const body = await response.json();
-      if (!response.ok) throw new Error(body.error?.message || '确认失败');
+      if (!response.ok) throw new Error(localizedError(body, '确认失败'));
       this.current = body;
       if (this.step !== 'final') this.step = STEP_ORDER[STEP_ORDER.indexOf(this.step) + 1];
       renderWorkspace();
+      scrollWorkspaceToTop();
+      if (this.step === 'task') this.loadRecommendations();
       toast('步骤已确认', 'success');
     } catch (error) {
       toast(error.message, 'error');
@@ -290,7 +318,37 @@ const App = {
       revision_instruction: instruction,
     });
   },
+
+  async loadRecommendations(force = false) {
+    if (!this.current || this.step !== 'task') return;
+    const ready = this.current.steps.slice(0, 2).every((item) => item.status === 'confirmed');
+    if (!ready) return;
+    const state = this.recommendations;
+    if (!force && state.scenarioId === this.current.id && ['loading', 'loaded'].includes(state.state)) return;
+    state.state = 'loading';
+    state.scenarioId = this.current.id;
+    state.message = '';
+    renderForm();
+    try {
+      const response = await fetch(`${API}/api/scenarios/${encodeURIComponent(this.current.id)}/tactic-recommendations`, {method: 'POST'});
+      const body = await response.json();
+      if (!response.ok) throw new Error(localizedError(body));
+      state.data = body;
+      state.state = 'loaded';
+    } catch (error) {
+      state.data = null;
+      state.state = 'failed';
+      state.message = error.message || '推荐加载失败';
+    }
+    renderForm();
+  },
 };
+
+function scrollWorkspaceToTop() {
+  window.scrollTo({top: 0, left: 0, behavior: 'auto'});
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+}
 
 function showEmptyWorkspace() {
   document.getElementById('workspace-empty').classList.remove('hidden');
@@ -307,7 +365,7 @@ function renderProjectList(items, activeId) {
   list.innerHTML = items.map((scenario) => `
     <button class="project-item ${scenario.id === activeId ? 'active' : ''}" data-id="${escapeAttr(scenario.id)}">
       <span class="project-item-title">${escapeHtml(scenario.title)}</span>
-      <span class="project-item-state">${escapeHtml(scenario.status || 'active')}</span>
+      <span class="project-item-state">${escapeHtml(SCENARIO_STATUS_NAMES[scenario.status] || '进行中')}</span>
     </button>`).join('');
   list.querySelectorAll('.project-item').forEach((button) => {
     button.addEventListener('click', () => App.selectScenario(button.dataset.id));
@@ -340,6 +398,7 @@ function renderStepper() {
     button.addEventListener('click', () => {
       App.step = button.dataset.step;
       renderWorkspace();
+      if (App.step === 'task') App.loadRecommendations();
     });
   });
 }
@@ -349,7 +408,7 @@ function renderSummary() {
   document.getElementById('summary-content').innerHTML = confirmed.length
     ? confirmed.map((item) => `<div class="summary-block">
         <div class="summary-step">${STEP_NAMES[item.step_type]} · V${item.confirmed_version}</div>
-        <div class="summary-text">${escapeHtml(item.current_output || '已确认，暂无摘要')}</div>
+        <div class="summary-text">${renderMarkdown(item.current_output || '已确认，暂无摘要')}</div>
       </div>`).join('')
     : '<span class="muted">确认步骤后显示摘要。</span>';
 }
@@ -367,9 +426,9 @@ function renderForm() {
   ));
   const context = document.getElementById('confirmed-context');
   context.classList.toggle('hidden', !confirmed.length);
-  context.textContent = confirmed.map((item) => (
-    `${STEP_NAMES[item.step_type]}（V${item.confirmed_version}）：\n${item.current_output || '已确认'}`
-  )).join('\n\n');
+  context.innerHTML = confirmed.map((item) => (
+    `<section><strong>${STEP_NAMES[item.step_type]}（V${item.confirmed_version}）</strong>${renderMarkdown(item.current_output || '已确认')}</section>`
+  )).join('');
 
   const form = document.getElementById('step-form');
   if (App.step === 'background') {
@@ -395,6 +454,7 @@ function renderForm() {
 
 function backgroundForm(value) {
   const weather = value.weather || {};
+  const terrainOptions = scenarioOptions.terrain_types.map((item) => item.value);
   return `<div class="form-grid">
     <fieldset class="field full"><legend>地点模式</legend><div class="choice-row">
       ${radioChoice('location_mode', 'terrain_template', '地理类型模板', value.location_mode !== 'exact_location')}
@@ -404,12 +464,13 @@ function backgroundForm(value) {
       <label for="location-query">地址搜索</label>
       <input id="location-query" name="location_query" maxlength="200" autocomplete="off" value="${escapeAttr(App.locationSearch.query)}" placeholder="输入地点名称">
       <div id="location-selected"></div>
+      <div id="location-profile" class="location-profile" aria-live="polite"></div>
       <div id="location-search-status" class="location-search-status" aria-live="polite"></div>
       <div id="location-results" class="location-results" role="listbox" aria-label="地点候选"></div>
     </div>
     <fieldset id="terrain-template-fields" class="field full"><legend>地理类型</legend><div class="choice-row">
-      ${withSavedOptions(scenarioOptions.terrain_types, value.terrain_types).map((item) => checkChoice('terrain_types', item, value.terrain_types?.includes(item))).join('')}
-    </div></fieldset>
+      ${withSavedOptions(terrainOptions, value.terrain_types).map((item) => checkChoice('terrain_types', item, value.terrain_types?.includes(item))).join('')}
+    </div>${customListControl('custom_terrain_types', value.custom_terrain_types || [], '添加自定义地理类型')}</fieldset>
     ${selectField('season', '季节', scenarioOptions.seasons, value.season)}
     ${selectField('operation_context', '行动背景', scenarioOptions.operation_contexts, value.operation_context)}
     ${inputField('time_condition', '时间条件', value.time_condition, 100, '日期、月份、昼夜条件或不指定')}
@@ -432,45 +493,191 @@ function formationForm(value) {
 }
 
 function sideForm(side, label, value) {
+  const builtinWeapons = scenarioOptions.weapon_categories.flatMap((category) => category.elements || []);
+  const customWeapons = withSavedOptions(
+    value.custom_weapons || [],
+    (value.weapons || []).filter((item) => !builtinWeapons.includes(item)),
+  );
   return `<fieldset class="field full side-field"><legend>${label}编成与装备</legend><div class="form-grid">
-    ${selectField(`${side}_role`, '角色', scenarioOptions.roles, value.role)}
-    ${inputField(`${side}_echelon`, '编成层级', value.echelon, 100, '例如：合成旅')}
+    ${selectField(`${side}_echelon`, '编成层级', scenarioOptions.echelons, value.echelon)}
     <fieldset class="field full"><legend>军兵种（多选）</legend><div class="choice-row">
       ${withSavedOptions(scenarioOptions.branches, value.branches).map((item) => checkChoice(`${side}_branches`, item, value.branches?.includes(item))).join('')}
     </div></fieldset>
-    ${inputField(`${side}_approximate_scale`, '大致规模', value.approximate_scale, 200, '可留空，由知识库提供建议')}
-    ${inputField(`${side}_weapons`, '武器装备', (value.weapons || []).join('、'), 500, '用顿号分隔，未指定由知识库建议')}
-    ${inputField(`${side}_initial_deployment`, '初始部署方式', value.initial_deployment, 500)}
-    ${inputField(`${side}_reserve_requirements`, '预备队要求', value.reserve_requirements, 500)}
-    <div class="field full">${inputField(`${side}_support_requirements`, '保障要求', value.support_requirements, 500).replace(/^<div class="field">|<\/div>$/g, '')}</div>
+    ${inputField(`${side}_approximate_scale`, '大致规模', value.approximate_scale, 200, '可留空，由大模型生成；例如：约 3,000 人')}
+    <fieldset class="field full weapon-selector"><legend>武器装备（多选）</legend>${weaponSelectionSummary(side, value.weapons || [], customWeapons)}</fieldset>
+    ${inputField(`${side}_initial_deployment`, '初始部署方式', value.initial_deployment, 500, '可留空，由大模型生成；例如：沿主要通道梯次部署')}
+    ${inputField(`${side}_reserve_requirements`, '预备队要求', value.reserve_requirements, 500, '可留空，由大模型生成；例如：保留一个机动营')}
+    <div class="field full">${inputField(`${side}_support_requirements`, '保障要求', value.support_requirements, 500, '可留空，由大模型生成；例如：加强工程与卫勤保障').replace(/^<div class="field">|<\/div>$/g, '')}</div>
     <div class="field full"><label for="${side}_custom_requirements">其他要求 <span class="form-hint">最多 1,000 字</span></label><textarea id="${side}_custom_requirements" name="${side}_custom_requirements" maxlength="1000">${escapeHtml(value.custom_requirements || '')}</textarea></div>
   </div></fieldset>`;
 }
 
 function taskForm(value) {
+  const recommendation = App.recommendations;
+  const data = recommendation.data || {};
   return `<div class="form-grid">
-    <fieldset class="field full"><legend>任务层级</legend><div class="choice-row">
-      ${radioChoice('level', 'campaign', '战役级', value.level !== 'tactical')}
-      ${radioChoice('level', 'tactical', '战术级', value.level === 'tactical')}
-    </div></fieldset>
-    <div class="field"><label for="red_objective">红方目标</label><textarea id="red_objective" name="red_objective" maxlength="1000">${escapeHtml(value.red_objective || '')}</textarea></div>
-    <div class="field"><label for="blue_objective">蓝方目标</label><textarea id="blue_objective" name="blue_objective" maxlength="1000">${escapeHtml(value.blue_objective || '')}</textarea></div>
-    <fieldset class="field full"><legend>行动类型（多选）</legend><div class="choice-row">
-      ${withSavedOptions(scenarioOptions.action_types, value.action_types).map((item) => checkChoice('action_types', item, value.action_types?.includes(item))).join('')}
-    </div></fieldset>
-    <fieldset class="field full"><legend>任务类型（多选）</legend><div class="choice-row">
-      ${withSavedOptions(scenarioOptions.task_types, value.task_types).map((item) => checkChoice('task_types', item, value.task_types?.includes(item))).join('')}
-    </div></fieldset>
-    <div class="field full"><label for="phase_template">阶段模板</label><textarea id="phase_template" name="phase_template" maxlength="500">${escapeHtml(value.phase_template || '')}</textarea></div>
-    ${inputField('trigger_conditions', '触发条件', (value.trigger_conditions || []).join('、'), 500, '多个条件用顿号分隔')}
-    ${inputField('termination_conditions', '终止条件', (value.termination_conditions || []).join('、'), 500, '多个条件用顿号分隔')}
-    ${inputField('coordination_focus', '协同重点', (value.coordination_focus || []).join('、'), 500, '多个重点用顿号分隔')}
-    ${inputField('constraints', '限制条件', (value.constraints || []).join('、'), 500, '多个条件用顿号分隔')}
+    <div class="field full recommendation-status ${recommendation.state}">${recommendationStatus(recommendation)}</div>
+    ${objectiveField('red_objective', '红方目标', value.red_objective || {}, data.red_objectives || [])}
+    ${objectiveField('blue_objective', '蓝方目标', value.blue_objective || {}, data.blue_objectives || [])}
+    ${tacticField('campaign_tactics', '战役战法', value.campaign_tactics || {}, data.campaign_tactics || [])}
+    ${tacticField('tactical_tactics', '战术战法', value.tactical_tactics || {}, data.tactical_tactics || [])}
+    ${inputField('trigger_conditions', '触发条件', (value.trigger_conditions || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
+    ${inputField('termination_conditions', '终止条件', (value.termination_conditions || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
+    ${inputField('coordination_focus', '协同重点', (value.coordination_focus || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
+    ${inputField('constraints', '限制条件', (value.constraints || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
     <div class="field full"><label for="custom_requirements">其他要求 <span class="form-hint">最多 1,000 字</span></label><textarea id="custom_requirements" name="custom_requirements" maxlength="1000">${escapeHtml(value.custom_requirements || '')}</textarea></div>
   </div>`;
 }
 
+function weaponSelectionSummary(side, selected, customWeapons) {
+  const values = uniqueValues([...(selected || []), ...(customWeapons || [])]);
+  const names = values.length ? values.map((item) => `<span>${escapeHtml(item)}</span>`).join('') : '<span class="muted">尚未选择装备</span>';
+  return `<div class="weapon-summary" data-weapon-summary="${escapeAttr(side)}">
+    <div class="weapon-summary-toolbar"><button type="button" class="outline-button weapon-open" data-weapon-side="${escapeAttr(side)}">选择装备</button><strong data-weapon-count="${escapeAttr(side)}">已选择 ${values.length} 项</strong></div>
+    <div class="weapon-summary-list" data-weapon-names="${escapeAttr(side)}">${names}</div>
+    <div class="weapon-hidden-state" data-weapon-state="${escapeAttr(side)}">
+      ${(selected || []).map((item) => `<input type="checkbox" class="weapon-hidden-checkbox" name="${escapeAttr(side)}_weapons" value="${escapeAttr(item)}" checked>`).join('')}
+      ${(customWeapons || []).map((item) => `<input type="hidden" name="${escapeAttr(side)}_custom_weapons" value="${escapeAttr(item)}">`).join('')}
+    </div>
+  </div>`;
+}
+
+function weaponCategoryFields(selected) {
+  if (!scenarioOptions.weapon_categories.length) return '<div class="form-hint">暂无系统装备选项，可直接添加自定义装备。</div>';
+  return scenarioOptions.weapon_categories.map((category) => `<div class="weapon-category"><div class="form-hint">${escapeHtml(category.name)}</div><div class="choice-row weapon-option-row">
+    ${(category.elements || []).map((item) => `<label class="choice weapon-option"><input type="checkbox" class="weapon-modal-option" value="${escapeAttr(item)}" ${selected.includes(item) ? 'checked' : ''}>${escapeHtml(item)}</label>`).join('')}
+  </div></div>`).join('');
+}
+
+function openWeaponModal(side) {
+  const state = document.querySelector(`[data-weapon-state="${CSS.escape(side)}"]`);
+  if (!state) return;
+  const selected = [...state.querySelectorAll(`input[name="${side}_weapons"]:checked`)].map((input) => input.value);
+  const custom = [...state.querySelectorAll(`input[name="${side}_custom_weapons"]`)].map((input) => input.value);
+  App.weaponModal.side = side;
+  document.getElementById('weapon-modal-title').textContent = `${side === 'red' ? '红方' : '蓝方'}武器装备`;
+  document.getElementById('weapon-modal-content').innerHTML = `${weaponCategoryFields(selected)}
+    <div class="weapon-modal-custom"><label for="weapon-modal-custom-input">自定义武器装备</label><div id="weapon-modal-custom-items" class="custom-items">${custom.map((item) => weaponCustomItem(item)).join('')}</div><div class="custom-add-row"><input id="weapon-modal-custom-input" class="custom-add-input" maxlength="200" placeholder="添加自定义武器装备"><button type="button" id="weapon-modal-custom-add" class="outline-button">添加</button></div></div>`;
+  bindWeaponCustomControls();
+  App.openModal('weapon-modal');
+}
+
+function weaponCustomItem(value) {
+  return `<span class="custom-item weapon-custom-item" data-value="${escapeAttr(value)}">${escapeHtml(value)}<button type="button" class="custom-remove weapon-custom-remove" aria-label="删除 ${escapeAttr(value)}">×</button></span>`;
+}
+
+function bindWeaponCustomControls() {
+  const add = document.getElementById('weapon-modal-custom-add');
+  const input = document.getElementById('weapon-modal-custom-input');
+  if (!add || !input) return;
+  const addCustom = () => {
+    const value = input.value.trim();
+    const items = document.getElementById('weapon-modal-custom-items');
+    const current = [...items.querySelectorAll('.weapon-custom-item')].map((item) => item.dataset.value);
+    if (!value || current.length >= 50 || current.some((item) => item.toLowerCase() === value.toLowerCase())) return;
+    items.insertAdjacentHTML('beforeend', weaponCustomItem(value));
+    input.value = '';
+    bindWeaponCustomRemovers();
+  };
+  add.onclick = addCustom;
+  input.onkeydown = (event) => {
+    if (event.key === 'Enter') { event.preventDefault(); addCustom(); }
+  };
+  bindWeaponCustomRemovers();
+}
+
+function bindWeaponCustomRemovers() {
+  document.querySelectorAll('.weapon-custom-remove').forEach((button) => {
+    button.onclick = () => button.closest('.weapon-custom-item').remove();
+  });
+}
+
+function confirmWeaponSelection() {
+  const side = App.weaponModal.side;
+  if (!side) return;
+  const state = document.querySelector(`[data-weapon-state="${CSS.escape(side)}"]`);
+  const options = [...document.querySelectorAll('.weapon-modal-option:checked')].map((input) => input.value);
+  const custom = [...document.querySelectorAll('#weapon-modal-custom-items .weapon-custom-item')].map((item) => item.dataset.value);
+  if (!state) return;
+  state.innerHTML = `${options.map((item) => `<input type="checkbox" class="weapon-hidden-checkbox" name="${escapeAttr(side)}_weapons" value="${escapeAttr(item)}" checked>`).join('')}${custom.map((item) => `<input type="hidden" name="${escapeAttr(side)}_custom_weapons" value="${escapeAttr(item)}">`).join('')}`;
+  updateWeaponSummary(side, [...options, ...custom]);
+  document.getElementById('weapon-modal').classList.add('hidden');
+}
+
+function updateWeaponSummary(side, values) {
+  const unique = uniqueValues(values);
+  const names = document.querySelector(`[data-weapon-names="${CSS.escape(side)}"]`);
+  const count = document.querySelector(`[data-weapon-count="${CSS.escape(side)}"]`);
+  if (count) count.textContent = `已选择 ${unique.length} 项`;
+  if (names) names.innerHTML = unique.length ? unique.map((item) => `<span>${escapeHtml(item)}</span>`).join('') : '<span class="muted">尚未选择装备</span>';
+}
+
+function recommendationStatus(value) {
+  if (value.state === 'loading') return '正在加载战法推荐<span class="loading-dots"><i></i><i></i><i></i></span>';
+  if (value.state === 'failed') return `${escapeHtml(value.message || '推荐加载失败')}，仍可使用自定义输入。`;
+  if (value.state === 'loaded') {
+    const count = Object.values(value.data || {}).filter(Array.isArray).reduce((sum, items) => sum + items.length, 0);
+    return count ? `已加载 ${count} 条推荐` : '暂无匹配推荐，可使用自定义输入。';
+  }
+  return '确认背景与编成后加载推荐。';
+}
+
+function objectiveField(name, label, value, recommendations) {
+  const selected = value.selected || [];
+  const options = mergeRecommendationOptions(recommendations, selected);
+  return `<fieldset class="field task-objective"><legend>${label}</legend><div class="recommendation-list">
+    ${options.map((item) => recommendationChoice(`${name}_selected`, item, selected.includes(item.label))).join('')}
+  </div><label for="${name}_custom" class="form-hint">自定义目标</label><textarea id="${name}_custom" name="${name}_custom" maxlength="1000" placeholder="可输入自定义目标">${escapeHtml(value.custom || '')}</textarea></fieldset>`;
+}
+
+function tacticField(name, label, value, recommendations) {
+  const selected = value.selected || [];
+  const options = mergeRecommendationOptions(recommendations, selected);
+  return `<fieldset class="field full tactic-group"><legend>${label}（多选）</legend><div class="recommendation-list">
+    ${options.map((item) => recommendationChoice(`${name}_selected`, item, selected.includes(item.label))).join('')}
+  </div>${customListControl(`${name}_custom`, value.custom || [], `添加自定义${label}`)}</fieldset>`;
+}
+
+function mergeRecommendationOptions(recommendations, saved) {
+  const mapped = recommendations.map((item) => ({...item, recommended: true}));
+  saved.forEach((label) => {
+    if (!mapped.some((item) => item.label === label)) mapped.push({label, content: '此前保存的选择', source: '历史选择', recommended: false});
+  });
+  return mapped;
+}
+
+function recommendationChoice(name, item, checked) {
+  return `<label class="recommendation ${item.recommended ? 'recommended' : 'saved'}" title="来源：${escapeAttr(item.source || '未知')}"><input type="checkbox" name="${name}" value="${escapeAttr(item.label)}" ${checked ? 'checked' : ''}><span class="recommendation-body"><strong class="recommendation-name">${escapeHtml(item.label)}</strong><span class="recommendation-content">${escapeHtml(item.content || '暂无内容说明')}</span><small class="recommendation-source">${escapeHtml(item.source || '')}</small></span></label>`;
+}
+
+function customListControl(name, values, placeholder) {
+  return `<div class="custom-list-control" data-name="${escapeAttr(name)}"><div class="custom-items">${uniqueValues(values).map((value) => `<span class="custom-item" data-value="${escapeAttr(value)}">${escapeHtml(value)}<button type="button" class="custom-remove" aria-label="删除 ${escapeAttr(value)}">×</button></span>`).join('')}</div><div class="custom-add-row"><input class="custom-add-input" maxlength="200" placeholder="${escapeAttr(placeholder)}"><button type="button" class="outline-button custom-add">添加</button></div></div>`;
+}
+
 function bindDynamicFormControls() {
+  document.querySelectorAll('.weapon-open').forEach((button) => {
+    button.onclick = () => openWeaponModal(button.dataset.weaponSide);
+  });
+  document.querySelectorAll('.custom-list-control').forEach((control) => {
+    const add = () => {
+      const input = control.querySelector('.custom-add-input');
+      const value = input.value.trim();
+      if (!value) return;
+      const current = customListValues(control.dataset.name);
+      if (current.length >= 50 || current.some((item) => item.toLowerCase() === value.toLowerCase())) {
+        input.value = '';
+        return;
+      }
+      control.querySelector('.custom-items').insertAdjacentHTML('beforeend', `<span class="custom-item" data-value="${escapeAttr(value)}">${escapeHtml(value)}<button type="button" class="custom-remove" aria-label="删除 ${escapeAttr(value)}">×</button></span>`);
+      input.value = '';
+      bindCustomRemovers(control);
+    };
+    control.querySelector('.custom-add')?.addEventListener('click', add);
+    control.querySelector('.custom-add-input')?.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') { event.preventDefault(); add(); }
+    });
+    bindCustomRemovers(control);
+  });
   const weatherMode = document.querySelector('[name=weather_mode]');
   if (weatherMode) {
     const updateWeather = () => {
@@ -501,6 +708,8 @@ function syncLocationSearch(input) {
   App.locationSearch.candidates = [];
   App.locationSearch.state = selected ? 'selected' : 'idle';
   App.locationSearch.message = '';
+  App.locationSearch.profile = selected ? input.location_profile || null : null;
+  App.locationSearch.profileState = App.locationSearch.profile ? 'loaded' : 'idle';
 }
 
 function cancelLocationSearch() {
@@ -564,13 +773,15 @@ function renderLocationSearch() {
   const selectedContainer = document.getElementById('location-selected');
   const status = document.getElementById('location-search-status');
   const results = document.getElementById('location-results');
-  if (!selectedContainer || !status || !results) return;
+  const profile = document.getElementById('location-profile');
+  if (!selectedContainer || !status || !results || !profile) return;
   const search = App.locationSearch;
   selectedContainer.innerHTML = search.selected ? `<div class="location-selected">
     <div><strong>${escapeHtml(search.selected.display_name)}</strong><span>${escapeHtml(locationMeta(search.selected))}</span></div>
     <button type="button" class="icon-button location-clear" title="清除地点" aria-label="清除地点">×</button>
   </div>` : '';
   selectedContainer.querySelector('.location-clear')?.addEventListener('click', clearSelectedLocation);
+  profile.innerHTML = renderLocationProfile(search);
   status.textContent = search.message;
   status.className = `location-search-status ${search.state === 'error' ? 'error' : ''}`;
   results.innerHTML = search.state === 'results' ? search.candidates.map((location, index) => `
@@ -583,7 +794,7 @@ function renderLocationSearch() {
   });
 }
 
-function selectLocation(index) {
+async function selectLocation(index) {
   const location = App.locationSearch.candidates[index];
   if (!location) return;
   cancelLocationSearch();
@@ -592,7 +803,26 @@ function selectLocation(index) {
   App.locationSearch.candidates = [];
   App.locationSearch.state = 'selected';
   App.locationSearch.message = '';
+  App.locationSearch.profile = null;
+  App.locationSearch.profileState = 'loading';
   document.getElementById('location-query').value = location.display_name;
+  renderLocationSearch();
+  try {
+    const season = fieldValue(document.getElementById('step-form'), 'season');
+    const response = await fetch(`${API}/api/locations/profile`, {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({location, season: season || null}),
+    });
+    const body = await response.json();
+    if (!response.ok) throw new Error(localizedError(body));
+    if (App.locationSearch.selected?.place_id !== location.place_id) return;
+    App.locationSearch.profile = body;
+    App.locationSearch.profileState = 'loaded';
+  } catch (error) {
+    if (App.locationSearch.selected?.place_id !== location.place_id) return;
+    App.locationSearch.profileState = 'failed';
+    App.locationSearch.message = error.message || '典型资料加载失败，可手动设置气象';
+  }
   renderLocationSearch();
 }
 
@@ -603,6 +833,8 @@ function clearSelectedLocation() {
   App.locationSearch.candidates = [];
   App.locationSearch.state = 'idle';
   App.locationSearch.message = '';
+  App.locationSearch.profile = null;
+  App.locationSearch.profileState = 'idle';
   document.getElementById('location-query').value = '';
   document.getElementById('location-query').focus();
   renderLocationSearch();
@@ -610,8 +842,19 @@ function clearSelectedLocation() {
 
 function locationMeta(location) {
   const regions = [location.country, location.admin1, location.admin2].filter(Boolean);
+  if (location.address && !regions.includes(location.address)) regions.push(location.address);
   const coordinates = `${Number(location.latitude).toFixed(4)}, ${Number(location.longitude).toFixed(4)}`;
   return [...new Set(regions)].join(' · ') + `${regions.length ? ' · ' : ''}${coordinates}`;
+}
+
+function renderLocationProfile(search) {
+  if (!search.selected) return '';
+  if (search.profileState === 'loading') return '<div class="profile-status">正在加载典型地理气象资料<span class="loading-dots"><i></i><i></i><i></i></span></div>';
+  if (search.profileState === 'failed') return '<div class="profile-status error">资料加载失败，可继续保存地点并手动设置气象。</div>';
+  if (!search.profile) return '';
+  const geography = search.profile.geography || {};
+  const climate = search.profile.climate || {};
+  return `<div class="location-profile-card"><div><strong>典型地理</strong><p>${escapeHtml(geography.terrain || '暂无资料')}</p></div><div><strong>典型气象</strong><p>${escapeHtml(climate.seasonal_temperature || '暂无资料')}</p></div><small>${escapeHtml(search.profile.notice || '典型值')} · 来源：${escapeHtml(search.profile.source || '环境知识库')}</small></div>`;
 }
 
 function readForm(step) {
@@ -619,6 +862,7 @@ function readForm(step) {
   if (step === 'background') {
     const locationMode = checkedValue(form, 'location_mode');
     let terrainTypes = checkedValues(form, 'terrain_types');
+    let customTerrainTypes = customListValues('custom_terrain_types');
     let location = null;
     if (locationMode === 'exact_location' && !App.locationSearch.selected) {
       toast('请从地址搜索结果中选择一个地点', 'error');
@@ -627,7 +871,8 @@ function readForm(step) {
     if (locationMode === 'exact_location') {
       location = App.locationSearch.selected;
       terrainTypes = [];
-    } else if (!terrainTypes.length) {
+      customTerrainTypes = [];
+    } else if (!terrainTypes.length && !customTerrainTypes.length) {
       toast('请至少选择一种地理类型', 'error');
       return null;
     }
@@ -649,7 +894,9 @@ function readForm(step) {
     return {
       location_mode: locationMode,
       location,
+      location_profile: location ? App.locationSearch.profile : null,
       terrain_types: terrainTypes,
+      custom_terrain_types: customTerrainTypes,
       season: fieldValue(form, 'season'),
       weather_mode: weatherMode,
       weather,
@@ -667,11 +914,11 @@ function readForm(step) {
         return null;
       }
       return {
-        role: fieldValue(form, `${side}_role`),
         branches,
         echelon,
         approximate_scale: fieldValue(form, `${side}_approximate_scale`) || null,
-        weapons: splitList(fieldValue(form, `${side}_weapons`)),
+        weapons: checkedValues(form, `${side}_weapons`),
+        custom_weapons: hiddenValues(form, `${side}_custom_weapons`),
         initial_deployment: fieldValue(form, `${side}_initial_deployment`) || null,
         reserve_requirements: fieldValue(form, `${side}_reserve_requirements`) || null,
         support_requirements: fieldValue(form, `${side}_support_requirements`) || null,
@@ -684,21 +931,23 @@ function readForm(step) {
     if (!blue) return null;
     return {scenario_scale: fieldValue(form, 'scenario_scale'), red, blue};
   }
-  const redObjective = fieldValue(form, 'red_objective');
-  const blueObjective = fieldValue(form, 'blue_objective');
-  const actionTypes = checkedValues(form, 'action_types');
-  const taskTypes = checkedValues(form, 'task_types');
-  if (!redObjective || !blueObjective || !actionTypes.length || !taskTypes.length) {
-    toast('请填写双方目标，并至少选择一种行动类型和任务类型', 'error');
+  const redObjective = {selected: checkedValues(form, 'red_objective_selected'), custom: fieldValue(form, 'red_objective_custom')};
+  const blueObjective = {selected: checkedValues(form, 'blue_objective_selected'), custom: fieldValue(form, 'blue_objective_custom')};
+  const campaignTactics = {selected: checkedValues(form, 'campaign_tactics_selected'), custom: customListValues('campaign_tactics_custom')};
+  const tacticalTactics = {selected: checkedValues(form, 'tactical_tactics_selected'), custom: customListValues('tactical_tactics_custom')};
+  if ((!redObjective.selected.length && !redObjective.custom) || (!blueObjective.selected.length && !blueObjective.custom)) {
+    toast('红蓝双方目标均需选择推荐项或填写自定义目标', 'error');
+    return null;
+  }
+  if (![campaignTactics, tacticalTactics].some((item) => item.selected.length || item.custom.length)) {
+    toast('请至少选择或添加一种战役战法或战术战法', 'error');
     return null;
   }
   return {
-    level: checkedValue(form, 'level'),
     red_objective: redObjective,
     blue_objective: blueObjective,
-    action_types: actionTypes,
-    task_types: taskTypes,
-    phase_template: fieldValue(form, 'phase_template') || null,
+    campaign_tactics: campaignTactics,
+    tactical_tactics: tacticalTactics,
     trigger_conditions: splitList(fieldValue(form, 'trigger_conditions')),
     termination_conditions: splitList(fieldValue(form, 'termination_conditions')),
     coordination_focus: splitList(fieldValue(form, 'coordination_focus')),
@@ -712,16 +961,20 @@ function renderResult() {
   if (record.status !== 'failed') document.getElementById('result-error').classList.add('hidden');
   document.getElementById('result-version').textContent = record.current_version ? `V${record.current_version}` : '';
   const output = document.getElementById('result-output');
-  if (record.current_output) output.textContent = record.current_output;
+  if (record.current_output) {
+    streamBuffer = record.current_output;
+    output.innerHTML = renderMarkdown(record.current_output);
+  }
   else if (!App.generating) output.innerHTML = '<span class="muted">填写表单后可直接保存或生成草案。</span>';
   document.getElementById('result-sources').innerHTML = (record.current_sources || []).map((source) => (
-    `<span class="source-pill">${escapeHtml(source.backend || 'source')} · ${escapeHtml(source.category || 'knowledge')} · ${escapeHtml(source.id || '')}</span>`
+    `<span class="source-pill">${escapeHtml(sourceName(source.backend))} · ${escapeHtml(sourceName(source.category))} · ${escapeHtml(source.id || '')}</span>`
   )).join('');
   if (!App.generating) document.getElementById('result-progress').classList.add('hidden');
 }
 
 function clearResult() {
-  document.getElementById('result-output').textContent = '';
+  streamBuffer = '';
+  document.getElementById('result-output').innerHTML = '';
   document.getElementById('result-sources').innerHTML = '';
   document.getElementById('result-error').classList.add('hidden');
   document.getElementById('result-progress').classList.add('hidden');
@@ -730,21 +983,46 @@ function clearResult() {
 function handleEvent(event) {
   if (event.type === 'progress') {
     const progress = document.getElementById('result-progress');
-    progress.textContent = event.message || '正在生成';
+    progress.innerHTML = `${escapeHtml(event.message || '正在生成')}<span class="loading-dots"><i></i><i></i><i></i></span>`;
     progress.classList.remove('hidden');
   } else if (event.type === 'source') {
     const source = document.createElement('span');
     source.className = 'source-pill';
-    source.textContent = `${event.source.backend || 'source'} · ${event.source.category || 'knowledge'} · ${event.source.id || ''}`;
+    source.textContent = `${sourceName(event.source.backend)} · ${sourceName(event.source.category)} · ${event.source.id || ''}`;
     document.getElementById('result-sources').appendChild(source);
   } else if (event.type === 'content') {
-    document.getElementById('result-output').textContent += event.delta || '';
+    streamBuffer += event.delta || '';
+    scheduleMarkdownRender();
   } else if (event.type === 'error') {
-    showResultError(event.message || '生成失败');
+    showResultError(ERROR_MESSAGES[event.code] || '生成失败，请稍后重试');
   } else if (event.type === 'done') {
     document.getElementById('result-version').textContent = `V${event.version}`;
     document.getElementById('result-progress').classList.add('hidden');
+    flushMarkdownRender();
   }
+}
+
+function scheduleMarkdownRender() {
+  if (markdownTimer) return;
+  markdownTimer = setTimeout(flushMarkdownRender, 60);
+}
+
+function flushMarkdownRender() {
+  if (markdownTimer) clearTimeout(markdownTimer);
+  markdownTimer = null;
+  const output = document.getElementById('result-output');
+  output.innerHTML = renderMarkdown(streamBuffer);
+  output.scrollTop = output.scrollHeight;
+}
+
+function renderMarkdown(text) {
+  if (!window.marked || !window.DOMPurify) return escapeHtml(text).replace(/\n/g, '<br>');
+  const parsed = window.marked.parse(String(text || ''), {gfm: true, breaks: true});
+  return window.DOMPurify.sanitize(parsed, {
+    USE_PROFILES: {html: true},
+    FORBID_TAGS: ['script', 'style', 'iframe', 'object', 'embed', 'form'],
+    FORBID_ATTR: ['style', 'onerror', 'onload', 'onclick'],
+  });
 }
 
 async function consumeNdjson(response, onEvent) {
@@ -893,12 +1171,13 @@ const KnowledgeApp = {
     if (!this.pendingDelete) return;
     const id = this.pendingDelete;
     try {
-      const response = await fetch(`${API}/api/delete_knowledge?k_id=${encodeURIComponent(id)}`, {method: 'DELETE'});
+      const response = await fetch(`${API}/api/delete_knowledge?k_id=${encodeURIComponent(id)}&kb_id=${encodeURIComponent(this.selected)}`, {method: 'DELETE'});
       const body = await response.json();
       if (!response.ok || !body.success) throw new Error();
       document.getElementById('knowledge-delete-modal').classList.add('hidden');
       this.pendingDelete = null;
       await this.loadEntries();
+      if (this.entries.some((entry) => entry.k_id === id)) throw new Error('删除后条目仍然存在');
       toast('知识已删除', 'success');
     } catch {
       toast('知识删除失败', 'error');
@@ -977,8 +1256,27 @@ function checkedValues(form, name) {
   return [...form.querySelectorAll(`[name="${name}"]:checked`)].map((item) => item.value);
 }
 
+function hiddenValues(form, name) {
+  return [...form.querySelectorAll(`input[type="hidden"][name="${name}"]`)].map((item) => item.value);
+}
+
 function splitList(value) {
   return value.split(/[、,，;；\n]/).map((item) => item.trim()).filter(Boolean);
+}
+
+function uniqueValues(values) {
+  return [...new Map((values || []).filter(Boolean).map((value) => [String(value).trim().toLowerCase(), String(value).trim()])).values()];
+}
+
+function bindCustomRemovers(control) {
+  control.querySelectorAll('.custom-remove').forEach((button) => {
+    button.onclick = () => button.closest('.custom-item').remove();
+  });
+}
+
+function customListValues(name) {
+  const control = document.querySelector(`.custom-list-control[data-name="${CSS.escape(name)}"]`);
+  return control ? uniqueValues([...control.querySelectorAll('.custom-item')].map((item) => item.dataset.value)) : [];
 }
 
 function compactObject(value) {
@@ -988,6 +1286,15 @@ function compactObject(value) {
 function validationMessage(body) {
   const detail = body?.detail;
   return Array.isArray(detail) ? detail.map((item) => item.msg).filter(Boolean).join('；') : '';
+}
+
+function localizedError(body, fallback = '操作失败，请稍后重试') {
+  const code = body?.error?.code;
+  return ERROR_MESSAGES[code] || validationMessage(body) || fallback;
+}
+
+function sourceName(value) {
+  return SOURCE_NAMES[value] || (value ? String(value) : '知识来源');
 }
 
 function escapeHtml(value) {

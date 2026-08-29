@@ -1,4 +1,6 @@
 import json
+import os
+import tempfile
 import yaml
 from utils.path_tools import get_abs_path
 
@@ -33,7 +35,7 @@ class ConfigHandler(object):
         with open(config_path, "r", encoding=encoding) as f:
             return json.load(f)
     @staticmethod   
-    def update_elements_json(new_entry, file_path=get_abs_path("config/elements.json")):
+    def update_elements_json(new_entry, file_path=get_abs_path("config/elements.json")) -> bool:
         # 1. 读取现有数据
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -44,33 +46,48 @@ class ConfigHandler(object):
         if not isinstance(data, list):
             raise ValueError("JSON 文件顶层结构应为列表")
 
-        new_element = new_entry.get('element')
-        if not new_element:
-            # 元素为空或不存在，不进行任何操作
-            return
+        name = str(new_entry.get("name", "")).strip()
+        new_element = str(new_entry.get("element", "")).strip()
+        if not name or len(name) > 50:
+            raise ValueError("装备分类名称必须为 1 到 50 个字符")
+        if not new_element or len(new_element) > 100:
+            raise ValueError("装备名称必须为 1 到 100 个字符")
 
         # 2. 查找 name 相同的条目并更新
         updated = False
         for item in data:
-            if item.get('name') == new_entry['name']:
+            if str(item.get('name', '')).casefold() == name.casefold():
                 # 确保 elements 键存在
                 existing_elements = item.setdefault('elements', [])
                 # 去重添加
-                if new_element not in existing_elements:
+                if not any(str(value).casefold() == new_element.casefold() for value in existing_elements):
                     existing_elements.append(new_element)
+                else:
+                    return False
                 updated = True
                 break
 
         # 3. 若 name 不存在，则新增条目
         if not updated:
             data.append({
-                'name': new_entry['name'],
+                'name': name,
                 'elements': [new_element]
             })
 
         # 4. 写回文件
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        directory = os.path.dirname(os.path.abspath(file_path))
+        fd, temp_path = tempfile.mkstemp(prefix="elements-", suffix=".json", dir=directory)
+        try:
+            with os.fdopen(fd, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            os.replace(temp_path, file_path)
+        except Exception:
+            try:
+                os.unlink(temp_path)
+            except FileNotFoundError:
+                pass
+            raise
+        return True
 
     @staticmethod
     def delete_category(name, file_path = get_abs_path("config/elements.json")):

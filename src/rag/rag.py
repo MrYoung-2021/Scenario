@@ -343,7 +343,14 @@ class RAG:
         返回 True 表示删除成功，False 表示未找到。
         """
         try:
+            before = self.vector_store.get(ids=[id], include=["metadatas"])
+            if not before.get("ids"):
+                return False
             await self.vector_store.adelete(ids=[id])
+            after = self.vector_store.get(ids=[id], include=["metadatas"])
+            if after.get("ids"):
+                logger.error("删除后条目仍然存在: %s", id)
+                return False
 
         except Exception as e:
             logger.error(f"删除失败: {e}", exc_info=True)

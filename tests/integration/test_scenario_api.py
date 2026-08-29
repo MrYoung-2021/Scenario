@@ -30,7 +30,9 @@ async def test_create_save_and_fetch_scenario(tmp_path) -> None:
         async with httpx.AsyncClient(transport=transport, base_url="http://test") as client:
             options = await client.get("/api/scenario-options")
             assert options.status_code == 200
-            assert {"terrain_types", "scenario_scales", "task_types"} <= options.json().keys()
+            assert {"terrain_types", "scenario_scales", "weapon_categories", "echelons"} <= options.json().keys()
+            assert "task_types" not in options.json()
+            assert options.json()["terrain_types"][0]["builtin"] is True
 
             created = await client.post("/api/scenarios", json={"title": "API scenario"})
             assert created.status_code == 201

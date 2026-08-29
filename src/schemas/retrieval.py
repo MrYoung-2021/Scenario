@@ -50,6 +50,24 @@ class RetrievalResult(BaseModel):
     fallback_scopes: list[str] = Field(default_factory=list)
 
 
+class TacticRecommendationItem(BaseModel):
+    id: str
+    label: str
+    content: str
+    level: Literal["campaign", "tactical"]
+    source: str
+    score: float
+    verified: bool
+
+
+class TacticRecommendations(BaseModel):
+    red_objectives: list[TacticRecommendationItem] = Field(default_factory=list)
+    blue_objectives: list[TacticRecommendationItem] = Field(default_factory=list)
+    campaign_tactics: list[TacticRecommendationItem] = Field(default_factory=list)
+    tactical_tactics: list[TacticRecommendationItem] = Field(default_factory=list)
+    cache_hit: bool = False
+
+
 class StructuredKnowledgeEntry(BaseModel):
     model_config = ConfigDict(str_strip_whitespace=True)
 
@@ -81,4 +99,3 @@ class KnowledgeCreate(BaseModel):
     scenario_type: str = "all"
     source: str = "manual"
     source_id: str = ""
-

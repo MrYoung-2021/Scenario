@@ -112,6 +112,7 @@ async def test_tactics_level_and_side_route_to_matching_weapon_scope() -> None:
 
     assert result.fallback_scopes == ["red_weapon"]
     assert result.items[0].category == "tactics_campaign"
+    assert red.calls == [("campaign maneuver", 4)]
 
 
 @pytest.mark.asyncio

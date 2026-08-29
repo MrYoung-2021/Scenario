@@ -51,7 +51,11 @@ class ScenarioService:
     async def get(self, scenario_id: str) -> dict[str, Any]:
         scenario = await self.repository.get(scenario_id)
         if scenario is None:
-            raise ScenarioServiceError("SCENARIO_NOT_FOUND", "Scenario not found", 404)
+            raise ScenarioServiceError("SCENARIO_NOT_FOUND", "想定项目不存在", 404)
+        for item in scenario["steps"]:
+            step = StepType(item["step_type"])
+            if step != StepType.FINAL:
+                item["input"] = normalize_step_input(step, item["input"])
         return scenario
 
     async def save_input(
@@ -71,12 +75,13 @@ class ScenarioService:
                 409,
                 step=step,
             )
+        normalized = normalize_step_input(step, input_data)
         try:
-            validated = INPUT_MODELS[step].model_validate(input_data)
+            validated = INPUT_MODELS[step].model_validate(normalized)
         except ValidationError as exc:
             raise ScenarioServiceError(
                 "INVALID_STEP_INPUT",
-                "Step input validation failed",
+                "步骤输入校验失败",
                 422,
                 errors=exc.errors(include_url=False),
             ) from exc
@@ -114,3 +119,39 @@ class ScenarioService:
     async def delete(self, scenario_id: str) -> None:
         if not await self.repository.delete(scenario_id):
             raise ScenarioServiceError("SCENARIO_NOT_FOUND", "Scenario not found", 404)
+
+
+def normalize_step_input(step: StepType, input_data: dict[str, Any]) -> dict[str, Any]:
+    """Adapt legacy draft inputs without mutating stored historical versions."""
+    data = dict(input_data or {})
+    if step == StepType.BACKGROUND:
+        data.setdefault("custom_terrain_types", [])
+        return data
+    if step == StepType.FORMATION:
+        for side in ("red", "blue"):
+            value = data.get(side)
+            if isinstance(value, dict):
+                normalized_side = dict(value)
+                normalized_side.pop("role", None)
+                normalized_side.setdefault("custom_weapons", [])
+                data[side] = normalized_side
+        return data
+    if step != StepType.TASK:
+        return data
+
+    legacy_tactics = [
+        *data.get("action_types", []),
+        *data.get("task_types", []),
+    ]
+    for objective in ("red_objective", "blue_objective"):
+        value = data.get(objective)
+        if isinstance(value, str):
+            data[objective] = {"selected": [], "custom": value}
+    data.setdefault("campaign_tactics", {"selected": [], "custom": []})
+    data.setdefault(
+        "tactical_tactics",
+        {"selected": legacy_tactics, "custom": []},
+    )
+    for key in ("level", "action_types", "task_types", "phase_template"):
+        data.pop(key, None)
+    return data

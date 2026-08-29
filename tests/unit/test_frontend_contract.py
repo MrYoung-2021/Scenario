@@ -25,16 +25,39 @@ async def test_scenario_static_page_exposes_workflow_assets() -> None:
     assert 'id="knowledge-delete-modal"' in page.text
     assert 'id="knowledge-level"' in page.text
     assert 'id="knowledge-source"' in page.text
-    assert "/static/scenario.css?v=6" in page.text
-    assert "/static/scenario.js?v=6" in page.text
+    assert "/static/scenario.css?v=13" in page.text
+    assert "/static/scenario.js?v=14" in page.text
+    assert "marked-12.0.2.min.js" in page.text
+    assert "dompurify-3.1.6.min.js" in page.text
     assert stylesheet.status_code == 200
     assert script.status_code == 200
     assert "localStorage" not in script.text
     assert "/api/scenario-options" in script.text
     assert "/api/locations/search" in script.text
     assert "setTimeout(() => searchLocations(query, requestId), 500)" in script.text
+    assert "location.address" in script.text
     assert "weather_mode" in script.text
     assert "/api/knowledge/${encodeURIComponent(id)}/approve" in script.text
     assert "knowledge-card-review" in script.text
     assert "entry.source" in script.text
     assert "entry.level" in script.text
+    assert "weapon_categories" in script.text
+    assert "weaponSelectionSummary" in script.text
+    assert "confirmWeaponSelection" in script.text
+    assert 'id="weapon-modal"' in page.text
+    assert "campaign_tactics" in script.text
+    assert "tactical_tactics" in script.text
+    assert "recommendation-content" in script.text
+    assert "item.content" in script.text
+    assert ".recommendation-list{display:grid" in stylesheet.text
+    assert "function renderMarkdown" in script.text
+    assert "DOMPurify.sanitize" in script.text
+    assert "output.scrollTop = output.scrollHeight" in script.text
+    assert "function scrollWorkspaceToTop()" in script.text
+    assert "scrollWorkspaceToTop();" in script.text
+    assert "loading-dots" in stylesheet.text
+    assert "height:calc(100vh - var(--topbar-height))" in stylesheet.text
+    for removed in ("name=\"level\"", "name=\"action_types\"", "name=\"task_types\"", "name=\"phase_template\""):
+        assert removed not in script.text
+    assert "Generating " not in script.text
+    assert "Preparing " not in script.text

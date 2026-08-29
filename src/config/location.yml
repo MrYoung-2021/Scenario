@@ -1,8 +1,9 @@
-# Environment overrides use the LOCATION_PROVIDER, LOCATION_ENDPOINT,
-# LOCATION_API_KEY, LOCATION_TIMEOUT_SECONDS, and LOCATION_USER_AGENT variables.
-provider: nominatim
-endpoint: https://nominatim.openstreetmap.org/search
-amap_endpoint: https://restapi.amap.com/v3/geocode/geo
+# Environment overrides use LOCATION_PROVIDER, LOCATION_INPUTTIPS_ENDPOINT
+# (or legacy LOCATION_ENDPOINT), LOCATION_API_KEY, LOCATION_TIMEOUT_SECONDS,
+# and LOCATION_USER_AGENT.
+provider: amap
+amap_inputtips_endpoint: https://restapi.amap.com/v3/assistant/inputtips
+amap_endpoint: https://restapi.amap.com/v3/assistant/inputtips
 timeout_seconds: 5
 cache_ttl_seconds: 600
 cache_max_entries: 256

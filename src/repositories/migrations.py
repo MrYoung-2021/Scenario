@@ -104,6 +104,9 @@ MIGRATIONS: tuple[Migration, ...] = (
             """,
         ),
     ),
+    # V5 records the read-time scenario input contract migration. Historical
+    # snapshots and generated outputs remain untouched by design.
+    (5, ()),
 )
 
 

@@ -1558,5 +1558,465 @@
     "create_time": 1780744473,
     "update_time": 1780744473,
     "_id": "local:keywords:a6236d19c87c8e2d44a7be7feb234b28"
+  },
+  "local:keywords:6f7a85d7ca7c4d782fd6bd58e039ebb0": {
+    "return": "{\"high_level_keywords\": [\"High-altitude operations\", \"Military logistics\", \"Mission constraint planning\", \"Operational risk management\"], \"low_level_keywords\": [\"High-altitude environment\", \"Logistics support\", \"Non-combat casualty control\", \"Task limitations\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "高海拔环境后勤保障与非战斗减员控制任务约束",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 10,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1780744474,
+    "update_time": 1780744474,
+    "_id": "local:keywords:6f7a85d7ca7c4d782fd6bd58e039ebb0"
+  },
+  "local:keywords:3f17287bc797337c715ff18504e7be38": {
+    "return": "{\"high_level_keywords\": [\"Mobile strike tactics\", \"High-altitude mountain warfare\", \"Mechanized artillery operations\"], \"low_level_keywords\": [\"Stryker Brigade\", \"HIMARS\", \"High-cold mountain terrain\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "斯特赖克旅与海马斯高寒山地机动打击战术",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 10,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1780744476,
+    "update_time": 1780744476,
+    "_id": "local:keywords:3f17287bc797337c715ff18504e7be38"
+  },
+  "local:keywords:ef34611d32c4ac953411e5a1a9333c11": {
+    "return": "{\"high_level_keywords\": [\"Army combined arms brigade\", \"weapons and equipment\"], \"low_level_keywords\": [\"tank\", \"artillery\", \"air defense\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "陆军合成旅 坦克 火炮 防空 武器装备",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611635,
+    "update_time": 1786611635,
+    "_id": "local:keywords:ef34611d32c4ac953411e5a1a9333c11"
+  },
+  "local:keywords:a76fccba39a66945b9f23063806cc46e": {
+    "return": "{\"high_level_keywords\": [\"coastal defense\", \"military unit\"], \"low_level_keywords\": [\"\\u6d77\\u9632\\u65c5\", \"\\u5cb8\\u9632\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "海防旅 岸防",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611647,
+    "update_time": 1786611647,
+    "_id": "local:keywords:a76fccba39a66945b9f23063806cc46e"
+  },
+  "local:keywords:3361ee3b343dc4fa21b1eab69a33ad1a": {
+    "return": "{\"high_level_keywords\": [\"\\u6d77\\u5c9b\\u9632\\u5fa1\", \"\\u5408\\u6210\\u65c5\\u4f5c\\u6218\"], \"low_level_keywords\": [\"\\u9646\\u519b\\u5408\\u6210\\u65c5\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "陆军合成旅 海岛防御",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611651,
+    "update_time": 1786611651,
+    "_id": "local:keywords:3361ee3b343dc4fa21b1eab69a33ad1a"
+  },
+  "local:keywords:8fa2af4ca5ce87d941feff337cd79e90": {
+    "return": "{\"high_level_keywords\": [\"\\u4e24\\u6816\\u767b\\u9646\", \"\\u6d77\\u519b\\u9646\\u6218\\u961f\\u65c5\"], \"low_level_keywords\": [\"\\u6d77\\u519b\\u9646\\u6218\\u961f\\u65c5\", \"\\u4e24\\u6816\\u767b\\u9646\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "海军陆战队旅 两栖登陆",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611654,
+    "update_time": 1786611654,
+    "_id": "local:keywords:8fa2af4ca5ce87d941feff337cd79e90"
+  },
+  "local:keywords:4c66a819282192149df18bb6efcf7f4f": {
+    "return": "{\"high_level_keywords\": [\"\\u6d77\\u519b\\u8230\\u8247\", \"\\u822a\\u7a7a\\u5175\", \"\\u6b66\\u5668\\u88c5\\u5907\"], \"low_level_keywords\": [\"\\u4e24\\u6816\\u653b\\u51fb\\u8230\", \"\\u9a71\\u9010\\u8230\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "海军舰艇 两栖攻击舰 驱逐舰 航空兵 武器装备",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611661,
+    "update_time": 1786611661,
+    "_id": "local:keywords:4c66a819282192149df18bb6efcf7f4f"
+  },
+  "local:keywords:7d7f31f87b68ae4e95864f5bd2910e1b": {
+    "return": "{\"high_level_keywords\": [\"\\u8fdb\\u653b\"], \"low_level_keywords\": [\"\\u7a7a\\u519b\\u822a\\u7a7a\\u5175\\u65c5\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "空军航空兵旅 进攻",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611666,
+    "update_time": 1786611666,
+    "_id": "local:keywords:7d7f31f87b68ae4e95864f5bd2910e1b"
+  },
+  "local:keywords:0f9acad1ced6e97f2fa4d17d1b434e34": {
+    "return": "{\"high_level_keywords\": [\"\\u4e24\\u6816\\u4f5c\\u6218\", \"\\u767b\\u9646\\u90e8\\u961f\"], \"low_level_keywords\": [\"\\u6d77\\u519b\\u9646\\u6218\\u961f\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "海军陆战队 两栖作战 登陆部队",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611694,
+    "update_time": 1786611694,
+    "_id": "local:keywords:0f9acad1ced6e97f2fa4d17d1b434e34"
+  },
+  "local:keywords:30f20f4bf60466e18fa18b831a81e30c": {
+    "return": "{\"high_level_keywords\": [\"\\u5408\\u6210\\u65c5\", \"\\u9632\\u5fa1\\u4f5c\\u6218\"], \"low_level_keywords\": [\"\\u6b65\\u5175\", \"\\u5766\\u514b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "合成旅 步兵 坦克 防御作战",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611699,
+    "update_time": 1786611699,
+    "_id": "local:keywords:30f20f4bf60466e18fa18b831a81e30c"
+  },
+  "local:keywords:25b1b8ee4393eb3dcd15066ebd872a5b": {
+    "return": "{\"high_level_keywords\": [\"military equipment\", \"weapon systems\"], \"low_level_keywords\": [\"\\u5766\\u514b\", \"\\u6b65\\u6218\\u8f66\", \"\\u706b\\u70ae\", \"\\u9632\\u7a7a\\u5bfc\\u5f39\", \"\\u53cd\\u5766\\u514b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "坦克 步战车 火炮 防空导弹 反坦克",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611699,
+    "update_time": 1786611699,
+    "_id": "local:keywords:25b1b8ee4393eb3dcd15066ebd872a5b"
+  },
+  "local:keywords:86c23e2b641eed7b3108bf5d195a682c": {
+    "return": "{\"high_level_keywords\": [\"\\u8fd1\\u6d77\\u9632\\u5fa1\"], \"low_level_keywords\": [\"\\u6d77\\u519b\", \"\\u62a4\\u536b\\u8230\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "海军 近海防御 护卫舰",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611701,
+    "update_time": 1786611701,
+    "_id": "local:keywords:86c23e2b641eed7b3108bf5d195a682c"
+  },
+  "local:keywords:c1474d4ca326a325ad478add95abb666": {
+    "return": "{\"high_level_keywords\": [\"air force aviation\", \"fighter aircraft\", \"fighter bomber\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "空军航空兵 歼击机 战斗轰炸机",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611704,
+    "update_time": 1786611704,
+    "_id": "local:keywords:c1474d4ca326a325ad478add95abb666"
+  },
+  "local:keywords:43a2c05e287cff2091f51b966e4582cb": {
+    "return": "{\"high_level_keywords\": [\"amphibious assault\", \"landing operation\"], \"low_level_keywords\": [\"amphibious assault ship\", \"hovercraft\", \"helicopter\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "两栖攻击舰 气垫船 直升机 登陆",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786611706,
+    "update_time": 1786611706,
+    "_id": "local:keywords:43a2c05e287cff2091f51b966e4582cb"
+  },
+  "local:keywords:d7c98ee0b24f2eb0f5f3f83cbd29f257": {
+    "return": "{\"high_level_keywords\": [\"\\u9632\\u7a7a\", \"\\u5c9b\\u5c7f\\u9632\\u5fa1\", \"\\u7eb5\\u6df1\\u9632\\u5fa1\"], \"low_level_keywords\": [\"PATRIOT\", \"AH-64\\u76f4\\u5347\\u673a\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "PATRIOT防空 AH-64直升机 岛屿防御 纵深防御",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632649,
+    "update_time": 1786632649,
+    "_id": "local:keywords:d7c98ee0b24f2eb0f5f3f83cbd29f257"
+  },
+  "local:keywords:a2b69498034ad89a7bd930cf18453ce7": {
+    "return": "{\"high_level_keywords\": [\"\\u53cd\\u767b\\u9646\", \"\\u6ee9\\u5934\\u9632\\u5fa1\"], \"low_level_keywords\": [\"M1A2\\u5766\\u514b\", \"HIMARS\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "M1A2坦克 HIMARS 反登陆 滩头防御",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632654,
+    "update_time": 1786632654,
+    "_id": "local:keywords:a2b69498034ad89a7bd930cf18453ce7"
+  },
+  "local:keywords:86c5d22dffccc64365ff56b61e58b0aa": {
+    "return": "{\"high_level_keywords\": [\"\\u7acb\\u4f53\\u767b\\u9646\", \"\\u6218\\u672f\\u8fd0\\u7528\"], \"low_level_keywords\": [\"\\u4e24\\u6816\\u653b\\u51fb\\u8230\", \"\\u6c14\\u57ab\\u767b\\u9646\\u8247\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "两栖攻击舰 气垫登陆艇 立体登陆 战术运用",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632657,
+    "update_time": 1786632657,
+    "_id": "local:keywords:86c5d22dffccc64365ff56b61e58b0aa"
+  },
+  "local:keywords:6cb49f9456743417fa8ce7c3a88784a3": {
+    "return": "{\"high_level_keywords\": [\"\\u9a71\\u9010\\u8230\", \"\\u822a\\u7a7a\\u5175\", \"\\u706b\\u529b\\u51c6\\u5907\", \"\\u5236\\u7a7a\\u5236\\u6d77\"], \"low_level_keywords\": [\"052D\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "052D驱逐舰 航空兵 火力准备 制空制海",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632666,
+    "update_time": 1786632666,
+    "_id": "local:keywords:6cb49f9456743417fa8ce7c3a88784a3"
+  },
+  "local:keywords:1f331118902ecff38fdad83ce399ccd1": {
+    "return": "{\"high_level_keywords\": [\"\\u5c9b\\u5c7f\\u9632\\u5fa1\", \"\\u53cd\\u767b\\u9646\", \"\\u533a\\u57df\\u9632\\u5fa1\", \"\\u8981\\u70b9\\u63a7\\u5236\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "岛屿防御 反登陆 区域防御 要点控制",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632683,
+    "update_time": 1786632683,
+    "_id": "local:keywords:1f331118902ecff38fdad83ce399ccd1"
+  },
+  "local:keywords:5697ef35dae76537eb7a3fac9b30b00d": {
+    "return": "{\"high_level_keywords\": [\"amphibious landing\", \"island offensive\", \"combat phases\"], \"low_level_keywords\": [\"fire preparation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "两栖登陆 海岛进攻 作战阶段 火力准备",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632696,
+    "update_time": 1786632696,
+    "_id": "local:keywords:5697ef35dae76537eb7a3fac9b30b00d"
+  },
+  "local:keywords:524b836cee884045b207d630b44a3a65": {
+    "return": "{\"high_level_keywords\": [\"electronic warfare\", \"radar jamming\", \"suppression of enemy air defenses\"], \"low_level_keywords\": [\"\\u65e0\\u4eba\\u673a\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "电子对抗 雷达干扰 防空压制 无人机",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632717,
+    "update_time": 1786632717,
+    "_id": "local:keywords:524b836cee884045b207d630b44a3a65"
+  },
+  "local:keywords:d46a38557fb3a7d0bbd86d8cb1ed4c39": {
+    "return": "{\"high_level_keywords\": [\"\\u53cd\\u70ae\\u5175\", \"\\u9632\\u7a7a\\u63a9\\u62a4\", \"\\u673a\\u52a8\\u9884\\u5907\\u961f\", \"\\u53cd\\u51b2\\u51fb\", \"\\u6ee9\\u5934\\u53cd\\u51fb\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "反炮兵 防空掩护 机动预备队 反冲击 滩头反击",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1786632729,
+    "update_time": 1786632729,
+    "_id": "local:keywords:d46a38557fb3a7d0bbd86d8cb1ed4c39"
+  },
+  "local:keywords:76ec47c789c59d9fe42909720b79b20e": {
+    "return": "{\"high_level_keywords\": [\"\\u4f5c\\u6218\\u76ee\\u6807\", \"\\u6218\\u5f79\\u7ea7\\u6218\\u6cd5\", \"\\u6218\\u672f\\u7ea7\\u6218\\u6cd5\", \"\\u5c71\\u5730\\u9632\\u5fa1\\u4f5c\\u6218\", \"\\u5c71\\u5730\\u8fdb\\u653b\\u4f5c\\u6218\", \"\\u6e21\\u6d77\\u767b\\u9646\\u4f5c\\u6218\", \"\\u8054\\u5408\\u4f5c\\u6218\", \"\\u5175\\u529b\\u90e8\\u7f72\", \"\\u706b\\u529b\\u914d\\u7cfb\", \"\\u9632\\u5fa1\\u6001\\u52bf\"], \"low_level_keywords\": [\"\\u84dd\\u65b9\", \"\\u7ea2\\u65b9\", \"\\u9ad8\\u96c4\\u5e02\\u6843\\u6e90\\u533a\", \"\\u4e2d\\u592e\\u5c71\\u8109\", \"\\u53f0\\u6e7e\\u5c9b\", \"\\u65c5\\u7ea7\\u6218\\u6597\\u961f\", \"\\u56e2\\u7ea7\\u5408\\u6210\\u7f16\\u5236\", \"15\\u5f0f\\u8f7b\\u578b\\u5766\\u514b\", \"M1 Abrams\", \"AMPV\", \"M109A7\\u81ea\\u884c\\u69b4\\u5f39\\u70ae\", \"HIMARS\", \"Javelin\", \"TOW\", \"AH-64E\", \"AH-1W\", \"MQ-1C Gray Eagle\", \"PATRIOT/PAC-3\", \"05\\u5f0f\\u81ea\\u884c\\u52a0\\u69b4\\u70ae\", \"191\\u8fdc\\u7a0b\\u706b\\u7bad\\u70ae\", \"\\u7ea2\\u65d7-22\", \"052D\\u578b\\u9a71\\u9010\\u8230\", \"055\\u578b\\u9a71\\u9010\\u8230\", \"075\\u578b\\u4e24\\u6816\\u653b\\u51fb\\u8230\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "为蓝方提炼作战目标、战役级战法和战术级战法。想定上下文：{\"background\":\"```\\n【想定背景】\\n\\n本想定以台湾岛南部高雄市桃源区及周边地域为行动区域，设定于春季，作战背景为对抗行动。台湾岛位于中国东南沿海，地处西太平洋岛链关键位置，扼控东南沿海海上通道，战略地位十分重要。台湾山脉属东北—西南走向，是我国东部最东列山脉，中央山脉纵贯全岛南北，地势起伏较大，海拔较高处气温随高度明显降低。行动区域位于台湾岛南部，属热带气候区。\\n\\n【环境设定】\\n\\n一、地理位置与区域范围\\n\\n行动区域位于台湾岛南部高雄市桃源区一带（北纬23.27°，东经120.88°附近），地处台湾岛西南部内陆山地区域。台湾岛位于中国东南沿海大陆架上，东临太平洋，西隔台湾海峡与福建省相望，北濒东海，南界巴士海峡与菲律宾群岛相对。台湾岛地处西太平洋岛链关键位置，扼控东南沿海海上通道，战略地位十分重要。行动区域距台湾海峡西侧海岸线约30至50公里，距高雄市区约40至60公里，属台湾岛南部中央山脉西侧山麓地带。\\n\\n二、地形地貌\\n\\n台湾岛地形以山地为主，地势起伏较大。中央山脉纵贯南北，为全岛地形脊梁，海拔较高处山峰超过3000米。台湾山脉属东北—西南走向的山脉系统，是我国东部沿海最东侧的一列山脉。行动区域所在的桃源区地处中央山脉西麓，地形以中低山地和丘陵为主，山势陡峭，沟谷纵横，海拔由西侧平原的数十米向东侧山区迅速攀升至数百米乃至千米以上。\\n\\n山地地形对军事行动影响显著：山地便于凭险固守、隐蔽行动、迂回包围、穿插分割和设置埋伏，有利于近战、夜战和小分队独立作战；但坡陡、石多、路小，交通不便，对坦克和炮兵等机械化部队的行动有较大限制，死角多，观察和通信联络不便，不利于指挥和协同动作。山间谷地和溪流对部队机动构成天然障碍，制高点的控制对观察射击和火力配系具有决定性意义。\\n\\n三、气象条件\\n\\n台湾岛南部属热带气候区，全年无冬，终年无霜。春季（3月至5月）气温温暖，长江以南地区春季气温一般在16至26℃之间，台湾南部地区气温略高，日间最高气温可达25至30℃，夜间最低气温约18至22℃。春季降水相对较少，天气以晴好为主，能见度和风力条件总体较好，春季的气候条件对军事行动较为有利。\\n\\n台湾是台风登陆频繁的地区之一，但台风主要集中在夏秋季节（7至9月），春季台风影响较小。春季偶有锋面系统过境带来的短时降水和雾气，山区晨间易出现低云和薄雾，对观察和航空行动有一定影响。春季 prevailing 风向以偏东风为主，风力一般3至4级，沿海及山口地带风力可达5级。\\n\\n四、水文条件\\n\\n台湾岛水系发育，河流短促且水流湍急。岛上河流多发源于中央山脉，向西注入台湾海峡或向东注入太平洋，河流比降大，水量丰沛，流速急。行动区域内分布有多条溪流及河谷，春季尚属枯水期向丰水期过渡阶段，河流水位较夏季为低，但山区溪流因降雨集中仍可出现水位骤涨的情况。\\n\\n河流对军事行动的影响主要表现为：与作战方向垂直的溪流构成天然障碍，会阻止或迟滞部队推进速度；河流水流湍急，渡河行动需选择适当渡口或架设桥梁；河谷地带通常植被茂密，通行困难，但可作为隐蔽机动通道。\\n\\n五、植被与地表覆盖\\n\\n台湾岛植被茂密，岛上森林覆盖率高。台湾南部低海拔山区以亚热带常绿阔叶林为主，植被类型丰富，林木茂密。行动区域内山地丘陵地带森林覆盖密集，灌木丛和竹林分布广泛。茂密的植被有利于部队隐蔽伪装和防御工事构筑，但对观察、射击和通信联络造成不利影响，判定方位和指示目标较为困难。\\n\\n六、其他自然因素\\n\\n台湾岛地处环太平洋地震带，地震活动较为频繁，需注意地震对工事构筑和部队行动安全的影响。春季白昼时间逐渐增长，日出时间约在06:00前后，日落时间约在18:30前后，昼长约12至13小时，有利于日间作战行动的展开。山区昼夜温差较平原地区偏大，夜间气温可降至15℃左右，需注意部队夜间行动的防寒保暖。\\n\\n（注：以上气象数据为台湾岛南部春季典型气候特征，来源于环境知识库典型资料，不代表实时天气状况。）\\n```\",\"formation\":\"【红蓝双方兵力与武器配置】\\n\\n---\\n\\n## 【红方】\\n\\n### 兵力编成\\n\\n红方以**团**为基本作战单元，隶属陆军与海军联合编成，想定规模为战区/战役级别。\\n\\n| 编成要素 | 说明 |\\n|---------|------|\\n| **基本层级** | 团（知识库建议：团级单位下辖若干营、连，兵力规模约2,000～3,000人） |\\n| **军种构成** | 陆军为主，海军配合 |\\n| **陆军编成** | 合成团编成，下辖步兵营（含山地步兵）、装甲营、炮兵营、防空连、侦察连、工兵连、通信连及后勤保障分队 |\\n| **海军编成** | 配属近海作战舰艇编队，负责海峡方向火力支援与海上封锁 |\\n| **指挥关系** | 团指挥所统一指挥所属各营连，海军配属兵力接受联合指挥所协调 |\\n\\n> **注**：红方团级合成编制的具体营连数量为**推断**，依据知识库中旅级单位（2,000～5,000人）及师/旅/营层级结构推算。\\n\\n### 武器装备\\n\\n#### 陆军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **轻型坦克** | 15式轻型坦克（ZTQ-15） | 全重约33～36吨，配装105毫米线膛坦克炮及新一代炮射反坦克导弹，尾舱式自动装弹机，数字化作战网络系统，**适合山地、丘陵环境作战** |\\n| **自行加榴炮** | 05式自行加榴炮 | 52倍口径155毫米线膛炮，全重约35吨，最大速度60公里/小时，最大射程53公里 |\\n| **车载加榴炮** | 155车载加榴炮 | 机动性强，适合山地公路机动部署 |\\n| **远程火箭炮** | 191远程箱式火箭炮 | 远程火力打击骨干装备，性能超过美国M270型和M142海马斯型火箭炮 |\\n| **防空导弹** | 红旗-22（Hongqi-22） | 中远程防空系统，主要用于打击各类固定翼飞机 |\\n\\n#### 海军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **驱逐舰** | 052D型驱逐舰 | 配备垂直发射区域防空导弹系统，具备区域防空能力 |\\n| **驱逐舰** | 055型驱逐舰 | 大型导弹驱逐舰，综合战力强 |\\n| **护卫舰** | 054A型护卫舰 | 导弹护卫舰，多用途作战平台 |\\n| **护卫舰** | 056型护卫舰 | 多用途轻型护卫舰，近海作战 |\\n| **两栖攻击舰** | 075型两栖攻击舰 | 装备于南海舰队，可搭载直升机及两栖兵力 |\\n| **舰载机** | 歼-15T / 歼-35 | 人民海军\\\"航母五件套\\\"成员，舰载战斗机 |\\n| **预警机** | 空警-600 | 舰载固定翼预警机 |\\n\\n> **注**：以上装备型号来源于红方兵器知识库，具体配属数量未检索到精确数据，标注为**知识库建议**。\\n\\n### 部署\\n\\n- **主要部署位置**：行动区域位于台湾岛南部高雄市桃源区一带，地处中央山脉西侧山麓地带。红方陆军团级兵力沿台湾海峡西岸部署，以山地丘陵地带为主要进攻出发阵地。\\n- **进攻轴线**：由西向东，跨越台湾海峡后在台湾岛西南部登陆，沿中央山脉西麓谷地向纵深推进。\\n- **装甲兵力运用**：15式轻型坦克因适合山地丘陵环境，作为装甲突击主力前出部署；05式自行加榴炮及155车载加榴炮部署于西侧相对平坦地域，提供火力支援。\\n- **海军部署**：舰艇编队部署于台湾海峡及巴士海峡方向，执行海上封锁、火力支援及反介入任务。075型两栖攻击舰搭载两栖兵力在海峡西侧待命。\\n- **防空部署**：红旗-22防空系统沿进攻轴线梯次配置，掩护主力部队空中安全。\\n- **预备队**：团级预备队（推断为1个步兵营加强兵力）配置于登陆场纵深，随时投入扩张战果或应对突发情况。\\n\\n---\\n\\n## 【蓝方】\\n\\n### 兵力编成\\n\\n蓝方以**旅**为基本作战单元，隶属陆军与海军联合编成。\\n\\n| 编成要素 | 说明 |\\n|---------|------|\\n| **基本层级** | 旅级战斗队（Brigade Combat Team） |\\n| **编制结构** | 旅部及旅部连、至少2个机动营（步兵/装甲）、1个骑兵侦察中队、1个野战炮兵营、1个旅工兵营、1个旅支援营（知识库来源） |\\n| **兵力规模** | 2,500～5,000人（知识库来源） |\\n| **军种构成** | 陆军为主，海军配合 |\\n| **旅级类型** | 可编成为步兵旅战斗队（Infantry BCT）、装甲旅战斗队（Armored BCT）或斯特赖克旅战斗队（Stryker BCT） |\\n| **指挥关系** | 旅战斗队为陆军最大固定战术单位，在师级指挥下独立作战，可接受配属或 detach 连级单位进行任务编组 |\\n\\n> **注**：蓝方旅级编成结构来源于蓝方编成知识库（FM 3-96体系），具体营连数量为**知识库建议**。\\n\\n### 武器装备\\n\\n#### 陆军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **主战坦克** | M1 Abrams | 主战坦克，配备扫雷犁/滚轮等突击准备装置 |\\n| **装甲多用途车辆** | AMPV（Armored Multi-Purpose Vehicle） | 履带式车辆，替代M113系列车族，配备M2武器及Mk 19武器站，含通用型、迫击炮载车型（120毫米迫击炮）、医疗后送型、指挥型等多种变型 |\\n| **装甲战斗车辆** | 装甲战斗车辆系列 | 提供战术机动性、防护力及动态/静态防御机动能力 |\\n| **自行榴弹炮** | M109A7自行榴弹炮 | 主要间接火力支援装备 |\\n| **多管火箭炮** | HIMARS / MLRS | 高机动性炮兵火箭系统，配GMLRS制导火箭弹 |\\n| **反坦克导弹** | Javelin / TOW | Javelin提供精确打击装甲目标能力；TOW配装于HMMWV\\\"Saber\\\"武器站及LAV-ATGM车辆 |\\n| **武装直升机** | AH-64E / AH-1W Super Cobra | 攻击直升机，提供近距离空中火力支援 |\\n| **无人机** | MQ-1C Gray Eagle | 侦察/攻击无人机 |\\n| **防空系统** | PATRIOT / PAC-3 | 防空反导系统 |\\n\\n#### 海军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **水面火力支援** | Naval Surface Fire Support | 舰炮火力支援，用于打击防御纵深内敌军目标 |\\n\\n> **注**：蓝方海军具体舰艇型号未检索到详细数据，标注为**未检索到相关数据**。海军兵力以提供水面火力支援及近海防御为主要任务（推断）。\\n\\n### 部署\\n\\n- **主要部署位置**：蓝方依托台湾岛南部中央山脉西麓山地地形进行防御部署，旅级战斗队配置于高雄市桃源区及周边山地域。\\n- **防御态势**：利用山地地形凭险固守。中央山脉纵贯南北，地势起伏较大，海拔由西侧平原数十米向东迅速攀升至千米以上，蓝方依托制高点建立观察射击及火力配系。\\n- **防御轴线**：以中央山脉西麓山脊线为主要防御阵地，控制各制高点，面向台湾海峡方向组织防御火力。\\n- **山地防御特点**：坡陡、石多、路小，交通不便，对蓝方装甲部队机动有较大限制；但便于隐蔽行动、迂回包围、穿插分割和设置埋伏，有利于近战、夜战和小分队独立作战。\\n- **火力配系**：野战炮兵营（M109A7自行榴弹炮）及HIMARS部署于山间谷地及后方阵地，利用山地死角组织间接火力覆盖；反坦克火力（Javelin、TOW）配置于各要点及隘路，封锁主要通路。\\n- **侦察与警戒**：骑兵侦察中队前出配置于主要接近地方向，利用山地隐蔽条件实施侦察警戒。\\n- **预备队**：旅级预备队（推断为1个机动营）配置于防御纵深内交通便利处，随时实施反冲击或增援受威胁方向。\\n- **海军配合**：蓝方海军在近海海域执行巡逻及反登陆任务，配合岸防火力封锁台湾海峡方向接近航道。\\n\\n---\\n\\n## 兵力部署概要\\n\\n| 要素 | 红方（团级） | 蓝方（旅级） |\\n|------|------------|------------|\\n| **作战任务** | 进攻——渡海登陆后向台湾岛南部山地纵深推进 | 防御——依托中央山脉西麓山地地形组织防御 |\\n| **兵力规模** | 约2,000～3,000人（推断） | 2,500～5,000人（知识库建议） |\\n| **主攻/主防方向** | 由西向东，跨海峡登陆后沿桃源区山麓地带进攻 | 面向台湾海峡方向，依托山地制高点防御 |\\n| **装甲力量** | 15式轻型坦克（适合山地） | M1 Abrams坦克、AMPV装甲车族 |\\n| **火力支援** | 05式/155车载加榴炮、191远程火箭炮 | M109A7自行榴弹炮、HIMARS/MLRS |\\n| **防空** | 红旗-22防空导弹 | PATRIOT/PAC-3 |\\n| **海军支援** | 052D/055驱逐舰、054A/056护卫舰、075两栖攻击舰 | 近海防御舰艇（具体型号未检索到） |\\n| **预备队** | 1个加强营（推断） | 1个机动营（推断） |\\n| **地形影响** | 山地限制重型装备机动，15式轻坦适应性较好 | 山地利于防御，制高点控制对火力配系具有决定性意义 |\\n\\n> **地形与气象对行动的影响**：\\n> - 春季气温16～26℃，降水较少，能见度及风力条件总体较好，有利于双方作战行动展开。\\n> - 山区晨间易出现低云和薄雾，对观察和航空行动有一定影响。\\n> - 茂密植被有利于隐蔽伪装，但对观",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1787917539,
+    "update_time": 1787917539,
+    "_id": "local:keywords:76ec47c789c59d9fe42909720b79b20e"
   }
 }

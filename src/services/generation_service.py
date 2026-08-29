@@ -16,6 +16,13 @@ from utils.logger import log_event
 
 logger = logging.getLogger("ScenarioAgent")
 
+GENERATION_PROGRESS = {
+    StepType.BACKGROUND: "正在生成背景与环境",
+    StepType.FORMATION: "正在生成兵力编成",
+    StepType.TASK: "正在生成战法与任务",
+    StepType.FINAL: "正在生成完整定稿",
+}
+
 
 class ScenarioGenerator(Protocol):
     def stream(
@@ -203,7 +210,7 @@ class GenerationService:
                 yield {
                     "type": "error",
                     "code": replay["error_code"] or "GENERATION_FAILED",
-                    "message": replay["error_message"] or "Generation failed",
+                    "message": replay["error_message"] or "生成失败，请稍后重试",
                     "replayed": True,
                 }
             return
@@ -214,12 +221,12 @@ class GenerationService:
             yield {
                 "type": "progress",
                 "stage": "retrieval",
-                "message": "Preparing confirmed context and knowledge retrieval",
+                "message": "正在准备前置条件和知识检索",
             }
             yield {
                 "type": "progress",
                 "stage": "generation",
-                "message": f"Generating {prepared.step} content",
+                "message": GENERATION_PROGRESS[prepared.step],
             }
             chunks: list[str] = []
             sources: list[dict[str, Any]] = []
@@ -280,7 +287,7 @@ class GenerationService:
             await self.repository.fail_generation(
                 request_id,
                 "GENERATION_CANCELLED",
-                "Generation was interrupted",
+                "生成已中断",
             )
             raise
         except Exception:
@@ -297,12 +304,12 @@ class GenerationService:
             await self.repository.fail_generation(
                 request_id,
                 "GENERATION_FAILED",
-                "Generation failed",
+                "生成失败，请稍后重试",
             )
             yield {
                 "type": "error",
                 "code": "GENERATION_FAILED",
-                "message": "Generation failed",
+                "message": "生成失败，请稍后重试",
             }
 
 

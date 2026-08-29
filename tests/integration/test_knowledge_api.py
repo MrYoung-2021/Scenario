@@ -28,6 +28,8 @@ class Store:
         return True
 
     async def adelete_text_by_id(self, knowledge_id):
+        if self.entry is None:
+            return False
         self.entry = None
         return True
 
@@ -58,3 +60,37 @@ async def test_knowledge_creation_review_and_duplicate_contract(monkeypatch) -> 
     assert approved.json() == {"success": True, "verified": True}
     assert duplicate.json() == {"k_id": "entry-1", "duplicate": True, "verified": True}
 
+
+@pytest.mark.asyncio
+async def test_delete_returns_404_when_missing_and_supports_kb_hint(monkeypatch) -> None:
+    store = Store()
+    store.entry = {"content": "delete me"}
+    feedback = Store()
+    monkeypatch.setattr(knowledge_routes, "_knowledge_store", store)
+    monkeypatch.setattr(knowledge_routes, "_feedback_store", feedback)
+    app = FastAPI()
+    app.include_router(knowledge_routes.router)
+
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        deleted = await client.delete("/api/delete_knowledge", params={"k_id": "entry-1", "kb_id": "expert"})
+        repeated = await client.delete("/api/delete_knowledge", params={"k_id": "entry-1", "kb_id": "expert"})
+
+    assert deleted.json() == {"success": True}
+    assert repeated.status_code == 404
+
+
+@pytest.mark.asyncio
+async def test_delete_scans_later_feedback_store(monkeypatch) -> None:
+    standard = Store()
+    feedback = Store()
+    feedback.entry = {"content": "feedback"}
+    monkeypatch.setattr(knowledge_routes, "_knowledge_store", standard)
+    monkeypatch.setattr(knowledge_routes, "_feedback_store", feedback)
+    app = FastAPI()
+    app.include_router(knowledge_routes.router)
+
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        deleted = await client.delete("/api/delete_knowledge", params={"k_id": "entry-1"})
+
+    assert deleted.json() == {"success": True}
+    assert feedback.entry is None

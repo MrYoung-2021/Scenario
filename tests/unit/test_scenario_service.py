@@ -152,3 +152,19 @@ async def test_delete_transaction_rolls_back_on_failure(workflow) -> None:
 
     assert await repository.get(scenario_id) is not None
     assert len(await repository.list_versions(scenario_id, StepType.BACKGROUND)) == 1
+
+
+@pytest.mark.asyncio
+async def test_legacy_inputs_are_saved_in_new_contract(workflow) -> None:
+    _, _, service = workflow
+    scenario_id = (await service.create("Legacy input"))["id"]
+    scenario = await service.save_input(scenario_id, StepType.FORMATION, FORMATION_INPUT)
+    formation = scenario["steps"][1]["input"]
+    assert "role" not in formation["red"]
+    assert formation["red"]["custom_weapons"] == []
+
+    scenario = await service.save_input(scenario_id, StepType.TASK, TASK_INPUT)
+    task = scenario["steps"][2]["input"]
+    assert not {"level", "action_types", "task_types", "phase_template"} & task.keys()
+    assert task["red_objective"]["custom"] == "hold terrain"
+    assert task["tactical_tactics"]["selected"] == ["attack", "maneuver"]
