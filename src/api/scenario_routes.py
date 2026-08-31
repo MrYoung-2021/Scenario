@@ -79,7 +79,7 @@ def get_recommendation_service(request: Request) -> TacticRecommendationService:
                 os.getenv(
                     "TACTIC_RECOMMENDATION_TIMEOUT_SECONDS",
                     rag_conf["retrieval"].get(
-                        "tactic_recommendation_timeout_seconds", 180
+                        "tactic_recommendation_timeout_seconds", 300
                     ),
                 )
             ),
