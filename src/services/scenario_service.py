@@ -152,6 +152,13 @@ def normalize_step_input(step: StepType, input_data: dict[str, Any]) -> dict[str
         "tactical_tactics",
         {"selected": legacy_tactics, "custom": []},
     )
+    for key in (
+        "red_campaign_tactics",
+        "blue_campaign_tactics",
+        "red_tactical_tactics",
+        "blue_tactical_tactics",
+    ):
+        data.setdefault(key, {"selected": [], "custom": []})
     for key in ("level", "action_types", "task_types", "phase_template"):
         data.pop(key, None)
     return data

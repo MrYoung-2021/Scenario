@@ -26,6 +26,8 @@ const DEFAULT_OPTIONS = {
   blue_branches: ['陆军', '海军', '空军', '海军陆战队', '太空军', '无人系统', '电子对抗', '后勤保障'],
   echelons: ['班', '排', '连', '营', '团', '旅', '师', '军', '战区'],
   weapon_categories: [],
+  red_weapon_categories: [],
+  blue_weapon_categories: [],
 };
 let scenarioOptions = {...DEFAULT_OPTIONS};
 let streamBuffer = '';
@@ -163,7 +165,6 @@ const App = {
       .map((item) => item.step_type);
     if (!available.includes(this.step)) this.step = this.current.current_step || 'background';
     renderWorkspace();
-    if (this.step === 'task') this.loadRecommendations();
   },
 
   switchPage(page) {
@@ -299,7 +300,6 @@ const App = {
       if (this.step !== 'final') this.step = STEP_ORDER[STEP_ORDER.indexOf(this.step) + 1];
       renderWorkspace();
       scrollWorkspaceToTop();
-      if (this.step === 'task') this.loadRecommendations();
       toast('步骤已确认', 'success');
     } catch (error) {
       toast(error.message, 'error');
@@ -400,7 +400,6 @@ function renderStepper() {
     button.addEventListener('click', () => {
       App.step = button.dataset.step;
       renderWorkspace();
-      if (App.step === 'task') App.loadRecommendations();
     });
   });
 }
@@ -495,7 +494,9 @@ function formationForm(value) {
 }
 
 function sideForm(side, label, value) {
-  const builtinWeapons = scenarioOptions.weapon_categories.flatMap((category) => category.elements || []);
+  const categories = scenarioOptions[`${side}_weapon_categories`] || [];
+  const builtinWeapons = categories.flatMap((category) => category.elements || []);
+  const selectedWeapons = (value.weapons || []).filter((item) => builtinWeapons.includes(item));
   const branches = scenarioOptions[`${side}_branches`] || scenarioOptions.branches;
   const savedBranches = side === 'blue'
     ? (value.branches || []).filter((item) => item !== '火箭军')
@@ -510,7 +511,7 @@ function sideForm(side, label, value) {
       ${withSavedOptions(branches, savedBranches).map((item) => checkChoice(`${side}_branches`, item, savedBranches?.includes(item))).join('')}
     </div></fieldset>
     ${inputField(`${side}_approximate_scale`, '大致规模', value.approximate_scale, 200, '可留空，由大模型生成；例如：约 3,000 人')}
-    <fieldset class="field full weapon-selector"><legend>武器装备（多选）</legend>${weaponSelectionSummary(side, value.weapons || [], customWeapons)}</fieldset>
+    <fieldset class="field full weapon-selector"><legend>武器装备（多选）</legend>${weaponSelectionSummary(side, selectedWeapons, customWeapons)}</fieldset>
     ${inputField(`${side}_initial_deployment`, '初始部署方式', value.initial_deployment, 500, '可留空，由大模型生成；例如：沿主要通道梯次部署')}
     ${inputField(`${side}_reserve_requirements`, '预备队要求', value.reserve_requirements, 500, '可留空，由大模型生成；例如：保留一个机动营')}
     <div class="field full">${inputField(`${side}_support_requirements`, '保障要求', value.support_requirements, 500, '可留空，由大模型生成；例如：加强工程与卫勤保障').replace(/^<div class="field">|<\/div>$/g, '')}</div>
@@ -526,13 +527,21 @@ function taskForm(value) {
     ${objectiveField('red_objective', '红方目标', value.red_objective || {}, data.red_objectives || [])}
     ${objectiveField('blue_objective', '蓝方目标', value.blue_objective || {}, data.blue_objectives || [])}
     ${tacticField('campaign_tactics', '战役战法', value.campaign_tactics || {}, data.campaign_tactics || [])}
+    ${sideTacticCustomFields('campaign', '战役战法', value)}
     ${tacticField('tactical_tactics', '战术战法', value.tactical_tactics || {}, data.tactical_tactics || [])}
+    ${sideTacticCustomFields('tactical', '战术战法', value)}
     ${inputField('trigger_conditions', '触发条件', (value.trigger_conditions || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
     ${inputField('termination_conditions', '终止条件', (value.termination_conditions || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
     ${inputField('coordination_focus', '协同重点', (value.coordination_focus || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
     ${inputField('constraints', '限制条件', (value.constraints || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
     <div class="field full"><label for="custom_requirements">其他要求 <span class="form-hint">最多 1,000 字</span></label><textarea id="custom_requirements" name="custom_requirements" maxlength="1000">${escapeHtml(value.custom_requirements || '')}</textarea></div>
   </div>`;
+}
+
+function sideTacticCustomFields(level, label, value) {
+  const redKey = `red_${level}_tactics`;
+  const blueKey = `blue_${level}_tactics`;
+  return `<div class="side-tactic-custom-grid"><fieldset class="field tactic-group"><legend>红方自定义${label}</legend>${customListControl(`${redKey}_custom`, value[redKey]?.custom || [], `添加红方自定义${label}`)}</fieldset><fieldset class="field tactic-group"><legend>蓝方自定义${label}</legend>${customListControl(`${blueKey}_custom`, value[blueKey]?.custom || [], `添加蓝方自定义${label}`)}</fieldset></div>`;
 }
 
 function weaponSelectionSummary(side, selected, customWeapons) {
@@ -548,9 +557,10 @@ function weaponSelectionSummary(side, selected, customWeapons) {
   </div>`;
 }
 
-function weaponCategoryFields(selected) {
-  if (!scenarioOptions.weapon_categories.length) return '<div class="form-hint">暂无系统装备选项，可直接添加自定义装备。</div>';
-  return scenarioOptions.weapon_categories.map((category) => `<div class="weapon-category"><div class="form-hint">${escapeHtml(category.name)}</div><div class="choice-row weapon-option-row">
+function weaponCategoryFields(side, selected) {
+  const categories = scenarioOptions[`${side}_weapon_categories`] || [];
+  if (!categories.length) return '<div class="form-hint">暂无系统装备选项，可直接添加自定义装备。</div>';
+  return categories.map((category) => `<div class="weapon-category"><div class="form-hint">${escapeHtml(category.name)}</div><div class="choice-row weapon-option-row">
     ${(category.elements || []).map((item) => `<label class="choice weapon-option"><input type="checkbox" class="weapon-modal-option" value="${escapeAttr(item)}" ${selected.includes(item) ? 'checked' : ''}>${escapeHtml(item)}</label>`).join('')}
   </div></div>`).join('');
 }
@@ -562,7 +572,7 @@ function openWeaponModal(side) {
   const custom = [...state.querySelectorAll(`input[name="${side}_custom_weapons"]`)].map((input) => input.value);
   App.weaponModal.side = side;
   document.getElementById('weapon-modal-title').textContent = `${side === 'red' ? '红方' : '蓝方'}武器装备`;
-  document.getElementById('weapon-modal-content').innerHTML = `${weaponCategoryFields(selected)}
+  document.getElementById('weapon-modal-content').innerHTML = `${weaponCategoryFields(side, selected)}
     <div class="weapon-modal-custom"><label for="weapon-modal-custom-input">自定义武器装备</label><div id="weapon-modal-custom-items" class="custom-items">${custom.map((item) => weaponCustomItem(item)).join('')}</div><div class="custom-add-row"><input id="weapon-modal-custom-input" class="custom-add-input" maxlength="200" placeholder="添加自定义武器装备"><button type="button" id="weapon-modal-custom-add" class="outline-button">添加</button></div></div>`;
   bindWeaponCustomControls();
   App.openModal('weapon-modal');
@@ -619,13 +629,14 @@ function updateWeaponSummary(side, values) {
 }
 
 function recommendationStatus(value) {
+  const action = value.state === 'loading' ? '' : `<button type="button" id="generate-recommendations" class="outline-button">${value.state === 'loaded' ? '重新生成推荐' : '生成战法推荐'}</button>`;
   if (value.state === 'loading') return '正在加载战法推荐<span class="loading-dots"><i></i><i></i><i></i></span>';
-  if (value.state === 'failed') return `${escapeHtml(value.message || '推荐加载失败')}，仍可使用自定义输入。`;
+  if (value.state === 'failed') return `<span>${escapeHtml(value.message || '推荐加载失败')}，仍可使用自定义输入。</span>${action}`;
   if (value.state === 'loaded') {
     const count = Object.values(value.data || {}).filter(Array.isArray).reduce((sum, items) => sum + items.length, 0);
-    return count ? `已加载 ${count} 条推荐` : '暂无匹配推荐，可使用自定义输入。';
+    return `${count ? `已加载 ${count} 条推荐` : '暂无匹配推荐，可使用自定义输入。'}${action}`;
   }
-  return '确认背景与编成后加载推荐。';
+  return `确认背景与编成后可生成推荐。${action}`;
 }
 
 function objectiveField(name, label, value, recommendations) {
@@ -661,6 +672,7 @@ function customListControl(name, values, placeholder) {
 }
 
 function bindDynamicFormControls() {
+  document.getElementById('generate-recommendations')?.addEventListener('click', () => App.loadRecommendations(true));
   document.querySelectorAll('.weapon-open').forEach((button) => {
     button.onclick = () => openWeaponModal(button.dataset.weaponSide);
   });
@@ -939,8 +951,12 @@ function readForm(step) {
   }
   const redObjective = {selected: checkedValues(form, 'red_objective_selected'), custom: fieldValue(form, 'red_objective_custom')};
   const blueObjective = {selected: checkedValues(form, 'blue_objective_selected'), custom: fieldValue(form, 'blue_objective_custom')};
-  const campaignTactics = {selected: checkedValues(form, 'campaign_tactics_selected'), custom: customListValues('campaign_tactics_custom')};
-  const tacticalTactics = {selected: checkedValues(form, 'tactical_tactics_selected'), custom: customListValues('tactical_tactics_custom')};
+    const campaignTactics = {selected: checkedValues(form, 'campaign_tactics_selected'), custom: customListValues('campaign_tactics_custom')};
+    const tacticalTactics = {selected: checkedValues(form, 'tactical_tactics_selected'), custom: customListValues('tactical_tactics_custom')};
+    const redCampaignTactics = {selected: [], custom: customListValues('red_campaign_tactics_custom')};
+    const blueCampaignTactics = {selected: [], custom: customListValues('blue_campaign_tactics_custom')};
+    const redTacticalTactics = {selected: [], custom: customListValues('red_tactical_tactics_custom')};
+    const blueTacticalTactics = {selected: [], custom: customListValues('blue_tactical_tactics_custom')};
   if ((!redObjective.selected.length && !redObjective.custom) || (!blueObjective.selected.length && !blueObjective.custom)) {
     toast('红蓝双方目标均需选择推荐项或填写自定义目标', 'error');
     return null;
@@ -954,6 +970,10 @@ function readForm(step) {
     blue_objective: blueObjective,
     campaign_tactics: campaignTactics,
     tactical_tactics: tacticalTactics,
+    red_campaign_tactics: redCampaignTactics,
+    blue_campaign_tactics: blueCampaignTactics,
+    red_tactical_tactics: redTacticalTactics,
+    blue_tactical_tactics: blueTacticalTactics,
     trigger_conditions: splitList(fieldValue(form, 'trigger_conditions')),
     termination_conditions: splitList(fieldValue(form, 'termination_conditions')),
     coordination_focus: splitList(fieldValue(form, 'coordination_focus')),

@@ -18,6 +18,7 @@ from services.retrieval_registry import get_deposition_worker
 from services.scenario_service import ScenarioService
 from services.tactic_recommendation_service import TacticRecommendationService
 from utils.config_handler import ConfigHandler, rag_conf
+from utils.path_tools import get_abs_path
 
 
 router = APIRouter(prefix="/api/scenarios", tags=["scenarios"])
@@ -38,11 +39,12 @@ STATIC_SCENARIO_OPTIONS = {
     "tactic_sources": ["campaign", "tactical"],
 }
 
-
 def load_scenario_options() -> dict:
     return {
         **STATIC_SCENARIO_OPTIONS,
         "weapon_categories": ConfigHandler.load_elements_json(),
+        "red_weapon_categories": ConfigHandler.load_elements_json(get_abs_path("config/elements_red.json")),
+        "blue_weapon_categories": ConfigHandler.load_elements_json(get_abs_path("config/elements_blue.json")),
     }
 
 

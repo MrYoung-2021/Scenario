@@ -61,7 +61,8 @@
 ## 分步工作流输入契约
 - `USER_SELECTIONS` 是用户已保存的本阶段结构化选择，必须逐项遵守。
 - `red_objective`、`blue_objective` 分别包含 `selected` 推荐项和 `custom` 自定义目标。
-- `campaign_tactics`、`tactical_tactics` 分别表示战役级与战术级战法，均包含 `selected` 与 `custom` 列表；不得混淆两个层级。
+- `campaign_tactics`、`tactical_tactics` 分别表示战役级与战术级推荐战法，均包含 `selected` 与 `custom` 列表；不得混淆两个层级。
+- `red_campaign_tactics`、`blue_campaign_tactics`、`red_tactical_tactics`、`blue_tactical_tactics` 分别表示红蓝双方的自定义战役/战术战法，必须按阵营使用，不得将一方自定义战法归入另一方。
 - 输入契约不包含 `level`、`action_types`、`task_types` 或 `phase_template`，不得在输出中恢复这些旧表单字段。
 - `CUSTOM_REQUIREMENTS` 是用户补充要求。
 - `CONFIRMED_CONTEXT.background` 与 `CONFIRMED_CONTEXT.formation` 均为只读，不得改变环境、兵力或装备。

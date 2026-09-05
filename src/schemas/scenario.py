@@ -141,6 +141,10 @@ class TaskInput(BaseModel):
     blue_objective: ObjectiveSelection
     campaign_tactics: SelectionInput = Field(default_factory=SelectionInput)
     tactical_tactics: SelectionInput = Field(default_factory=SelectionInput)
+    red_campaign_tactics: SelectionInput = Field(default_factory=SelectionInput)
+    blue_campaign_tactics: SelectionInput = Field(default_factory=SelectionInput)
+    red_tactical_tactics: SelectionInput = Field(default_factory=SelectionInput)
+    blue_tactical_tactics: SelectionInput = Field(default_factory=SelectionInput)
     trigger_conditions: list[str] = Field(default_factory=list, max_length=20)
     termination_conditions: list[str] = Field(default_factory=list, max_length=20)
     coordination_focus: list[str] = Field(default_factory=list, max_length=20)
@@ -159,7 +163,14 @@ class TaskInput(BaseModel):
 
     @model_validator(mode="after")
     def require_tactic(self) -> "TaskInput":
-        groups = (self.campaign_tactics, self.tactical_tactics)
+        groups = (
+            self.campaign_tactics,
+            self.tactical_tactics,
+            self.red_campaign_tactics,
+            self.blue_campaign_tactics,
+            self.red_tactical_tactics,
+            self.blue_tactical_tactics,
+        )
         if not any(group.selected or group.custom for group in groups):
             raise ValueError("at least one campaign or tactical tactic is required")
         return self
