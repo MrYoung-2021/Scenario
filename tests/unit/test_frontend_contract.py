@@ -25,8 +25,8 @@ async def test_scenario_static_page_exposes_workflow_assets() -> None:
     assert 'id="knowledge-delete-modal"' in page.text
     assert 'id="knowledge-level"' in page.text
     assert 'id="knowledge-source"' in page.text
-    assert "/static/scenario.css?v=13" in page.text
-    assert "/static/scenario.js?v=14" in page.text
+    assert "/static/scenario.css?v=15" in page.text
+    assert "/static/scenario.js?v=17" in page.text
     assert "marked-12.0.2.min.js" in page.text
     assert "dompurify-3.1.6.min.js" in page.text
     assert stylesheet.status_code == 200
@@ -47,9 +47,21 @@ async def test_scenario_static_page_exposes_workflow_assets() -> None:
     assert 'id="weapon-modal"' in page.text
     assert "campaign_tactics" in script.text
     assert "tactical_tactics" in script.text
+    assert "添加自定义战役战法" not in script.text
+    assert "添加自定义战术战法" not in script.text
+    assert "`添加红方自定义${label}`" in script.text
+    assert "`添加蓝方自定义${label}`" in script.text
+    for side in ("red", "blue"):
+        assert f"{side}_campaign_tactics_custom" in script.text
+        assert f"{side}_tactical_tactics_custom" in script.text
     assert "recommendation-content" in script.text
     assert "item.content" in script.text
+    assert "recommendation_snapshots" in script.text
+    assert "selectedRecommendationSnapshots" in script.text
+    assert "data-recommendation-id" in script.text
     assert ".recommendation-list{display:grid" in stylesheet.text
+    assert ".side-tactic-custom-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))" in stylesheet.text
+    assert ".recommendation-list,.side-tactic-custom-grid{grid-template-columns:1fr}" in stylesheet.text
     assert "function renderMarkdown" in script.text
     assert "DOMPurify.sanitize" in script.text
     assert "output.scrollTop = output.scrollHeight" in script.text

@@ -168,3 +168,43 @@ async def test_legacy_inputs_are_saved_in_new_contract(workflow) -> None:
     assert not {"level", "action_types", "task_types", "phase_template"} & task.keys()
     assert task["red_objective"]["custom"] == "hold terrain"
     assert task["tactical_tactics"]["selected"] == ["attack", "maneuver"]
+    assert task["recommendation_snapshots"] == {
+        "red_objectives": [],
+        "blue_objectives": [],
+        "campaign_tactics": [],
+        "tactical_tactics": [],
+    }
+
+
+@pytest.mark.asyncio
+async def test_task_recommendation_snapshots_are_persisted(workflow) -> None:
+    _, _, service = workflow
+    scenario_id = (await service.create("Recommendation snapshots"))["id"]
+    task_input = {
+        "red_objective": {"selected": ["夺控要点"], "custom": ""},
+        "blue_objective": {"selected": ["固守阵地"], "custom": ""},
+        "campaign_tactics": {"selected": ["纵深分割"], "custom": []},
+        "tactical_tactics": {"selected": [], "custom": []},
+        "recommendation_snapshots": {
+            "red_objectives": [
+                {"id": "red-1", "label": "夺控要点", "content": "夺取关键区域。", "source": "red_task · AI提炼"},
+            ],
+            "blue_objectives": [
+                {"id": "blue-1", "label": "固守阵地", "content": "保持防御地域。", "source": "blue_task · AI提炼"},
+            ],
+            "campaign_tactics": [
+                {"id": "campaign-1", "label": "纵深分割", "content": "割裂对方部署。", "source": "战役知识 · AI提炼"},
+            ],
+        },
+    }
+
+    saved = await service.save_input(scenario_id, StepType.TASK, task_input)
+    task = saved["steps"][2]["input"]
+
+    assert task["recommendation_snapshots"]["red_objectives"][0] == {
+        "id": "red-1",
+        "label": "夺控要点",
+        "content": "夺取关键区域。",
+        "source": "red_task · AI提炼",
+    }
+    assert task["recommendation_snapshots"]["campaign_tactics"][0]["content"] == "割裂对方部署。"

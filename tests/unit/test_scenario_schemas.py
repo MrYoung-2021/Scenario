@@ -61,6 +61,31 @@ def test_new_task_contract_requires_objectives_and_tactic() -> None:
         })
 
 
+def test_task_recommendation_snapshots_only_retain_selected_items() -> None:
+    value = TaskInput.model_validate({
+        "red_objective": {"selected": ["夺控要点"], "custom": ""},
+        "blue_objective": {"selected": ["固守阵地"], "custom": ""},
+        "campaign_tactics": {"selected": ["纵深分割"], "custom": []},
+        "tactical_tactics": {"selected": [], "custom": []},
+        "recommendation_snapshots": {
+            "red_objectives": [
+                {"id": "red-1", "label": "夺控要点", "content": "夺取关键区域。", "source": "red_task · AI提炼"},
+                {"id": "red-2", "label": "未选择目标", "content": "不应保存。", "source": "red_task · AI提炼"},
+            ],
+            "blue_objectives": [
+                {"id": "blue-1", "label": "固守阵地", "content": "保持防御地域。", "source": "blue_task · AI提炼"},
+            ],
+            "campaign_tactics": [
+                {"id": "campaign-1", "label": "纵深分割", "content": "割裂对方部署。", "source": "战役知识 · AI提炼"},
+            ],
+        },
+    })
+
+    assert [item.id for item in value.recommendation_snapshots.red_objectives] == ["red-1"]
+    assert value.recommendation_snapshots.campaign_tactics[0].content == "割裂对方部署。"
+    assert value.recommendation_snapshots.tactical_tactics == []
+
+
 def test_formation_rejects_role_and_merges_custom_weapons() -> None:
     with pytest.raises(ValidationError):
         FormationInput.model_validate({

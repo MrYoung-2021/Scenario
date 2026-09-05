@@ -85,6 +85,33 @@ async def test_recommendations_use_red_and_blue_task_retrieval_and_cache() -> No
 
 
 @pytest.mark.asyncio
+async def test_recommendation_snapshots_are_excluded_from_generation_context() -> None:
+    class ScenarioWithSnapshots(ScenarioService):
+        async def get(self, scenario_id):
+            scenario = await super().get(scenario_id)
+            scenario["steps"][2]["input"] = {
+                "campaign_tactics": {"selected": ["纵深分割"], "custom": []},
+                "recommendation_snapshots": {
+                    "campaign_tactics": [
+                        {"id": "campaign-1", "label": "纵深分割", "content": "历史详情", "source": "历史来源"},
+                    ]
+                },
+            }
+            return scenario
+
+    async def assert_context(context, red_result, blue_result):
+        assert "recommendation_snapshots" not in context["task_draft"]
+        assert context["task_draft"]["campaign_tactics"]["selected"] == ["纵深分割"]
+        return await summarizer(context, red_result, blue_result)
+
+    service = TacticRecommendationService(
+        ScenarioWithSnapshots(), Retriever(), summarizer=assert_context
+    )
+
+    await service.recommend("scenario-1")
+
+
+@pytest.mark.asyncio
 async def test_recommendations_dispatch_direct_tactics_and_objectives() -> None:
     class Dispatcher:
         def __init__(self):

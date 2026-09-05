@@ -1898,5 +1898,25 @@
     "create_time": 1788542264,
     "update_time": 1788542264,
     "_id": "local:keywords:cafaddcdef0abaeb7af456aa84cdeece"
+  },
+  "local:keywords:f5ff7d65197d81851a705f530fef1218": {
+    "return": "{\"high_level_keywords\": [\"\\u53f0\\u6e7e\\u5c9b\", \"\\u6625\\u5b63\", \"\\u5730\\u5f62\\u5730\\u8c8c\", \"\\u690d\\u88ab\", \"\\u6c34\\u7cfb\", \"\\u4ea4\\u901a\", \"\\u5b63\\u8282\\u5f71\\u54cd\", \"\\u6c14\\u5019\\u8981\\u7d20\", \"\\u6781\\u7aef\\u5929\\u6c14\"], \"low_level_keywords\": [\"\\u5b63\\u8282\\u4e3a\\u6625\", \"\\u5178\\u578b\\u5730\\u5f62\", \"\\u6d77\\u62d4\\u5730\\u8c8c\", \"\\u6e29\\u5ea6\", \"\\u964d\\u6c34\", \"\\u98ce\", \"\\u80fd\\u89c1\\u5ea6\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "台湾岛，季节为春的典型地形、海拔地貌、植被、水系、交通、季节影响、温度、降水、风、能见度和极端天气",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788595759,
+    "update_time": 1788595759,
+    "_id": "local:keywords:f5ff7d65197d81851a705f530fef1218"
   }
 }

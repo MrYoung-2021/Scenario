@@ -522,13 +522,14 @@ function sideForm(side, label, value) {
 function taskForm(value) {
   const recommendation = App.recommendations;
   const data = recommendation.data || {};
+  const snapshots = value.recommendation_snapshots || {};
   return `<div class="form-grid">
     <div class="field full recommendation-status ${recommendation.state}">${recommendationStatus(recommendation)}</div>
-    ${objectiveField('red_objective', '红方目标', value.red_objective || {}, data.red_objectives || [])}
-    ${objectiveField('blue_objective', '蓝方目标', value.blue_objective || {}, data.blue_objectives || [])}
-    ${tacticField('campaign_tactics', '战役战法', value.campaign_tactics || {}, data.campaign_tactics || [])}
+    ${objectiveField('red_objective', '红方目标', value.red_objective || {}, data.red_objectives || [], snapshots.red_objectives || [])}
+    ${objectiveField('blue_objective', '蓝方目标', value.blue_objective || {}, data.blue_objectives || [], snapshots.blue_objectives || [])}
+    ${tacticField('campaign_tactics', '战役战法', value.campaign_tactics || {}, data.campaign_tactics || [], snapshots.campaign_tactics || [])}
     ${sideTacticCustomFields('campaign', '战役战法', value)}
-    ${tacticField('tactical_tactics', '战术战法', value.tactical_tactics || {}, data.tactical_tactics || [])}
+    ${tacticField('tactical_tactics', '战术战法', value.tactical_tactics || {}, data.tactical_tactics || [], snapshots.tactical_tactics || [])}
     ${sideTacticCustomFields('tactical', '战术战法', value)}
     ${inputField('trigger_conditions', '触发条件', (value.trigger_conditions || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
     ${inputField('termination_conditions', '终止条件', (value.termination_conditions || []).join('、'), 500, '可留空，由大模型生成；多个条件用顿号分隔')}
@@ -639,32 +640,50 @@ function recommendationStatus(value) {
   return `确认背景与编成后可生成推荐。${action}`;
 }
 
-function objectiveField(name, label, value, recommendations) {
+function objectiveField(name, label, value, recommendations, snapshots) {
   const selected = value.selected || [];
-  const options = mergeRecommendationOptions(recommendations, selected);
+  const options = mergeRecommendationOptions(recommendations, selected, snapshots);
   return `<fieldset class="field task-objective"><legend>${label}</legend><div class="recommendation-list">
     ${options.map((item) => recommendationChoice(`${name}_selected`, item, selected.includes(item.label))).join('')}
   </div><label for="${name}_custom" class="form-hint">自定义目标</label><textarea id="${name}_custom" name="${name}_custom" maxlength="1000" placeholder="可输入自定义目标">${escapeHtml(value.custom || '')}</textarea></fieldset>`;
 }
 
-function tacticField(name, label, value, recommendations) {
+function tacticField(name, label, value, recommendations, snapshots) {
   const selected = value.selected || [];
-  const options = mergeRecommendationOptions(recommendations, selected);
+  const options = mergeRecommendationOptions(recommendations, selected, snapshots);
   return `<fieldset class="field full tactic-group"><legend>${label}（多选）</legend><div class="recommendation-list">
     ${options.map((item) => recommendationChoice(`${name}_selected`, item, selected.includes(item.label))).join('')}
-  </div>${customListControl(`${name}_custom`, value.custom || [], `添加自定义${label}`)}</fieldset>`;
+  </div></fieldset>`;
 }
 
-function mergeRecommendationOptions(recommendations, saved) {
+function mergeRecommendationOptions(recommendations, saved, snapshots = []) {
   const mapped = recommendations.map((item) => ({...item, recommended: true}));
+  const snapshotByLabel = new Map(snapshots.map((item) => [item.label, item]));
   saved.forEach((label) => {
-    if (!mapped.some((item) => item.label === label)) mapped.push({label, content: '此前保存的选择', source: '历史选择', recommended: false});
+    if (mapped.some((item) => item.label === label)) return;
+    const snapshot = snapshotByLabel.get(label);
+    mapped.push(snapshot
+      ? {...snapshot, recommended: false}
+      : {label, content: '此前保存的选择', source: '历史选择', recommended: false});
   });
   return mapped;
 }
 
 function recommendationChoice(name, item, checked) {
-  return `<label class="recommendation ${item.recommended ? 'recommended' : 'saved'}" title="来源：${escapeAttr(item.source || '未知')}"><input type="checkbox" name="${name}" value="${escapeAttr(item.label)}" ${checked ? 'checked' : ''}><span class="recommendation-body"><strong class="recommendation-name">${escapeHtml(item.label)}</strong><span class="recommendation-content">${escapeHtml(item.content || '暂无内容说明')}</span><small class="recommendation-source">${escapeHtml(item.source || '')}</small></span></label>`;
+  return `<label class="recommendation ${item.recommended ? 'recommended' : 'saved'}" data-recommendation-id="${escapeAttr(item.id || '')}" title="来源：${escapeAttr(item.source || '未知')}"><input type="checkbox" name="${name}" value="${escapeAttr(item.label)}" ${checked ? 'checked' : ''}><span class="recommendation-body"><strong class="recommendation-name">${escapeHtml(item.label)}</strong><span class="recommendation-content">${escapeHtml(item.content || '暂无内容说明')}</span><small class="recommendation-source">${escapeHtml(item.source || '')}</small></span></label>`;
+}
+
+function selectedRecommendationSnapshots(form, name) {
+  return [...form.querySelectorAll(`input[name="${CSS.escape(name)}"]:checked`)].map((input) => {
+    const card = input.closest('.recommendation');
+    const snapshot = {
+      id: card?.dataset.recommendationId?.trim() || '',
+      label: input.value.trim(),
+      content: card?.querySelector('.recommendation-content')?.textContent?.trim() || '',
+      source: card?.querySelector('.recommendation-source')?.textContent?.trim() || '',
+    };
+    return snapshot.id && snapshot.label && snapshot.content && snapshot.source ? snapshot : null;
+  }).filter(Boolean);
 }
 
 function customListControl(name, values, placeholder) {
@@ -951,17 +970,25 @@ function readForm(step) {
   }
   const redObjective = {selected: checkedValues(form, 'red_objective_selected'), custom: fieldValue(form, 'red_objective_custom')};
   const blueObjective = {selected: checkedValues(form, 'blue_objective_selected'), custom: fieldValue(form, 'blue_objective_custom')};
-    const campaignTactics = {selected: checkedValues(form, 'campaign_tactics_selected'), custom: customListValues('campaign_tactics_custom')};
-    const tacticalTactics = {selected: checkedValues(form, 'tactical_tactics_selected'), custom: customListValues('tactical_tactics_custom')};
-    const redCampaignTactics = {selected: [], custom: customListValues('red_campaign_tactics_custom')};
-    const blueCampaignTactics = {selected: [], custom: customListValues('blue_campaign_tactics_custom')};
-    const redTacticalTactics = {selected: [], custom: customListValues('red_tactical_tactics_custom')};
-    const blueTacticalTactics = {selected: [], custom: customListValues('blue_tactical_tactics_custom')};
+  const campaignTactics = {selected: checkedValues(form, 'campaign_tactics_selected'), custom: []};
+  const tacticalTactics = {selected: checkedValues(form, 'tactical_tactics_selected'), custom: []};
+  const redCampaignTactics = {selected: [], custom: customListValues('red_campaign_tactics_custom')};
+  const blueCampaignTactics = {selected: [], custom: customListValues('blue_campaign_tactics_custom')};
+  const redTacticalTactics = {selected: [], custom: customListValues('red_tactical_tactics_custom')};
+  const blueTacticalTactics = {selected: [], custom: customListValues('blue_tactical_tactics_custom')};
   if ((!redObjective.selected.length && !redObjective.custom) || (!blueObjective.selected.length && !blueObjective.custom)) {
     toast('红蓝双方目标均需选择推荐项或填写自定义目标', 'error');
     return null;
   }
-  if (![campaignTactics, tacticalTactics].some((item) => item.selected.length || item.custom.length)) {
+  const tacticGroups = [
+    campaignTactics,
+    tacticalTactics,
+    redCampaignTactics,
+    blueCampaignTactics,
+    redTacticalTactics,
+    blueTacticalTactics,
+  ];
+  if (!tacticGroups.some((item) => item.selected.length || item.custom.length)) {
     toast('请至少选择或添加一种战役战法或战术战法', 'error');
     return null;
   }
@@ -974,6 +1001,12 @@ function readForm(step) {
     blue_campaign_tactics: blueCampaignTactics,
     red_tactical_tactics: redTacticalTactics,
     blue_tactical_tactics: blueTacticalTactics,
+    recommendation_snapshots: {
+      red_objectives: selectedRecommendationSnapshots(form, 'red_objective_selected'),
+      blue_objectives: selectedRecommendationSnapshots(form, 'blue_objective_selected'),
+      campaign_tactics: selectedRecommendationSnapshots(form, 'campaign_tactics_selected'),
+      tactical_tactics: selectedRecommendationSnapshots(form, 'tactical_tactics_selected'),
+    },
     trigger_conditions: splitList(fieldValue(form, 'trigger_conditions')),
     termination_conditions: splitList(fieldValue(form, 'termination_conditions')),
     coordination_focus: splitList(fieldValue(form, 'coordination_focus')),

@@ -13,6 +13,9 @@ from schemas.retrieval import DepositionJob, RetrievedItem, RetrievalQuery, Retr
 
 logger = logging.getLogger("ScenarioAgent")
 
+DEPOSITION_QUERY_MAX_LENGTH = 12000
+DEPOSITION_CONTENT_MAX_LENGTH = 30000
+
 
 class StandardKnowledgeBackend(Protocol):
     async def asearch(
@@ -136,20 +139,20 @@ class TieredRetriever:
         source_id = hashlib.sha256(
             f"{scope}|{request.query}|{content}".encode("utf-8")
         ).hexdigest()
-        job = DepositionJob(
-            query=request.query,
-            content=content,
-            category=request.category,
-            side=side,
-            scope=scope,
-            source_id=source_id,
-            source=scope,
-            level=request.level or "general",
-            domain=request.domain or "general",
-            scenario_type=request.scenario_type or "all",
-            context_hash=hashlib.sha256(request.query.encode("utf-8")).hexdigest(),
-        )
         try:
+            job = DepositionJob(
+                query=request.query[:DEPOSITION_QUERY_MAX_LENGTH],
+                content=content[:DEPOSITION_CONTENT_MAX_LENGTH],
+                category=request.category,
+                side=side,
+                scope=scope,
+                source_id=source_id,
+                source=scope,
+                level=request.level or "general",
+                domain=request.domain or "general",
+                scenario_type=request.scenario_type or "all",
+                context_hash=hashlib.sha256(request.query.encode("utf-8")).hexdigest(),
+            )
             self.deposition_dispatcher.dispatch(job)
         except Exception:
             logger.exception("event=knowledge_deposition_failed reason=dispatch_exception category=%s scope=%s", request.category, scope)

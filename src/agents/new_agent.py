@@ -40,6 +40,7 @@ def _structured_prompt(
 ) -> str:
     selections = dict(selections)
     custom_requirements = selections.pop("custom_requirements", "")
+    selections.pop("recommendation_snapshots", None)
     blocks = (
         ("USER_SELECTIONS", selections),
         ("CUSTOM_REQUIREMENTS", custom_requirements),

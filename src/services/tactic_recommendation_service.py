@@ -99,10 +99,12 @@ class TacticRecommendationService:
                     required_step=required,
                 )
 
+        task_draft = dict(steps[StepType.TASK].get("input") or {})
+        task_draft.pop("recommendation_snapshots", None)
         context = {
             "background": steps[StepType.BACKGROUND].get("current_output") or "",
             "formation": steps[StepType.FORMATION].get("current_output") or "",
-            "task_draft": steps[StepType.TASK].get("input") or {},
+            "task_draft": task_draft,
         }
         serialized = json.dumps(context, ensure_ascii=False, sort_keys=True)
         cache_key = hashlib.sha256(serialized.encode("utf-8")).hexdigest()

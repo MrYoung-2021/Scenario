@@ -134,6 +134,24 @@ class ObjectiveSelection(BaseModel):
         return self
 
 
+class RecommendationSnapshot(BaseModel):
+    model_config = {"extra": "forbid", "str_strip_whitespace": True}
+
+    id: str = Field(min_length=1, max_length=128)
+    label: str = Field(min_length=1, max_length=500)
+    content: str = Field(min_length=1, max_length=1000)
+    source: str = Field(min_length=1, max_length=500)
+
+
+class TaskRecommendationSnapshots(BaseModel):
+    model_config = {"extra": "forbid"}
+
+    red_objectives: list[RecommendationSnapshot] = Field(default_factory=list, max_length=20)
+    blue_objectives: list[RecommendationSnapshot] = Field(default_factory=list, max_length=20)
+    campaign_tactics: list[RecommendationSnapshot] = Field(default_factory=list, max_length=30)
+    tactical_tactics: list[RecommendationSnapshot] = Field(default_factory=list, max_length=30)
+
+
 class TaskInput(BaseModel):
     model_config = {"extra": "forbid"}
 
@@ -145,6 +163,9 @@ class TaskInput(BaseModel):
     blue_campaign_tactics: SelectionInput = Field(default_factory=SelectionInput)
     red_tactical_tactics: SelectionInput = Field(default_factory=SelectionInput)
     blue_tactical_tactics: SelectionInput = Field(default_factory=SelectionInput)
+    recommendation_snapshots: TaskRecommendationSnapshots = Field(
+        default_factory=TaskRecommendationSnapshots
+    )
     trigger_conditions: list[str] = Field(default_factory=list, max_length=20)
     termination_conditions: list[str] = Field(default_factory=list, max_length=20)
     coordination_focus: list[str] = Field(default_factory=list, max_length=20)
@@ -173,7 +194,34 @@ class TaskInput(BaseModel):
         )
         if not any(group.selected or group.custom for group in groups):
             raise ValueError("at least one campaign or tactical tactic is required")
+        selected_by_group = {
+            "red_objectives": self.red_objective.selected,
+            "blue_objectives": self.blue_objective.selected,
+            "campaign_tactics": self.campaign_tactics.selected,
+            "tactical_tactics": self.tactical_tactics.selected,
+        }
+        for group, selected in selected_by_group.items():
+            snapshots = getattr(self.recommendation_snapshots, group)
+            setattr(
+                self.recommendation_snapshots,
+                group,
+                _selected_snapshots(snapshots, selected),
+            )
         return self
+
+
+def _selected_snapshots(
+    snapshots: list[RecommendationSnapshot], selected: list[str]
+) -> list[RecommendationSnapshot]:
+    allowed = {value.casefold() for value in selected}
+    retained: list[RecommendationSnapshot] = []
+    seen: set[str] = set()
+    for snapshot in snapshots:
+        key = snapshot.label.casefold()
+        if key in allowed and key not in seen:
+            seen.add(key)
+            retained.append(snapshot)
+    return retained
 
 
 def _unique_text(values: list[str], *, max_item_length: int) -> list[str]:

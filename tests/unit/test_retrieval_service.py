@@ -157,3 +157,32 @@ async def test_lightrag_fallback_dispatches_scoped_deposition_job() -> None:
     assert job.side == "red"
     assert job.scope == "red_task"
     assert job.mode == "summarize"
+
+
+@pytest.mark.asyncio
+async def test_oversized_fallback_is_bounded_for_deposition_without_failing_retrieval() -> None:
+    class Dispatcher:
+        def __init__(self):
+            self.jobs = []
+
+        def dispatch(self, job):
+            self.jobs.append(job)
+            return True
+
+    content = "x" * 30001
+    query = "q" * 12001
+    dispatcher = Dispatcher()
+    result = await TieredRetriever(
+        StandardBackend([]),
+        {"red_task": LightBackend(content)},
+        score_threshold=0.65,
+        standard_top_k=5,
+        lightrag_top_k=4,
+        minimum_verified_hits=1,
+        deposition_dispatcher=dispatcher,
+    ).retrieve(RetrievalQuery(query=query, category="task", side="red"))
+
+    assert result.items[0].content == content
+    assert len(dispatcher.jobs) == 1
+    assert len(dispatcher.jobs[0].query) == 12000
+    assert len(dispatcher.jobs[0].content) == 30000
