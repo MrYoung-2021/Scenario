@@ -11,7 +11,7 @@ from schemas.retrieval import StructuredKnowledgeEntry
 
 
 class KnowledgeStore(Protocol):
-    def find_by_content_hash(self, content_hash: str) -> dict | None: ...
+    def find_by_content_hash(self, content_hash: str, category: str | None = None) -> dict | None: ...
     def add_text(self, text: str, category: str, metadata: dict | None = None) -> list[str]: ...
     def set_verified(self, knowledge_id: str, verified: bool) -> bool: ...
 
@@ -55,7 +55,10 @@ class KnowledgePromotionService:
         for entry in entries:
             document = json.dumps(entry.model_dump(), ensure_ascii=False, sort_keys=True)
             digest = content_hash(document)
-            existing = self.store.find_by_content_hash(digest)
+            try:
+                existing = self.store.find_by_content_hash(digest, entry.category)
+            except TypeError:
+                existing = self.store.find_by_content_hash(digest)
             if existing:
                 results.append({"k_id": existing["k_id"], "duplicate": True})
                 continue

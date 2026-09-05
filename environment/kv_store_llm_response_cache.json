@@ -1798,5 +1798,105 @@
     "create_time": 1787822388,
     "update_time": 1787822388,
     "_id": "local:keywords:c99cfd4e5cb0625780d0e0b1aaa07ba1"
+  },
+  "local:keywords:52caf1bf58e88ffff1cde56dc412b6b3": {
+    "return": "{\"high_level_keywords\": [\"Urban warfare\", \"Environmental impact\", \"Military operations in urban terrain\"], \"low_level_keywords\": [\"City infrastructure damage\", \"Civilian casualties\", \"Building destruction\", \"Urban terrain\", \"Collateral damage\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "城市作战 环境 影响",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542214,
+    "update_time": 1788542214,
+    "_id": "local:keywords:52caf1bf58e88ffff1cde56dc412b6b3"
+  },
+  "local:keywords:fec71fbf3561fa9eb806d65cdd446eac": {
+    "return": "{\"high_level_keywords\": [\"Spring climate\", \"Urban meteorology\", \"Seasonal weather patterns\", \"City climate characteristics\"], \"low_level_keywords\": [\"Spring season\", \"Urban areas\", \"Weather conditions\", \"Climate data\", \"Temperature variations\", \"Precipitation patterns\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "春季 城市 气象 气候",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542231,
+    "update_time": 1788542231,
+    "_id": "local:keywords:fec71fbf3561fa9eb806d65cdd446eac"
+  },
+  "local:keywords:bece57c23976bc3b2f5307eefae5e956": {
+    "return": "{\"high_level_keywords\": [\"Urban terrain\", \"Military geography\", \"Geographical characteristics\"], \"low_level_keywords\": [\"City topography\", \"Tactical terrain features\", \"Urban landscape\", \"Elevation\", \"Strategic locations\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "城市地形 军事地理 特征",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542237,
+    "update_time": 1788542237,
+    "_id": "local:keywords:bece57c23976bc3b2f5307eefae5e956"
+  },
+  "local:keywords:e20463d68938597eec7fd8fde79e44a4": {
+    "return": "{\"high_level_keywords\": [\"Spring weather conditions\", \"Meteorological parameters\"], \"low_level_keywords\": [\"Temperature\", \"Precipitation\", \"Wind speed\", \"Wind direction\", \"Visibility\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "春季 气温 降水 风力 风向 能见度",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542259,
+    "update_time": 1788542259,
+    "_id": "local:keywords:e20463d68938597eec7fd8fde79e44a4"
+  },
+  "local:keywords:cafaddcdef0abaeb7af456aa84cdeece": {
+    "return": "{\"high_level_keywords\": [\"Urban terrain effects\", \"Military observation\", \"Concealment\", \"Communication impact\", \"Urban warfare environment\"], \"low_level_keywords\": [\"Buildings\", \"Streets\", \"Urban topography\", \"Line of sight\", \"Signal interference\", \"Cover and concealment\", \"Urban structures\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "城市地形 建筑物 街道 对机动 观察 隐蔽 通信影响",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542264,
+    "update_time": 1788542264,
+    "_id": "local:keywords:cafaddcdef0abaeb7af456aa84cdeece"
   }
 }

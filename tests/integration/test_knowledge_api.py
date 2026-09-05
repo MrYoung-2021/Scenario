@@ -70,7 +70,14 @@ async def test_knowledge_creation_review_and_duplicate_contract(monkeypatch) -> 
     assert entries.json()[0]["source"] == "manual"
     assert entries.json()[0]["level"] == "tactical"
     assert approved.json() == {"success": True, "verified": True}
-    assert duplicate.json() == {"k_id": "entry-1", "duplicate": True, "verified": True}
+    assert duplicate.json() == {
+        "k_id": "entry-1",
+        "duplicate": True,
+        "verified": True,
+        "similarity_warning": True,
+        "similarity_score": 1.0,
+        "similar_content": "reusable   guidance",
+    }
 
 
 @pytest.mark.asyncio

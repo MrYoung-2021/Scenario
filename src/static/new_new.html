@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>军事想定工作区</title>
-  <link rel="stylesheet" href="/static/scenario.css?v=13">
+  <link rel="stylesheet" href="/static/scenario.css?v=14">
 </head>
 <body>
   <header class="topbar">
@@ -60,7 +60,7 @@
 
   <main id="knowledge-page" class="page knowledge-page hidden">
     <aside class="kb-sidebar"><div class="sidebar-heading"><span>知识集合</span></div><div id="kb-list" class="kb-list"></div></aside>
-    <section class="knowledge-main"><div class="knowledge-toolbar"><div><div class="eyebrow">知识库管理</div><h1>可复用知识</h1></div><div class="toolbar-actions"><span id="kb-count" class="muted"></span><button id="add-knowledge" class="primary-button">新建知识</button><button id="refresh-kb" class="outline-button">刷新</button></div></div><div id="knowledge-list" class="knowledge-list"><div class="empty-state">选择左侧知识集合查看内容。</div></div></section>
+    <section class="knowledge-main"><div class="knowledge-toolbar"><div><div class="eyebrow">知识库管理</div><h1 id="knowledge-title">选择知识库</h1></div><div class="toolbar-actions"><span id="kb-count" class="muted"></span><button id="toggle-deduplication" class="outline-button" type="button">相似度检查：开启</button><button id="add-knowledge" class="primary-button">新建知识</button><button id="refresh-kb" class="outline-button">刷新</button></div></div><div id="knowledge-list" class="knowledge-list"><div class="empty-state">选择左侧知识集合查看内容。</div></div></section>
   </main>
 
   <div id="project-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="project-modal-title"><div class="modal-card"><div class="modal-heading"><h2 id="project-modal-title">新建想定项目</h2><button class="icon-button modal-close" data-close-modal aria-label="关闭">×</button></div><label for="project-title">项目名称</label><input id="project-title" maxlength="200" placeholder="例如：山地通道防御想定"><div class="modal-actions"><button class="outline-button" data-close-modal>取消</button><button id="create-project" class="primary-button">创建项目</button></div></div></div>
@@ -72,6 +72,6 @@
   <div id="toast-container" class="toast-container" aria-live="polite"></div>
   <script src="/static/vendor/marked-12.0.2.min.js" defer></script>
   <script src="/static/vendor/dompurify-3.1.6.min.js" defer></script>
-  <script src="/static/scenario.js?v=14" defer></script>
+  <script src="/static/scenario.js?v=15" defer></script>
 </body>
 </html>

@@ -22,6 +22,8 @@ const DEFAULT_OPTIONS = {
   operation_contexts: ['演训', '危机', '对抗', '其他'],
   scenario_scales: ['战区/战役', '师旅级', '营级及以下', '自定义'],
   branches: ['陆军', '海军', '空军', '火箭军', '无人系统', '电子对抗', '后勤保障'],
+  red_branches: ['陆军', '海军', '空军', '火箭军', '无人系统', '电子对抗', '后勤保障'],
+  blue_branches: ['陆军', '海军', '空军', '海军陆战队', '太空军', '无人系统', '电子对抗', '后勤保障'],
   echelons: ['班', '排', '连', '营', '团', '旅', '师', '军', '战区'],
   weapon_categories: [],
 };
@@ -494,6 +496,10 @@ function formationForm(value) {
 
 function sideForm(side, label, value) {
   const builtinWeapons = scenarioOptions.weapon_categories.flatMap((category) => category.elements || []);
+  const branches = scenarioOptions[`${side}_branches`] || scenarioOptions.branches;
+  const savedBranches = side === 'blue'
+    ? (value.branches || []).filter((item) => item !== '火箭军')
+    : value.branches;
   const customWeapons = withSavedOptions(
     value.custom_weapons || [],
     (value.weapons || []).filter((item) => !builtinWeapons.includes(item)),
@@ -501,7 +507,7 @@ function sideForm(side, label, value) {
   return `<fieldset class="field full side-field"><legend>${label}编成与装备</legend><div class="form-grid">
     ${selectField(`${side}_echelon`, '编成层级', scenarioOptions.echelons, value.echelon)}
     <fieldset class="field full"><legend>军兵种（多选）</legend><div class="choice-row">
-      ${withSavedOptions(scenarioOptions.branches, value.branches).map((item) => checkChoice(`${side}_branches`, item, value.branches?.includes(item))).join('')}
+      ${withSavedOptions(branches, savedBranches).map((item) => checkChoice(`${side}_branches`, item, savedBranches?.includes(item))).join('')}
     </div></fieldset>
     ${inputField(`${side}_approximate_scale`, '大致规模', value.approximate_scale, 200, '可留空，由大模型生成；例如：约 3,000 人')}
     <fieldset class="field full weapon-selector"><legend>武器装备（多选）</legend>${weaponSelectionSummary(side, value.weapons || [], customWeapons)}</fieldset>
@@ -1054,13 +1060,40 @@ const KnowledgeApp = {
   selected: null,
   entries: [],
   pendingDelete: null,
+  deduplication: {enabled: true, threshold: 0.95},
 
   async init() {
     document.getElementById('refresh-kb').addEventListener('click', () => this.loadBases());
+    document.getElementById('toggle-deduplication').addEventListener('click', () => this.toggleDeduplication());
     document.getElementById('add-knowledge').addEventListener('click', () => this.openCreate());
     document.getElementById('submit-knowledge').addEventListener('click', () => this.create());
     document.getElementById('confirm-knowledge-delete').addEventListener('click', () => this.confirmRemove());
-    await this.loadBases();
+    await Promise.all([this.loadBases(), this.loadDeduplication()]);
+  },
+
+  async loadDeduplication() {
+    try {
+      const response = await fetch(`${API}/api/knowledge_deduplication`);
+      if (response.ok) this.deduplication = await response.json();
+    } catch {}
+    this.renderDeduplication();
+  },
+
+  async toggleDeduplication() {
+    try {
+      const response = await fetch(`${API}/api/knowledge_deduplication/toggle`, {method: 'POST'});
+      if (!response.ok) throw new Error();
+      this.deduplication = await response.json();
+      this.renderDeduplication();
+      toast(this.deduplication.enabled ? '相似度检查已开启' : '相似度检查已关闭', 'success');
+    } catch { toast('相似度检查开关更新失败', 'error'); }
+  },
+
+  renderDeduplication() {
+    const button = document.getElementById('toggle-deduplication');
+    if (!button) return;
+    button.textContent = `相似度检查：${this.deduplication.enabled ? '开启' : '关闭'}`;
+    button.title = `阈值 ${Number(this.deduplication.threshold || 0.95).toFixed(2)}`;
   },
 
   async loadBases() {
@@ -1139,11 +1172,16 @@ const KnowledgeApp = {
         }),
       });
       if (!response.ok) throw new Error();
+      const body = await response.json();
       document.getElementById('knowledge-modal').classList.add('hidden');
       this.selected = kbId;
       renderKbBases(this.bases, kbId);
       await this.loadEntries();
-      toast('知识已添加', 'success');
+      if (body.duplicate) {
+        toast(body.similarity_warning ? '检测到完全相同的知识，相似度 100.0%，未重复添加' : '相同知识已存在，未重复添加', 'error');
+      } else {
+        toast(body.similarity_warning ? `知识已添加，检测到高相似度 ${(Number(body.similarity_score) * 100).toFixed(1)}%，请人工审核` : '知识已添加', body.similarity_warning ? 'error' : 'success');
+      }
     } catch {
       toast('知识添加失败', 'error');
     } finally {
@@ -1193,6 +1231,9 @@ function renderKbBases(items, activeId) {
   list.querySelectorAll('.kb-item').forEach((button) => {
     button.addEventListener('click', () => KnowledgeApp.select(button.dataset.id));
   });
+  const title = document.getElementById('knowledge-title');
+  const selected = items.find((item) => item.kb_id === activeId);
+  if (title) title.textContent = selected ? selected.name : '选择知识库';
 }
 
 function renderKnowledgeEntries() {
@@ -1210,7 +1251,7 @@ function renderKnowledgeEntries() {
   container.innerHTML = KnowledgeApp.entries.map((entry) => `<article class="knowledge-card">
     <div class="knowledge-card-body"><div class="knowledge-card-content">${escapeHtml(entry.content)}</div>
     <div class="knowledge-card-meta">来源：${escapeHtml(entry.source || base?.name || entry.kb_id)} · 层级：${escapeHtml(entry.level || 'general')} · ${escapeHtml(entry.k_id)}</div>
-    <div class="knowledge-card-review ${entry.verified ? 'approved' : ''}">${entry.verified ? '已审核' : '待审核'}</div></div>
+    <div class="knowledge-card-review ${entry.verified ? 'approved' : ''}">${entry.verified ? '已审核' : '待审核'}</div>${entry.similarity_warning ? `<div class="knowledge-similarity-warning">高相似度提醒：${(Number(entry.similarity_score) * 100).toFixed(1)}%<br>最相似知识：${escapeHtml(entry.similar_content || '')}</div>` : ''}</div>
     <div class="knowledge-card-actions">${entry.verified ? '' : `<button class="outline-button knowledge-approve" data-id="${escapeAttr(entry.k_id)}" title="审核通过">审核通过</button>`}<button class="danger-button knowledge-delete" data-id="${escapeAttr(entry.k_id)}" title="删除知识">删除</button></div>
   </article>`).join('');
   container.querySelectorAll('.knowledge-delete').forEach((button) => {

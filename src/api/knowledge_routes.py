@@ -7,7 +7,7 @@ from fastapi import APIRouter, HTTPException, Query
 from rag.rag import RAG
 from schemas.retrieval import KnowledgeCreate
 from services.knowledge_promotion_service import content_hash
-from utils.config_handler import db_conf
+from utils.config_handler import db_conf, rag_conf
 
 
 router = APIRouter(prefix="/api", tags=["knowledge"])
@@ -47,6 +47,19 @@ async def get_knowledge_bases() -> list[dict[str, str]]:
     return KNOWLEDGE_BASES
 
 
+@router.get("/knowledge_deduplication")
+async def get_knowledge_deduplication() -> dict[str, float | bool]:
+    settings = rag_conf.setdefault("knowledge_deduplication", {})
+    return {"enabled": bool(settings.get("enabled", True)), "threshold": float(settings.get("threshold", 0.95))}
+
+
+@router.post("/knowledge_deduplication/toggle")
+async def toggle_knowledge_deduplication() -> dict[str, float | bool]:
+    settings = rag_conf.setdefault("knowledge_deduplication", {})
+    settings["enabled"] = not bool(settings.get("enabled", True))
+    return {"enabled": bool(settings["enabled"]), "threshold": float(settings.get("threshold", 0.95))}
+
+
 @router.get("/get_knowledge")
 async def get_knowledge(
     kb_id: list[str] = Query(default_factory=list),
@@ -61,25 +74,47 @@ async def get_knowledge(
 async def add_knowledge(request: KnowledgeCreate) -> dict:
     store = get_store(request.kb_id)
     digest = content_hash(request.content)
-    existing = store.find_by_content_hash(digest)
+    try:
+        existing = store.find_by_content_hash(digest, request.kb_id)
+    except TypeError:
+        existing = store.find_by_content_hash(digest)
     if existing:
-        return {"k_id": existing["k_id"], "duplicate": True, "verified": bool(existing.get("verified", False))}
+        result = {
+            "k_id": existing["k_id"],
+            "duplicate": True,
+            "verified": bool(existing.get("verified", False)),
+        }
+        if bool(rag_conf.get("knowledge_deduplication", {}).get("enabled", True)):
+            result.update({
+                "similarity_warning": True,
+                "similarity_score": 1.0,
+                "similar_content": existing.get("content", request.content),
+            })
+        return result
     source_id = request.source_id or digest
+    metadata = {
+        "level": request.level,
+        "domain": request.domain,
+        "side": request.side,
+        "scenario_type": request.scenario_type,
+        "source": request.source,
+        "source_id": source_id,
+        "verified": False,
+        "content_hash": digest,
+    }
     ids = store.add_text(
         request.content,
         request.kb_id,
-        {
-            "level": request.level,
-            "domain": request.domain,
-            "side": request.side,
-            "scenario_type": request.scenario_type,
-            "source": request.source,
-            "source_id": source_id,
-            "verified": False,
-            "content_hash": digest,
-        },
+        metadata,
     )
-    return {"k_id": ids[0], "duplicate": False, "verified": False}
+    result = {"k_id": ids[0], "duplicate": False, "verified": False}
+    if metadata.get("similarity_warning"):
+        result.update({
+            "similarity_warning": True,
+            "similarity_score": metadata.get("similarity_score"),
+            "similar_content": metadata.get("similar_content", ""),
+        })
+    return result
 
 
 @router.post("/knowledge/{knowledge_id}/approve")

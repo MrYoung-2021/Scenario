@@ -7,7 +7,7 @@ from langchain_community.document_loaders import TextLoader, JSONLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from utils.logger import get_logger
 from models.factory import embed_model
-from utils.config_handler import db_conf
+from utils.config_handler import db_conf, rag_conf
 from utils.path_tools import get_abs_path, get_skills_path
 from schemas.retrieval import RetrievedItem
 
@@ -37,10 +37,62 @@ class RAG:
             length_function=len
         )
         
-    def get_text_id(self, text: str) -> str:
-        """根据标准化后的文本生成唯一 ID"""
-        normalized = text.strip()
+    def get_text_id(self, text: str, category: str = "") -> str:
+        """根据知识库和标准化后的文本生成唯一 ID。"""
+        normalized = f"{category}\0{text.strip()}"
         return hashlib.md5(normalized.encode("utf-8")).hexdigest()
+
+    def _deduplication_settings(self) -> tuple[bool, float]:
+        settings = rag_conf.get("knowledge_deduplication", {}) if isinstance(rag_conf, dict) else {}
+        enabled = bool(settings.get("enabled", True))
+        try:
+            threshold = float(settings.get("threshold", 0.95))
+        except (TypeError, ValueError):
+            threshold = 0.95
+        return enabled, min(1.0, max(0.0, threshold))
+
+    def _find_similar(self, text: str, category: str) -> dict[str, Any] | None:
+        enabled, threshold = self._deduplication_settings()
+        if not enabled or not hasattr(self.vector_store, "similarity_search_with_relevance_scores"):
+            return None
+        try:
+            try:
+                pairs = self.vector_store.similarity_search_with_relevance_scores(text, k=1, filter={"category": category})
+            except TypeError:
+                pairs = self.vector_store.similarity_search_with_relevance_scores(text, k=1, where={"category": category})
+            if not pairs:
+                return None
+            document, score = pairs[0]
+            score = float(score)
+            if score < threshold:
+                return None
+            metadata = dict(getattr(document, "metadata", {}) or {})
+            return {"score": score, "content": str(getattr(document, "page_content", "")), "k_id": metadata.get("k_id") or metadata.get("id")}
+        except Exception:
+            logger.warning("相似度去重检查失败", exc_info=True)
+            return None
+
+    async def _find_similar_async(self, text: str, category: str) -> dict[str, Any] | None:
+        enabled, threshold = self._deduplication_settings()
+        if not enabled or not hasattr(self.vector_store, "asimilarity_search_with_relevance_scores"):
+            return None
+        try:
+            try:
+                pairs = await self.vector_store.asimilarity_search_with_relevance_scores(text, k=1, filter={"category": category})
+            except TypeError:
+                pairs = await self.vector_store.asimilarity_search_with_relevance_scores(text, k=1, where={"category": category})
+            if not pairs:
+                return None
+            document, score = pairs[0]
+            score = float(score)
+            if score < threshold:
+                return None
+            metadata = dict(getattr(document, "metadata", {}) or {})
+            return {"score": score, "content": str(getattr(document, "page_content", "")), "k_id": metadata.get("k_id") or metadata.get("id")}
+        except Exception:
+            logger.warning("相似度去重检查失败", exc_info=True)
+            return None
+
     def add_text(self, text: str, category: str, metadata: dict[str, Any] | None = None):
         """
         添加文本到知识库
@@ -50,7 +102,11 @@ class RAG:
         else:
             knowledge_chunks = [text]
 
+        caller_metadata = metadata
         metadata = {"category": category, **(metadata or {})}
+        similar = self._find_similar(text, category)
+        if similar:
+            metadata.update({"similarity_warning": True, "similarity_score": similar["score"], "similar_content": similar["content"], "similar_k_id": similar.get("k_id") or ""})
         metadata.setdefault("level", "general")
         metadata.setdefault("domain", "general")
         metadata.setdefault("side", "all")
@@ -61,8 +117,10 @@ class RAG:
         metadata.setdefault("content_hash", "")
         metadata.setdefault("created_at", datetime.now(timezone.utc).isoformat())
         metadata.setdefault("version", 1)
+        if caller_metadata is not None:
+            caller_metadata.update(metadata)
 
-        ids = [self.get_text_id(chunk) for chunk in knowledge_chunks]
+        ids = [self.get_text_id(chunk, category) for chunk in knowledge_chunks]
 
         self.vector_store.add_texts(      # 内容就加载到向量库中了
             # iterable -> list \ tuple
@@ -84,7 +142,11 @@ class RAG:
         else:
             knowledge_chunks = [text]
 
+        caller_metadata = metadata
         metadata = {"category": category, **(metadata or {})}
+        similar = await self._find_similar_async(text, category)
+        if similar:
+            metadata.update({"similarity_warning": True, "similarity_score": similar["score"], "similar_content": similar["content"], "similar_k_id": similar.get("k_id") or ""})
         metadata.setdefault("level", "general")
         metadata.setdefault("domain", "general")
         metadata.setdefault("side", "all")
@@ -95,8 +157,10 @@ class RAG:
         metadata.setdefault("content_hash", "")
         metadata.setdefault("created_at", datetime.now(timezone.utc).isoformat())
         metadata.setdefault("version", 1)
+        if caller_metadata is not None:
+            caller_metadata.update(metadata)
 
-        ids = [self.get_text_id(chunk) for chunk in knowledge_chunks]
+        ids = [self.get_text_id(chunk, category) for chunk in knowledge_chunks]
     
         await self.vector_store.aadd_texts(      # 内容就加载到向量库中了
             # iterable -> list \ tuple
@@ -318,8 +382,11 @@ class RAG:
             ]
         return []
 
-    def find_by_content_hash(self, value: str) -> dict | None:
-        results = self.vector_store.get(where={"content_hash": value}, include=["documents", "metadatas"])
+    def find_by_content_hash(self, value: str, category: str | None = None) -> dict | None:
+        where: dict[str, Any] = {"content_hash": value}
+        if category is not None:
+            where = {"$and": [{"content_hash": value}, {"category": category}]}
+        results = self.vector_store.get(where=where, include=["documents", "metadatas"])
         if not results.get("ids"):
             return None
         return {"k_id": results["ids"][0], "content": results.get("documents", [""])[0], **(results.get("metadatas", [{}])[0] or {})}

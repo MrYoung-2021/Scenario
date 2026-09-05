@@ -1799,11 +1799,11 @@
     "update_time": 1787822388,
     "_id": "local:keywords:c99cfd4e5cb0625780d0e0b1aaa07ba1"
   },
-  "local:keywords:5892b6be723c7a5f2e48ac75cf3ee0bf": {
-    "return": "{\"high_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\\u7f16\\u6210\", \"\\u6d77\\u519b\\u7f16\\u5236\"], \"low_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\", \"\\u6d77\\u519b\"]}",
+  "local:keywords:52caf1bf58e88ffff1cde56dc412b6b3": {
+    "return": "{\"high_level_keywords\": [\"Urban warfare\", \"Environmental impact\", \"Military operations in urban terrain\"], \"low_level_keywords\": [\"City infrastructure damage\", \"Civilian casualties\", \"Building destruction\", \"Urban terrain\", \"Collateral damage\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "团级部队编成 海军",
+    "original_prompt": "城市作战 环境 影响",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1815,15 +1815,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822510,
-    "update_time": 1787822510,
-    "_id": "local:keywords:5892b6be723c7a5f2e48ac75cf3ee0bf"
+    "create_time": 1788542214,
+    "update_time": 1788542214,
+    "_id": "local:keywords:52caf1bf58e88ffff1cde56dc412b6b3"
   },
-  "local:keywords:d9a8073df0aacbe846e2bc7734e4c8d7": {
-    "return": "{\"high_level_keywords\": [\"\\u9646\\u519b\", \"\\u6b66\\u5668\\u88c5\\u5907\"], \"low_level_keywords\": []}",
+  "local:keywords:fec71fbf3561fa9eb806d65cdd446eac": {
+    "return": "{\"high_level_keywords\": [\"Spring climate\", \"Urban meteorology\", \"Seasonal weather patterns\", \"City climate characteristics\"], \"low_level_keywords\": [\"Spring season\", \"Urban areas\", \"Weather conditions\", \"Climate data\", \"Temperature variations\", \"Precipitation patterns\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "陆军 武器装备",
+    "original_prompt": "春季 城市 气象 气候",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1835,15 +1835,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822522,
-    "update_time": 1787822522,
-    "_id": "local:keywords:d9a8073df0aacbe846e2bc7734e4c8d7"
+    "create_time": 1788542231,
+    "update_time": 1788542231,
+    "_id": "local:keywords:fec71fbf3561fa9eb806d65cdd446eac"
   },
-  "local:keywords:364e12ab8ca2ff6f830a02ee3f59f8e0": {
-    "return": "{\"high_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\\u7f16\\u6210\", \"\\u9646\\u519b\\u7f16\\u5236\"], \"low_level_keywords\": [\"\\u56e2\\u7ea7\\u90e8\\u961f\", \"\\u9646\\u519b\"]}",
+  "local:keywords:bece57c23976bc3b2f5307eefae5e956": {
+    "return": "{\"high_level_keywords\": [\"Urban terrain\", \"Military geography\", \"Geographical characteristics\"], \"low_level_keywords\": [\"City topography\", \"Tactical terrain features\", \"Urban landscape\", \"Elevation\", \"Strategic locations\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "团级部队编成 陆军",
+    "original_prompt": "城市地形 军事地理 特征",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1855,15 +1855,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822523,
-    "update_time": 1787822523,
-    "_id": "local:keywords:364e12ab8ca2ff6f830a02ee3f59f8e0"
+    "create_time": 1788542237,
+    "update_time": 1788542237,
+    "_id": "local:keywords:bece57c23976bc3b2f5307eefae5e956"
   },
-  "local:keywords:a5b747c25c9e7229fb38022b6998fff6": {
-    "return": "{\"high_level_keywords\": [\"brigade-level force composition\", \"naval force structure\"], \"low_level_keywords\": [\"brigade-level unit\", \"navy\"]}",
+  "local:keywords:e20463d68938597eec7fd8fde79e44a4": {
+    "return": "{\"high_level_keywords\": [\"Spring weather conditions\", \"Meteorological parameters\"], \"low_level_keywords\": [\"Temperature\", \"Precipitation\", \"Wind speed\", \"Wind direction\", \"Visibility\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "旅级部队编成 海军",
+    "original_prompt": "春季 气温 降水 风力 风向 能见度",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1875,15 +1875,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822525,
-    "update_time": 1787822525,
-    "_id": "local:keywords:a5b747c25c9e7229fb38022b6998fff6"
+    "create_time": 1788542259,
+    "update_time": 1788542259,
+    "_id": "local:keywords:e20463d68938597eec7fd8fde79e44a4"
   },
-  "local:keywords:aa09388ba23b5dd0bbf5edf75e1dbcb6": {
-    "return": "{\"high_level_keywords\": [\"brigade-level unit composition\", \"army organization\"], \"low_level_keywords\": [\"\\u65c5\\u7ea7\\u90e8\\u961f\", \"\\u9646\\u519b\"]}",
+  "local:keywords:cafaddcdef0abaeb7af456aa84cdeece": {
+    "return": "{\"high_level_keywords\": [\"Urban terrain effects\", \"Military observation\", \"Concealment\", \"Communication impact\", \"Urban warfare environment\"], \"low_level_keywords\": [\"Buildings\", \"Streets\", \"Urban topography\", \"Line of sight\", \"Signal interference\", \"Cover and concealment\", \"Urban structures\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "旅级部队编成 陆军",
+    "original_prompt": "城市地形 建筑物 街道 对机动 观察 隐蔽 通信影响",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1895,15 +1895,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822528,
-    "update_time": 1787822528,
-    "_id": "local:keywords:aa09388ba23b5dd0bbf5edf75e1dbcb6"
+    "create_time": 1788542264,
+    "update_time": 1788542264,
+    "_id": "local:keywords:cafaddcdef0abaeb7af456aa84cdeece"
   },
-  "local:keywords:d29f0db0bb13f7ee4794b0a95c948e34": {
-    "return": "{\"high_level_keywords\": [\"naval equipment\", \"military weapons\"], \"low_level_keywords\": [\"\\u6d77\\u519b\", \"\\u6b66\\u5668\\u88c5\\u5907\"]}",
+  "local:keywords:a36b7c86b498621aac3b65e7caa48798": {
+    "return": "{\"high_level_keywords\": [\"Urban warfare\", \"Close-quarters combat\", \"Military tactics\", \"Weapon systems\"], \"low_level_keywords\": [\"Red force\", \"Street fighting\", \"Urban combat weapons\", \"Tactical operations\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "海军 武器装备",
+    "original_prompt": "红方 城市作战 巷战 武器 战术",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1915,14 +1915,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "update_time": 1787822530,
-    "_id": "local:keywords:d29f0db0bb13f7ee4794b0a95c948e34"
+    "create_time": 1788542454,
+    "update_time": 1788542454,
+    "_id": "local:keywords:a36b7c86b498621aac3b65e7caa48798"
   },
-  "local:keywords:aa9de60e32e1dbf4490f07c486a10cf6": {
-    "return": "{\"high_level_keywords\": [\"military vehicles\", \"combat systems\", \"weapon systems\"], \"low_level_keywords\": [\"tank\", \"armored vehicle\", \"artillery\", \"air defense\"]}",
+  "local:keywords:a6a776c8aacd32ce74f4b8c676fccea9": {
+    "return": "{\"high_level_keywords\": [\"Urban warfare\", \"Close-quarters battle tactics\", \"Military engagement strategies\"], \"low_level_keywords\": [\"Blue force\", \"Urban combat weapons\", \"Street fighting\", \"Tactical operations\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "tank armored vehicle artillery air defense",
+    "original_prompt": "蓝方 城市作战 巷战 武器 战术",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1934,15 +1935,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822566,
-    "update_time": 1787822566,
-    "_id": "local:keywords:aa9de60e32e1dbf4490f07c486a10cf6"
+    "create_time": 1788542455,
+    "update_time": 1788542455,
+    "_id": "local:keywords:a6a776c8aacd32ce74f4b8c676fccea9"
   },
-  "local:keywords:dac4386f6748302200851cc6360ec18e": {
-    "return": "{\"high_level_keywords\": [\"military organization structure\"], \"low_level_keywords\": [\"brigade combat team\"]}",
+  "local:keywords:98bb201208ae2061986c6513fd981b03": {
+    "return": "{\"high_level_keywords\": [\"Red force\", \"Combined arms brigade\", \"Force structure\", \"Organizational composition\"], \"low_level_keywords\": [\"Army\", \"Troop strength\", \"Unit composition\", \"Brigade structure\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "brigade combat team organization structure",
+    "original_prompt": "红方 陆军合成旅 编成 兵力 结构",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1954,15 +1955,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822568,
-    "update_time": 1787822568,
-    "_id": "local:keywords:dac4386f6748302200851cc6360ec18e"
+    "create_time": 1788542456,
+    "update_time": 1788542456,
+    "_id": "local:keywords:98bb201208ae2061986c6513fd981b03"
   },
-  "local:keywords:bf02dc0128ffa90d98b50958294bcd2f": {
-    "return": "{\"high_level_keywords\": [\"naval vessels\", \"warships\"], \"low_level_keywords\": [\"navy ship\", \"destroyer\", \"frigate\"]}",
+  "local:keywords:e2f9b89bc5955fe58be6a2b3c2e63f7c": {
+    "return": "{\"high_level_keywords\": [\"Army brigade composition\", \"Force structure\", \"Military organization\"], \"low_level_keywords\": [\"Blue force\", \"Army brigade\", \"Troop strength\", \"Unit composition\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "navy ship destroyer frigate",
+    "original_prompt": "蓝方 陆军旅 编成 兵力 结构",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1974,15 +1975,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822570,
-    "update_time": 1787822570,
-    "_id": "local:keywords:bf02dc0128ffa90d98b50958294bcd2f"
+    "create_time": 1788542457,
+    "update_time": 1788542457,
+    "_id": "local:keywords:e2f9b89bc5955fe58be6a2b3c2e63f7c"
   },
-  "local:keywords:6a8d8b34ea111d841d21616263112c88": {
-    "return": "{\"high_level_keywords\": [\"military vehicles\", \"armored vehicles\"], \"low_level_keywords\": [\"tank\", \"armored vehicle\", \"infantry fighting vehicle\"]}",
+  "local:keywords:29058ddea4ea53c130d61912ee3624e9": {
+    "return": "{\"high_level_keywords\": [\"Military forces\", \"Air power\", \"Weapon systems\", \"Strategic deterrence\"], \"low_level_keywords\": [\"Red side\", \"Air Force\", \"Rocket Force\", \"Fighter jets\", \"Missiles\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "坦克 装甲车 步兵战车",
+    "original_prompt": "红方 空军 火箭军 战机 导弹 武器装备",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -1994,15 +1995,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822572,
-    "update_time": 1787822572,
-    "_id": "local:keywords:6a8d8b34ea111d841d21616263112c88"
+    "create_time": 1788542459,
+    "update_time": 1788542459,
+    "_id": "local:keywords:29058ddea4ea53c130d61912ee3624e9"
   },
-  "local:keywords:ad44314b6779b780a51de043bec27daa": {
-    "return": "{\"high_level_keywords\": [\"\\u9632\\u7a7a\\u5bfc\\u5f39\", \"\\u76f4\\u5347\\u673a\"], \"low_level_keywords\": [\"\\u9632\\u7a7a\\u5bfc\\u5f39\", \"\\u76f4\\u5347\\u673a\"]}",
+  "local:keywords:92baa7a8c8586173cf26b49af71b0d03": {
+    "return": "{\"high_level_keywords\": [\"Blue force\", \"Army brigade\", \"Military equipment\", \"Weapon systems\"], \"low_level_keywords\": [\"Tank\", \"Infantry fighting vehicle\", \"Artillery\", \"Air defense\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "防空 导弹 直升机",
+    "original_prompt": "蓝方 陆军 旅 坦克 步战车 火炮 防空 武器装备",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -2014,15 +2015,15 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787822576,
-    "update_time": 1787822576,
-    "_id": "local:keywords:ad44314b6779b780a51de043bec27daa"
+    "create_time": 1788542459,
+    "update_time": 1788542459,
+    "_id": "local:keywords:92baa7a8c8586173cf26b49af71b0d03"
   },
-  "local:keywords:257c1eb509a6dc1559f6239aec030811": {
-    "return": "{\"high_level_keywords\": [\"Blue Force operational objective recommendation\", \"military scenario context\", \"combat environment analysis\", \"force composition and deployment\", \"weapon systems evaluation\", \"terrain and weather impact on operations\"], \"low_level_keywords\": [\"Blue Force\", \"Taiwan Island\", \"Kaohsiung City\", \"Taoyuan District\", \"Central Mountain Range\", \"Red Force\", \"15\\u5f0f\\u8f7b\\u578b\\u5766\\u514b\", \"ZTQ-15\", \"05\\u5f0f\\u81ea\\u884c\\u52a0\\u69b4\\u70ae\", \"191\\u8fdc\\u7a0b\\u7bb1\\u5f0f\\u706b\\u7bad\\u70ae\", \"\\u7ea2\\u65d7-22\", \"Hongqi-22\", \"052D\\u578b\\u9a71\\u9010\\u8230\", \"055\\u578b\\u9a71\\u9010\\u8230\", \"054A\\u578b\\u62a4\\u536b\\u8230\", \"075\\u578b\\u4e24\\u6816\\u653b\\u51fb\\u8230\", \"\\u6b7c-15T\", \"\\u6b7c-35\", \"\\u7a7a\\u8b66-600\", \"M1 Abrams\", \"Brigade Combat Team\", \"FM 3-96\"]}",
+  "local:keywords:f852c8aca8f1c2bc8a13c9b2575eadca": {
+    "return": "{\"high_level_keywords\": [\"\\u7ea2\\u65b9\", \"\\u9646\\u519b\", \"\\u5408\\u6210\\u65c5\", \"\\u6b66\\u5668\\u88c5\\u5907\"], \"low_level_keywords\": [\"\\u5766\\u514b\", \"\\u6b65\\u6218\\u8f66\", \"\\u706b\\u70ae\", \"\\u9632\\u7a7a\"]}",
     "cache_type": "keywords",
     "chunk_id": null,
-    "original_prompt": "蓝方作战目标推荐。想定上下文：{\"background\":\"```\\n【想定背景】\\n\\n本想定以台湾岛南部高雄市桃源区及周边地域为行动区域，设定于春季，作战背景为对抗行动。台湾岛位于中国东南沿海，地处西太平洋岛链关键位置，扼控东南沿海海上通道，战略地位十分重要。台湾山脉属东北—西南走向，是我国东部最东列山脉，中央山脉纵贯全岛南北，地势起伏较大，海拔较高处气温随高度明显降低。行动区域位于台湾岛南部，属热带气候区。\\n\\n【环境设定】\\n\\n一、地理位置与区域范围\\n\\n行动区域位于台湾岛南部高雄市桃源区一带（北纬23.27°，东经120.88°附近），地处台湾岛西南部内陆山地区域。台湾岛位于中国东南沿海大陆架上，东临太平洋，西隔台湾海峡与福建省相望，北濒东海，南界巴士海峡与菲律宾群岛相对。台湾岛地处西太平洋岛链关键位置，扼控东南沿海海上通道，战略地位十分重要。行动区域距台湾海峡西侧海岸线约30至50公里，距高雄市区约40至60公里，属台湾岛南部中央山脉西侧山麓地带。\\n\\n二、地形地貌\\n\\n台湾岛地形以山地为主，地势起伏较大。中央山脉纵贯南北，为全岛地形脊梁，海拔较高处山峰超过3000米。台湾山脉属东北—西南走向的山脉系统，是我国东部沿海最东侧的一列山脉。行动区域所在的桃源区地处中央山脉西麓，地形以中低山地和丘陵为主，山势陡峭，沟谷纵横，海拔由西侧平原的数十米向东侧山区迅速攀升至数百米乃至千米以上。\\n\\n山地地形对军事行动影响显著：山地便于凭险固守、隐蔽行动、迂回包围、穿插分割和设置埋伏，有利于近战、夜战和小分队独立作战；但坡陡、石多、路小，交通不便，对坦克和炮兵等机械化部队的行动有较大限制，死角多，观察和通信联络不便，不利于指挥和协同动作。山间谷地和溪流对部队机动构成天然障碍，制高点的控制对观察射击和火力配系具有决定性意义。\\n\\n三、气象条件\\n\\n台湾岛南部属热带气候区，全年无冬，终年无霜。春季（3月至5月）气温温暖，长江以南地区春季气温一般在16至26℃之间，台湾南部地区气温略高，日间最高气温可达25至30℃，夜间最低气温约18至22℃。春季降水相对较少，天气以晴好为主，能见度和风力条件总体较好，春季的气候条件对军事行动较为有利。\\n\\n台湾是台风登陆频繁的地区之一，但台风主要集中在夏秋季节（7至9月），春季台风影响较小。春季偶有锋面系统过境带来的短时降水和雾气，山区晨间易出现低云和薄雾，对观察和航空行动有一定影响。春季 prevailing 风向以偏东风为主，风力一般3至4级，沿海及山口地带风力可达5级。\\n\\n四、水文条件\\n\\n台湾岛水系发育，河流短促且水流湍急。岛上河流多发源于中央山脉，向西注入台湾海峡或向东注入太平洋，河流比降大，水量丰沛，流速急。行动区域内分布有多条溪流及河谷，春季尚属枯水期向丰水期过渡阶段，河流水位较夏季为低，但山区溪流因降雨集中仍可出现水位骤涨的情况。\\n\\n河流对军事行动的影响主要表现为：与作战方向垂直的溪流构成天然障碍，会阻止或迟滞部队推进速度；河流水流湍急，渡河行动需选择适当渡口或架设桥梁；河谷地带通常植被茂密，通行困难，但可作为隐蔽机动通道。\\n\\n五、植被与地表覆盖\\n\\n台湾岛植被茂密，岛上森林覆盖率高。台湾南部低海拔山区以亚热带常绿阔叶林为主，植被类型丰富，林木茂密。行动区域内山地丘陵地带森林覆盖密集，灌木丛和竹林分布广泛。茂密的植被有利于部队隐蔽伪装和防御工事构筑，但对观察、射击和通信联络造成不利影响，判定方位和指示目标较为困难。\\n\\n六、其他自然因素\\n\\n台湾岛地处环太平洋地震带，地震活动较为频繁，需注意地震对工事构筑和部队行动安全的影响。春季白昼时间逐渐增长，日出时间约在06:00前后，日落时间约在18:30前后，昼长约12至13小时，有利于日间作战行动的展开。山区昼夜温差较平原地区偏大，夜间气温可降至15℃左右，需注意部队夜间行动的防寒保暖。\\n\\n（注：以上气象数据为台湾岛南部春季典型气候特征，来源于环境知识库典型资料，不代表实时天气状况。）\\n```\",\"formation\":\"【红蓝双方兵力与武器配置】\\n\\n---\\n\\n## 【红方】\\n\\n### 兵力编成\\n\\n红方以**团**为基本作战单元，隶属陆军与海军联合编成，想定规模为战区/战役级别。\\n\\n| 编成要素 | 说明 |\\n|---------|------|\\n| **基本层级** | 团（知识库建议：团级单位下辖若干营、连，兵力规模约2,000～3,000人） |\\n| **军种构成** | 陆军为主，海军配合 |\\n| **陆军编成** | 合成团编成，下辖步兵营（含山地步兵）、装甲营、炮兵营、防空连、侦察连、工兵连、通信连及后勤保障分队 |\\n| **海军编成** | 配属近海作战舰艇编队，负责海峡方向火力支援与海上封锁 |\\n| **指挥关系** | 团指挥所统一指挥所属各营连，海军配属兵力接受联合指挥所协调 |\\n\\n> **注**：红方团级合成编制的具体营连数量为**推断**，依据知识库中旅级单位（2,000～5,000人）及师/旅/营层级结构推算。\\n\\n### 武器装备\\n\\n#### 陆军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **轻型坦克** | 15式轻型坦克（ZTQ-15） | 全重约33～36吨，配装105毫米线膛坦克炮及新一代炮射反坦克导弹，尾舱式自动装弹机，数字化作战网络系统，**适合山地、丘陵环境作战** |\\n| **自行加榴炮** | 05式自行加榴炮 | 52倍口径155毫米线膛炮，全重约35吨，最大速度60公里/小时，最大射程53公里 |\\n| **车载加榴炮** | 155车载加榴炮 | 机动性强，适合山地公路机动部署 |\\n| **远程火箭炮** | 191远程箱式火箭炮 | 远程火力打击骨干装备，性能超过美国M270型和M142海马斯型火箭炮 |\\n| **防空导弹** | 红旗-22（Hongqi-22） | 中远程防空系统，主要用于打击各类固定翼飞机 |\\n\\n#### 海军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **驱逐舰** | 052D型驱逐舰 | 配备垂直发射区域防空导弹系统，具备区域防空能力 |\\n| **驱逐舰** | 055型驱逐舰 | 大型导弹驱逐舰，综合战力强 |\\n| **护卫舰** | 054A型护卫舰 | 导弹护卫舰，多用途作战平台 |\\n| **护卫舰** | 056型护卫舰 | 多用途轻型护卫舰，近海作战 |\\n| **两栖攻击舰** | 075型两栖攻击舰 | 装备于南海舰队，可搭载直升机及两栖兵力 |\\n| **舰载机** | 歼-15T / 歼-35 | 人民海军\\\"航母五件套\\\"成员，舰载战斗机 |\\n| **预警机** | 空警-600 | 舰载固定翼预警机 |\\n\\n> **注**：以上装备型号来源于红方兵器知识库，具体配属数量未检索到精确数据，标注为**知识库建议**。\\n\\n### 部署\\n\\n- **主要部署位置**：行动区域位于台湾岛南部高雄市桃源区一带，地处中央山脉西侧山麓地带。红方陆军团级兵力沿台湾海峡西岸部署，以山地丘陵地带为主要进攻出发阵地。\\n- **进攻轴线**：由西向东，跨越台湾海峡后在台湾岛西南部登陆，沿中央山脉西麓谷地向纵深推进。\\n- **装甲兵力运用**：15式轻型坦克因适合山地丘陵环境，作为装甲突击主力前出部署；05式自行加榴炮及155车载加榴炮部署于西侧相对平坦地域，提供火力支援。\\n- **海军部署**：舰艇编队部署于台湾海峡及巴士海峡方向，执行海上封锁、火力支援及反介入任务。075型两栖攻击舰搭载两栖兵力在海峡西侧待命。\\n- **防空部署**：红旗-22防空系统沿进攻轴线梯次配置，掩护主力部队空中安全。\\n- **预备队**：团级预备队（推断为1个步兵营加强兵力）配置于登陆场纵深，随时投入扩张战果或应对突发情况。\\n\\n---\\n\\n## 【蓝方】\\n\\n### 兵力编成\\n\\n蓝方以**旅**为基本作战单元，隶属陆军与海军联合编成。\\n\\n| 编成要素 | 说明 |\\n|---------|------|\\n| **基本层级** | 旅级战斗队（Brigade Combat Team） |\\n| **编制结构** | 旅部及旅部连、至少2个机动营（步兵/装甲）、1个骑兵侦察中队、1个野战炮兵营、1个旅工兵营、1个旅支援营（知识库来源） |\\n| **兵力规模** | 2,500～5,000人（知识库来源） |\\n| **军种构成** | 陆军为主，海军配合 |\\n| **旅级类型** | 可编成为步兵旅战斗队（Infantry BCT）、装甲旅战斗队（Armored BCT）或斯特赖克旅战斗队（Stryker BCT） |\\n| **指挥关系** | 旅战斗队为陆军最大固定战术单位，在师级指挥下独立作战，可接受配属或 detach 连级单位进行任务编组 |\\n\\n> **注**：蓝方旅级编成结构来源于蓝方编成知识库（FM 3-96体系），具体营连数量为**知识库建议**。\\n\\n### 武器装备\\n\\n#### 陆军装备\\n\\n| 装备类别 | 型号 | 主要性能/说明 |\\n|---------|------|-------------|\\n| **主战坦克** | M1 Abrams | 主战坦克，配备扫雷犁/滚轮等突击",
+    "original_prompt": "红方 陆军 合成旅 坦克 步战车 火炮 防空 武器装备",
     "queryparam": {
       "mode": "local",
       "response_type": "Multiple Paragraphs",
@@ -2034,8 +2035,248 @@
       "user_prompt": "",
       "enable_rerank": true
     },
-    "create_time": 1787823901,
-    "update_time": 1787823901,
-    "_id": "local:keywords:257c1eb509a6dc1559f6239aec030811"
+    "create_time": 1788542464,
+    "update_time": 1788542464,
+    "_id": "local:keywords:f852c8aca8f1c2bc8a13c9b2575eadca"
+  },
+  "local:keywords:603be34fc8e6276bec4048d01d2050e3": {
+    "return": "{\"high_level_keywords\": [\"Military composition\", \"Force structure\", \"Order of battle\"], \"low_level_keywords\": [\"Red force\", \"Air force\", \"Rocket force\", \"Troop strength\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "红方 空军 火箭军 编成 兵力",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542465,
+    "update_time": 1788542465,
+    "_id": "local:keywords:603be34fc8e6276bec4048d01d2050e3"
+  },
+  "local:keywords:50a45daa65a47ae428a7a83c2f1dc2e5": {
+    "return": "{\"high_level_keywords\": [\"Blue force air power\", \"Unmanned systems\", \"Military equipment\", \"Combat aircraft\"], \"low_level_keywords\": [\"Blue force\", \"Air Force\", \"Unmanned aerial vehicles\", \"Fighter jets\", \"Drones\", \"Weapons systems\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 空军 无人系统 战机 无人机 武器装备",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542466,
+    "update_time": 1788542466,
+    "_id": "local:keywords:50a45daa65a47ae428a7a83c2f1dc2e5"
+  },
+  "local:keywords:b2a5439471dd5bbc9eb3bbfd4c96d31c": {
+    "return": "{\"high_level_keywords\": [\"Blue force\", \"Air force\", \"Unmanned systems\", \"Force composition\"], \"low_level_keywords\": [\"Blue force air force\", \"Unmanned aerial vehicles\", \"Force deployment\", \"Troop strength\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 空军 无人系统 编成 兵力",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542466,
+    "update_time": 1788542466,
+    "_id": "local:keywords:b2a5439471dd5bbc9eb3bbfd4c96d31c"
+  },
+  "local:keywords:bc39db5e5b8a0a4296c0a1a2e59317bb": {
+    "return": "{\"high_level_keywords\": [\"Red side air force\", \"Fighter aircraft\", \"Bomber aircraft\", \"Aircraft models\"], \"low_level_keywords\": [\"Red side\", \"Air force\", \"Fighter jet\", \"Bomber\", \"Model designation\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "红方 空军 歼击机 战斗机 轰炸机 型号",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542494,
+    "update_time": 1788542494,
+    "_id": "local:keywords:bc39db5e5b8a0a4296c0a1a2e59317bb"
+  },
+  "local:keywords:7862c77b0b30396a14def388de647c17": {
+    "return": "{\"high_level_keywords\": [\"Military vehicles\", \"Air defense systems\", \"Military equipment\"], \"low_level_keywords\": [\"\\u84dd\\u65b9\", \"\\u65af\\u7279\\u8d56\\u514b\", \"Stryker\", \"\\u9632\\u7a7a\", \"Patriot\", \"\\u7231\\u56fd\\u8005\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 斯特赖克 Stryker 防空 Patriot 爱国者",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542495,
+    "update_time": 1788542495,
+    "_id": "local:keywords:7862c77b0b30396a14def388de647c17"
+  },
+  "local:keywords:98c7aaafca4f129d2187b5605ff7300e": {
+    "return": "{\"high_level_keywords\": [\"\\u84dd\\u65b9\", \"\\u4e3b\\u6218\\u5766\\u514b\"], \"low_level_keywords\": [\"M1 \\u827e\\u5e03\\u62c9\\u59c6\\u65af\", \"\\u5766\\u514b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 M1 艾布拉姆斯 坦克 主战坦克",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542495,
+    "update_time": 1788542495,
+    "_id": "local:keywords:98c7aaafca4f129d2187b5605ff7300e"
+  },
+  "local:keywords:eea26578f1d3653d476e56fd74b7e0e4": {
+    "return": "{\"high_level_keywords\": [\"\\u84dd\\u65b9\", \"\\u70ae\\u5175\", \"\\u65c5\", \"\\u81ea\\u884c\\u69b4\\u5f39\\u70ae\", \"\\u706b\\u70ae\"], \"low_level_keywords\": [\"M109\", \"M109\\u81ea\\u884c\\u69b4\\u5f39\\u70ae\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 M109 自行榴弹炮 火炮 炮兵 旅",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542497,
+    "update_time": 1788542497,
+    "_id": "local:keywords:eea26578f1d3653d476e56fd74b7e0e4"
+  },
+  "local:keywords:728ac99b4b464de2f829237065d37403": {
+    "return": "{\"high_level_keywords\": [\"Military unit organization\", \"Combined arms brigade\", \"Red force structure\"], \"low_level_keywords\": [\"Red force\", \"Synthetic brigade\", \"Armored battalion\", \"Artillery battalion\", \"Air defense battalion\", \"Reconnaissance battalion\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "红方 合成旅 装甲营 炮兵营 防空营 侦察营",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542499,
+    "update_time": 1788542499,
+    "_id": "local:keywords:728ac99b4b464de2f829237065d37403"
+  },
+  "local:keywords:ac458dfcd831c6aed67c55b35da92a25": {
+    "return": "{\"high_level_keywords\": [\"Air defense\", \"Surface-to-air missile\", \"Red force\"], \"low_level_keywords\": [\"HQ missile\", \"Red Banner\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "红方 防空 红旗 导弹 地空导弹",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542504,
+    "update_time": 1788542504,
+    "_id": "local:keywords:ac458dfcd831c6aed67c55b35da92a25"
+  },
+  "local:keywords:3c69fc740fa8b13215653bf9dc51ef76": {
+    "return": "{\"high_level_keywords\": [\"Military helicopters\", \"Blue force aviation assets\", \"Rotorcraft\"], \"low_level_keywords\": [\"AH-64 Apache\", \"UH-60 Black Hawk\", \"Blue force\", \"Attack helicopter\", \"Utility helicopter\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 AH-64 阿帕奇 直升机 UH-60 黑鹰",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542508,
+    "update_time": 1788542508,
+    "_id": "local:keywords:3c69fc740fa8b13215653bf9dc51ef76"
+  },
+  "local:keywords:3bc5bb7168b8137e7922077def43a35f": {
+    "return": "{\"high_level_keywords\": [\"\\u5408\\u6210\\u8425\\u7f16\\u5236\", \"\\u7ea2\\u65b9\", \"\\u6b65\\u6218\\u8f66\", \"\\u5766\\u514b\"], \"low_level_keywords\": [\"04A \\u6b65\\u6218\\u8f66\", \"99A \\u5766\\u514b\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "红方 04A 步战车 99A 坦克 合成营 编制",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542509,
+    "update_time": 1788542509,
+    "_id": "local:keywords:3bc5bb7168b8137e7922077def43a35f"
+  },
+  "local:keywords:f519f62bf0930e6ee1dd815b721925e1": {
+    "return": "{\"high_level_keywords\": [\"\\u65e0\\u4eba\\u673a\", \"\\u4fa6\\u5bdf\", \"\\u84dd\\u65b9\"], \"low_level_keywords\": [\"RQ-7 Shadow\", \"MQ-9 Reaper\", \"Predator\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "蓝方 RQ-7 Shadow MQ-9 Reaper Predator 无人机 侦察",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1788542536,
+    "update_time": 1788542536,
+    "_id": "local:keywords:f519f62bf0930e6ee1dd815b721925e1"
   }
 }

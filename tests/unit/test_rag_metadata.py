@@ -26,6 +26,20 @@ class FakeVectorStore:
         ]
 
 
+class FakeWriteVectorStore:
+    def __init__(self):
+        self.search_call = None
+        self.metadata = None
+
+    def similarity_search_with_relevance_scores(self, query, *, k, filter):
+        self.search_call = (query, k, filter)
+        return [(Document(page_content="existing knowledge", metadata={}), 0.97)]
+
+    def add_texts(self, texts, *, metadatas, ids):
+        self.metadata = metadatas[0]
+        return ids
+
+
 @pytest.mark.asyncio
 async def test_rag_serializes_relevance_score_and_metadata_filter() -> None:
     vector_store = FakeVectorStore()
@@ -66,4 +80,23 @@ def test_rag_uses_configured_text_splitter_for_long_content() -> None:
 
     assert store.texts == ["one", "two"]
     assert len(set(ids)) == 2
+
+
+def test_write_similarity_check_is_scoped_and_returned_in_metadata() -> None:
+    store = FakeWriteVectorStore()
+    rag = RAG(vector_store=store, embeddings=object())
+    metadata = {}
+
+    rag.add_text("new knowledge", "expert", metadata)
+
+    assert store.search_call == ("new knowledge", 1, {"category": "expert"})
+    assert metadata["similarity_warning"] is True
+    assert metadata["similarity_score"] == 0.97
+    assert metadata["similar_content"] == "existing knowledge"
+
+
+def test_text_ids_are_isolated_by_knowledge_base() -> None:
+    rag = RAG(vector_store=object(), embeddings=object())
+
+    assert rag.get_text_id("same content", "expert") != rag.get_text_id("same content", "task")
 
